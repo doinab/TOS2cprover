@@ -1,0 +1,13 @@
+'sig_UART0TX_VECTOR',
+'Msp430UsartShareP_0_Interrupts_default_txDone',
+'HplMsp430Usart0P_Interrupts_txDone', 'ArbiterP_0_ArbiterInfo_userId',
+'HplMsp430Usart0P_I2CInterrupts_fired',
+'Msp430UsartShareP_0_ArbiterInfo_userId',
+'Msp430UsartShareP_0_I2CInterrupts_default_fired',
+'HplMsp430I2C0P_HplI2C_isI2C', 'ArbiterP_0_ArbiterInfo_inUse',
+'Msp430UsartShareP_0_RawInterrupts_txDone',
+'Msp430UsartShareP_0_I2CInterrupts_fired',
+'Msp430UsartShareP_0_RawI2CInterrupts_fired',
+'Msp430UsartShareP_0_Interrupts_txDone', 'HplMsp430Usart0P_HplI2C_isI2C',
+'Msp430SpiNoDmaP_0_UsartInterrupts_txDone',
+'Msp430UsartShareP_0_ArbiterInfo_inUse'

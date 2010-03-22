@@ -1,0 +1,6 @@
+COMPONENT=BSN_RadioRange
+PFLAGS=-I../BSN_RadioRange
+DEFAULT_LOCAL_GROUP := 0x66
+PFLAGS += -DCC2420_DEF_CHANNEL=14
+include ../Makerules
+

@@ -1,0 +1,13 @@
+'HplMsp430InterruptP_Port27_fired', 'HplMsp430InterruptP_Port21_fired',
+'HplMsp430InterruptP_Port27_default_fired', 'HplMsp430InterruptP_Port21_clear',
+'HplMsp430InterruptP_Port22_default_fired', 'HplMsp430InterruptP_Port23_clear',
+'HplMsp430InterruptP_Port24_fired', 'HplMsp430InterruptP_Port24_clear',
+'HplMsp430InterruptP_Port27_clear', 'HplMsp430InterruptP_Port22_fired',
+'sig_PORT2_VECTOR', 'HplMsp430InterruptP_Port20_default_fired',
+'HplMsp430InterruptP_Port21_default_fired', 'HplMsp430InterruptP_Port26_fired',
+'HplMsp430InterruptP_Port23_default_fired', 'HplMsp430InterruptP_Port23_fired',
+'HplMsp430InterruptP_Port24_default_fired', 'HplMsp430InterruptP_Port20_fired',
+'HplMsp430InterruptP_Port25_default_fired', 'HplMsp430InterruptP_Port25_clear',
+'HplMsp430InterruptP_Port25_fired', 'HplMsp430InterruptP_Port26_default_fired',
+'HplMsp430InterruptP_Port26_clear', 'HplMsp430InterruptP_Port20_clear',
+'HplMsp430InterruptP_Port22_clear'

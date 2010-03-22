@@ -1,0 +1,69 @@
+OVERVIEW
+--------
+
+Tos2cprover is a Python language transformation tool which:
+
+-> takes a TinyOS ncc-generated [2] app.c of platform-specific
+C-plus-assembly code (currently supported platforms: MSP430 [3] from Texas
+Instruments)
+
+-> outputs a transformed out.c parseable by software verification tools from the
+CProver [4] family; this is mainly ANSI C 
+
+The tool builds on PLY [6] (Python Lex-Yacc) and pycparser [7] (a PLY-based
+parser for ANSI C) and uses a C model of each supported platform.
+
+MSP430 SUPPORT
+--------------
+
+MSP430's own compiler is mspgcc [3], whose language is a mixture of C (a gcc
+extension) and platform-specific assembly.  
+
+Ncc generates code which uses only a subset of mspgcc's non-ANSI C features. Of
+these, we support the ones listed below.
+
+* GCC features within MSPGCC
+............................
+
+- empty named structs. "struct ID { }" is preserved as such in the output code. 
+Illegal in ANSI C; a gcc and CProver feature, where it is treated like a struct with one
+char field.
+
+- "inline". A storage specifier for functions. Preserved as such in the output.
+
+- "__extension__". Preserved. -pedantic and other options cause warnings
+for many GNU C extensions. You can prevent such warnings within one expression
+by writing __extension__ before the expression. __extension__ has no effect
+aside from this. [8] 
+
+- "__attribute((packed))" at struct declaration. Preserved in output.
+
+- "__attribute((interrupt(N))) __attribute((wakeup))". interrupt: Make the
+function an interrupt service routine for interrupt "N". wakeup: When applied to
+an interrupt service routine, wake the processor from any low power state as the
+routine exits. When applied to other routines, this attribute is ignored.
+
+- designated initializers are preserved.
+
+* MSPGCC \ GCC features
+.......................
+
+
+HOMEPAGE
+--------
+[1] http://code.google.com/p/tos2cprover
+
+REFERENCES
+----------
+
+[2] http://docs.tinyos.net/index.php/Main_Page
+
+[3] http://mspgcc.sourceforge.net/manual/book1.html
+
+[4] http://www.cprover.org/
+
+[6] Python Lex-Yacc http://www.dabeaz.com/ply/
+
+[7] http://code.google.com/p/pycparser/
+
+[8] http://gcc.gnu.org/onlinedocs/gcc-4.4.1/gcc/index.html#Top

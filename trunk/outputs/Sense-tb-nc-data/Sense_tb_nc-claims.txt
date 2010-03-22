@@ -1,0 +1,801 @@
+file outrf.c: Parsing
+Converting
+Type-checking outrf
+Generating GOTO Program
+Function Pointer Removal
+Pointer Analysis
+Adding Pointer Checks
+Claim memset.1:
+  file lib/libc_string.h line 14 function memset
+  dereference failure: array `SchedulerBasicP_m_next' lower bound
+  !(POINTER_OFFSET(dst) + (int)i < 0) || !(SAME-OBJECT(dst, &SchedulerBasicP_m_next[0]))
+
+Claim memset.2:
+  file lib/libc_string.h line 14 function memset
+  dereference failure: array `SchedulerBasicP_m_next' upper bound
+  !(POINTER_OFFSET(dst) + (int)i >= 8) || !(SAME-OBJECT(dst, &SchedulerBasicP_m_next[0]))
+
+Claim memset.3:
+  file lib/libc_string.h line 14 function memset
+  dereference failure: array `RoundRobinResourceQueueC_0_resQ' lower bound
+  !(POINTER_OFFSET(dst) + (int)i < 0) || !(SAME-OBJECT(dst, &RoundRobinResourceQueueC_0_resQ[0]))
+
+Claim memset.4:
+  file lib/libc_string.h line 14 function memset
+  dereference failure: array `RoundRobinResourceQueueC_0_resQ' upper bound
+  !(POINTER_OFFSET(dst) + (int)i >= 1) || !(SAME-OBJECT(dst, &RoundRobinResourceQueueC_0_resQ[0]))
+
+Claim sig_TIMERB0_VECTOR.1:
+  file outrf.c line 6274 function sig_TIMERB0_VECTOR
+  assertion
+  FALSE
+
+Claim AdcStreamP_Init_init.1:
+  file outrf.c line 5732 function AdcStreamP_Init_init
+  array `AdcStreamP_bufferQueueEnd' upper bound
+  (unsigned int)i < 1
+
+Claim HplAdc12P_HplAdc12_getCtl0.1:
+  file outrf.c line 4445 function HplAdc12P_HplAdc12_getCtl0
+  dereference failure: memory model not applicable (got `unsigned short int', expected `struct __nesc_unnamed4254')
+  FALSE
+
+Claim SchedulerBasicP_popTask.1:
+  file outrf.c line 5859 function SchedulerBasicP_popTask
+  array `SchedulerBasicP_m_next' upper bound
+  (unsigned int)SchedulerBasicP_m_head < 8
+
+Claim SchedulerBasicP_popTask.2:
+  file outrf.c line 5868 function SchedulerBasicP_popTask
+  array `SchedulerBasicP_m_next' upper bound
+  (unsigned int)id < 8
+
+Claim McuSleepC_McuSleep_sleep.1:
+  file outrf.c line 5832 function McuSleepC_McuSleep_sleep
+  array `McuSleepC_msp430PowerBits' upper bound
+  (unsigned int)McuSleepC_powerState < 6
+
+Claim sig_ADC_VECTOR.1:
+  file outrf.c line 7194 function sig_ADC_VECTOR
+  assertion
+  FALSE
+
+Claim HplAdc12P_HplAdc12_getCtl0.2:
+  file outrf.c line 4445 function HplAdc12P_HplAdc12_getCtl0
+  dereference failure: memory model not applicable (got `unsigned short int', expected `struct __nesc_unnamed4254')
+  FALSE
+
+Claim HplAdc12P_HplAdc12_getMem.1:
+  file outrf.c line 5941 function HplAdc12P_HplAdc12_getMem
+  dereference failure: word offset upper bound
+  !(4 * (int)((unsigned int)i) >= WIDTH(_ADC12MEM[0]))
+
+Claim HplAdc12P_HplAdc12_getMem.2:
+  file outrf.c line 5941 function HplAdc12P_HplAdc12_getMem
+  dereference failure: word offset lower bound
+  !(4 * (int)((unsigned int)i) < 0)
+
+Claim HplAdc12P_HplAdc12_getMem.3:
+  file outrf.c line 5942 function HplAdc12P_HplAdc12_getMem
+  dereference failure: word offset upper bound
+  !(4 * (int)((unsigned int)i) >= WIDTH(_ADC12MEM[0]))
+
+Claim HplAdc12P_HplAdc12_getMem.4:
+  file outrf.c line 5942 function HplAdc12P_HplAdc12_getMem
+  dereference failure: word offset lower bound
+  !(4 * (int)((unsigned int)i) < 0)
+
+Claim HplAdc12P_HplAdc12_getMem.5:
+  file outrf.c line 5941 function HplAdc12P_HplAdc12_getMem
+  dereference failure: word offset upper bound
+  !(4 * (int)((unsigned int)i) >= WIDTH(_ADC12MEM[0]))
+
+Claim HplAdc12P_HplAdc12_getMem.6:
+  file outrf.c line 5941 function HplAdc12P_HplAdc12_getMem
+  dereference failure: word offset lower bound
+  !(4 * (int)((unsigned int)i) < 0)
+
+Claim HplAdc12P_HplAdc12_getMem.7:
+  file outrf.c line 5942 function HplAdc12P_HplAdc12_getMem
+  dereference failure: word offset upper bound
+  !(4 * (int)((unsigned int)i) >= WIDTH(_ADC12MEM[0]))
+
+Claim HplAdc12P_HplAdc12_getMem.8:
+  file outrf.c line 5942 function HplAdc12P_HplAdc12_getMem
+  dereference failure: word offset lower bound
+  !(4 * (int)((unsigned int)i) < 0)
+
+Claim HplAdc12P_HplAdc12_getMem.9:
+  file outrf.c line 5941 function HplAdc12P_HplAdc12_getMem
+  dereference failure: word offset upper bound
+  !(4 * (int)((unsigned int)i) >= WIDTH(_ADC12MEM[0]))
+
+Claim HplAdc12P_HplAdc12_getMem.10:
+  file outrf.c line 5941 function HplAdc12P_HplAdc12_getMem
+  dereference failure: word offset lower bound
+  !(4 * (int)((unsigned int)i) < 0)
+
+Claim HplAdc12P_HplAdc12_getMem.11:
+  file outrf.c line 5942 function HplAdc12P_HplAdc12_getMem
+  dereference failure: word offset upper bound
+  !(4 * (int)((unsigned int)i) >= WIDTH(_ADC12MEM[0]))
+
+Claim HplAdc12P_HplAdc12_getMem.12:
+  file outrf.c line 5942 function HplAdc12P_HplAdc12_getMem
+  dereference failure: word offset lower bound
+  !(4 * (int)((unsigned int)i) < 0)
+
+Claim Msp430Adc12ImplP_HplAdc12_conversionDone.1:
+  file outrf.c line 6056 function Msp430Adc12ImplP_HplAdc12_conversionDone
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(tmp$4))
+
+Claim HplAdc12P_HplAdc12_getMem.13:
+  file outrf.c line 5941 function HplAdc12P_HplAdc12_getMem
+  dereference failure: word offset upper bound
+  !(4 * (int)((unsigned int)i) >= WIDTH(_ADC12MEM[0]))
+
+Claim HplAdc12P_HplAdc12_getMem.14:
+  file outrf.c line 5941 function HplAdc12P_HplAdc12_getMem
+  dereference failure: word offset lower bound
+  !(4 * (int)((unsigned int)i) < 0)
+
+Claim HplAdc12P_HplAdc12_getMem.15:
+  file outrf.c line 5942 function HplAdc12P_HplAdc12_getMem
+  dereference failure: word offset upper bound
+  !(4 * (int)((unsigned int)i) >= WIDTH(_ADC12MEM[0]))
+
+Claim HplAdc12P_HplAdc12_getMem.16:
+  file outrf.c line 5942 function HplAdc12P_HplAdc12_getMem
+  dereference failure: word offset lower bound
+  !(4 * (int)((unsigned int)i) < 0)
+
+Claim Msp430Adc12ImplP_HplAdc12_conversionDone.2:
+  file outrf.c line 6086 function Msp430Adc12ImplP_HplAdc12_conversionDone
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(tmp$5))
+
+Claim HplAdc12P_HplAdc12_setMCtl.1:
+  file outrf.c line 4977 function HplAdc12P_HplAdc12_setMCtl
+  dereference failure: array `_ADC12MCTL' lower bound
+  !(POINTER_OFFSET(memCtlPtr) < 0) || !(SAME-OBJECT(memCtlPtr, &_ADC12MCTL[0]))
+
+Claim HplAdc12P_HplAdc12_setMCtl.2:
+  file outrf.c line 4977 function HplAdc12P_HplAdc12_setMCtl
+  dereference failure: array `_ADC12MCTL' upper bound
+  !(POINTER_OFFSET(memCtlPtr) >= 16) || !(SAME-OBJECT(memCtlPtr, &_ADC12MCTL[0]))
+
+Claim HplAdc12P_HplAdc12_getMem.17:
+  file outrf.c line 5941 function HplAdc12P_HplAdc12_getMem
+  dereference failure: word offset upper bound
+  !(4 * (int)((unsigned int)i) >= WIDTH(_ADC12MEM[0]))
+
+Claim HplAdc12P_HplAdc12_getMem.18:
+  file outrf.c line 5941 function HplAdc12P_HplAdc12_getMem
+  dereference failure: word offset lower bound
+  !(4 * (int)((unsigned int)i) < 0)
+
+Claim HplAdc12P_HplAdc12_getMem.19:
+  file outrf.c line 5942 function HplAdc12P_HplAdc12_getMem
+  dereference failure: word offset upper bound
+  !(4 * (int)((unsigned int)i) >= WIDTH(_ADC12MEM[0]))
+
+Claim HplAdc12P_HplAdc12_getMem.20:
+  file outrf.c line 5942 function HplAdc12P_HplAdc12_getMem
+  dereference failure: word offset lower bound
+  !(4 * (int)((unsigned int)i) < 0)
+
+Claim Msp430Adc12ImplP_HplAdc12_conversionDone.3:
+  file outrf.c line 6119 function Msp430Adc12ImplP_HplAdc12_conversionDone
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(tmp$7))
+
+Claim SchedulerBasicP_isWaiting.1:
+  file outrf.c line 2797 function SchedulerBasicP_isWaiting
+  array `SchedulerBasicP_m_next' upper bound
+  (unsigned int)id < 8
+
+Claim SchedulerBasicP_pushTask.1:
+  file outrf.c line 2815 function SchedulerBasicP_pushTask
+  array `SchedulerBasicP_m_next' upper bound
+  (unsigned int)SchedulerBasicP_m_tail < 8
+
+Claim SchedulerBasicP_popTask.3:
+  file outrf.c line 5859 function SchedulerBasicP_popTask
+  array `SchedulerBasicP_m_next' upper bound
+  (unsigned int)SchedulerBasicP_m_head < 8
+
+Claim SchedulerBasicP_popTask.4:
+  file outrf.c line 5868 function SchedulerBasicP_popTask
+  array `SchedulerBasicP_m_next' upper bound
+  (unsigned int)id < 8
+
+Claim HplAdc12P_HplAdc12_getCtl0.3:
+  file outrf.c line 4445 function HplAdc12P_HplAdc12_getCtl0
+  dereference failure: memory model not applicable (got `unsigned short int', expected `struct __nesc_unnamed4254')
+  FALSE
+
+Claim HplAdc12P_HplAdc12_setMCtl.3:
+  file outrf.c line 4977 function HplAdc12P_HplAdc12_setMCtl
+  dereference failure: array `_ADC12MCTL' lower bound
+  !(POINTER_OFFSET(memCtlPtr) < 0) || !(SAME-OBJECT(memCtlPtr, &_ADC12MCTL[0]))
+
+Claim HplAdc12P_HplAdc12_setMCtl.4:
+  file outrf.c line 4977 function HplAdc12P_HplAdc12_setMCtl
+  dereference failure: array `_ADC12MCTL' upper bound
+  !(POINTER_OFFSET(memCtlPtr) >= 16) || !(SAME-OBJECT(memCtlPtr, &_ADC12MCTL[0]))
+
+Claim HplAdc12P_HplAdc12_getMCtl.1:
+  file outrf.c line 6507 function HplAdc12P_HplAdc12_getMCtl
+  dereference failure: memory model not applicable (got `unsigned char', expected `struct __nesc_unnamed4268')
+  !(SAME-OBJECT(memCtlPtr, &_ADC12MCTL[0]))
+
+Claim RoundRobinResourceQueueC_0_RoundRobinQueue_isEnqueued.1:
+  file outrf.c line 6745 function RoundRobinResourceQueueC_0_RoundRobinQueue_isEnqueued
+  array `RoundRobinResourceQueueC_0_resQ' lower bound
+  (int)id / 8 >= 0
+
+Claim RoundRobinResourceQueueC_0_RoundRobinQueue_isEnqueued.2:
+  file outrf.c line 6745 function RoundRobinResourceQueueC_0_RoundRobinQueue_isEnqueued
+  array `RoundRobinResourceQueueC_0_resQ' upper bound
+  (int)id / 8 < 1
+
+Claim RoundRobinResourceQueueC_0_RoundRobinQueue_isEmpty.1:
+  file outrf.c line 4192 function RoundRobinResourceQueueC_0_RoundRobinQueue_isEmpty
+  array `RoundRobinResourceQueueC_0_resQ' lower bound
+  i >= 0
+
+Claim RoundRobinResourceQueueC_0_RoundRobinQueue_isEmpty.2:
+  file outrf.c line 4192 function RoundRobinResourceQueueC_0_RoundRobinQueue_isEmpty
+  array `RoundRobinResourceQueueC_0_resQ' upper bound
+  i < 1
+
+Claim RoundRobinResourceQueueC_0_clearEntry.1:
+  file outrf.c line 4214 function RoundRobinResourceQueueC_0_clearEntry
+  array `RoundRobinResourceQueueC_0_resQ' lower bound
+  (int)id / 8 >= 0
+
+Claim RoundRobinResourceQueueC_0_clearEntry.2:
+  file outrf.c line 4214 function RoundRobinResourceQueueC_0_clearEntry
+  array `RoundRobinResourceQueueC_0_resQ' upper bound
+  (int)id / 8 < 1
+
+Claim RoundRobinResourceQueueC_0_RoundRobinQueue_enqueue.1:
+  file outrf.c line 4605 function RoundRobinResourceQueueC_0_RoundRobinQueue_enqueue
+  array `RoundRobinResourceQueueC_0_resQ' lower bound
+  (int)id / 8 >= 0
+
+Claim RoundRobinResourceQueueC_0_RoundRobinQueue_enqueue.2:
+  file outrf.c line 4605 function RoundRobinResourceQueueC_0_RoundRobinQueue_enqueue
+  array `RoundRobinResourceQueueC_0_resQ' upper bound
+  (int)id / 8 < 1
+
+Claim ArbitratedReadStreamC_0_Resource_granted.1:
+  file outrf.c line 4634 function ArbitratedReadStreamC_0_Resource_granted
+  array `ArbitratedReadStreamC_0_period' upper bound
+  (unsigned int)client < 1
+
+Claim VirtualizeTimerC_0_Timer_stop.1:
+  file outrf.c line 4366 function VirtualizeTimerC_0_Timer_stop
+  array `VirtualizeTimerC_0_m_timers' upper bound
+  (unsigned int)num < 3
+
+Claim ArbitratedReadStreamC_0_Resource_granted.2:
+  file outrf.c line 4634 function ArbitratedReadStreamC_0_Resource_granted
+  array `ArbitratedReadStreamC_0_period' upper bound
+  (unsigned int)client < 1
+
+Claim VirtualizeTimerC_0_Timer_stop.2:
+  file outrf.c line 4366 function VirtualizeTimerC_0_Timer_stop
+  array `VirtualizeTimerC_0_m_timers' upper bound
+  (unsigned int)num < 3
+
+Claim ArbitratedReadStreamC_0_Resource_granted.3:
+  file outrf.c line 4634 function ArbitratedReadStreamC_0_Resource_granted
+  array `ArbitratedReadStreamC_0_period' upper bound
+  (unsigned int)client < 1
+
+Claim VirtualizeTimerC_0_Timer_stop.3:
+  file outrf.c line 4366 function VirtualizeTimerC_0_Timer_stop
+  array `VirtualizeTimerC_0_m_timers' upper bound
+  (unsigned int)num < 3
+
+Claim VirtualizeTimerC_0_Timer_stop.4:
+  file outrf.c line 4366 function VirtualizeTimerC_0_Timer_stop
+  array `VirtualizeTimerC_0_m_timers' upper bound
+  (unsigned int)num < 3
+
+Claim ArbitratedReadStreamC_0_Resource_granted.4:
+  file outrf.c line 4634 function ArbitratedReadStreamC_0_Resource_granted
+  array `ArbitratedReadStreamC_0_period' upper bound
+  (unsigned int)client < 1
+
+Claim AdcStreamP_SingleChannel_multipleDataReady.1:
+  file outrf.c line 7332 function AdcStreamP_SingleChannel_multipleDataReady
+  array `AdcStreamP_bufferQueueEnd' upper bound
+  (unsigned int)AdcStreamP_client < 1
+
+Claim AdcStreamP_SingleChannel_singleDataReady.1:
+  file outrf.c line 7289 function AdcStreamP_SingleChannel_singleDataReady
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(tmp$1))
+
+Claim AdcStreamP_SingleChannel_singleDataReady.2:
+  file outrf.c line 7299 function AdcStreamP_SingleChannel_singleDataReady
+  array `AdcStreamP_bufferQueueEnd' upper bound
+  (unsigned int)AdcStreamP_client < 1
+
+Claim VirtualizeTimerC_0_updateFromTimer_runTask.1:
+  file outrf.c line 5446 function VirtualizeTimerC_0_updateFromTimer_runTask
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_updateFromTimer_runTask.2:
+  file outrf.c line 5446 function VirtualizeTimerC_0_updateFromTimer_runTask
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_updateFromTimer_runTask.3:
+  file outrf.c line 5448 function VirtualizeTimerC_0_updateFromTimer_runTask
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_updateFromTimer_runTask.4:
+  file outrf.c line 5448 function VirtualizeTimerC_0_updateFromTimer_runTask
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_updateFromTimer_runTask.5:
+  file outrf.c line 5449 function VirtualizeTimerC_0_updateFromTimer_runTask
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_updateFromTimer_runTask.6:
+  file outrf.c line 5449 function VirtualizeTimerC_0_updateFromTimer_runTask
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_Timer_stop.5:
+  file outrf.c line 4366 function VirtualizeTimerC_0_Timer_stop
+  array `VirtualizeTimerC_0_m_timers' upper bound
+  (unsigned int)num < 3
+
+Claim AdcStreamP_readStreamDone_runTask.1:
+  file outrf.c line 4289 function AdcStreamP_readStreamDone_runTask
+  array `AdcStreamP_bufferQueue' upper bound
+  (unsigned int)c < 1
+
+Claim AdcStreamP_readStreamDone_runTask.2:
+  file outrf.c line 4290 function AdcStreamP_readStreamDone_runTask
+  array `AdcStreamP_bufferQueueEnd' upper bound
+  (unsigned int)c < 1
+
+Claim AdcStreamP_readStreamFail_runTask.1:
+  file outrf.c line 4135 function AdcStreamP_readStreamFail_runTask
+  array `AdcStreamP_bufferQueue' upper bound
+  (unsigned int)c < 1
+
+Claim AdcStreamP_readStreamFail_runTask.2:
+  file outrf.c line 4140 function AdcStreamP_readStreamFail_runTask
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(entry, NULL))
+
+Claim AdcStreamP_readStreamFail_runTask.3:
+  file outrf.c line 4140 function AdcStreamP_readStreamFail_runTask
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(entry))
+
+Claim AdcStreamP_readStreamFail_runTask.4:
+  file outrf.c line 4141 function AdcStreamP_readStreamFail_runTask
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(entry, NULL))
+
+Claim AdcStreamP_readStreamFail_runTask.5:
+  file outrf.c line 4141 function AdcStreamP_readStreamFail_runTask
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(entry))
+
+Claim AdcStreamP_readStreamFail_runTask.6:
+  file outrf.c line 4138 function AdcStreamP_readStreamFail_runTask
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(entry, NULL))
+
+Claim AdcStreamP_readStreamFail_runTask.7:
+  file outrf.c line 4138 function AdcStreamP_readStreamFail_runTask
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(entry))
+
+Claim AdcStreamP_readStreamFail_runTask.8:
+  file outrf.c line 4151 function AdcStreamP_readStreamFail_runTask
+  array `AdcStreamP_bufferQueue' upper bound
+  (unsigned int)c < 1
+
+Claim AdcStreamP_readStreamFail_runTask.9:
+  file outrf.c line 4152 function AdcStreamP_readStreamFail_runTask
+  array `AdcStreamP_bufferQueueEnd' upper bound
+  (unsigned int)c < 1
+
+Claim VirtualizeTimerC_0_fireTimers.1:
+  file outrf.c line 7144 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.2:
+  file outrf.c line 7144 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.3:
+  file outrf.c line 7146 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.4:
+  file outrf.c line 7146 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.5:
+  file outrf.c line 7147 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.6:
+  file outrf.c line 7147 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.7:
+  file outrf.c line 7149 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.8:
+  file outrf.c line 7149 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.9:
+  file outrf.c line 7151 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.10:
+  file outrf.c line 7151 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.11:
+  file outrf.c line 7155 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.12:
+  file outrf.c line 7155 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim ArbitratedReadStreamC_0_Resource_granted.5:
+  file outrf.c line 4634 function ArbitratedReadStreamC_0_Resource_granted
+  array `ArbitratedReadStreamC_0_period' upper bound
+  (unsigned int)client < 1
+
+Claim VirtualizeTimerC_0_startTimer.1:
+  file outrf.c line 6788 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_startTimer.2:
+  file outrf.c line 6788 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_startTimer.3:
+  file outrf.c line 6789 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_startTimer.4:
+  file outrf.c line 6789 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_startTimer.5:
+  file outrf.c line 6790 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_startTimer.6:
+  file outrf.c line 6790 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_startTimer.7:
+  file outrf.c line 6791 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_startTimer.8:
+  file outrf.c line 6791 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim HplAdc12P_HplAdc12_getCtl0.4:
+  file outrf.c line 4445 function HplAdc12P_HplAdc12_getCtl0
+  dereference failure: memory model not applicable (got `unsigned short int', expected `struct __nesc_unnamed4254')
+  FALSE
+
+Claim HplAdc12P_HplAdc12_getCtl0.5:
+  file outrf.c line 4445 function HplAdc12P_HplAdc12_getCtl0
+  dereference failure: memory model not applicable (got `unsigned short int', expected `struct __nesc_unnamed4254')
+  FALSE
+
+Claim AdcStreamP_nextBuffer.1:
+  file outrf.c line 6967 function AdcStreamP_nextBuffer
+  array `AdcStreamP_bufferQueue' upper bound
+  (unsigned int)AdcStreamP_client < 1
+
+Claim AdcStreamP_nextBuffer.2:
+  file outrf.c line 6970 function AdcStreamP_nextBuffer
+  array `AdcStreamP_bufferQueueEnd' upper bound
+  (unsigned int)AdcStreamP_client < 1
+
+Claim AdcStreamP_nextBuffer.3:
+  file outrf.c line 6983 function AdcStreamP_nextBuffer
+  array `AdcStreamP_bufferQueue' upper bound
+  (unsigned int)AdcStreamP_client < 1
+
+Claim AdcStreamP_nextBuffer.4:
+  file outrf.c line 6983 function AdcStreamP_nextBuffer
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(entry, NULL))
+
+Claim AdcStreamP_nextBuffer.5:
+  file outrf.c line 6983 function AdcStreamP_nextBuffer
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(entry))
+
+Claim AdcStreamP_nextBuffer.6:
+  file outrf.c line 6984 function AdcStreamP_nextBuffer
+  array `AdcStreamP_bufferQueue' upper bound
+  (unsigned int)AdcStreamP_client < 1
+
+Claim AdcStreamP_nextBuffer.7:
+  file outrf.c line 6986 function AdcStreamP_nextBuffer
+  array `AdcStreamP_bufferQueueEnd' upper bound
+  (unsigned int)AdcStreamP_client < 1
+
+Claim AdcStreamP_nextBuffer.8:
+  file outrf.c line 6989 function AdcStreamP_nextBuffer
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(entry, NULL))
+
+Claim AdcStreamP_nextBuffer.9:
+  file outrf.c line 6989 function AdcStreamP_nextBuffer
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(entry))
+
+Claim HplAdc12P_HplAdc12_getCtl0.6:
+  file outrf.c line 4445 function HplAdc12P_HplAdc12_getCtl0
+  dereference failure: memory model not applicable (got `unsigned short int', expected `struct __nesc_unnamed4254')
+  FALSE
+
+Claim HplAdc12P_HplAdc12_setMCtl.5:
+  file outrf.c line 4977 function HplAdc12P_HplAdc12_setMCtl
+  dereference failure: array `_ADC12MCTL' lower bound
+  !(POINTER_OFFSET(memCtlPtr) < 0) || !(SAME-OBJECT(memCtlPtr, &_ADC12MCTL[0]))
+
+Claim HplAdc12P_HplAdc12_setMCtl.6:
+  file outrf.c line 4977 function HplAdc12P_HplAdc12_setMCtl
+  dereference failure: array `_ADC12MCTL' upper bound
+  !(POINTER_OFFSET(memCtlPtr) >= 16) || !(SAME-OBJECT(memCtlPtr, &_ADC12MCTL[0]))
+
+Claim HplAdc12P_HplAdc12_setMCtl.7:
+  file outrf.c line 4977 function HplAdc12P_HplAdc12_setMCtl
+  dereference failure: array `_ADC12MCTL' lower bound
+  !(POINTER_OFFSET(memCtlPtr) < 0) || !(SAME-OBJECT(memCtlPtr, &_ADC12MCTL[0]))
+
+Claim HplAdc12P_HplAdc12_setMCtl.8:
+  file outrf.c line 4977 function HplAdc12P_HplAdc12_setMCtl
+  dereference failure: array `_ADC12MCTL' upper bound
+  !(POINTER_OFFSET(memCtlPtr) >= 16) || !(SAME-OBJECT(memCtlPtr, &_ADC12MCTL[0]))
+
+Claim AdcStreamP_postBuffer.1:
+  file outrf.c line 5107 function AdcStreamP_postBuffer
+  array `AdcStreamP_bufferQueueEnd' upper bound
+  (unsigned int)c < 1
+
+Claim AdcStreamP_postBuffer.2:
+  file outrf.c line 5115 function AdcStreamP_postBuffer
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(newEntry, NULL))
+
+Claim AdcStreamP_postBuffer.3:
+  file outrf.c line 5115 function AdcStreamP_postBuffer
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(newEntry))
+
+Claim AdcStreamP_postBuffer.4:
+  file outrf.c line 5116 function AdcStreamP_postBuffer
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(newEntry, NULL))
+
+Claim AdcStreamP_postBuffer.5:
+  file outrf.c line 5116 function AdcStreamP_postBuffer
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(newEntry))
+
+Claim AdcStreamP_postBuffer.6:
+  file outrf.c line 5117 function AdcStreamP_postBuffer
+  array `AdcStreamP_bufferQueueEnd' upper bound
+  (unsigned int)c < 1
+
+Claim AdcStreamP_postBuffer.7:
+  file outrf.c line 5117 function AdcStreamP_postBuffer
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(AdcStreamP_bufferQueueEnd[(unsigned int)c], NULL))
+
+Claim AdcStreamP_postBuffer.8:
+  file outrf.c line 5117 function AdcStreamP_postBuffer
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(AdcStreamP_bufferQueueEnd[(unsigned int)c]))
+
+Claim AdcStreamP_postBuffer.9:
+  file outrf.c line 5117 function AdcStreamP_postBuffer
+  dereference failure: array `AdcStreamP_bufferQueue' lower bound
+  !(POINTER_OFFSET(AdcStreamP_bufferQueueEnd[(unsigned int)c]) / 4 < 0) || !(SAME-OBJECT(AdcStreamP_bufferQueueEnd[(unsigned int)c], &AdcStreamP_bufferQueue[0]))
+
+Claim AdcStreamP_postBuffer.10:
+  file outrf.c line 5117 function AdcStreamP_postBuffer
+  dereference failure: array `AdcStreamP_bufferQueue' upper bound
+  !(POINTER_OFFSET(AdcStreamP_bufferQueueEnd[(unsigned int)c]) / 4 >= 1) || !(SAME-OBJECT(AdcStreamP_bufferQueueEnd[(unsigned int)c], &AdcStreamP_bufferQueue[0]))
+
+Claim AdcStreamP_postBuffer.11:
+  file outrf.c line 5118 function AdcStreamP_postBuffer
+  array `AdcStreamP_bufferQueueEnd' upper bound
+  (unsigned int)c < 1
+
+Claim AdcStreamP_postBuffer.12:
+  file outrf.c line 5118 function AdcStreamP_postBuffer
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(newEntry, NULL))
+
+Claim AdcStreamP_postBuffer.13:
+  file outrf.c line 5118 function AdcStreamP_postBuffer
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(newEntry))
+
+Transform with:
+
+ cat Sense_tb_nc-brief_claims.txt | sed -e :a -e '$!N;s/\n//;ta' > temp.txt
+
+ memset.1  
+ memset.2  
+ memset.3  
+ memset.4  
+ AdcStreamP_Init_init.1  
+ HplAdc12P_HplAdc12_getCtl0.1 
+ SchedulerBasicP_popTask.1 
+ SchedulerBasicP_popTask.2 
+ McuSleepC_McuSleep_sleep.1 
+ HplAdc12P_HplAdc12_getCtl0.2 
+ HplAdc12P_HplAdc12_getMem.1 
+ HplAdc12P_HplAdc12_getMem.2 
+ HplAdc12P_HplAdc12_getMem.3 
+ HplAdc12P_HplAdc12_getMem.4 
+ HplAdc12P_HplAdc12_getMem.5 
+ HplAdc12P_HplAdc12_getMem.6 
+ HplAdc12P_HplAdc12_getMem.7 
+ HplAdc12P_HplAdc12_getMem.8 
+ HplAdc12P_HplAdc12_getMem.9 
+ HplAdc12P_HplAdc12_getMem.10 
+ HplAdc12P_HplAdc12_getMem.11 
+ HplAdc12P_HplAdc12_getMem.12 
+ Msp430Adc12ImplP_HplAdc12_conversionDone.1 
+ HplAdc12P_HplAdc12_getMem.13 
+ HplAdc12P_HplAdc12_getMem.14 
+ HplAdc12P_HplAdc12_getMem.15 
+ HplAdc12P_HplAdc12_getMem.16 
+ Msp430Adc12ImplP_HplAdc12_conversionDone.2 
+ HplAdc12P_HplAdc12_setMCtl.1 
+ HplAdc12P_HplAdc12_setMCtl.2 
+ HplAdc12P_HplAdc12_getMem.17 
+ HplAdc12P_HplAdc12_getMem.18 
+ HplAdc12P_HplAdc12_getMem.19 
+ HplAdc12P_HplAdc12_getMem.20 
+ Msp430Adc12ImplP_HplAdc12_conversionDone.3 
+ SchedulerBasicP_isWaiting.1 
+ SchedulerBasicP_pushTask.1 
+ SchedulerBasicP_popTask.3 
+ SchedulerBasicP_popTask.4 
+ HplAdc12P_HplAdc12_getCtl0.3 
+ HplAdc12P_HplAdc12_setMCtl.3 
+ HplAdc12P_HplAdc12_setMCtl.4 
+ HplAdc12P_HplAdc12_getMCtl.1 
+ RoundRobinResourceQueueC_0_RoundRobinQueue_isEnqueued.1 
+ RoundRobinResourceQueueC_0_RoundRobinQueue_isEnqueued.2 
+ RoundRobinResourceQueueC_0_RoundRobinQueue_isEmpty.1 
+ RoundRobinResourceQueueC_0_RoundRobinQueue_isEmpty.2 
+ RoundRobinResourceQueueC_0_clearEntry.1 
+ RoundRobinResourceQueueC_0_clearEntry.2 
+ RoundRobinResourceQueueC_0_RoundRobinQueue_enqueue.1 
+ RoundRobinResourceQueueC_0_RoundRobinQueue_enqueue.2 
+ ArbitratedReadStreamC_0_Resource_granted.1 
+ VirtualizeTimerC_0_Timer_stop.1 
+ ArbitratedReadStreamC_0_Resource_granted.2 
+ VirtualizeTimerC_0_Timer_stop.2 
+ ArbitratedReadStreamC_0_Resource_granted.3 
+ VirtualizeTimerC_0_Timer_stop.3 
+ VirtualizeTimerC_0_Timer_stop.4 
+ ArbitratedReadStreamC_0_Resource_granted.4 
+ AdcStreamP_SingleChannel_multipleDataReady.1 
+ AdcStreamP_SingleChannel_singleDataReady.1 
+ AdcStreamP_SingleChannel_singleDataReady.2 
+ VirtualizeTimerC_0_updateFromTimer_runTask.1 
+ VirtualizeTimerC_0_updateFromTimer_runTask.2 
+ VirtualizeTimerC_0_updateFromTimer_runTask.3 
+ VirtualizeTimerC_0_updateFromTimer_runTask.4 
+ VirtualizeTimerC_0_updateFromTimer_runTask.5 
+ VirtualizeTimerC_0_updateFromTimer_runTask.6 
+ VirtualizeTimerC_0_Timer_stop.5 
+ AdcStreamP_readStreamDone_runTask.1 
+ AdcStreamP_readStreamDone_runTask.2 
+ AdcStreamP_readStreamFail_runTask.1 
+ AdcStreamP_readStreamFail_runTask.2 
+ AdcStreamP_readStreamFail_runTask.3 
+ AdcStreamP_readStreamFail_runTask.4 
+ AdcStreamP_readStreamFail_runTask.5 
+ AdcStreamP_readStreamFail_runTask.6 
+ AdcStreamP_readStreamFail_runTask.7 
+ AdcStreamP_readStreamFail_runTask.8 
+ AdcStreamP_readStreamFail_runTask.9 
+ VirtualizeTimerC_0_fireTimers.1 
+ VirtualizeTimerC_0_fireTimers.2 
+ VirtualizeTimerC_0_fireTimers.3 
+ VirtualizeTimerC_0_fireTimers.4 
+ VirtualizeTimerC_0_fireTimers.5 
+ VirtualizeTimerC_0_fireTimers.6 
+ VirtualizeTimerC_0_fireTimers.7 
+ VirtualizeTimerC_0_fireTimers.8 
+ VirtualizeTimerC_0_fireTimers.9 
+ VirtualizeTimerC_0_fireTimers.10 
+ VirtualizeTimerC_0_fireTimers.11 
+ VirtualizeTimerC_0_fireTimers.12 
+ ArbitratedReadStreamC_0_Resource_granted.5 
+ VirtualizeTimerC_0_startTimer.1 
+ VirtualizeTimerC_0_startTimer.2 
+ VirtualizeTimerC_0_startTimer.3 
+ VirtualizeTimerC_0_startTimer.4 
+ VirtualizeTimerC_0_startTimer.5 
+ VirtualizeTimerC_0_startTimer.6 
+ VirtualizeTimerC_0_startTimer.7 
+ VirtualizeTimerC_0_startTimer.8 
+ HplAdc12P_HplAdc12_getCtl0.4 
+ HplAdc12P_HplAdc12_getCtl0.5 
+ AdcStreamP_nextBuffer.1 
+ AdcStreamP_nextBuffer.2 
+ AdcStreamP_nextBuffer.3 
+ AdcStreamP_nextBuffer.4 
+ AdcStreamP_nextBuffer.5 
+ AdcStreamP_nextBuffer.6 
+ AdcStreamP_nextBuffer.7 
+ AdcStreamP_nextBuffer.8 
+ AdcStreamP_nextBuffer.9 
+ HplAdc12P_HplAdc12_getCtl0.6 
+ HplAdc12P_HplAdc12_setMCtl.5 
+ HplAdc12P_HplAdc12_setMCtl.6 
+ HplAdc12P_HplAdc12_setMCtl.7 
+ HplAdc12P_HplAdc12_setMCtl.8 
+ AdcStreamP_postBuffer.1 
+ AdcStreamP_postBuffer.2 
+ AdcStreamP_postBuffer.3 
+ AdcStreamP_postBuffer.4 
+ AdcStreamP_postBuffer.5 
+ AdcStreamP_postBuffer.6 
+ AdcStreamP_postBuffer.7 
+ AdcStreamP_postBuffer.8 
+ AdcStreamP_postBuffer.9 
+ AdcStreamP_postBuffer.10 
+ AdcStreamP_postBuffer.11 
+ AdcStreamP_postBuffer.12 
+ AdcStreamP_postBuffer.13 
