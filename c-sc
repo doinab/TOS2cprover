@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cbmc --16 --no-unwinding-assertions --show-claims \
+  "$1"
+#  -I ~/CProver/cprover/libs/ansi-c/
+

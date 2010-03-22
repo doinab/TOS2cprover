@@ -1,0 +1,121 @@
+DEREF at 354/0x162	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(354U)
+DEREF at 370/0x172	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(370U)
+DEREF at 356/0x164	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(356U)
+DEREF at 372/0x174	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(372U)
+DEREF at 358/0x166	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(358U)
+DEREF at 374/0x176	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(374U)
+DEREF at 302/0x12e	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(302U)
+DEREF at 386/0x182	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(386U)
+DEREF at 402/0x192	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(402U)
+DEREF at 386/0x182	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(386U)
+DEREF at 384/0x180	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(384U)
+DEREF at 386/0x182	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(386U)
+DEREF at 386/0x182	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(386U)
+DEREF at 402/0x192	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(402U)
+DEREF at 402/0x192	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(402U)
+DEREF at 404/0x194	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(404U)
+DEREF at 388/0x184	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(388U)
+DEREF at 406/0x196	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(406U)
+DEREF at 390/0x186	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(390U)
+DEREF at 408/0x198	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(408U)
+DEREF at 392/0x188	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(392U)
+DEREF at 410/0x19a	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(410U)
+DEREF at 394/0x18a	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(394U)
+DEREF at 412/0x19c	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(412U)
+DEREF at 396/0x18c	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(396U)
+DEREF at 414/0x19e	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(414U)
+DEREF at 398/0x18e	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(398U)
+DEREF at 286/0x11e	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(286U)
+DEREF at 386/0x182	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(386U)
+DEREF at 49/0x31	 @ 8-bit Peripheral Module	 in line *(volatile uint8_t *)(49U)
+DEREF at 49/0x31	 @ 8-bit Peripheral Module	 in line *(volatile uint8_t *)(49U)
+DEREF at 49/0x31	 @ 8-bit Peripheral Module	 in line *(volatile uint8_t *)(49U)
+DEREF at 50/0x32	 @ 8-bit Peripheral Module	 in line *(volatile uint8_t *)(50U)
+DEREF at 50/0x32	 @ 8-bit Peripheral Module	 in line *(volatile uint8_t *)(50U)
+DEREF at 50/0x32	 @ 8-bit Peripheral Module	 in line *(volatile uint8_t *)(50U)
+DEREF at 25/0x0019	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 25/0x0019	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 29/0x001D	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 25/0x0019	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 29/0x001D	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 29/0x001D	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 30/0x001E	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 30/0x001E	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 26/0x001A	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 26/0x001A	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 368/0x0170	 @16-bit Peripheral Module	 with fixed-address variable TA0R
+DEREF at 368/0x0170	 @16-bit Peripheral Module	 with fixed-address variable TA0R
+DEREF at 38/0x0026	 @8-bit Peripheral Module	 with fixed-address variable P1SEL
+DEREF at 46/0x002E	 @8-bit Peripheral Module	 with fixed-address variable P2SEL
+DEREF at 27/0x001B	 @8-bit Peripheral Module	 with fixed-address variable P3SEL
+DEREF at 31/0x001F	 @8-bit Peripheral Module	 with fixed-address variable P4SEL
+DEREF at 51/0x0033	 @8-bit Peripheral Module	 with fixed-address variable P5SEL
+DEREF at 55/0x0037	 @8-bit Peripheral Module	 with fixed-address variable P6SEL
+DEREF at 33/0x0021	 @8-bit Peripheral Module	 with fixed-address variable P1OUT
+DEREF at 34/0x0022	 @8-bit Peripheral Module	 with fixed-address variable P1DIR
+DEREF at 41/0x0029	 @8-bit Peripheral Module	 with fixed-address variable P2OUT
+DEREF at 42/0x002A	 @8-bit Peripheral Module	 with fixed-address variable P2DIR
+DEREF at 25/0x0019	 @8-bit Peripheral Module	 with fixed-address variable P3OUT
+DEREF at 26/0x001A	 @8-bit Peripheral Module	 with fixed-address variable P3DIR
+DEREF at 29/0x001D	 @8-bit Peripheral Module	 with fixed-address variable P4OUT
+DEREF at 30/0x001E	 @8-bit Peripheral Module	 with fixed-address variable P4DIR
+DEREF at 49/0x0031	 @8-bit Peripheral Module	 with fixed-address variable P5OUT
+DEREF at 50/0x0032	 @8-bit Peripheral Module	 with fixed-address variable P5DIR
+DEREF at 53/0x0035	 @8-bit Peripheral Module	 with fixed-address variable P6OUT
+DEREF at 54/0x0036	 @8-bit Peripheral Module	 with fixed-address variable P6DIR
+DEREF at 37/0x0025	 @8-bit Peripheral Module	 with fixed-address variable P1IE
+DEREF at 45/0x002D	 @8-bit Peripheral Module	 with fixed-address variable P2IE
+DEREF at 384/0x0180	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TBCTL
+DEREF at 384/0x0180	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TBCTL
+DEREF at 352/0x0160	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TA0CTL
+DEREF at 352/0x0160	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TA0CTL
+DEREF at 400/0x0190	 @16-bit Peripheral Module	 with fixed-address variable TBR
+DEREF at 384/0x0180	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TBCTL
+DEREF at 368/0x0170	 @16-bit Peripheral Module	 with fixed-address variable TA0R
+DEREF at 352/0x0160	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TA0CTL
+DEREF at 87/0x0057	 @8-bit Peripheral Module	 with fixed-address variable BCSCTL1
+DEREF at 87/0x0057	 @8-bit Peripheral Module	 with fixed-address variable BCSCTL1
+DEREF at 88/0x0058	 @8-bit Peripheral Module	 with fixed-address variable BCSCTL2
+DEREF at 0/0x0000	 @Special Function Register	 with fixed-address variable Msp430ClockP_IE1
+DEREF at 402/0x0192	 @16-bit Peripheral Module	 with fixed-address variable TBCCR0
+DEREF at 400/0x0190	 @16-bit Peripheral Module	 with fixed-address variable TBR
+DEREF at 386/0x0182	 @16-bit Peripheral Module	 with fixed-address variable TBCCTL0
+DEREF at 386/0x0182	 @16-bit Peripheral Module	 with fixed-address variable TBCCTL0
+DEREF at 368/0x0170	 @16-bit Peripheral Module	 with fixed-address variable TA0R
+DEREF at 352/0x0160	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TA0CTL
+DEREF at 384/0x0180	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TBCTL
+DEREF at 87/0x0057	 @8-bit Peripheral Module	 with fixed-address variable BCSCTL1
+DEREF at 88/0x0058	 @8-bit Peripheral Module	 with fixed-address variable BCSCTL2
+DEREF at 386/0x0182	 @16-bit Peripheral Module	 with fixed-address variable TBCCTL0
+DEREF at 352/0x0160	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TA0CTL
+DEREF at 302/0x012E	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TA0IV
+DEREF at 384/0x0180	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TBCTL
+DEREF at 286/0x011E	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TBIV
+DEREF at 25/0x0019	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 354/0x0162	 @16-bit Peripheral Module	 with fixed-address variable TA0CCTL0
+DEREF at 356/0x0164	 @16-bit Peripheral Module	 with fixed-address variable TA0CCTL1
+DEREF at 358/0x0166	 @16-bit Peripheral Module	 with fixed-address variable TA0CCTL2
+DEREF at 352/0x0160	 @16-bit Peripheral Module	 with fixed-address variable TA0CTL
+DEREF at 4/0x0004	 @Special Function Register	 with fixed-address variable ME1
+DEREF at 113/0x0071	 @8-bit Peripheral Module	 with fixed-address variable U0TCTL
+DEREF at 5/0x0005	 @Special Function Register	 with fixed-address variable ME2
+DEREF at 121/0x0079	 @8-bit Peripheral Module	 with fixed-address variable U1TCTL
+DEREF at 112/0x0070	 @8-bit Peripheral Module	 with fixed-address variable U0CTLnr
+DEREF at 113/0x0071	 @8-bit Peripheral Module	 with fixed-address variable I2CTCTLnr
+DEREF at 114/0x0072	 @8-bit Peripheral Module	 with fixed-address variable I2CDCTLnr
+DEREF at 112/0x0070	 @8-bit Peripheral Module	 with fixed-address variable U0CTLnr
+DEREF at 112/0x0070	 @8-bit Peripheral Module	 with fixed-address variable U0CTLnr
+DEREF at 416/0x01A0	 @16-bit Peripheral Module	 with fixed-address variable ADC12CTL0
+DEREF at 418/0x01A2	 @16-bit Peripheral Module	 with fixed-address variable ADC12CTL1
+DEREF at 418/0x01A2	 @16-bit Peripheral Module	 with fixed-address variable ADC12CTL1
+DEREF at 418/0x01A2	 @16-bit Peripheral Module	 with fixed-address variable ADC12CTL1
+DEREF at 352/0x0160	 @16-bit Peripheral Module	 with fixed-address variable TA0CTL
+DEREF at 400/0x190	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(400U)
+DEREF at 400/0x190	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(400U)
+DEREF at 400/0x190	 @ 16-bit Peripheral Module	 in line *(volatile uint16_t *)(400U)
+DEREF at 87/0x0057	 @8-bit Peripheral Module	 with fixed-address variable BCSCTL1
+DEREF at 87/0x0057	 @8-bit Peripheral Module	 with fixed-address variable BCSCTL1
+DEREF at 86/0x0056	 @8-bit Peripheral Module	 with fixed-address variable DCOCTL
+DEREF at 49/0x31	 @ 8-bit Peripheral Module	 in line *(volatile uint8_t *)(49U)
+DEREF at 49/0x31	 @ 8-bit Peripheral Module	 in line *(volatile uint8_t *)(49U)
+DEREF at 49/0x31	 @ 8-bit Peripheral Module	 in line *(volatile uint8_t *)(49U)

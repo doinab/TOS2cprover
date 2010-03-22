@@ -1,0 +1,190 @@
+file outrf.c: Parsing
+Converting
+Type-checking outrf
+Generating GOTO Program
+332 functions, 4716 instructions.
+Removing function pointers
+Removing unused functions
+Dropping 313 of 332 functions (19 used)
+Partial inlining
+Adjusting functions
+Pointer Analysis
+Adding Pointer Checks
+Invariant Propagation
+Claim memset.1:
+  file lib/libc_string.h line 12 function memset
+  dereference failure: array `SchedulerBasicP_m_next' lower bound
+  !(POINTER_OFFSET(dst) + (int)i < 0) || !(SAME-OBJECT(dst, &SchedulerBasicP_m_next[0]))
+// SATABS runs: 127s succ, no ints // 220s succ, one int  // 251s, 2nd int 
+
+Claim memset.2:
+  file lib/libc_string.h line 12 function memset
+  dereference failure: array `SchedulerBasicP_m_next' upper bound
+  !(POINTER_OFFSET(dst) + (int)i >= 2) || !(SAME-OBJECT(dst, &SchedulerBasicP_m_next[0]))
+
+Claim SchedulerBasicP_popTask.1:
+  file outrf.c line 3031 function SchedulerBasicP_popTask
+  array `SchedulerBasicP_m_next' upper bound
+  (unsigned int)SchedulerBasicP_m_head < 2
+
+Claim SchedulerBasicP_popTask.2:
+  file outrf.c line 3036 function SchedulerBasicP_popTask
+  array `SchedulerBasicP_m_next' upper bound
+  (unsigned int)id < 2
+
+Claim McuSleepC_McuSleep_sleep.1:
+  file outrf.c line 3015 function McuSleepC_McuSleep_sleep
+  array `McuSleepC_msp430PowerBits' upper bound
+  (unsigned int)McuSleepC_powerState < 6
+
+Claim SchedulerBasicP_isWaiting.1:
+  file outrf.c line 1737 function SchedulerBasicP_isWaiting
+  array `SchedulerBasicP_m_next' upper bound
+  (unsigned int)id < 2
+
+Claim SchedulerBasicP_pushTask.1:
+  file outrf.c line 1752 function SchedulerBasicP_pushTask
+  array `SchedulerBasicP_m_next' upper bound
+  (unsigned int)SchedulerBasicP_m_tail < 2
+
+Claim SchedulerBasicP_popTask.3:
+  file outrf.c line 3031 function SchedulerBasicP_popTask
+  array `SchedulerBasicP_m_next' upper bound
+  (unsigned int)SchedulerBasicP_m_head < 2
+
+Claim SchedulerBasicP_popTask.4:
+  file outrf.c line 3036 function SchedulerBasicP_popTask
+  array `SchedulerBasicP_m_next' upper bound
+  (unsigned int)id < 2
+
+Claim VirtualizeTimerC_0_updateFromTimer_runTask.1:
+  file outrf.c line 3297 function VirtualizeTimerC_0_updateFromTimer_runTask
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_updateFromTimer_runTask.2:
+  file outrf.c line 3297 function VirtualizeTimerC_0_updateFromTimer_runTask
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_updateFromTimer_runTask.3:
+  file outrf.c line 3299 function VirtualizeTimerC_0_updateFromTimer_runTask
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_updateFromTimer_runTask.4:
+  file outrf.c line 3299 function VirtualizeTimerC_0_updateFromTimer_runTask
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_updateFromTimer_runTask.5:
+  file outrf.c line 3300 function VirtualizeTimerC_0_updateFromTimer_runTask
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_updateFromTimer_runTask.6:
+  file outrf.c line 3300 function VirtualizeTimerC_0_updateFromTimer_runTask
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_startTimer.1:
+  file outrf.c line 2922 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_startTimer.2:
+  file outrf.c line 2922 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_startTimer.3:
+  file outrf.c line 2923 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_startTimer.4:
+  file outrf.c line 2923 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_startTimer.5:
+  file outrf.c line 2924 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_startTimer.6:
+  file outrf.c line 2924 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_startTimer.7:
+  file outrf.c line 2925 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_startTimer.8:
+  file outrf.c line 2925 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.1:
+  file outrf.c line 3328 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.2:
+  file outrf.c line 3328 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.3:
+  file outrf.c line 3330 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.4:
+  file outrf.c line 3330 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.5:
+  file outrf.c line 3331 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.6:
+  file outrf.c line 3331 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.7:
+  file outrf.c line 3333 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.8:
+  file outrf.c line 3333 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.9:
+  file outrf.c line 3335 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.10:
+  file outrf.c line 3335 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.11:
+  file outrf.c line 3339 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.12:
+  file outrf.c line 3339 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+ memset.1 memset.2 SchedulerBasicP_popTask.1 SchedulerBasicP_popTask.2 McuSleepC_McuSleep_sleep.1 SchedulerBasicP_isWaiting.1 SchedulerBasicP_pushTask.1 SchedulerBasicP_popTask.3 SchedulerBasicP_popTask.4 VirtualizeTimerC_0_updateFromTimer_runTask.1 VirtualizeTimerC_0_updateFromTimer_runTask.2 VirtualizeTimerC_0_updateFromTimer_runTask.3 VirtualizeTimerC_0_updateFromTimer_runTask.4 VirtualizeTimerC_0_updateFromTimer_runTask.5 VirtualizeTimerC_0_updateFromTimer_runTask.6 VirtualizeTimerC_0_startTimer.1 VirtualizeTimerC_0_startTimer.2 VirtualizeTimerC_0_startTimer.3 VirtualizeTimerC_0_startTimer.4 VirtualizeTimerC_0_startTimer.5 VirtualizeTimerC_0_startTimer.6 VirtualizeTimerC_0_startTimer.7 VirtualizeTimerC_0_startTimer.8 VirtualizeTimerC_0_fireTimers.1 VirtualizeTimerC_0_fireTimers.2 VirtualizeTimerC_0_fireTimers.3 VirtualizeTimerC_0_fireTimers.4 VirtualizeTimerC_0_fireTimers.5 VirtualizeTimerC_0_fireTimers.6 VirtualizeTimerC_0_fireTimers.7 VirtualizeTimerC_0_fireTimers.8 VirtualizeTimerC_0_fireTimers.9 VirtualizeTimerC_0_fireTimers.10 VirtualizeTimerC_0_fireTimers.11 VirtualizeTimerC_0_fireTimers.12

@@ -1,0 +1,208 @@
+file my_Blink_tb_nc_outrf.c: Parsing
+Converting
+Type-checking my_Blink_tb_nc_outrf
+Generating GOTO Program
+339 functions, 5090 instructions.
+Removing function pointers
+Removing unused functions
+Dropping 322 of 339 functions (17 used)
+Partial inlining
+Adjusting functions
+Pointer Analysis
+Adding Pointer Checks
+Invariant Propagation
+Claim memset.1:
+  file lib/libc_string.h line 12 function memset
+  dereference failure: array `SchedulerBasicP_m_next' lower bound
+  !(POINTER_OFFSET(dst) + (int)i < 0) || !(SAME-OBJECT(dst, &SchedulerBasicP_m_next[0]))
+// SATABS runs everywhere: no ints: 164s, successful
+
+Claim memset.2:
+  file lib/libc_string.h line 12 function memset
+  dereference failure: array `SchedulerBasicP_m_next' upper bound
+  !(POINTER_OFFSET(dst) + (int)i >= 2) || !(SAME-OBJECT(dst, &SchedulerBasicP_m_next[0]))
+// no ints: 155s, successful
+
+Claim SchedulerBasicP_popTask.1:
+  file my_Blink_tb_nc_outrf.c line 3100 function SchedulerBasicP_popTask
+  array `SchedulerBasicP_m_next' upper bound
+  (unsigned int)SchedulerBasicP_m_head < 2
+// no ints: 636s, successful
+
+Claim SchedulerBasicP_popTask.2:
+  file my_Blink_tb_nc_outrf.c line 3105 function SchedulerBasicP_popTask
+  array `SchedulerBasicP_m_next' upper bound
+  (unsigned int)id < 2
+// no ints: 352s, successful
+
+Claim McuSleepC_McuSleep_sleep.1:
+  file my_Blink_tb_nc_outrf.c line 3085 function McuSleepC_McuSleep_sleep
+  array `McuSleepC_msp430PowerBits' upper bound
+  (unsigned int)McuSleepC_powerState < 6
+// no ints: 186s, successful
+
+Claim SchedulerBasicP_isWaiting.1:
+  file my_Blink_tb_nc_outrf.c line 1754 function SchedulerBasicP_isWaiting
+  array `SchedulerBasicP_m_next' upper bound
+  (unsigned int)id < 2
+// no ints: 108s, successful
+
+Claim SchedulerBasicP_pushTask.1:
+  file my_Blink_tb_nc_outrf.c line 1768 function SchedulerBasicP_pushTask
+  array `SchedulerBasicP_m_next' upper bound
+  (unsigned int)SchedulerBasicP_m_tail < 2
+// no ints: 892s, successful
+
+Claim SchedulerBasicP_popTask.3:
+  file my_Blink_tb_nc_outrf.c line 3100 function SchedulerBasicP_popTask
+  array `SchedulerBasicP_m_next' upper bound
+  (unsigned int)SchedulerBasicP_m_head < 2
+// no ints: 276s, successful
+
+Claim SchedulerBasicP_popTask.4:
+  file my_Blink_tb_nc_outrf.c line 3105 function SchedulerBasicP_popTask
+  array `SchedulerBasicP_m_next' upper bound
+  (unsigned int)id < 2
+// no ints: 220s, successful
+
+Claim VirtualizeTimerC_0_updateFromTimer_runTask.1:
+  file my_Blink_tb_nc_outrf.c line 3371 function VirtualizeTimerC_0_updateFromTimer_runTask
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+// no ints: 78s, successful
+
+Claim VirtualizeTimerC_0_updateFromTimer_runTask.2:
+  file my_Blink_tb_nc_outrf.c line 3371 function VirtualizeTimerC_0_updateFromTimer_runTask
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+// no ints: 108s, successful
+
+Claim VirtualizeTimerC_0_updateFromTimer_runTask.3:
+  file my_Blink_tb_nc_outrf.c line 3373 function VirtualizeTimerC_0_updateFromTimer_runTask
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+// no ints: 97s, successful
+
+Claim VirtualizeTimerC_0_updateFromTimer_runTask.4:
+  file my_Blink_tb_nc_outrf.c line 3373 function VirtualizeTimerC_0_updateFromTimer_runTask
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+// no ints: 67/69s, successful
+
+Claim VirtualizeTimerC_0_updateFromTimer_runTask.5:
+  file my_Blink_tb_nc_outrf.c line 3374 function VirtualizeTimerC_0_updateFromTimer_runTask
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+// no ints: 71s, successful
+
+Claim VirtualizeTimerC_0_updateFromTimer_runTask.6:
+  file my_Blink_tb_nc_outrf.c line 3374 function VirtualizeTimerC_0_updateFromTimer_runTask
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+// no ints: 72s, successful
+
+Claim VirtualizeTimerC_0_startTimer.1:
+  file my_Blink_tb_nc_outrf.c line 2993 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+// no ints: 81s, successful
+
+Claim VirtualizeTimerC_0_startTimer.2:
+  file my_Blink_tb_nc_outrf.c line 2993 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+// no ints: 75s, successful
+
+Claim VirtualizeTimerC_0_startTimer.3:
+  file my_Blink_tb_nc_outrf.c line 2994 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+// no ints: 75s, successful
+
+Claim VirtualizeTimerC_0_startTimer.4:
+  file my_Blink_tb_nc_outrf.c line 2994 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_startTimer.5:
+  file my_Blink_tb_nc_outrf.c line 2995 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_startTimer.6:
+  file my_Blink_tb_nc_outrf.c line 2995 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_startTimer.7:
+  file my_Blink_tb_nc_outrf.c line 2996 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_startTimer.8:
+  file my_Blink_tb_nc_outrf.c line 2996 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+// no ints: 72s, successful
+
+Claim VirtualizeTimerC_0_fireTimers.1:
+  file my_Blink_tb_nc_outrf.c line 3402 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+// no ints: 70s, successful
+
+Claim VirtualizeTimerC_0_fireTimers.2:
+  file my_Blink_tb_nc_outrf.c line 3402 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.3:
+  file my_Blink_tb_nc_outrf.c line 3404 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.4:
+  file my_Blink_tb_nc_outrf.c line 3404 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.5:
+  file my_Blink_tb_nc_outrf.c line 3405 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.6:
+  file my_Blink_tb_nc_outrf.c line 3405 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.7:
+  file my_Blink_tb_nc_outrf.c line 3407 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.8:
+  file my_Blink_tb_nc_outrf.c line 3407 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.9:
+  file my_Blink_tb_nc_outrf.c line 3409 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.10:
+  file my_Blink_tb_nc_outrf.c line 3409 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.11:
+  file my_Blink_tb_nc_outrf.c line 3413 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.12:
+  file my_Blink_tb_nc_outrf.c line 3413 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+// no ints: 83s, successful

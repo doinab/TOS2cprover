@@ -1,0 +1,1066 @@
+Preprocessed file pp.c written
+File parsed into AST
+--------------------------------------------------------------------------------
+Reach (520):
+
+set(['Msp430TimerP_0_Timer_setClockSource', 'HplMsp430GeneralIOP_40_IO_selectIOFunc', 'Msp430AlarmC_1_Msp430Compare_fired', 'Msp430RefVoltArbiterImplP_RefVolt_1_5V_start', 'Msp430Adc12ConfAlertC_0_ConfUp_getConfiguration', 'HplMsp430GeneralIOP_44_IO_makeInput', 'Msp430Adc12ImplP_Port63_selectIOFunc', 'Msp430GpioC_0_GeneralIO_makeOutput', 'HplMsp430GeneralIOP_38_IO_makeOutput', 'TOSH_MAKE_SIMO0_OUTPUT', 'Msp430TimerCapComP_3_Capture_captured', 'SenseC_Leds_led2Off', 'MotePlatformC_TOSH_FLASH_M25P_DP', 'ArbitratedReadStreamC_0_Resource_release', 'SimpleArbiterP_0_Resource_granted', 'SchedulerBasicP_Scheduler_runNextTask', 'TOSH_SET_UCLK0_PIN', 'AdcStreamP_SingleChannel_default_configureSingle', 'TransformAlarmC_0_AlarmFrom_stop', 'AdcP_Config_getConfiguration', 'LedsP_Led2_clr', 'mcombine', 'TransformCounterC_0_Counter_get', 'SenseC_Leds_led1Off', 'HplMsp430GeneralIOP_46_IO_selectModuleFunc', 'Msp430TimerCapComP_3_compareControl', 'Msp430RefVoltArbiterImplP_ClientResource_request', 'Msp430Adc12ImplP_Port66_selectModuleFunc', 'AlarmToTimerC_0_Alarm_fired', 'AdcP_ResourceReadNow_default_granted', 'AdcStreamP_readStreamFail_runTask', 'Msp430Adc12ImplP_Port67_makeInput', 'Msp430Adc12ImplP_Overflow_default_conversionTimeOverflow', 'AdcP_ResourceRead_default_release', 'PlatformP_MoteClockInit_init', 'Msp430Adc12ImplP_Port67_selectIOFunc', 'Msp430TimerCapComP_6_Capture_captured', 'Msp430TimerCapComP_9_Capture_default_captured', 'Msp430TimerP_1_Event_default_fired', 'AlarmToTimerC_0_Alarm_getAlarm', 'memset', 'TOSH_MAKE_FLASH_CS_OUTPUT', 'Msp430RefVoltGeneratorP_SwitchOnTimer_stop', 'Msp430TimerCapComP_9_Event_fired', 'Msp430TimerP_0_Timer_clear', 'AlarmToTimerC_0_fired_runTask', 'AdcP_SubResourceReadNow_granted', 'SimpleArbiterP_0_grantedTask_postTask', 'HplMsp430GeneralIOP_47_IO_selectModuleFunc', 'Msp430GpioC_0_HplGeneralIO_set', 'SenseC_Read_readDone', 'RoundRobinResourceQueueC_0_clearEntry', 'VirtualizeTimerC_0_updateFromTimer_postTask', 'Msp430GpioC_0_HplGeneralIO_clr', 'Msp430ClockP_Msp430ClockInit_default_initTimerB', 'TransformCounterC_0_CounterFrom_get', 'Msp430Adc12ImplP_HplAdc12_conversionDone', 'LedsP_Led0_clr', 'Msp430RefVoltGeneratorP_RefVolt_2_5V_start', 'Msp430TimerCapComP_3_Capture_default_captured', 'SchedulerBasicP_popTask', 'Msp430TimerCapComP_9_Control_getControl', 'Msp430RefVoltArbiterImplP_RefVolt_1_5V_startDone', 'Msp430Adc12ImplP_Port60_selectIOFunc', 'LedsP_Led2_set', '__nesc_enable_interrupt', 'Msp430ClockP_startTimerB', 'Msp430ClockP_startTimerA', 'HplMsp430GeneralIOP_46_IO_makeInput', 'TOSH_MAKE_FLASH_HOLD_OUTPUT', 'SimpleArbiterP_0_Resource_default_granted', 'Msp430RefVoltGeneratorP_RefVolt_2_5V_startDone', 'Msp430TimerCapComP_5_Control_clearPendingInterrupt', 'Msp430AlarmC_0_Msp430TimerControl_disableEvents', 'Msp430TimerCapComP_8_Event_fired', 'SchedulerBasicP_pushTask', 'Msp430Adc12ImplP_Port62_selectModuleFunc', '__nesc_atomic_end', 'MotePlatformC_Init_init', 'AdcStreamP_SingleChannel_configureSingle', 'AdcP_ResourceRead_default_request', 'VirtualizeTimerC_0_updateFromTimer_runTask', 'Msp430GpioC_2_GeneralIO_set', 'Msp430TimerCapComP_9_Compare_default_fired', 'Msp430AlarmC_1_Msp430TimerControl_enableEvents', 'SimpleArbiterP_0_Resource_request', 'Msp430RefVoltArbiterImplP_ClientResource_default_granted', 'ArbitratedReadStreamC_0_Service_bufferDone', 'RealMainP_Boot_booted', 'HplMsp430GeneralIOP_40_IO_makeInput', 'VirtualizeTimerC_0_Timer_startPeriodic', 'Msp430Adc12ConfAlertC_2_ConfSub_getConfiguration', 'Msp430TimerCapComP_3_Timer_overflow', 'Msp430RefVoltArbiterImplP_AdcResource_release', 'Msp430GpioC_0_GeneralIO_set', 'Msp430TimerCapComP_9_Capture_captured', 'RoundRobinResourceQueueC_0_RoundRobinQueue_isEnqueued', 'TransformAlarmC_0_Counter_get', 'LedsP_Led0_set', 'Msp430GpioC_1_GeneralIO_set', 'McuSleepC_computePowerState', 'HplMsp430GeneralIOP_37_IO_set', 'Msp430RefVoltGeneratorP_SwitchOffTimer_stop', 'Msp430TimerCapComP_3_Compare_fired', 'HplMsp430GeneralIOP_42_IO_makeInput', 'AdcP_Config_default_getConfiguration', 'TOSH_SET_SIMO0_PIN', 'Msp430AlarmC_1_Alarm_fired', 'Msp430RefVoltArbiterImplP_RefVolt_2_5V_stopDone', 'Msp430TimerCapComP_4_Capture_getEvent', 'TransformAlarmC_1_Alarm_startAt', 'Msp430TimerCapComP_5_Control_enableEvents', 'McuSleepC_McuPowerOverride_default_lowestState', 'MotePlatformC_TOSH_FLASH_M25P_DP_bit', 'Msp430Adc12ImplP_SingleChannel_default_multipleDataReady', 'TransformAlarmC_1_Counter_overflow', 'McuSleepC_getPowerState', 'Msp430GpioC_2_HplGeneralIO_makeOutput', 'Msp430TimerCapComP_7_Control_getControl', 'Msp430RefVoltArbiterImplP_Config_default_getConfiguration', 'Msp430Adc12ImplP_Port63_selectModuleFunc', 'Msp430GpioC_1_HplGeneralIO_makeOutput', 'Msp430Adc12ImplP_resetAdcPin', 'ArbitratedReadStreamC_0_Service_readDone', 'RoundRobinResourceQueueC_0_RoundRobinQueue_enqueue', 'AdcP_SingleChannel_default_configureSingle', 'Msp430GpioC_0_HplGeneralIO_makeOutput', 'Msp430Adc12ImplP_TimerA_disableEvents', 'LedsP_Init_init', 'SenseC_Timer_startPeriodic', 'VirtualizeTimerC_0_Timer_stop', 'ArbitratedReadStreamC_0_ReadStream_bufferDone', 'Msp430TimerCapComP_8_int2CC', 'HplMsp430GeneralIOP_43_IO_selectModuleFunc', 'AdcP_configure', 'Msp430RefVoltGeneratorP_HplAdc12_setCtl0', 'Msp430Adc12ImplP_ControlA1_setControl', 'TransformAlarmC_0_set_alarm', 'HplAdc12P_HplAdc12_getCtl0', 'AlarmToTimerC_0_Alarm_startAt', 'Msp430TimerCapComP_3_Event_fired', 'Msp430ClockP_Msp430ClockInit_initTimerA', 'Msp430ClockP_Msp430ClockInit_initTimerB', 'Msp430GpioC_0_GeneralIO_clr', 'Msp430Adc12ImplP_TimerA_clear', 'SimpleArbiterP_0_ResourceConfigure_unconfigure', 'HplMsp430GeneralIOP_38_IO_clr', 'Msp430Adc12ImplP_Port65_selectModuleFunc', 'Msp430TimerP_1_Overflow_fired', 'ecombine', 'SenseC_Boot_booted', 'Msp430AlarmC_1_Msp430TimerControl_disableEvents', 'Msp430Adc12ImplP_Overflow_default_memOverflow', 'HplMsp430GeneralIOP_43_IO_selectIOFunc', 'Msp430TimerCapComP_1_Control_setControl', 'main', 'AdcStreamP_Init_init', 'HplMsp430GeneralIOP_36_IO_set', 'SchedulerBasicP_McuSleep_sleep', 'HplMsp430GeneralIOP_41_IO_selectModuleFunc', 'HplAdc12P_HplAdc12_startConversion', 'Msp430TimerCapComP_7_Capture_default_captured', 'Msp430Adc12ImplP_TimerA_setClockSource', 'CounterToLocalTimeC_0_Counter_overflow', 'HplAdc12P_HplAdc12_setCtl1', 'HplMsp430GeneralIOP_45_IO_makeInput', 'Msp430Adc12ImplP_TimerA_setInputDivider', 'Msp430Adc12ImplP_CompareA0_setEvent', 'Msp430RefVoltArbiterImplP_switchOff_postTask', 'Msp430Adc12ImplP_Port63_makeInput', 'Msp430TimerCapComP_8_Compare_fired', 'HplMsp430GeneralIOP_42_IO_selectModuleFunc', 'McuSleepC_McuSleep_sleep', 'HplAdc12P_HplAdc12_conversionDone', 'Msp430InternalVoltageP_AdcConfigure_getConfiguration', 'AdcStreamP_nextBuffer', 'Msp430TimerP_1_Timer_isOverflowPending', 'Msp430TimerCapComP_4_Capture_default_captured', 'ArbitratedReadStreamC_0_Service_read', 'SimpleArbiterP_0_grantedTask_runTask', 'Msp430Adc12ImplP_prepareTimerA', 'AdcP_ReadNow_default_readDone', 'ArbitratedReadStreamC_0_ReadStream_readDone', 'Msp430TimerCapComP_5_Timer_get', 'Msp430Adc12ImplP_SingleChannel_getData', 'Msp430AlarmC_1_Msp430Timer_overflow', 'RoundRobinResourceQueueC_0_RoundRobinQueue_isEmpty', 'Msp430TimerCapComP_3_Compare_setEventFromNow', 'VirtualizeTimerC_0_Timer_default_fired', 'AdcP_ReadNow_readDone', 'AdcP_SingleChannel_getData', 'Msp430TimerP_0_Timer_setMode', 'Msp430Adc12ImplP_Port64_makeInput', 'Msp430CounterC_0_Msp430Timer_isOverflowPending', 'Msp430TimerCapComP_3_Control_clearPendingInterrupt', 'Msp430TimerCapComP_3_Timer_get', 'Msp430TimerCommonP_VectorTimerB0_fired', 'Msp430TimerCapComP_3_Control_disableEvents', 'Msp430TimerCapComP_3_CC2int', 'Msp430CounterC_0_Msp430Timer_overflow', 'Msp430TimerCapComP_1_CC2int', 'Msp430AlarmC_0_Msp430Compare_setEventFromNow', 'Msp430Adc12ImplP_HplAdc12_setMCtl', 'Msp430RefVoltGeneratorP_SwitchOnTimer_fired', 'Msp430Adc12ImplP_startTimerA', 'Msp430TimerCapComP_8_Capture_default_captured', 'AdcStreamP_nextMultiple', 'AdcP_ResourceRead_release', 'AdcStreamP_ReadStream_readDone', 'Msp430TimerCapComP_6_Control_getControl', 'Msp430AlarmC_0_Msp430TimerControl_enableEvents', 'Msp430AlarmC_1_Msp430Compare_setEventFromNow', 'Msp430Adc12ImplP_configureAdcPin', 'Msp430RefVoltArbiterImplP_ClientResource_release', 'MotePlatformC_TOSH_wait', 'Msp430RefVoltGeneratorP_RefVolt_1_5V_startDone', 'AlarmToTimerC_0_Timer_startOneShotAt', 'SimpleArbiterP_0_Queue_enqueue', 'TOSH_SET_FLASH_HOLD_PIN', 'Msp430Adc12ImplP_SingleChannel_default_singleDataReady', 'Msp430Adc12ImplP_ADCArbiterInfo_userId', 'Msp430RefVoltArbiterImplP_RefVolt_2_5V_start', 'Msp430Adc12ImplP_Port61_selectModuleFunc', 'Msp430AlarmC_0_Msp430Timer_get', 'SenseC_Leds_led0Off', 'HplMsp430GeneralIOP_36_IO_clr', 'LedsP_Led1_makeOutput', 'AdcStreamP_AdcConfigure_default_getConfiguration', 'Msp430RefVoltArbiterImplP_RefVolt_1_5V_stopDone', 'Msp430TimerCapComP_4_Capture_captured', 'HplMsp430GeneralIOP_41_IO_selectIOFunc', 'LedsP_Leds_led0Off', 'SimpleArbiterP_0_ArbiterInfo_userId', 'Msp430AlarmC_0_Msp430TimerControl_clearPendingInterrupt', 'Msp430ClockP_Msp430ClockInit_defaultInitClocks', 'Msp430RefVoltGeneratorP_SwitchOffTimer_startOneShot', 'PlatformP_LedsInit_init', 'Msp430RefVoltGeneratorP_SwitchOnTimer_startOneShot', 'Msp430AlarmC_0_Msp430Compare_setEvent', 'Msp430Adc12ImplP_stopConversion', 'ArbitratedReadStreamC_0_Resource_granted', 'VirtualizeTimerC_0_Timer_startOneShot', 'Msp430AlarmC_0_Init_init', 'Msp430TimerCapComP_0_Compare_setEvent', 'TOSH_MAKE_UCLK0_OUTPUT', 'Msp430RefVoltArbiterImplP_RefVolt_2_5V_startDone', 'Msp430Adc12ImplP_MultiChannel_default_dataReady', 'Msp430Adc12ConfAlertC_1_ConfSub_getConfiguration', 'HplMsp430GeneralIOP_44_IO_selectIOFunc', 'Msp430RefVoltArbiterImplP_switchOff_runTask', 'Msp430RefVoltGeneratorP_RefVolt_1_5V_stopDone', 'TransformAlarmC_0_Alarm_startAt', 'RealMainP_SoftwareInit_init', 'Msp430TimerCapComP_6_Event_fired', 'VirtualizeTimerC_0_TimerFrom_fired', 'Msp430Adc12ImplP_Port60_selectModuleFunc', 'SimpleArbiterP_0_ResourceConfigure_configure', 'Msp430TimerCapComP_6_Compare_default_fired', 'TransformCounterC_0_CounterFrom_isOverflowPending', 'AdcStreamP_nextAlarm', 'SenseC_Read_read', 'AdcStreamP_postBuffer', 'Msp430ClockP_Msp430ClockInit_initClocks', 'Msp430Adc12ConfAlertC_0_ConfSub_getConfiguration', 'Msp430TimerCapComP_9_Compare_fired', 'Msp430TimerCapComP_9_int2CC', 'AdcP_SingleChannel_default_getData', 'ArbitratedReadStreamC_0_ReadStream_default_readDone', 'Msp430Adc12ImplP_MultiChannel_dataReady', 'SimpleArbiterP_0_Resource_release', 'TransformCounterC_0_Counter_overflow', 'Msp430RefVoltArbiterImplP_AdcResource_default_release', 'Msp430Adc12ImplP_Port67_selectModuleFunc', 'HplAdc12P_HplAdc12_isBusy', 'HplMsp430GeneralIOP_44_IO_selectModuleFunc', 'Msp430Adc12ImplP_HplAdc12_getCtl0', 'Msp430TimerCapComP_6_Capture_default_captured', 'Msp430Adc12ImplP_Port65_makeInput', 'AlarmToTimerC_0_start', 'AlarmToTimerC_0_Timer_getNow', 'ArbitratedReadStreamC_0_ReadStream_default_bufferDone', 'VirtualizeTimerC_0_fireTimers', 'Msp430TimerCapComP_6_Timer_overflow', 'RealMainP_Scheduler_runNextTask', 'Msp430Adc12ImplP_ControlA0_setControl', 'LedsP_Led2_makeOutput', 'Msp430TimerCapComP_8_Capture_getEvent', 'Msp430TimerP_1_Timer_overflow', 'Msp430TimerCapComP_1_Compare_setEvent', 'AlarmToTimerC_0_Alarm_getNow', 'AdcP_readDone_postTask', 'Msp430Adc12ImplP_Port61_selectIOFunc', 'HplAdc12P_HplAdc12_stopConversion', 'HplAdc12P_HplAdc12_resetIFGs', 'Msp430Adc12ImplP_Port65_selectIOFunc', 'Msp430TimerCapComP_7_Event_fired', 'TransformAlarmC_0_Counter_overflow', 'Msp430Adc12ImplP_HplAdc12_getMem', 'AdcP_SingleChannel_multipleDataReady', 'TOSH_CLR_FLASH_CS_PIN', 'HplMsp430GeneralIOP_42_IO_selectIOFunc', 'TransformAlarmC_0_AlarmFrom_fired', 'Msp430TimerCapComP_3_Capture_getEvent', 'Msp430Adc12ImplP_SingleChannel_configureSingle', 'AdcStreamP_SingleChannel_default_configureMultiple', 'Msp430Adc12ImplP_HplAdc12_setCtl1', 'Msp430Adc12ImplP_HplAdc12_setCtl0', 'Msp430TimerCapComP_4_Event_fired', '__nesc_disable_interrupt', 'SenseC_Timer_fired', 'Msp430CounterC_0_Counter_isOverflowPending', 'AdcStreamP_readStreamDone_postTask', 'SimpleArbiterP_0_Queue_isEmpty', 'Msp430TimerCapComP_3_Control_enableEvents', 'Msp430Adc12ImplP_Port61_makeInput', 'LedsP_Leds_led1Off', 'HplAdc12P_HplAdc12_setMCtl', 'Msp430GpioC_1_HplGeneralIO_set', 'Msp430AlarmC_0_Alarm_stop', 'sig_ADC_VECTOR', 'HplMsp430GeneralIOP_47_IO_selectIOFunc', 'AdcStreamP_Alarm_startAt', 'Msp430AlarmC_0_Msp430TimerControl_setControlAsCompare', 'SchedulerBasicP_TaskBasic_runTask', 'Msp430RefVoltGeneratorP_SwitchOffTimer_fired', 'Msp430RefVoltArbiterImplP_AdcResource_default_request', 'Msp430TimerCapComP_8_Timer_overflow', 'Msp430TimerCapComP_4_Compare_fired', 'SchedulerBasicP_Scheduler_taskLoop', 'LedsP_Led1_clr', 'sig_TIMERB0_VECTOR', 'Msp430TimerCapComP_9_Capture_getEvent', 'Msp430GpioC_2_GeneralIO_clr', 'Msp430AlarmC_0_Alarm_fired', 'AdcStreamP_Alarm_fired', 'Msp430TimerCapComP_4_int2CC', 'Msp430RefVoltGeneratorP_RefVolt_1_5V_start', 'Msp430RefVoltArbiterImplP_RefVolt_1_5V_stop', 'Msp430TimerCapComP_5_Capture_default_captured', 'TransformAlarmC_0_Alarm_getNow', 'Msp430Adc12ImplP_SingleChannel_configureMultiple', 'Msp430TimerCapComP_5_Compare_setEventFromNow', 'Msp430TimerP_0_Timer_setInputDivider', 'Msp430AlarmC_0_Msp430Compare_fired', 'AdcP_ResourceRead_granted', 'Msp430TimerP_1_VectorTimerX0_fired', 'Msp430GpioC_2_HplGeneralIO_clr', 'Msp430Adc12ImplP_TimerA_setMode', 'TransformAlarmC_0_AlarmFrom_startAt', 'LedsP_Leds_led2On', 'Msp430TimerCapComP_4_Compare_default_fired', 'HplAdc12P_HplAdc12_setIEFlags', 'LedsP_Leds_led0On', 'AdcStreamP_AdcConfigure_getConfiguration', 'SchedulerBasicP_TaskBasic_default_runTask', 'Msp430TimerCapComP_7_Compare_default_fired', 'SimpleArbiterP_0_ResourceConfigure_default_unconfigure', 'AdcP_Read_default_readDone', 'Msp430ClockP_Msp430ClockInit_default_initTimerA', 'Msp430GpioC_1_GeneralIO_makeOutput', 'Msp430TimerCapComP_3_Compare_setEvent', 'PlatformP_MoteInit_init', 'VirtualizeTimerC_0_Timer_fired', 'Msp430RefVoltArbiterImplP_AdcResource_request', 'Msp430RefVoltGeneratorP_HplAdc12_isBusy', 'AdcP_SingleChannel_singleDataReady', 'Msp430RefVoltGeneratorP_RefVolt_1_5V_stop', 'Msp430RefVoltArbiterImplP_Config_getConfiguration', 'SimpleArbiterP_0_ResourceRequested_requested', 'Msp430TimerCapComP_7_Timer_overflow', 'HplMsp430GeneralIOP_38_IO_set', '__nesc_atomic_start', 'SenseC_Leds_led0On', 'Msp430AlarmC_1_Msp430Compare_setEvent', 'Msp430AlarmC_1_Msp430TimerControl_clearPendingInterrupt', 'Msp430ClockP_Msp430ClockInit_default_initClocks', 'AdcP_ResourceReadNow_granted', 'TransformAlarmC_1_AlarmFrom_fired', 'RealMainP_Scheduler_taskLoop', 'Msp430TimerCapComP_3_Control_setControlAsCompare', 'SenseC_Leds_led2On', 'Msp430TimerP_0_Timer_disableEvents', 'Msp430RefVoltArbiterImplP_ClientResource_granted', 'HplAdc12P_HplAdc12_setCtl0', 'TOSH_SET_FLASH_CS_PIN', 'Msp430CounterC_0_Counter_overflow', 'Msp430RefVoltGeneratorP_switchOff', 'HplMsp430GeneralIOP_47_IO_makeInput', 'SchedulerBasicP_Scheduler_init', 'Msp430TimerCapComP_5_Event_fired', 'Msp430TimerCapComP_9_Timer_overflow', 'TransformAlarmC_0_Alarm_getAlarm', 'Msp430RefVoltGeneratorP_RefVolt_2_5V_stopDone', 'Msp430GpioC_1_GeneralIO_clr', 'HplMsp430GeneralIOP_46_IO_selectIOFunc', 'Msp430RefVoltGeneratorP_HplAdc12_getCtl0', 'Msp430TimerCapComP_5_Compare_setEvent', 'Msp430TimerCapComP_6_Compare_fired', 'Msp430GpioC_1_HplGeneralIO_clr', 'AdcStreamP_ReadStream_read', 'RealMainP_Scheduler_init', 'HplMsp430GeneralIOP_45_IO_selectIOFunc', 'Msp430Adc12ImplP_Port62_selectIOFunc', 'Msp430Adc12ImplP_Overflow_memOverflow', 'LedsP_Led0_makeOutput', 'Msp430TimerCapComP_6_Capture_getEvent', 'Msp430GpioC_2_GeneralIO_makeOutput', 'Msp430RefVoltGeneratorP_switchOn', 'LedsP_Led1_set', 'HplMsp430GeneralIOP_45_IO_selectModuleFunc', 'HplMsp430GeneralIOP_41_IO_makeInput', 'TransformAlarmC_1_AlarmFrom_startAt', 'Msp430AlarmC_1_Alarm_startAt', 'Msp430Adc12ImplP_Port60_makeInput', 'Msp430TimerP_1_Event_fired', 'Msp430AlarmC_0_Msp430Timer_overflow', 'Msp430Adc12ConfAlertC_1_ConfUp_getConfiguration', 'SchedulerBasicP_isWaiting', 'AdcP_SingleChannel_configureSingle', 'Msp430TimerP_1_Timer_get', 'AdcStreamP_ReadStream_bufferDone', 'Msp430Adc12ImplP_Init_init', 'Msp430CounterC_0_Msp430Timer_get', 'HplMsp430GeneralIOP_37_IO_makeOutput', 'Msp430TimerCapComP_3_int2CC', 'AdcStreamP_SingleChannel_getData', 'Msp430TimerCapComP_5_int2CC', 'HplMsp430GeneralIOP_36_IO_makeOutput', 'RealMainP_PlatformInit_init', 'Msp430Adc12ConfAlertC_2_ConfUp_getConfiguration', 'TransformAlarmC_0_Alarm_fired', 'TransformAlarmC_1_Alarm_getNow', 'Msp430TimerCapComP_4_Timer_overflow', 'Msp430TimerCapComP_0_Control_setControl', 'Msp430Adc12ImplP_CompareA1_setEvent', 'VirtualizeTimerC_0_TimerFrom_startOneShotAt', 'AdcStreamP_Alarm_getNow', 'AdcP_ResourceRead_request', 'McuSleepC_McuPowerOverride_lowestState', 'Msp430Adc12ImplP_Overflow_conversionTimeOverflow', 'Msp430RefVoltArbiterImplP_AdcResource_granted', 'TransformAlarmC_1_Alarm_fired', 'Msp430Adc12ImplP_HplAdc12_resetIFGs', 'Msp430TimerCapComP_6_int2CC', 'Msp430Adc12ImplP_Port66_selectIOFunc', 'Msp430TimerCapComP_5_Compare_fired', 'Msp430TimerCapComP_7_Capture_captured', 'Msp430Adc12ImplP_HplAdc12_getMCtl', 'TOSH_CLR_UCLK0_PIN', 'AdcStreamP_SingleChannel_default_getData', 'Msp430TimerCapComP_8_Capture_captured', 'LedsP_Leds_led1On', 'Msp430Adc12ImplP_Port66_makeInput', 'Msp430CounterC_0_Counter_get', 'Msp430ClockP_Msp430ClockInit_defaultInitTimerB', 'Msp430Adc12ImplP_HplAdc12_setIEFlags', 'Msp430ClockP_Msp430ClockInit_defaultInitTimerA', 'Msp430Adc12ImplP_HplAdc12_stopConversion', 'VirtualizeTimerC_0_TimerFrom_stop', 'VirtualizeTimerC_0_TimerFrom_getNow', 'Msp430Adc12ImplP_SingleChannel_multipleDataReady', 'AdcP_Read_readDone', 'Msp430Adc12ImplP_Port64_selectIOFunc', 'Msp430TimerCapComP_3_Control_getControl', 'TransformAlarmC_1_set_alarm', 'Msp430ClockP_Init_init', 'TransformAlarmC_1_Counter_get', 'AlarmToTimerC_0_Alarm_stop', 'Msp430Adc12ImplP_SingleChannel_singleDataReady', 'TOSH_CLR_SIMO0_PIN', 'AlarmToTimerC_0_fired_postTask', 'SimpleArbiterP_0_ResourceRequested_default_requested', 'Msp430TimerCapComP_8_Compare_default_fired', 'Msp430TimerCapComP_5_Timer_overflow', 'HplMsp430GeneralIOP_37_IO_clr', 'ArbitratedReadStreamC_0_Resource_default_release', 'Msp430RefVoltGeneratorP_HplAdc12_conversionDone', 'AdcStreamP_SingleChannel_configureMultiple', 'SenseC_Leds_led1On', 'AdcStreamP_readStreamFail_postTask', 'AdcStreamP_SingleChannel_singleDataReady', 'AdcStreamP_sampleSingle', 'AdcStreamP_SingleChannel_multipleDataReady', 'Msp430Adc12ImplP_Port62_makeInput', 'HplMsp430GeneralIOP_40_IO_selectModuleFunc', 'Msp430TimerCapComP_7_Capture_getEvent', 'Msp430TimerCapComP_5_Control_getControl', 'Msp430Adc12ImplP_Port64_selectModuleFunc', 'Msp430TimerCapComP_7_int2CC', 'PlatformP_Init_init', 'AdcP_readDone_runTask', 'Msp430TimerCapComP_5_Capture_captured', 'RoundRobinResourceQueueC_0_Init_init', 'TransformCounterC_0_CounterFrom_overflow', 'HplMsp430GeneralIOP_43_IO_makeInput', 'Msp430Adc12ImplP_HplAdc12_startConversion', 'AdcStreamP_bufferDone_runTask', 'Msp430AlarmC_0_Alarm_startAt', 'LedsP_Leds_led2Off', 'Msp430GpioC_2_HplGeneralIO_set', 'Msp430TimerCapComP_8_Control_getControl', 'Msp430TimerCapComP_5_Control_disableEvents', 'Msp430TimerCapComP_7_Compare_fired', 'TransformAlarmC_0_Alarm_stop', 'SchedulerBasicP_TaskBasic_postTask', 'SimpleArbiterP_0_ResourceConfigure_default_configure', 'AlarmToTimerC_0_Timer_stop', 'Msp430AlarmC_1_Msp430Timer_get', 'AdcStreamP_bufferDone_postTask', 'AdcStreamP_readStreamDone_runTask', 'AlarmToTimerC_0_Timer_fired', 'AdcP_Read_read', 'SimpleArbiterP_0_Queue_dequeue', 'HplAdc12P_HplAdc12_getMCtl', 'Msp430TimerCapComP_4_Control_getControl', 'HplAdc12P_HplAdc12_getMem', 'VirtualizeTimerC_0_startTimer', 'RoundRobinResourceQueueC_0_RoundRobinQueue_dequeue', 'Msp430TimerCapComP_0_CC2int', 'Msp430TimerCapComP_5_Capture_getEvent'])
+
+Thread reach (3): 
+
+{'sig_ADC_VECTOR': 
+
+set(['Msp430TimerP_0_Timer_setClockSource',
+'HplMsp430GeneralIOP_40_IO_selectIOFunc',
+'Msp430Adc12ImplP_ControlA1_setControl', 'HplAdc12P_HplAdc12_getCtl0',
+'HplMsp430GeneralIOP_44_IO_makeInput', 'Msp430Adc12ImplP_Port63_selectIOFunc',
+'Msp430Adc12ImplP_Port66_selectModuleFunc',
+'Msp430Adc12ImplP_Port67_selectModuleFunc',
+'HplMsp430GeneralIOP_41_IO_makeInput', 'TransformAlarmC_1_AlarmFrom_startAt',
+'Msp430AlarmC_1_Alarm_startAt', 'Msp430Adc12ImplP_Port60_makeInput',
+'SchedulerBasicP_isWaiting', 'HplMsp430GeneralIOP_44_IO_selectModuleFunc',
+'Msp430Adc12ImplP_HplAdc12_getCtl0', 'Msp430Adc12ImplP_Port65_makeInput',
+'Msp430Adc12ImplP_Overflow_default_memOverflow',
+'Msp430CounterC_0_Msp430Timer_get', 'HplMsp430GeneralIOP_43_IO_selectIOFunc',
+'Msp430TimerCapComP_1_Control_setControl',
+'Msp430Adc12ImplP_TimerA_setClockSource',
+'HplMsp430GeneralIOP_46_IO_selectModuleFunc',
+'Msp430Adc12ImplP_SingleChannel_configureMultiple',
+'Msp430Adc12ImplP_ControlA0_setControl',
+'HplMsp430GeneralIOP_41_IO_selectModuleFunc',
+'Msp430TimerCapComP_1_Compare_setEvent', 'HplAdc12P_HplAdc12_startConversion',
+'TransformCounterC_0_Counter_get', 'TransformAlarmC_1_Alarm_getNow',
+'AdcP_readDone_postTask', 'Msp430Adc12ImplP_Port61_selectIOFunc',
+'Msp430TimerCapComP_0_Control_setControl', 'HplAdc12P_HplAdc12_stopConversion',
+'Msp430Adc12ImplP_CompareA1_setEvent', 'HplAdc12P_HplAdc12_resetIFGs',
+'Msp430Adc12ImplP_Port65_selectIOFunc', 'Msp430Adc12ImplP_TimerA_clear',
+'HplMsp430GeneralIOP_45_IO_makeInput', 'AdcP_ReadNow_default_readDone',
+'Msp430Adc12ImplP_Port67_makeInput', 'AdcStreamP_Alarm_getNow',
+'Msp430Adc12ImplP_HplAdc12_getMem', 'AdcP_SingleChannel_multipleDataReady',
+'HplMsp430GeneralIOP_43_IO_makeInput',
+'Msp430Adc12ImplP_Overflow_conversionTimeOverflow',
+'HplMsp430GeneralIOP_42_IO_selectIOFunc',
+'HplMsp430GeneralIOP_42_IO_selectModuleFunc', 'Msp430TimerP_0_Timer_clear',
+'Msp430InternalVoltageP_AdcConfigure_getConfiguration',
+'AdcStreamP_SingleChannel_default_configureMultiple', 'AdcStreamP_nextBuffer',
+'Msp430Adc12ImplP_HplAdc12_resetIFGs', 'Msp430Adc12ImplP_HplAdc12_setCtl0',
+'Msp430Adc12ImplP_Port66_selectIOFunc', '__nesc_disable_interrupt',
+'Msp430Adc12ImplP_prepareTimerA', 'HplMsp430GeneralIOP_47_IO_makeInput',
+'Msp430Adc12ImplP_Port65_selectModuleFunc', 'Msp430TimerCapComP_5_Timer_get',
+'HplMsp430GeneralIOP_47_IO_selectModuleFunc',
+'Msp430CounterC_0_Counter_isOverflowPending',
+'Msp430Adc12ImplP_SingleChannel_getData', 'AdcStreamP_readStreamDone_postTask',
+'AdcStreamP_SingleChannel_default_getData', 'Msp430Adc12ImplP_Port61_makeInput',
+'HplAdc12P_HplAdc12_setMCtl', 'Msp430Adc12ImplP_Port66_makeInput',
+'TransformCounterC_0_CounterFrom_get', 'Msp430Adc12ImplP_HplAdc12_setIEFlags',
+'sig_ADC_VECTOR', 'HplMsp430GeneralIOP_47_IO_selectIOFunc',
+'AdcStreamP_Alarm_startAt', 'Msp430Adc12ImplP_HplAdc12_conversionDone',
+'SchedulerBasicP_pushTask', 'Msp430Adc12ImplP_HplAdc12_stopConversion',
+'Msp430TimerCapComP_5_Control_clearPendingInterrupt',
+'Msp430Adc12ImplP_SingleChannel_multipleDataReady',
+'Msp430Adc12ImplP_Port62_selectModuleFunc', 'Msp430Adc12ImplP_Port64_makeInput',
+'Msp430Adc12ImplP_Port64_selectIOFunc', 'TransformAlarmC_1_set_alarm',
+'Msp430CounterC_0_Msp430Timer_isOverflowPending', 'Msp430TimerP_1_Timer_get',
+'Msp430TimerP_1_Timer_isOverflowPending', 'TransformAlarmC_1_Counter_get',
+'Msp430Adc12ImplP_Port63_selectModuleFunc',
+'Msp430Adc12ImplP_Port60_selectIOFunc',
+'Msp430Adc12ImplP_SingleChannel_singleDataReady',
+'Msp430Adc12ImplP_Port63_makeInput', '__nesc_enable_interrupt',
+'HplMsp430GeneralIOP_46_IO_makeInput',
+'HplMsp430GeneralIOP_45_IO_selectModuleFunc',
+'AdcStreamP_SingleChannel_getData',
+'Msp430TimerCapComP_5_Compare_setEventFromNow', 'Msp430TimerCapComP_1_CC2int',
+'TransformCounterC_0_CounterFrom_isOverflowPending',
+'Msp430Adc12ImplP_HplAdc12_setMCtl', 'Msp430Adc12ImplP_CompareA0_setEvent',
+'Msp430TimerP_0_Timer_setInputDivider',
+'Msp430AlarmC_1_Msp430Compare_setEventFromNow',
+'Msp430RefVoltGeneratorP_HplAdc12_conversionDone',
+'AdcStreamP_SingleChannel_configureMultiple', 'Msp430Adc12ImplP_startTimerA',
+'AdcP_ReadNow_readDone', 'AdcStreamP_nextMultiple', '__nesc_atomic_end',
+'AdcStreamP_SingleChannel_singleDataReady', 'Msp430Adc12ImplP_TimerA_setMode',
+'Msp430Adc12ImplP_configureAdcPin', 'Msp430TimerCapComP_0_Compare_setEvent',
+'Msp430Adc12ImplP_TimerA_setInputDivider',
+'AdcStreamP_SingleChannel_multipleDataReady',
+'Msp430Adc12ImplP_Port62_makeInput',
+'Msp430AlarmC_1_Msp430TimerControl_enableEvents',
+'HplMsp430GeneralIOP_40_IO_selectModuleFunc', 'HplAdc12P_HplAdc12_setIEFlags',
+'AdcStreamP_AdcConfigure_getConfiguration',
+'Msp430Adc12ImplP_SingleChannel_default_singleDataReady',
+'Msp430Adc12ImplP_Port64_selectModuleFunc',
+'HplMsp430GeneralIOP_40_IO_makeInput',
+'Msp430Adc12ImplP_Port61_selectModuleFunc',
+'HplMsp430GeneralIOP_43_IO_selectModuleFunc',
+'Msp430Adc12ImplP_Overflow_default_conversionTimeOverflow',
+'Msp430Adc12ImplP_Port67_selectIOFunc',
+'Msp430Adc12ImplP_HplAdc12_startConversion',
+'Msp430Adc12ImplP_HplAdc12_setCtl1', 'Msp430TimerCapComP_0_CC2int',
+'AdcP_SingleChannel_singleDataReady',
+'AdcStreamP_AdcConfigure_default_getConfiguration',
+'HplMsp430GeneralIOP_41_IO_selectIOFunc', 'HplMsp430GeneralIOP_42_IO_makeInput',
+'SimpleArbiterP_0_ArbiterInfo_userId', 'Msp430Adc12ImplP_stopConversion',
+'__nesc_atomic_start', 'AdcStreamP_readStreamFail_postTask',
+'Msp430AlarmC_1_Msp430Compare_setEvent', 'SchedulerBasicP_TaskBasic_postTask',
+'TransformAlarmC_1_Alarm_startAt',
+'Msp430Adc12ImplP_MultiChannel_default_dataReady',
+'Msp430AlarmC_1_Msp430Timer_get', 'Msp430TimerCapComP_5_Control_enableEvents',
+'Msp430AlarmC_1_Msp430TimerControl_clearPendingInterrupt',
+'Msp430Adc12ImplP_SingleChannel_default_multipleDataReady',
+'HplMsp430GeneralIOP_44_IO_selectIOFunc', 'Msp430TimerP_0_Timer_disableEvents',
+'AdcStreamP_bufferDone_postTask', 'HplAdc12P_HplAdc12_setCtl1',
+'HplAdc12P_HplAdc12_setCtl0', 'HplAdc12P_HplAdc12_conversionDone',
+'Msp430Adc12ImplP_HplAdc12_getMCtl', 'Msp430CounterC_0_Counter_get',
+'Msp430TimerP_0_Timer_setMode', 'Msp430Adc12ImplP_resetAdcPin',
+'HplAdc12P_HplAdc12_getMCtl', 'HplMsp430GeneralIOP_46_IO_selectIOFunc',
+'AdcStreamP_nextAlarm', 'AdcStreamP_postBuffer',
+'Msp430TimerCapComP_5_Compare_setEvent',
+'Msp430Adc12ImplP_TimerA_disableEvents',
+'Msp430Adc12ImplP_ADCArbiterInfo_userId', 'HplAdc12P_HplAdc12_getMem',
+'HplMsp430GeneralIOP_45_IO_selectIOFunc',
+'Msp430Adc12ImplP_Port62_selectIOFunc', 'Msp430Adc12ImplP_Overflow_memOverflow',
+'Msp430Adc12ImplP_Port60_selectModuleFunc',
+'Msp430Adc12ImplP_MultiChannel_dataReady']), 
+
+'main':
+
+set(['Msp430TimerP_0_Timer_setClockSource',
+'Msp430RefVoltArbiterImplP_RefVolt_1_5V_start',
+'Msp430Adc12ConfAlertC_0_ConfUp_getConfiguration',
+'HplMsp430GeneralIOP_44_IO_makeInput', 'Msp430GpioC_0_GeneralIO_makeOutput',
+'HplMsp430GeneralIOP_38_IO_makeOutput', 'TOSH_MAKE_SIMO0_OUTPUT',
+'LedsP_Led0_makeOutput', 'Msp430RefVoltArbiterImplP_RefVolt_1_5V_startDone',
+'SenseC_Leds_led2Off', 'MotePlatformC_TOSH_FLASH_M25P_DP',
+'ArbitratedReadStreamC_0_Resource_release', 'SimpleArbiterP_0_Resource_granted',
+'TransformAlarmC_0_AlarmFrom_startAt',
+'AdcStreamP_SingleChannel_default_getData',
+'AdcStreamP_SingleChannel_default_configureSingle',
+'TransformAlarmC_0_AlarmFrom_stop', 'AdcP_Config_getConfiguration',
+'LedsP_Led2_clr', 'Msp430GpioC_0_GeneralIO_clr',
+'TransformCounterC_0_Counter_get', 'SenseC_Leds_led1Off',
+'HplMsp430GeneralIOP_46_IO_selectModuleFunc',
+'Msp430TimerCapComP_3_compareControl',
+'Msp430RefVoltArbiterImplP_ClientResource_request',
+'Msp430Adc12ImplP_Port66_selectModuleFunc',
+'AdcP_ResourceReadNow_default_granted', 'AdcStreamP_readStreamFail_runTask',
+'Msp430Adc12ImplP_Port67_makeInput', 'AdcP_ResourceRead_default_release',
+'PlatformP_MoteClockInit_init', 'AdcStreamP_sampleSingle',
+'AlarmToTimerC_0_Alarm_getAlarm',
+'SimpleArbiterP_0_ResourceConfigure_unconfigure', 'TOSH_MAKE_FLASH_CS_OUTPUT',
+'Msp430RefVoltGeneratorP_SwitchOnTimer_stop', 'Msp430TimerP_0_Timer_clear',
+'AlarmToTimerC_0_fired_runTask', 'AdcP_SubResourceReadNow_granted',
+'SimpleArbiterP_0_grantedTask_postTask',
+'HplMsp430GeneralIOP_47_IO_selectModuleFunc', 'Msp430GpioC_0_HplGeneralIO_set',
+'SenseC_Read_readDone', 'RoundRobinResourceQueueC_0_clearEntry',
+'VirtualizeTimerC_0_updateFromTimer_postTask', 'Msp430GpioC_0_HplGeneralIO_clr',
+'Msp430ClockP_Msp430ClockInit_default_initTimerB',
+'TransformCounterC_0_CounterFrom_get', 'LedsP_Led0_clr',
+'Msp430RefVoltGeneratorP_RefVolt_2_5V_start', 'SchedulerBasicP_popTask',
+'LedsP_Led2_set', '__nesc_enable_interrupt', 'Msp430ClockP_startTimerB',
+'Msp430ClockP_startTimerA', 'HplMsp430GeneralIOP_46_IO_makeInput',
+'TOSH_MAKE_FLASH_HOLD_OUTPUT', 'SimpleArbiterP_0_Resource_default_granted',
+'Msp430RefVoltGeneratorP_RefVolt_2_5V_startDone',
+'Msp430TimerCapComP_5_Control_clearPendingInterrupt',
+'Msp430AlarmC_0_Msp430TimerControl_disableEvents', 'SchedulerBasicP_pushTask',
+'Msp430Adc12ImplP_Port62_selectModuleFunc', '__nesc_atomic_end',
+'MotePlatformC_Init_init', 'AdcP_ResourceRead_default_request',
+'VirtualizeTimerC_0_updateFromTimer_runTask', 'Msp430GpioC_2_GeneralIO_set',
+'Msp430AlarmC_1_Msp430TimerControl_enableEvents',
+'SimpleArbiterP_0_Resource_request',
+'Msp430RefVoltArbiterImplP_ClientResource_default_granted',
+'ArbitratedReadStreamC_0_Service_bufferDone', 'RealMainP_Boot_booted',
+'HplMsp430GeneralIOP_40_IO_makeInput', 'VirtualizeTimerC_0_Timer_startPeriodic',
+'Msp430Adc12ConfAlertC_2_ConfSub_getConfiguration',
+'Msp430RefVoltArbiterImplP_AdcResource_release', 'Msp430GpioC_0_GeneralIO_set',
+'RoundRobinResourceQueueC_0_RoundRobinQueue_isEnqueued',
+'TransformAlarmC_0_Counter_get', 'LedsP_Led0_set',
+'Msp430GpioC_1_GeneralIO_set', 'McuSleepC_computePowerState',
+'HplMsp430GeneralIOP_37_IO_set', 'Msp430RefVoltGeneratorP_SwitchOffTimer_stop',
+'HplMsp430GeneralIOP_42_IO_makeInput', 'AdcP_Config_default_getConfiguration',
+'TOSH_SET_SIMO0_PIN', 'Msp430RefVoltArbiterImplP_RefVolt_2_5V_stopDone',
+'ArbitratedReadStreamC_0_ReadStream_bufferDone',
+'HplMsp430GeneralIOP_43_IO_selectModuleFunc',
+'Msp430TimerCapComP_5_Control_enableEvents',
+'McuSleepC_McuPowerOverride_default_lowestState',
+'MotePlatformC_TOSH_FLASH_M25P_DP_bit', 'Msp430GpioC_2_HplGeneralIO_makeOutput',
+'Msp430RefVoltArbiterImplP_Config_default_getConfiguration',
+'AlarmToTimerC_0_Alarm_stop', 'Msp430GpioC_1_HplGeneralIO_makeOutput',
+'ArbitratedReadStreamC_0_Service_readDone',
+'AdcP_SingleChannel_default_configureSingle',
+'Msp430GpioC_0_HplGeneralIO_makeOutput',
+'Msp430Adc12ImplP_TimerA_disableEvents',
+'Msp430Adc12ImplP_ADCArbiterInfo_userId', 'SenseC_Timer_startPeriodic',
+'VirtualizeTimerC_0_Timer_stop', 'TransformAlarmC_1_Alarm_startAt',
+'AdcP_configure', 'Msp430RefVoltGeneratorP_HplAdc12_setCtl0',
+'Msp430Adc12ImplP_ControlA1_setControl', 'TransformAlarmC_0_set_alarm',
+'HplAdc12P_HplAdc12_getCtl0', 'AlarmToTimerC_0_Alarm_startAt',
+'Msp430ClockP_Msp430ClockInit_initTimerA',
+'Msp430ClockP_Msp430ClockInit_initTimerB', 'mcombine',
+'Msp430Adc12ImplP_TimerA_clear', 'HplMsp430GeneralIOP_38_IO_clr',
+'Msp430Adc12ImplP_Port65_selectModuleFunc', 'ecombine', 'SenseC_Boot_booted',
+'Msp430TimerCapComP_1_Control_setControl', 'main',
+'HplMsp430GeneralIOP_36_IO_set', 'SchedulerBasicP_McuSleep_sleep',
+'HplMsp430GeneralIOP_41_IO_selectModuleFunc',
+'HplAdc12P_HplAdc12_startConversion', 'Msp430Adc12ImplP_TimerA_setClockSource',
+'Msp430RefVoltArbiterImplP_ClientResource_granted',
+'HplMsp430GeneralIOP_45_IO_makeInput',
+'Msp430RefVoltArbiterImplP_switchOff_postTask',
+'Msp430Adc12ImplP_Port63_makeInput',
+'HplMsp430GeneralIOP_42_IO_selectModuleFunc', 'SenseC_Read_read',
+'Msp430InternalVoltageP_AdcConfigure_getConfiguration', 'AdcStreamP_nextBuffer',
+'Msp430TimerP_1_Timer_isOverflowPending',
+'ArbitratedReadStreamC_0_Service_read', 'SimpleArbiterP_0_grantedTask_runTask',
+'Msp430Adc12ImplP_prepareTimerA', 'ArbitratedReadStreamC_0_ReadStream_readDone',
+'Msp430TimerCapComP_5_Timer_get', 'Msp430Adc12ImplP_SingleChannel_getData',
+'SchedulerBasicP_Scheduler_runNextTask',
+'RoundRobinResourceQueueC_0_RoundRobinQueue_isEmpty',
+'Msp430TimerCapComP_3_Compare_setEventFromNow',
+'VirtualizeTimerC_0_Timer_default_fired',
+'AlarmToTimerC_0_Timer_startOneShotAt', 'AdcP_SingleChannel_getData',
+'Msp430Adc12ImplP_Port64_makeInput',
+'Msp430CounterC_0_Msp430Timer_isOverflowPending',
+'Msp430TimerCapComP_3_Timer_get', 'Msp430TimerCapComP_3_Control_disableEvents',
+'Msp430TimerCapComP_3_CC2int', 'Msp430TimerCapComP_1_CC2int',
+'Msp430Adc12ImplP_HplAdc12_setMCtl',
+'Msp430RefVoltGeneratorP_SwitchOnTimer_fired', 'Msp430Adc12ImplP_startTimerA',
+'AdcStreamP_nextMultiple', 'Msp430TimerCapComP_3_Control_clearPendingInterrupt',
+'AdcStreamP_ReadStream_readDone',
+'Msp430AlarmC_0_Msp430TimerControl_enableEvents',
+'Msp430Adc12ImplP_configureAdcPin', 'MotePlatformC_TOSH_wait',
+'Msp430RefVoltGeneratorP_RefVolt_1_5V_startDone', 'memset',
+'TOSH_SET_FLASH_HOLD_PIN', 'LedsP_Init_init',
+'Msp430RefVoltArbiterImplP_RefVolt_2_5V_start',
+'Msp430Adc12ImplP_Port61_selectModuleFunc', 'Msp430AlarmC_0_Msp430Timer_get',
+'HplMsp430GeneralIOP_36_IO_clr', 'LedsP_Led1_makeOutput',
+'AdcStreamP_AdcConfigure_default_getConfiguration',
+'Msp430RefVoltArbiterImplP_RefVolt_1_5V_stopDone', 'LedsP_Leds_led0Off',
+'SimpleArbiterP_0_ArbiterInfo_userId',
+'Msp430AlarmC_0_Msp430TimerControl_clearPendingInterrupt',
+'Msp430ClockP_Msp430ClockInit_defaultInitClocks',
+'Msp430RefVoltGeneratorP_SwitchOffTimer_startOneShot',
+'PlatformP_LedsInit_init', 'Msp430RefVoltGeneratorP_SwitchOnTimer_startOneShot',
+'Msp430AlarmC_0_Msp430Compare_setEvent',
+'ArbitratedReadStreamC_0_Resource_granted',
+'VirtualizeTimerC_0_Timer_startOneShot', 'Msp430AlarmC_0_Init_init',
+'Msp430TimerCapComP_0_Compare_setEvent', 'TOSH_MAKE_UCLK0_OUTPUT',
+'Msp430RefVoltArbiterImplP_RefVolt_2_5V_startDone', 'AdcP_ResourceRead_request',
+'Msp430RefVoltGeneratorP_RefVolt_1_5V_stopDone',
+'TransformAlarmC_0_Alarm_startAt', 'RealMainP_SoftwareInit_init',
+'Msp430Adc12ImplP_HplAdc12_getMCtl', 'Msp430CounterC_0_Counter_get',
+'SimpleArbiterP_0_ResourceConfigure_configure',
+'TransformCounterC_0_CounterFrom_isOverflowPending', 'AdcStreamP_nextAlarm',
+'SimpleArbiterP_0_Queue_enqueue', 'AdcStreamP_postBuffer',
+'Msp430ClockP_Msp430ClockInit_initClocks',
+'Msp430Adc12ConfAlertC_0_ConfSub_getConfiguration',
+'AdcP_SingleChannel_default_getData',
+'ArbitratedReadStreamC_0_ReadStream_default_readDone',
+'SimpleArbiterP_0_Resource_release',
+'Msp430RefVoltArbiterImplP_AdcResource_default_release',
+'Msp430Adc12ImplP_Port67_selectModuleFunc', 'HplAdc12P_HplAdc12_isBusy',
+'HplMsp430GeneralIOP_44_IO_selectModuleFunc',
+'Msp430Adc12ImplP_HplAdc12_getCtl0', 'AdcP_ResourceRead_release',
+'Msp430Adc12ImplP_Port65_makeInput', 'AlarmToTimerC_0_start',
+'AlarmToTimerC_0_Timer_getNow',
+'ArbitratedReadStreamC_0_ReadStream_default_bufferDone',
+'VirtualizeTimerC_0_fireTimers', 'RealMainP_Scheduler_runNextTask',
+'Msp430Adc12ImplP_ControlA0_setControl', 'LedsP_Led2_makeOutput',
+'Msp430TimerCapComP_1_Compare_setEvent', 'AlarmToTimerC_0_Alarm_getNow',
+'VirtualizeTimerC_0_TimerFrom_fired', 'AdcStreamP_Init_init',
+'HplAdc12P_HplAdc12_stopConversion', 'Msp430Adc12ImplP_TimerA_setInputDivider',
+'TOSH_CLR_FLASH_CS_PIN', 'Msp430RefVoltArbiterImplP_ClientResource_release',
+'Msp430Adc12ImplP_SingleChannel_configureSingle',
+'AdcStreamP_SingleChannel_default_configureMultiple',
+'Msp430Adc12ImplP_HplAdc12_setCtl1', 'Msp430Adc12ImplP_HplAdc12_setCtl0',
+'__nesc_disable_interrupt', 'SenseC_Timer_fired',
+'Msp430CounterC_0_Counter_isOverflowPending',
+'AdcStreamP_readStreamDone_postTask', 'Msp430Adc12ImplP_Port61_makeInput',
+'LedsP_Leds_led1Off', 'HplAdc12P_HplAdc12_setMCtl',
+'Msp430GpioC_1_HplGeneralIO_set', 'Msp430AlarmC_0_Alarm_stop',
+'AdcStreamP_Alarm_startAt',
+'Msp430AlarmC_0_Msp430TimerControl_setControlAsCompare',
+'SchedulerBasicP_TaskBasic_runTask',
+'Msp430RefVoltGeneratorP_SwitchOffTimer_fired',
+'Msp430RefVoltArbiterImplP_AdcResource_default_request',
+'SchedulerBasicP_Scheduler_taskLoop', 'LedsP_Led1_clr',
+'Msp430GpioC_2_GeneralIO_clr', 'Msp430GpioC_1_GeneralIO_clr',
+'Msp430RefVoltGeneratorP_RefVolt_1_5V_start',
+'Msp430RefVoltArbiterImplP_RefVolt_1_5V_stop', 'TransformAlarmC_0_Alarm_getNow',
+'AdcStreamP_SingleChannel_getData',
+'Msp430TimerCapComP_5_Compare_setEventFromNow',
+'Msp430TimerP_0_Timer_setInputDivider', 'AdcP_ResourceRead_granted',
+'Msp430GpioC_2_HplGeneralIO_clr', 'Msp430Adc12ImplP_TimerA_setMode',
+'LedsP_Leds_led2On', 'HplAdc12P_HplAdc12_setIEFlags', 'LedsP_Leds_led0On',
+'AdcStreamP_AdcConfigure_getConfiguration',
+'SchedulerBasicP_TaskBasic_default_runTask',
+'SimpleArbiterP_0_ResourceConfigure_default_unconfigure',
+'AdcP_Read_default_readDone', 'Msp430ClockP_Msp430ClockInit_default_initTimerA',
+'Msp430GpioC_1_GeneralIO_makeOutput', 'Msp430TimerCapComP_3_Compare_setEvent',
+'PlatformP_MoteInit_init', 'VirtualizeTimerC_0_Timer_fired',
+'Msp430RefVoltArbiterImplP_AdcResource_request',
+'Msp430RefVoltGeneratorP_HplAdc12_isBusy',
+'Msp430RefVoltGeneratorP_RefVolt_1_5V_stop',
+'Msp430RefVoltArbiterImplP_Config_getConfiguration',
+'SimpleArbiterP_0_ResourceRequested_requested',
+'AdcStreamP_SingleChannel_configureSingle', 'HplMsp430GeneralIOP_38_IO_set',
+'__nesc_atomic_start', 'SenseC_Leds_led0On',
+'Msp430AlarmC_1_Msp430Compare_setEvent',
+'Msp430AlarmC_1_Msp430TimerControl_clearPendingInterrupt',
+'Msp430ClockP_Msp430ClockInit_default_initClocks',
+'AdcP_ResourceReadNow_granted',
+'RoundRobinResourceQueueC_0_RoundRobinQueue_enqueue',
+'RealMainP_Scheduler_taskLoop',
+'Msp430TimerCapComP_3_Control_setControlAsCompare', 'SenseC_Leds_led2On',
+'Msp430TimerP_0_Timer_disableEvents', 'HplAdc12P_HplAdc12_setCtl1',
+'HplAdc12P_HplAdc12_setCtl0', 'TOSH_SET_FLASH_CS_PIN',
+'McuSleepC_McuSleep_sleep', 'Msp430RefVoltGeneratorP_switchOff',
+'HplMsp430GeneralIOP_47_IO_makeInput', 'SchedulerBasicP_Scheduler_init',
+'McuSleepC_getPowerState', 'Msp430TimerP_0_Timer_setMode',
+'TransformAlarmC_0_Alarm_getAlarm',
+'Msp430RefVoltGeneratorP_RefVolt_2_5V_stopDone',
+'Msp430AlarmC_0_Msp430Compare_setEventFromNow',
+'Msp430RefVoltGeneratorP_HplAdc12_getCtl0',
+'Msp430TimerCapComP_5_Compare_setEvent', 'Msp430GpioC_1_HplGeneralIO_clr',
+'AdcStreamP_ReadStream_read', 'RealMainP_Scheduler_init',
+'Msp430Adc12ConfAlertC_1_ConfSub_getConfiguration',
+'Msp430Adc12ImplP_Port60_selectModuleFunc',
+'Msp430GpioC_2_GeneralIO_makeOutput', 'Msp430RefVoltGeneratorP_switchOn',
+'LedsP_Led1_set', 'HplMsp430GeneralIOP_45_IO_selectModuleFunc',
+'HplMsp430GeneralIOP_41_IO_makeInput', 'TransformAlarmC_1_AlarmFrom_startAt',
+'Msp430AlarmC_1_Alarm_startAt', 'Msp430Adc12ImplP_Port60_makeInput',
+'SimpleArbiterP_0_Queue_isEmpty', 'Msp430TimerCapComP_3_Control_enableEvents',
+'Msp430Adc12ConfAlertC_1_ConfUp_getConfiguration', 'SchedulerBasicP_isWaiting',
+'AdcP_SingleChannel_configureSingle', 'Msp430TimerP_1_Timer_get',
+'AdcStreamP_ReadStream_bufferDone', 'Msp430Adc12ImplP_Init_init',
+'Msp430CounterC_0_Msp430Timer_get', 'HplMsp430GeneralIOP_37_IO_makeOutput',
+'Msp430Adc12ImplP_SingleChannel_configureMultiple',
+'HplMsp430GeneralIOP_36_IO_makeOutput', 'RealMainP_PlatformInit_init',
+'Msp430Adc12ConfAlertC_2_ConfUp_getConfiguration',
+'TransformAlarmC_1_Alarm_getNow', 'Msp430TimerCapComP_0_Control_setControl',
+'Msp430Adc12ImplP_CompareA1_setEvent',
+'VirtualizeTimerC_0_TimerFrom_startOneShotAt', 'AdcStreamP_Alarm_getNow',
+'Msp430RefVoltArbiterImplP_switchOff_runTask',
+'McuSleepC_McuPowerOverride_lowestState',
+'Msp430RefVoltArbiterImplP_AdcResource_granted',
+'Msp430Adc12ImplP_HplAdc12_setIEFlags', 'AdcP_Read_read', 'TOSH_CLR_UCLK0_PIN',
+'TOSH_SET_UCLK0_PIN', 'LedsP_Leds_led1On', 'Msp430Adc12ImplP_Port66_makeInput',
+'Msp430ClockP_Msp430ClockInit_defaultInitTimerB',
+'Msp430ClockP_Msp430ClockInit_defaultInitTimerA',
+'Msp430Adc12ImplP_HplAdc12_stopConversion', 'VirtualizeTimerC_0_TimerFrom_stop',
+'VirtualizeTimerC_0_TimerFrom_getNow', 'AdcP_Read_readDone',
+'TransformAlarmC_1_set_alarm', 'Msp430ClockP_Init_init',
+'TransformAlarmC_1_Counter_get', 'Msp430Adc12ImplP_Port63_selectModuleFunc',
+'TOSH_CLR_SIMO0_PIN', 'SimpleArbiterP_0_ResourceRequested_default_requested',
+'Msp430Adc12ImplP_CompareA0_setEvent', 'HplMsp430GeneralIOP_37_IO_clr',
+'Msp430AlarmC_1_Msp430Compare_setEventFromNow',
+'AdcStreamP_SingleChannel_configureMultiple', 'SenseC_Leds_led1On',
+'AdcStreamP_readStreamFail_postTask', 'SenseC_Leds_led0Off',
+'Msp430Adc12ImplP_Port62_makeInput',
+'HplMsp430GeneralIOP_40_IO_selectModuleFunc',
+'Msp430Adc12ImplP_Port64_selectModuleFunc', 'PlatformP_Init_init',
+'AdcP_readDone_runTask', 'RoundRobinResourceQueueC_0_Init_init',
+'HplMsp430GeneralIOP_43_IO_makeInput',
+'Msp430Adc12ImplP_HplAdc12_startConversion', 'AdcStreamP_bufferDone_runTask',
+'Msp430AlarmC_0_Alarm_startAt', 'LedsP_Leds_led2Off',
+'Msp430GpioC_2_HplGeneralIO_set', 'TransformAlarmC_0_Alarm_stop',
+'SchedulerBasicP_TaskBasic_postTask',
+'SimpleArbiterP_0_ResourceConfigure_default_configure',
+'AlarmToTimerC_0_Timer_stop', 'Msp430AlarmC_1_Msp430Timer_get',
+'AdcStreamP_readStreamDone_runTask', 'AlarmToTimerC_0_Timer_fired',
+'SimpleArbiterP_0_Queue_dequeue', 'HplAdc12P_HplAdc12_getMCtl',
+'ArbitratedReadStreamC_0_Resource_default_release',
+'VirtualizeTimerC_0_startTimer', 'Msp430TimerCapComP_0_CC2int',
+'RoundRobinResourceQueueC_0_RoundRobinQueue_dequeue']), 
+
+'sig_TIMERB0_VECTOR':
+
+set(['Msp430Adc12ImplP_ControlA1_setControl', 'TransformAlarmC_0_set_alarm',
+'TransformCounterC_0_Counter_overflow',
+'CounterToLocalTimeC_0_Counter_overflow', 'Msp430TimerCapComP_3_Event_fired',
+'Msp430Adc12ImplP_Port66_selectModuleFunc',
+'Msp430Adc12ImplP_Port67_selectModuleFunc',
+'HplMsp430GeneralIOP_41_IO_makeInput', 'TransformAlarmC_1_AlarmFrom_startAt',
+'Msp430AlarmC_1_Alarm_startAt', 'Msp430TimerCommonP_VectorTimerB0_fired',
+'Msp430Adc12ImplP_Port60_makeInput', 'Msp430TimerP_1_Overflow_fired',
+'Msp430TimerP_1_Event_fired', 'Msp430AlarmC_0_Msp430Timer_overflow',
+'SchedulerBasicP_isWaiting', 'HplMsp430GeneralIOP_44_IO_selectModuleFunc',
+'Msp430TimerP_1_Timer_get', 'Msp430TimerCapComP_3_Capture_captured',
+'Msp430TimerCapComP_6_Capture_default_captured',
+'Msp430Adc12ImplP_Port65_makeInput', 'Msp430CounterC_0_Msp430Timer_get',
+'TransformAlarmC_0_AlarmFrom_startAt',
+'Msp430TimerCapComP_1_Control_setControl',
+'HplMsp430GeneralIOP_40_IO_makeInput', 'Msp430TimerCapComP_6_Timer_overflow',
+'AlarmToTimerC_0_Alarm_fired', 'Msp430TimerCapComP_7_Timer_overflow',
+'HplMsp430GeneralIOP_44_IO_makeInput', 'Msp430TimerCapComP_5_int2CC',
+'HplMsp430GeneralIOP_41_IO_selectModuleFunc',
+'Msp430TimerCapComP_8_Capture_getEvent', 'TransformAlarmC_0_Alarm_fired',
+'Msp430TimerP_1_Timer_overflow', 'HplAdc12P_HplAdc12_startConversion',
+'TransformCounterC_0_Counter_get', 'Msp430Adc12ImplP_Port64_makeInput',
+'Msp430TimerCapComP_7_Capture_default_captured', 'Msp430TimerCapComP_3_int2CC',
+'Msp430TimerCapComP_4_Capture_default_captured',
+'HplMsp430GeneralIOP_45_IO_makeInput', 'Msp430Adc12ImplP_Port67_makeInput',
+'TransformAlarmC_0_Counter_overflow', 'HplMsp430GeneralIOP_43_IO_makeInput',
+'Msp430Adc12ImplP_Port63_makeInput', 'Msp430TimerCapComP_6_Capture_captured',
+'Msp430TimerCapComP_9_Capture_default_captured',
+'TransformAlarmC_0_AlarmFrom_fired', 'Msp430TimerP_1_Event_default_fired',
+'Msp430TimerCapComP_3_Capture_getEvent',
+'HplMsp430GeneralIOP_42_IO_selectModuleFunc',
+'Msp430Adc12ImplP_Port66_makeInput', 'Msp430TimerCapComP_9_Event_fired',
+'Msp430Adc12ImplP_HplAdc12_startConversion',
+'Msp430TimerP_1_Timer_isOverflowPending', 'Msp430TimerCapComP_7_Event_fired',
+'Msp430TimerCapComP_4_Event_fired', 'Msp430TimerCapComP_6_int2CC',
+'Msp430TimerCapComP_5_Compare_fired', 'Msp430TimerCapComP_7_Capture_captured',
+'Msp430Adc12ImplP_HplAdc12_getMCtl', 'Msp430Adc12ImplP_Port65_selectModuleFunc',
+'Msp430AlarmC_1_Msp430Compare_fired', 'Msp430TimerCapComP_5_Timer_get',
+'HplMsp430GeneralIOP_47_IO_selectModuleFunc',
+'Msp430CounterC_0_Counter_isOverflowPending',
+'Msp430Adc12ImplP_SingleChannel_getData', 'Msp430AlarmC_1_Msp430Timer_overflow',
+'AdcStreamP_SingleChannel_default_getData',
+'Msp430TimerCapComP_8_Capture_captured',
+'Msp430TimerCapComP_3_Control_enableEvents',
+'Msp430Adc12ImplP_Port61_makeInput',
+'Msp430TimerCapComP_3_Compare_setEventFromNow',
+'TransformCounterC_0_CounterFrom_get', 'SchedulerBasicP_pushTask',
+'Msp430TimerCapComP_5_Control_clearPendingInterrupt',
+'Msp430TimerP_0_Timer_setMode', 'Msp430TimerCapComP_8_Timer_overflow',
+'Msp430TimerCapComP_4_Compare_fired',
+'Msp430AlarmC_1_Msp430TimerControl_enableEvents',
+'Msp430TimerCapComP_3_Control_getControl', 'sig_TIMERB0_VECTOR',
+'__nesc_disable_interrupt', 'Msp430TimerCapComP_9_Capture_getEvent',
+'Msp430TimerCapComP_3_Capture_default_captured',
+'Msp430TimerCapComP_3_Control_clearPendingInterrupt',
+'Msp430TimerCapComP_9_Control_getControl', 'Msp430AlarmC_0_Alarm_fired',
+'Msp430AlarmC_1_Msp430TimerControl_disableEvents', 'AdcStreamP_Alarm_fired',
+'Msp430TimerCapComP_3_Control_disableEvents',
+'Msp430Adc12ImplP_Port63_selectModuleFunc', 'Msp430TimerCapComP_4_int2CC',
+'__nesc_enable_interrupt', 'Msp430TimerCapComP_8_int2CC',
+'AlarmToTimerC_0_fired_postTask',
+'Msp430TimerCapComP_5_Capture_default_captured',
+'HplMsp430GeneralIOP_46_IO_makeInput',
+'HplMsp430GeneralIOP_45_IO_selectModuleFunc',
+'Msp430CounterC_0_Msp430Timer_overflow', 'AdcStreamP_SingleChannel_getData',
+'Msp430TimerCapComP_5_Compare_setEventFromNow',
+'Msp430TimerCapComP_8_Compare_default_fired', 'Msp430TimerCapComP_1_CC2int',
+'Msp430AlarmC_0_Msp430Compare_setEventFromNow',
+'Msp430TimerCapComP_8_Compare_fired', 'Msp430AlarmC_0_Msp430Compare_fired',
+'Msp430AlarmC_1_Msp430Compare_setEventFromNow', 'TransformAlarmC_1_Alarm_fired',
+'Msp430AlarmC_0_Msp430TimerControl_disableEvents',
+'Msp430Adc12ImplP_startTimerA', 'Msp430TimerCapComP_8_Event_fired',
+'Msp430TimerP_1_VectorTimerX0_fired',
+'Msp430TimerCapComP_8_Capture_default_captured',
+'Msp430Adc12ImplP_Port62_selectModuleFunc', 'TransformAlarmC_1_set_alarm',
+'Msp430AlarmC_0_Msp430TimerControl_enableEvents',
+'Msp430Adc12ImplP_TimerA_setMode', 'Msp430TimerCapComP_6_Control_getControl',
+'AdcStreamP_sampleSingle', 'Msp430Adc12ImplP_configureAdcPin',
+'Msp430TimerCapComP_7_Capture_getEvent', 'Msp430Adc12ImplP_Port62_makeInput',
+'Msp430TimerCapComP_9_Compare_default_fired',
+'Msp430TimerCapComP_4_Compare_default_fired',
+'HplMsp430GeneralIOP_40_IO_selectModuleFunc', '__nesc_atomic_end',
+'Msp430TimerCapComP_5_Control_getControl',
+'Msp430Adc12ImplP_Port64_selectModuleFunc', 'Msp430TimerCapComP_7_int2CC',
+'Msp430TimerCapComP_7_Compare_default_fired',
+'Msp430TimerCapComP_5_Capture_captured',
+'Msp430TimerCapComP_3_Compare_setEvent',
+'Msp430Adc12ImplP_Port61_selectModuleFunc',
+'Msp430CounterC_0_Msp430Timer_isOverflowPending',
+'TransformCounterC_0_CounterFrom_overflow',
+'Msp430TimerCapComP_3_Timer_overflow', 'Msp430AlarmC_0_Msp430Timer_get',
+'Msp430TimerCapComP_4_Timer_overflow', 'Msp430TimerCapComP_9_Capture_captured',
+'TransformAlarmC_0_Counter_get', 'Msp430AlarmC_0_Alarm_startAt',
+'Msp430TimerCapComP_4_Capture_captured', 'Msp430TimerCapComP_3_Compare_fired',
+'Msp430TimerCapComP_8_Control_getControl',
+'SimpleArbiterP_0_ArbiterInfo_userId',
+'Msp430AlarmC_0_Msp430TimerControl_clearPendingInterrupt',
+'Msp430TimerCapComP_5_Control_disableEvents',
+'Msp430AlarmC_0_Msp430Compare_setEvent', 'Msp430TimerCapComP_7_Compare_fired',
+'Msp430TimerCapComP_3_Timer_get', '__nesc_atomic_start',
+'Msp430AlarmC_1_Msp430Compare_setEvent', 'SchedulerBasicP_TaskBasic_postTask',
+'Msp430AlarmC_1_Alarm_fired', 'TransformAlarmC_1_AlarmFrom_fired',
+'Msp430TimerCapComP_4_Capture_getEvent', 'HplMsp430GeneralIOP_42_IO_makeInput',
+'HplMsp430GeneralIOP_43_IO_selectModuleFunc', 'Msp430AlarmC_1_Msp430Timer_get',
+'Msp430TimerCapComP_5_Control_enableEvents',
+'Msp430AlarmC_1_Msp430TimerControl_clearPendingInterrupt',
+'TransformAlarmC_1_Counter_get', 'TransformAlarmC_1_Counter_overflow',
+'Msp430TimerCapComP_7_Control_getControl', 'Msp430CounterC_0_Counter_overflow',
+'Msp430TimerCapComP_6_Event_fired',
+'HplMsp430GeneralIOP_46_IO_selectModuleFunc', 'Msp430CounterC_0_Counter_get',
+'Msp430TimerCapComP_5_Event_fired', 'Msp430TimerCapComP_9_Timer_overflow',
+'Msp430TimerCapComP_6_Compare_default_fired', 'HplAdc12P_HplAdc12_getMCtl',
+'TransformCounterC_0_CounterFrom_isOverflowPending',
+'Msp430TimerCapComP_4_Control_getControl',
+'Msp430TimerCapComP_5_Compare_setEvent', 'Msp430TimerCapComP_6_Compare_fired',
+'Msp430Adc12ImplP_ADCArbiterInfo_userId', 'Msp430TimerCapComP_9_Compare_fired',
+'HplMsp430GeneralIOP_47_IO_makeInput', 'Msp430TimerCapComP_9_int2CC',
+'Msp430TimerCapComP_5_Timer_overflow',
+'Msp430Adc12ImplP_Port60_selectModuleFunc',
+'Msp430TimerCapComP_6_Capture_getEvent',
+'Msp430TimerCapComP_5_Capture_getEvent'])}
+
+Thread common reach: (2):
+
+{'sig_ADC_VECTOR': set(['Msp430TimerP_0_Timer_setClockSource',
+'Msp430Adc12ImplP_ControlA1_setControl', 'HplAdc12P_HplAdc12_getCtl0',
+'HplMsp430GeneralIOP_44_IO_makeInput',
+'Msp430Adc12ImplP_Port66_selectModuleFunc',
+'Msp430Adc12ImplP_Port67_selectModuleFunc',
+'HplMsp430GeneralIOP_41_IO_makeInput', 'TransformAlarmC_1_AlarmFrom_startAt',
+'Msp430AlarmC_1_Alarm_startAt', 'Msp430Adc12ImplP_Port60_makeInput',
+'SchedulerBasicP_isWaiting', 'HplMsp430GeneralIOP_44_IO_selectModuleFunc',
+'Msp430Adc12ImplP_HplAdc12_getCtl0', 'Msp430Adc12ImplP_Port65_makeInput',
+'Msp430CounterC_0_Msp430Timer_get', 'Msp430TimerCapComP_1_Control_setControl',
+'AdcStreamP_SingleChannel_getData', 'Msp430Adc12ImplP_ControlA0_setControl',
+'HplMsp430GeneralIOP_41_IO_selectModuleFunc',
+'HplAdc12P_HplAdc12_startConversion', 'Msp430TimerCapComP_1_Compare_setEvent',
+'TransformAlarmC_1_Alarm_getNow', 'Msp430Adc12ImplP_TimerA_setClockSource',
+'HplMsp430GeneralIOP_46_IO_selectModuleFunc',
+'Msp430TimerCapComP_0_Control_setControl', 'HplAdc12P_HplAdc12_stopConversion',
+'Msp430Adc12ImplP_CompareA1_setEvent',
+'Msp430Adc12ImplP_TimerA_setInputDivider', 'Msp430Adc12ImplP_TimerA_clear',
+'HplMsp430GeneralIOP_45_IO_makeInput', 'Msp430Adc12ImplP_Port67_makeInput',
+'AdcStreamP_Alarm_getNow', 'Msp430Adc12ImplP_Port63_makeInput',
+'HplMsp430GeneralIOP_42_IO_selectModuleFunc', 'Msp430TimerP_0_Timer_clear',
+'TransformAlarmC_1_Alarm_startAt',
+'Msp430InternalVoltageP_AdcConfigure_getConfiguration',
+'AdcStreamP_SingleChannel_default_configureMultiple', 'AdcStreamP_nextBuffer',
+'Msp430Adc12ImplP_HplAdc12_setIEFlags', 'Msp430Adc12ImplP_HplAdc12_setCtl0',
+'__nesc_disable_interrupt', 'Msp430Adc12ImplP_prepareTimerA',
+'Msp430Adc12ImplP_HplAdc12_getMCtl', 'Msp430Adc12ImplP_Port65_selectModuleFunc',
+'Msp430TimerCapComP_5_Timer_get', 'HplMsp430GeneralIOP_47_IO_selectModuleFunc',
+'Msp430CounterC_0_Counter_isOverflowPending',
+'Msp430Adc12ImplP_SingleChannel_getData', 'AdcStreamP_readStreamDone_postTask',
+'AdcStreamP_SingleChannel_default_getData', 'Msp430Adc12ImplP_Port61_makeInput',
+'HplAdc12P_HplAdc12_setMCtl', 'Msp430Adc12ImplP_Port66_makeInput',
+'TransformCounterC_0_CounterFrom_get', 'AdcStreamP_Alarm_startAt',
+'AdcStreamP_readStreamFail_postTask',
+'Msp430Adc12ImplP_HplAdc12_stopConversion',
+'Msp430TimerCapComP_5_Control_clearPendingInterrupt', 'AdcStreamP_nextMultiple',
+'Msp430Adc12ImplP_Port64_makeInput', 'TransformAlarmC_1_set_alarm',
+'Msp430CounterC_0_Msp430Timer_isOverflowPending', 'Msp430TimerP_1_Timer_get',
+'TransformAlarmC_1_Counter_get', 'Msp430Adc12ImplP_Port63_selectModuleFunc',
+'__nesc_enable_interrupt', 'HplMsp430GeneralIOP_46_IO_makeInput',
+'HplMsp430GeneralIOP_45_IO_selectModuleFunc',
+'Msp430Adc12ImplP_SingleChannel_configureMultiple',
+'Msp430TimerCapComP_5_Compare_setEventFromNow', 'Msp430TimerCapComP_1_CC2int',
+'Msp430Adc12ImplP_HplAdc12_setMCtl', 'Msp430Adc12ImplP_CompareA0_setEvent',
+'Msp430TimerP_0_Timer_setInputDivider', 'AdcStreamP_nextAlarm',
+'AdcStreamP_SingleChannel_configureMultiple', 'Msp430Adc12ImplP_startTimerA',
+'SchedulerBasicP_pushTask', 'Msp430Adc12ImplP_Port62_selectModuleFunc',
+'__nesc_atomic_end', 'Msp430Adc12ImplP_TimerA_setMode',
+'Msp430Adc12ImplP_configureAdcPin', 'Msp430TimerCapComP_0_Compare_setEvent',
+'Msp430Adc12ImplP_Port62_makeInput',
+'Msp430AlarmC_1_Msp430TimerControl_enableEvents',
+'HplMsp430GeneralIOP_40_IO_selectModuleFunc', 'HplAdc12P_HplAdc12_setIEFlags',
+'AdcStreamP_AdcConfigure_getConfiguration',
+'Msp430Adc12ImplP_Port64_selectModuleFunc',
+'Msp430TimerCapComP_5_Control_enableEvents',
+'HplMsp430GeneralIOP_40_IO_makeInput',
+'Msp430Adc12ImplP_Port61_selectModuleFunc',
+'HplMsp430GeneralIOP_43_IO_makeInput',
+'Msp430Adc12ImplP_HplAdc12_startConversion',
+'Msp430Adc12ImplP_HplAdc12_setCtl1',
+'AdcStreamP_AdcConfigure_default_getConfiguration',
+'HplMsp430GeneralIOP_42_IO_makeInput', 'SimpleArbiterP_0_ArbiterInfo_userId',
+'__nesc_atomic_start', 'Msp430AlarmC_1_Msp430Compare_setEvent',
+'Msp430TimerP_1_Timer_isOverflowPending',
+'Msp430Adc12ImplP_Port60_selectModuleFunc',
+'HplMsp430GeneralIOP_43_IO_selectModuleFunc', 'Msp430AlarmC_1_Msp430Timer_get',
+'SchedulerBasicP_TaskBasic_postTask',
+'Msp430AlarmC_1_Msp430TimerControl_clearPendingInterrupt',
+'Msp430TimerP_0_Timer_disableEvents', 'HplAdc12P_HplAdc12_setCtl1',
+'HplAdc12P_HplAdc12_setCtl0', 'HplMsp430GeneralIOP_47_IO_makeInput',
+'Msp430CounterC_0_Counter_get', 'Msp430TimerP_0_Timer_setMode',
+'HplAdc12P_HplAdc12_getMCtl',
+'TransformCounterC_0_CounterFrom_isOverflowPending',
+'Msp430AlarmC_1_Msp430Compare_setEventFromNow', 'AdcStreamP_postBuffer',
+'Msp430TimerCapComP_5_Compare_setEvent',
+'Msp430Adc12ImplP_TimerA_disableEvents',
+'Msp430Adc12ImplP_ADCArbiterInfo_userId', 'TransformCounterC_0_Counter_get',
+'Msp430TimerCapComP_0_CC2int']), 
+
+'sig_TIMERB0_VECTOR':
+set(['Msp430Adc12ImplP_ControlA1_setControl', 'TransformAlarmC_0_set_alarm',
+'HplMsp430GeneralIOP_44_IO_makeInput',
+'Msp430Adc12ImplP_Port66_selectModuleFunc',
+'Msp430Adc12ImplP_Port67_selectModuleFunc',
+'HplMsp430GeneralIOP_41_IO_makeInput', 'TransformAlarmC_1_AlarmFrom_startAt',
+'Msp430AlarmC_1_Alarm_startAt', 'Msp430Adc12ImplP_Port60_makeInput',
+'Msp430TimerCapComP_3_Control_enableEvents', 'SchedulerBasicP_isWaiting',
+'HplMsp430GeneralIOP_44_IO_selectModuleFunc', 'Msp430TimerP_1_Timer_get',
+'Msp430Adc12ImplP_Port65_makeInput', 'Msp430CounterC_0_Msp430Timer_get',
+'Msp430TimerCapComP_1_Control_setControl',
+'HplMsp430GeneralIOP_40_IO_makeInput',
+'HplMsp430GeneralIOP_41_IO_selectModuleFunc',
+'HplAdc12P_HplAdc12_startConversion', 'TransformCounterC_0_Counter_get',
+'HplMsp430GeneralIOP_46_IO_selectModuleFunc',
+'Msp430Adc12ImplP_HplAdc12_startConversion',
+'HplMsp430GeneralIOP_45_IO_makeInput', 'Msp430Adc12ImplP_Port67_makeInput',
+'Msp430Adc12ImplP_Port63_makeInput', 'AdcStreamP_sampleSingle',
+'HplMsp430GeneralIOP_42_IO_selectModuleFunc',
+'Msp430Adc12ImplP_Port66_makeInput', 'TransformAlarmC_0_Counter_get',
+'Msp430TimerP_1_Timer_isOverflowPending', '__nesc_disable_interrupt',
+'HplMsp430GeneralIOP_47_IO_makeInput',
+'Msp430Adc12ImplP_Port65_selectModuleFunc', 'Msp430TimerCapComP_5_Timer_get',
+'HplMsp430GeneralIOP_47_IO_selectModuleFunc',
+'Msp430CounterC_0_Counter_isOverflowPending',
+'Msp430Adc12ImplP_SingleChannel_getData', 'TransformAlarmC_0_AlarmFrom_startAt',
+'AdcStreamP_SingleChannel_default_getData', 'Msp430Adc12ImplP_Port61_makeInput',
+'Msp430TimerCapComP_3_Compare_setEventFromNow',
+'TransformCounterC_0_CounterFrom_get',
+'Msp430TimerCapComP_5_Control_clearPendingInterrupt',
+'Msp430AlarmC_1_Msp430TimerControl_enableEvents', 'TransformAlarmC_1_set_alarm',
+'Msp430CounterC_0_Msp430Timer_isOverflowPending',
+'Msp430TimerCapComP_3_Timer_get', 'TransformAlarmC_1_Counter_get',
+'Msp430TimerCapComP_3_Control_disableEvents',
+'Msp430Adc12ImplP_Port63_selectModuleFunc', '__nesc_enable_interrupt',
+'HplMsp430GeneralIOP_46_IO_makeInput',
+'HplMsp430GeneralIOP_45_IO_selectModuleFunc',
+'AdcStreamP_SingleChannel_getData',
+'Msp430TimerCapComP_5_Compare_setEventFromNow', 'Msp430TimerCapComP_1_CC2int',
+'TransformCounterC_0_CounterFrom_isOverflowPending',
+'Msp430AlarmC_0_Msp430TimerControl_disableEvents',
+'Msp430Adc12ImplP_startTimerA', 'SchedulerBasicP_pushTask',
+'Msp430Adc12ImplP_Port62_selectModuleFunc', '__nesc_atomic_end',
+'Msp430TimerCapComP_3_Control_clearPendingInterrupt',
+'Msp430Adc12ImplP_TimerA_setMode',
+'Msp430AlarmC_0_Msp430TimerControl_enableEvents',
+'Msp430Adc12ImplP_configureAdcPin', 'Msp430Adc12ImplP_Port62_makeInput',
+'Msp430Adc12ImplP_Port64_makeInput',
+'HplMsp430GeneralIOP_40_IO_selectModuleFunc',
+'Msp430Adc12ImplP_Port64_selectModuleFunc',
+'Msp430TimerCapComP_3_Compare_setEvent',
+'Msp430Adc12ImplP_Port61_selectModuleFunc', 'Msp430AlarmC_0_Msp430Timer_get',
+'HplMsp430GeneralIOP_43_IO_makeInput',
+'Msp430AlarmC_1_Msp430TimerControl_clearPendingInterrupt',
+'Msp430AlarmC_0_Alarm_startAt', 'HplMsp430GeneralIOP_42_IO_makeInput',
+'SimpleArbiterP_0_ArbiterInfo_userId',
+'Msp430AlarmC_0_Msp430TimerControl_clearPendingInterrupt',
+'Msp430AlarmC_0_Msp430Compare_setEvent', '__nesc_atomic_start',
+'Msp430AlarmC_1_Msp430Compare_setEvent',
+'Msp430TimerCapComP_5_Control_enableEvents',
+'HplMsp430GeneralIOP_43_IO_selectModuleFunc', 'Msp430AlarmC_1_Msp430Timer_get',
+'SchedulerBasicP_TaskBasic_postTask', 'Msp430Adc12ImplP_HplAdc12_getMCtl',
+'Msp430CounterC_0_Counter_get', 'Msp430TimerP_0_Timer_setMode',
+'HplAdc12P_HplAdc12_getMCtl', 'Msp430AlarmC_0_Msp430Compare_setEventFromNow',
+'Msp430AlarmC_1_Msp430Compare_setEventFromNow',
+'Msp430TimerCapComP_5_Compare_setEvent',
+'Msp430Adc12ImplP_ADCArbiterInfo_userId',
+'Msp430Adc12ImplP_Port60_selectModuleFunc'])}
+
+Dead functions (48):
+set(['Msp430TimerP_0_VectorTimerX0_fired', 'Msp430TimerP_0_Overflow_fired', 'Msp430ClockP_Msp430ClockInit_default_setupDcoCalibrate', 'Msp430TimerCapComP_2_Compare_default_fired', 'Msp430TimerCapComP_2_Compare_fired', 'Msp430TimerCapComP_2_Capture_getEvent', 'Msp430TimerCapComP_2_Event_fired', 'Msp430TimerCapComP_2_Control_getControl', 'Msp430TimerCommonP_VectorTimerA1_fired', 'Msp430TimerCapComP_2_Capture_captured', 'sig_TIMERA1_VECTOR', 'Msp430ClockP_Msp430ClockInit_defaultSetupDcoCalibrate', 'Msp430TimerCapComP_2_int2CC', 'Msp430ClockP_test_calib_busywait_delta', 'sig_TIMERB1_VECTOR', 'Msp430ClockP_Msp430ClockInit_setupDcoCalibrate', 'Msp430TimerP_0_Event_default_fired', 'Msp430TimerCommonP_VectorTimerA0_fired', 'Msp430TimerCapComP_2_Capture_default_captured', 'Msp430TimerCapComP_0_Capture_getEvent', 'Msp430TimerCapComP_0_Control_getControl', 'Msp430TimerP_0_Event_fired', 'Msp430ClockP_busyCalibrateDco', 'Msp430TimerCapComP_1_Capture_captured', 'Msp430TimerCapComP_0_Timer_overflow', 'Msp430TimerP_0_Timer_overflow', 'Msp430TimerCapComP_1_Control_getControl', 'MotePlatformC_uwait', 'Msp430TimerCapComP_1_Capture_getEvent', 'Msp430TimerCapComP_0_int2CC', 'Msp430TimerCapComP_0_Capture_captured', 'Msp430Adc12ImplP_CompareA0_fired', 'Msp430TimerCapComP_1_Capture_default_captured', 'Msp430TimerCapComP_0_Compare_fired', 'Msp430TimerCommonP_VectorTimerB1_fired', 'Msp430TimerCapComP_2_Timer_overflow', 'Msp430Adc12ImplP_CompareA1_fired', 'sig_TIMERA0_VECTOR', 'Msp430TimerCapComP_0_Capture_default_captured', 'Msp430TimerCapComP_1_Timer_overflow', 'Msp430TimerP_0_VectorTimerX1_fired', 'Msp430Adc12ImplP_TimerA_overflow', 'Msp430TimerCapComP_1_Compare_fired', 'Msp430ClockP_set_dco_calib', 'Msp430TimerCapComP_1_int2CC', 'Msp430TimerCapComP_1_Event_fired', 'Msp430TimerCapComP_0_Event_fired', 'Msp430TimerP_1_VectorTimerX1_fired'])
+--------------------------------------------------------------------------------
+Global variables (96):
+set(['McuSleepC_msp430PowerBits', 'BCSCTL2', 'BCSCTL1', 'Msp430ClockP_TBCTL', 'HplAdc12P_ADC12IFG', 'P5OUT', 'TBCCTL0', 'Msp430RefVoltArbiterImplP_defaultConfig', 'P1DIR', 'McuSleepC_dirty', 'Msp430Adc12ImplP_resultBufferLength', 'P4DIR', 'TransformAlarmC_0_m_t0', 'Msp430ClockP_IE1', 'AlarmToTimerC_0_m_dt', 'P2OUT', 'AdcStreamP_defaultConfig', 'AdcP_value', 'P3OUT', 'ME2', 'P1IE', 'I2CTCTLnr', 'Msp430Adc12ImplP_numChannels', 'HplAdc12P_ADC12CTL1', 'HplAdc12P_ADC12CTL0', 'P6DIR', 'TransformCounterC_0_m_upper', 'TA0R', 'Msp430Adc12ImplP_state', 'TA0CTL', 'AdcStreamP_bufferQueueEnd', 'Msp430ClockP_TBIV', 'SimpleArbiterP_0_reqResId', 'AdcStreamP_client', 'TA0CCTL2', 'TA0CCTL1', 'TA0CCTL0', 'P2SEL', 'TBR', 'AdcP_defaultConfig', 'AdcStreamP_buffer', 'Msp430InternalVoltageP_config', 'SchedulerBasicP_m_head', 'P2DIR', 'ADC12CTL1', 'Msp430ClockP_TA0IV', 'Msp430RefVoltArbiterImplP_syncOwner', 'SimpleArbiterP_0_state', 'ME1', 'Msp430Adc12ImplP_resultBufferStart', 'P6OUT', 'AdcStreamP_pos', 'RoundRobinResourceQueueC_0_resQ', 'TransformAlarmC_1_m_t0', 'P2IE', 'U0CTLnr', 'U1TCTL', 'AdcStreamP_bufferQueue', 'AdcP_state', 'AdcStreamP_now', 'U0TCTL', 'TransformAlarmC_1_m_dt', 'P6SEL', 'AdcStreamP_lastBuffer', 'P3SEL', 'P5DIR', 'I2CDCTLnr', 'AlarmToTimerC_0_m_oneshot', 'DCOCTL', 'TransformAlarmC_0_m_dt', 'P1OUT', 'P4OUT', 'Msp430Adc12ImplP_resultBufferIndex', 'P4SEL', 'TBCCR0', 'Msp430RefVoltGeneratorP_state', 'P1SEL', 'P3DIR', 'AdcP_owner', 'HplAdc12P_ADC12IV', 'VirtualizeTimerC_0_m_timers', 'HplAdc12P_ADC12IE', 'AdcStreamP_lastCount', 'Msp430Adc12ImplP_clientID', 'RoundRobinResourceQueueC_0_last', 'McuSleepC_powerState', 'SimpleArbiterP_0_resId', 'SchedulerBasicP_m_next', 'AdcStreamP_count', 'ADC12CTL0', 'P5SEL', 'Msp430ClockP_TA0CTL', 'AdcStreamP_periodModified', 'ArbitratedReadStreamC_0_period', 'AdcStreamP_period', 'SchedulerBasicP_m_tail'])
+
+Data accesses (read) (43):
+{'Msp430InternalVoltageP_AdcConfigure_getConfiguration': set(['Msp430InternalVoltageP_config']), 'SimpleArbiterP_0_ArbiterInfo_userId': set(['SimpleArbiterP_0_resId']), 'AdcStreamP_readStreamDone_runTask': set(['AdcStreamP_bufferQueue', 'AdcStreamP_client', 'AdcStreamP_period']), 'Msp430ClockP_Msp430ClockInit_defaultInitClocks': set(['BCSCTL1']), 'Msp430Adc12ImplP_stopConversion': set(['Msp430Adc12ImplP_numChannels']), 'HplAdc12P_HplAdc12_isBusy': set(['HplAdc12P_ADC12CTL1']), 'Msp430RefVoltGeneratorP_SwitchOnTimer_fired': set(['Msp430RefVoltGeneratorP_state']), 'AdcP_Config_default_getConfiguration': set(['AdcP_defaultConfig']), 'TransformCounterC_0_Counter_get': set(['TransformCounterC_0_m_upper']), 'AdcStreamP_nextBuffer': set(['AdcStreamP_bufferQueue', 'AdcStreamP_client', 'AdcStreamP_count']), 'Msp430ClockP_test_calib_busywait_delta': set(['TBR', 'TA0R', 'TBCCTL0']), 'SimpleArbiterP_0_grantedTask_runTask': set(['SimpleArbiterP_0_reqResId']), 'TransformAlarmC_0_Alarm_getAlarm': set(['TransformAlarmC_0_m_t0', 'TransformAlarmC_0_m_dt']), 'SchedulerBasicP_isWaiting': set(['SchedulerBasicP_m_tail', 'SchedulerBasicP_m_next']), 'TransformAlarmC_1_set_alarm': set(['TransformAlarmC_1_m_dt', 'TransformAlarmC_1_m_t0']), 'AdcStreamP_SingleChannel_singleDataReady': set(['AdcStreamP_buffer', 'AdcStreamP_count']), 'TransformAlarmC_0_set_alarm': set(['TransformCounterC_0_m_upper', 'SchedulerBasicP_m_tail', 'TransformAlarmC_1_m_dt', 'SimpleArbiterP_0_resId', 'SchedulerBasicP_m_next', 'TransformAlarmC_1_m_t0', 'TransformAlarmC_0_m_t0', 'TransformAlarmC_0_m_dt']), 'VirtualizeTimerC_0_updateFromTimer_runTask': set(['VirtualizeTimerC_0_m_timers']), 'VirtualizeTimerC_0_fireTimers': set(['VirtualizeTimerC_0_m_timers']), 'AdcStreamP_SingleChannel_multipleDataReady': set(['AdcStreamP_buffer', 'AdcStreamP_pos']), 'MotePlatformC_uwait': set(['TA0R']), 'RoundRobinResourceQueueC_0_RoundRobinQueue_isEmpty': set(['RoundRobinResourceQueueC_0_resQ']), 'McuSleepC_McuSleep_sleep': set(['McuSleepC_powerState', 'McuSleepC_msp430PowerBits']), 'Msp430RefVoltArbiterImplP_Config_default_getConfiguration': set(['Msp430RefVoltArbiterImplP_defaultConfig']), 'Msp430Adc12ImplP_HplAdc12_conversionDone': set(['TransformCounterC_0_m_upper', 'Msp430Adc12ImplP_resultBufferStart', 'Msp430Adc12ImplP_resultBufferIndex', 'AdcStreamP_buffer', 'TransformAlarmC_1_m_dt', 'SimpleArbiterP_0_resId', 'SchedulerBasicP_m_next', 'AdcStreamP_count', 'Msp430Adc12ImplP_resultBufferLength', 'AdcStreamP_client', 'AdcStreamP_pos', 'Msp430Adc12ImplP_state', 'TransformAlarmC_1_m_t0', 'AdcStreamP_period', 'Msp430InternalVoltageP_config', 'Msp430Adc12ImplP_numChannels', 'HplAdc12P_ADC12CTL1', 'AdcP_state', 'SchedulerBasicP_m_tail', 'AdcStreamP_bufferQueue', 'AdcStreamP_defaultConfig']), 'Msp430RefVoltGeneratorP_SwitchOffTimer_fired': set(['Msp430RefVoltGeneratorP_state']), 'Msp430RefVoltGeneratorP_RefVolt_2_5V_start': set(['Msp430RefVoltGeneratorP_state']), 'AdcStreamP_nextAlarm': set(['AdcStreamP_period']), 'AdcStreamP_Init_init': set(['TransformCounterC_0_m_upper', 'Msp430RefVoltArbiterImplP_defaultConfig', 'AdcStreamP_lastCount', 'McuSleepC_msp430PowerBits', 'AdcP_defaultConfig', 'BCSCTL1', 'Msp430RefVoltGeneratorP_state', 'SchedulerBasicP_m_head', 'McuSleepC_powerState', 'TransformAlarmC_1_m_dt', 'SimpleArbiterP_0_resId', 'SchedulerBasicP_m_next', 'AdcStreamP_count', 'SimpleArbiterP_0_reqResId', 'RoundRobinResourceQueueC_0_last', 'AdcStreamP_client', 'Msp430ClockP_TA0CTL', 'RoundRobinResourceQueueC_0_resQ', 'Msp430ClockP_TBCTL', 'AdcStreamP_lastBuffer', 'TransformAlarmC_1_m_t0', 'TransformAlarmC_0_m_t0', 'VirtualizeTimerC_0_m_timers', 'AdcStreamP_period', 'Msp430InternalVoltageP_config', 'HplAdc12P_ADC12CTL1', 'SchedulerBasicP_m_tail', 'AdcStreamP_bufferQueue', 'TransformAlarmC_0_m_dt', 'AdcStreamP_defaultConfig']), 'HplAdc12P_HplAdc12_stopConversion': set(['HplAdc12P_ADC12CTL1']), 'VirtualizeTimerC_0_startTimer': set(['VirtualizeTimerC_0_m_timers']), 'Msp430RefVoltGeneratorP_RefVolt_1_5V_start': set(['Msp430RefVoltGeneratorP_state']), 'RoundRobinResourceQueueC_0_RoundRobinQueue_isEnqueued': set(['RoundRobinResourceQueueC_0_resQ']), 'SchedulerBasicP_popTask': set(['SchedulerBasicP_m_head', 'SchedulerBasicP_m_next']), 'Msp430ClockP_set_dco_calib': set(['BCSCTL1']), 'AdcStreamP_readStreamFail_runTask': set(['AdcStreamP_bufferQueue', 'AdcStreamP_client']), 'AdcStreamP_bufferDone_runTask': set(['AdcStreamP_lastCount', 'AdcStreamP_lastBuffer']), 'AdcP_SingleChannel_singleDataReady': set(['AdcP_state']), 'AdcStreamP_AdcConfigure_default_getConfiguration': set(['AdcStreamP_defaultConfig']), 'RoundRobinResourceQueueC_0_RoundRobinQueue_dequeue': set(['RoundRobinResourceQueueC_0_last']), 'Msp430ClockP_startTimerB': set(['Msp430ClockP_TBCTL']), 'Msp430ClockP_startTimerA': set(['Msp430ClockP_TA0CTL']), 'Msp430RefVoltGeneratorP_RefVolt_1_5V_stop': set(['Msp430RefVoltGeneratorP_state'])}
+
+Data accesses (write) (56):
+{'AdcP_SubResourceReadNow_granted': set(['AdcP_state']), 'SimpleArbiterP_0_Resource_release': set(['SimpleArbiterP_0_reqResId', 'SimpleArbiterP_0_state', 'SimpleArbiterP_0_resId']), 'TransformAlarmC_0_set_alarm': set(['Msp430Adc12ImplP_state', 'SchedulerBasicP_m_head', 'TransformAlarmC_1_m_dt', 'SchedulerBasicP_m_tail', 'Msp430Adc12ImplP_clientID', 'TransformAlarmC_1_m_t0', 'TransformAlarmC_0_m_t0', 'TransformAlarmC_0_m_dt', 'HplAdc12P_ADC12CTL0', 'SchedulerBasicP_m_next']), 'Msp430ClockP_Msp430ClockInit_defaultInitClocks': set(['BCSCTL2', 'Msp430ClockP_IE1', 'BCSCTL1']), 'Msp430Adc12ImplP_SingleChannel_configureMultiple': set(['Msp430Adc12ImplP_resultBufferIndex', 'Msp430Adc12ImplP_resultBufferStart', 'Msp430Adc12ImplP_state', 'Msp430Adc12ImplP_resultBufferLength']), 'Msp430RefVoltArbiterImplP_AdcResource_granted': set(['Msp430RefVoltArbiterImplP_syncOwner']), 'Msp430Adc12ImplP_SingleChannel_configureSingle': set(['Msp430Adc12ImplP_state']), 'Msp430Adc12ImplP_stopConversion': set(['Msp430Adc12ImplP_state']), 'Msp430RefVoltGeneratorP_SwitchOnTimer_fired': set(['Msp430RefVoltGeneratorP_state']), 'AdcStreamP_nextBuffer': set(['AdcStreamP_client', 'AdcStreamP_buffer', 'AdcStreamP_count', 'AdcStreamP_bufferQueueEnd', 'AdcStreamP_bufferQueue', 'AdcStreamP_pos']), 'AdcP_ResourceRead_granted': set(['AdcP_state']), 'HplAdc12P_HplAdc12_setIEFlags': set(['HplAdc12P_ADC12IE']), 'Msp430ClockP_Msp430ClockInit_defaultSetupDcoCalibrate': set(['BCSCTL2', 'TBCCTL0', 'BCSCTL1', 'Msp430ClockP_TBCTL', 'Msp430ClockP_TA0CTL']), 'Msp430ClockP_test_calib_busywait_delta': set(['TBCCR0', 'TBCCTL0']), 'SimpleArbiterP_0_grantedTask_runTask': set(['SimpleArbiterP_0_state', 'SimpleArbiterP_0_resId']), 'SchedulerBasicP_pushTask': set(['SchedulerBasicP_m_head', 'SchedulerBasicP_m_tail', 'SchedulerBasicP_m_next']), 'RoundRobinResourceQueueC_0_RoundRobinQueue_enqueue': set(['RoundRobinResourceQueueC_0_resQ']), 'TransformAlarmC_1_set_alarm': set(['TransformAlarmC_1_m_dt', 'TransformAlarmC_1_m_t0']), 'TransformAlarmC_1_Alarm_startAt': set(['TransformAlarmC_1_m_dt', 'TransformAlarmC_1_m_t0']), 'MotePlatformC_Init_init': set(['P4SEL', 'P1OUT', 'P1DIR', 'P3OUT', 'P4OUT', 'P2SEL', 'P3SEL', 'P2IE', 'P1IE', 'P5OUT', 'P3DIR', 'P5DIR', 'P1SEL', 'P6OUT', 'P4DIR', 'P5SEL', 'P6SEL', 'P2DIR', 'P2OUT', 'P6DIR']), 'AdcStreamP_SingleChannel_singleDataReady': set(['AdcStreamP_now', 'AdcStreamP_lastCount', 'AdcStreamP_lastBuffer', 'AdcStreamP_bufferQueueEnd', 'AdcStreamP_client', 'AdcStreamP_pos']), 'AdcStreamP_SingleChannel_multipleDataReady': set(['AdcStreamP_lastCount', 'AdcStreamP_bufferQueueEnd', 'AdcStreamP_client', 'AdcStreamP_lastBuffer']), 'Msp430Adc12ImplP_SingleChannel_getData': set(['Msp430Adc12ImplP_clientID', 'Msp430Adc12ImplP_state']), 'AlarmToTimerC_0_start': set(['AlarmToTimerC_0_m_dt', 'AlarmToTimerC_0_m_oneshot']), 'HplAdc12P_HplAdc12_setCtl1': set(['HplAdc12P_ADC12CTL1']), 'RoundRobinResourceQueueC_0_clearEntry': set(['RoundRobinResourceQueueC_0_resQ']), 'HplAdc12P_HplAdc12_setCtl0': set(['HplAdc12P_ADC12CTL0']), 'Msp430RefVoltArbiterImplP_switchOff_runTask': set(['Msp430RefVoltArbiterImplP_syncOwner']), 'AdcStreamP_readStreamDone_runTask': set(['AdcStreamP_bufferQueue', 'AdcStreamP_bufferQueueEnd', 'AdcStreamP_client']), 'SimpleArbiterP_0_Resource_request': set(['SimpleArbiterP_0_reqResId', 'SimpleArbiterP_0_state']), 'Msp430ClockP_Msp430ClockInit_defaultInitTimerB': set(['TBR', 'Msp430ClockP_TBCTL']), 'Msp430ClockP_Msp430ClockInit_defaultInitTimerA': set(['TA0R', 'Msp430ClockP_TA0CTL']), 'SchedulerBasicP_Scheduler_init': set(['P1OUT', 'P3OUT', 'P4OUT', 'Msp430ClockP_TA0IV', 'AdcStreamP_now', 'BCSCTL2', 'BCSCTL1', 'Msp430RefVoltArbiterImplP_syncOwner', 'Msp430RefVoltGeneratorP_state', 'SimpleArbiterP_0_state', 'TA0R', 'P1SEL', 'P6OUT', 'AdcStreamP_period', 'P3DIR', 'AdcStreamP_bufferQueueEnd', 'P1IE', 'RoundRobinResourceQueueC_0_resQ', 'Msp430ClockP_TBCTL', 'TransformAlarmC_1_m_t0', 'P2IE', 'P5OUT', 'AdcStreamP_client', 'HplAdc12P_ADC12CTL1', 'HplAdc12P_ADC12CTL0', 'P6DIR', 'HplAdc12P_ADC12IE', 'AdcStreamP_bufferQueue', 'AdcStreamP_pos', 'AdcP_state', 'P4SEL', 'P1DIR', 'Msp430Adc12ImplP_clientID', 'RoundRobinResourceQueueC_0_last', 'SchedulerBasicP_m_tail', 'McuSleepC_powerState', 'Msp430Adc12ImplP_resultBufferIndex', 'SimpleArbiterP_0_resId', 'SchedulerBasicP_m_next', 'AdcStreamP_count', 'Msp430ClockP_IE1', 'Msp430ClockP_TBIV', 'SimpleArbiterP_0_reqResId', 'P6SEL', 'AlarmToTimerC_0_m_dt', 'Msp430ClockP_TA0CTL', 'AdcStreamP_periodModified', 'P4DIR', 'AdcStreamP_lastBuffer', 'P2SEL', 'P3SEL', 'Msp430Adc12ImplP_resultBufferLength', 'TBR', 'AdcStreamP_buffer', 'P5DIR', 'Msp430Adc12ImplP_state', 'TransformAlarmC_0_m_t0', 'Msp430Adc12ImplP_resultBufferStart', 'TransformAlarmC_1_m_dt', 'AlarmToTimerC_0_m_oneshot', 'SchedulerBasicP_m_head', 'P5SEL', 'P2DIR', 'P2OUT', 'TransformAlarmC_0_m_dt']), 'Msp430Adc12ImplP_HplAdc12_conversionDone': set(['AdcStreamP_now', 'AdcP_value', 'Msp430Adc12ImplP_resultBufferStart', 'Msp430Adc12ImplP_resultBufferIndex', 'Msp430Adc12ImplP_clientID', 'TransformAlarmC_1_m_t0', 'AdcStreamP_lastCount', 'SchedulerBasicP_m_tail', 'AdcStreamP_buffer', 'TransformAlarmC_1_m_dt', 'SchedulerBasicP_m_next', 'AdcStreamP_count', 'Msp430Adc12ImplP_resultBufferLength', 'AdcStreamP_bufferQueueEnd', 'AdcStreamP_pos', 'AdcP_owner', 'Msp430Adc12ImplP_state', 'AdcStreamP_lastBuffer', 'HplAdc12P_ADC12IFG', 'HplAdc12P_ADC12IV', 'AdcStreamP_client', 'HplAdc12P_ADC12CTL1', 'HplAdc12P_ADC12CTL0', 'SchedulerBasicP_m_head', 'HplAdc12P_ADC12IE', 'AdcStreamP_bufferQueue']), 'Msp430RefVoltGeneratorP_SwitchOffTimer_fired': set(['Msp430RefVoltGeneratorP_state']), 'Msp430RefVoltGeneratorP_RefVolt_2_5V_start': set(['Msp430RefVoltGeneratorP_state']), 'HplAdc12P_HplAdc12_startConversion': set(['HplAdc12P_ADC12CTL0']), 'AdcStreamP_nextAlarm': set(['AdcStreamP_now']), 'AdcStreamP_postBuffer': set(['AdcStreamP_bufferQueueEnd']), 'AdcStreamP_Init_init': set(['AdcStreamP_bufferQueueEnd']), 'HplAdc12P_HplAdc12_stopConversion': set(['HplAdc12P_ADC12CTL1', 'HplAdc12P_ADC12CTL0']), 'HplAdc12P_HplAdc12_resetIFGs': set(['HplAdc12P_ADC12IFG', 'HplAdc12P_ADC12IV']), 'Msp430RefVoltGeneratorP_RefVolt_1_5V_start': set(['Msp430RefVoltGeneratorP_state']), 'Msp430ClockP_Init_init': set(['Msp430ClockP_TBIV', 'Msp430ClockP_TBCTL', 'Msp430ClockP_TA0IV', 'Msp430ClockP_TA0CTL']), 'SchedulerBasicP_popTask': set(['SchedulerBasicP_m_head', 'SchedulerBasicP_m_tail', 'SchedulerBasicP_m_next']), 'AdcStreamP_ReadStream_read': set(['AdcStreamP_now', 'AdcStreamP_periodModified', 'AdcStreamP_client', 'AdcStreamP_period']), 'Msp430ClockP_set_dco_calib': set(['BCSCTL1', 'DCOCTL']), 'AdcStreamP_readStreamFail_runTask': set(['AdcStreamP_bufferQueue', 'AdcStreamP_bufferQueueEnd', 'AdcStreamP_client']), 'TransformAlarmC_0_Alarm_startAt': set(['TransformAlarmC_0_m_t0', 'TransformAlarmC_0_m_dt']), 'McuSleepC_computePowerState': set(['McuSleepC_powerState']), 'AdcStreamP_bufferDone_runTask': set(['AdcStreamP_lastBuffer']), 'AdcP_SingleChannel_singleDataReady': set(['AdcP_owner', 'AdcP_value']), 'RoundRobinResourceQueueC_0_RoundRobinQueue_dequeue': set(['RoundRobinResourceQueueC_0_last']), 'Msp430ClockP_startTimerB': set(['Msp430ClockP_TBCTL']), 'Msp430ClockP_startTimerA': set(['Msp430ClockP_TA0CTL']), 'Msp430RefVoltGeneratorP_RefVolt_1_5V_stop': set(['Msp430RefVoltGeneratorP_state'])}
+
+Function calls (384):
+{'Msp430AlarmC_1_Msp430Compare_fired': ['Msp430AlarmC_1_Msp430TimerControl_disableEvents', 'Msp430AlarmC_1_Alarm_fired'], 'Msp430RefVoltArbiterImplP_RefVolt_1_5V_start': ['Msp430RefVoltGeneratorP_RefVolt_1_5V_start'], 'Msp430Adc12ConfAlertC_0_ConfUp_getConfiguration': ['Msp430InternalVoltageP_AdcConfigure_getConfiguration'], 'Msp430Adc12ImplP_Port63_selectIOFunc': ['HplMsp430GeneralIOP_43_IO_selectIOFunc'], 'Msp430Adc12ImplP_Port66_selectModuleFunc': ['HplMsp430GeneralIOP_46_IO_selectModuleFunc'], 'Msp430TimerCapComP_3_Capture_captured': ['Msp430TimerCapComP_3_Capture_default_captured'], 'SenseC_Leds_led2Off': ['LedsP_Leds_led2Off'], 'MotePlatformC_TOSH_FLASH_M25P_DP': ['TOSH_MAKE_SIMO0_OUTPUT', 'TOSH_MAKE_UCLK0_OUTPUT', 'TOSH_MAKE_FLASH_HOLD_OUTPUT', 'TOSH_MAKE_FLASH_CS_OUTPUT', 'TOSH_SET_FLASH_HOLD_PIN', 'TOSH_SET_FLASH_CS_PIN', 'MotePlatformC_TOSH_wait', 'TOSH_CLR_FLASH_CS_PIN', 'TOSH_CLR_UCLK0_PIN', 'MotePlatformC_TOSH_FLASH_M25P_DP_bit', 'MotePlatformC_TOSH_FLASH_M25P_DP_bit', 'MotePlatformC_TOSH_FLASH_M25P_DP_bit', 'MotePlatformC_TOSH_FLASH_M25P_DP_bit', 'MotePlatformC_TOSH_FLASH_M25P_DP_bit', 'MotePlatformC_TOSH_FLASH_M25P_DP_bit', 'MotePlatformC_TOSH_FLASH_M25P_DP_bit', 'MotePlatformC_TOSH_FLASH_M25P_DP_bit', 'TOSH_SET_FLASH_CS_PIN', 'TOSH_SET_UCLK0_PIN', 'TOSH_SET_SIMO0_PIN'], 'ArbitratedReadStreamC_0_Resource_release': ['Msp430RefVoltArbiterImplP_ClientResource_release', 'ArbitratedReadStreamC_0_Resource_default_release'], 'SimpleArbiterP_0_Resource_granted': ['Msp430RefVoltArbiterImplP_AdcResource_granted', 'Msp430RefVoltArbiterImplP_AdcResource_granted', 'Msp430RefVoltArbiterImplP_AdcResource_granted', 'SimpleArbiterP_0_Resource_default_granted'], 'SchedulerBasicP_Scheduler_runNextTask': ['SchedulerBasicP_popTask', 'SchedulerBasicP_TaskBasic_runTask'], 'AlarmToTimerC_0_Alarm_fired': ['AlarmToTimerC_0_fired_postTask'], 'TransformAlarmC_0_AlarmFrom_stop': ['Msp430AlarmC_0_Alarm_stop'], 'AdcP_Config_getConfiguration': ['Msp430InternalVoltageP_AdcConfigure_getConfiguration', 'Msp430InternalVoltageP_AdcConfigure_getConfiguration', 'AdcP_Config_default_getConfiguration'], 'LedsP_Led2_clr': ['Msp430GpioC_2_GeneralIO_clr'], 'Msp430GpioC_0_GeneralIO_clr': ['Msp430GpioC_0_HplGeneralIO_clr'], 'TransformCounterC_0_Counter_get': ['__nesc_atomic_start', 'TransformCounterC_0_CounterFrom_get', 'TransformCounterC_0_CounterFrom_get', 'TransformCounterC_0_CounterFrom_isOverflowPending', '__nesc_atomic_end'], 'SenseC_Leds_led1Off': ['LedsP_Leds_led1Off'], 'Msp430TimerCapComP_3_compareControl': ['Msp430TimerCapComP_3_CC2int'], 'Msp430RefVoltArbiterImplP_ClientResource_request': ['Msp430RefVoltArbiterImplP_AdcResource_request'], 'Msp430GpioC_0_GeneralIO_makeOutput': ['Msp430GpioC_0_HplGeneralIO_makeOutput'], 'AdcStreamP_readStreamFail_runTask': ['__nesc_atomic_start', '__nesc_atomic_end', 'AdcStreamP_ReadStream_bufferDone', '__nesc_atomic_start', '__nesc_atomic_end', 'AdcStreamP_ReadStream_readDone'], 'Msp430Adc12ImplP_Port67_makeInput': ['HplMsp430GeneralIOP_47_IO_makeInput'], 'PlatformP_MoteClockInit_init': ['Msp430ClockP_Init_init'], 'Msp430Adc12ImplP_Port67_selectIOFunc': ['HplMsp430GeneralIOP_47_IO_selectIOFunc'], 'Msp430TimerCapComP_6_Capture_captured': ['Msp430TimerCapComP_6_Capture_default_captured'], 'AdcStreamP_sampleSingle': ['AdcStreamP_SingleChannel_getData'], 'AlarmToTimerC_0_Alarm_getAlarm': ['TransformAlarmC_0_Alarm_getAlarm'], 'SimpleArbiterP_0_ResourceConfigure_unconfigure': ['SimpleArbiterP_0_ResourceConfigure_default_unconfigure'], 'Msp430RefVoltGeneratorP_SwitchOnTimer_stop': ['VirtualizeTimerC_0_Timer_stop'], 'Msp430TimerCapComP_9_Event_fired': ['Msp430TimerCapComP_9_Capture_captured', 'Msp430TimerCapComP_9_Capture_getEvent', 'Msp430TimerCapComP_9_Control_getControl', 'Msp430TimerCapComP_9_Compare_fired'], 'Msp430TimerCommonP_VectorTimerA1_fired': ['Msp430TimerP_0_VectorTimerX1_fired'], 'AlarmToTimerC_0_fired_runTask': ['AlarmToTimerC_0_start', 'AlarmToTimerC_0_Alarm_getAlarm', 'AlarmToTimerC_0_Timer_fired'], 'AdcP_SubResourceReadNow_granted': ['AdcP_configure', 'AdcP_ResourceReadNow_granted'], 'SimpleArbiterP_0_grantedTask_postTask': ['SchedulerBasicP_TaskBasic_postTask'], 'Msp430GpioC_0_HplGeneralIO_set': ['HplMsp430GeneralIOP_36_IO_set'], 'SenseC_Read_readDone': ['SenseC_Leds_led2On', 'SenseC_Leds_led2Off', 'SenseC_Leds_led1On', 'SenseC_Leds_led1Off', 'SenseC_Leds_led0On', 'SenseC_Leds_led0Off'], 'VirtualizeTimerC_0_updateFromTimer_postTask': ['SchedulerBasicP_TaskBasic_postTask'], 'Msp430GpioC_0_HplGeneralIO_clr': ['HplMsp430GeneralIOP_36_IO_clr'], 'TransformCounterC_0_CounterFrom_get': ['Msp430CounterC_0_Counter_get'], 'Msp430Adc12ImplP_HplAdc12_conversionDone': ['Msp430Adc12ImplP_Overflow_memOverflow', 'Msp430Adc12ImplP_Overflow_conversionTimeOverflow', 'Msp430Adc12ImplP_HplAdc12_getCtl0', 'Msp430Adc12ImplP_stopConversion', 'Msp430Adc12ImplP_SingleChannel_singleDataReady', 'Msp430Adc12ImplP_HplAdc12_getMem', 'Msp430Adc12ImplP_SingleChannel_singleDataReady', 'Msp430Adc12ImplP_HplAdc12_getMem', 'Msp430Adc12ImplP_stopConversion', 'Msp430Adc12ImplP_HplAdc12_getMem', 'Msp430Adc12ImplP_stopConversion', 'Msp430Adc12ImplP_MultiChannel_dataReady', 'Msp430Adc12ImplP_HplAdc12_getMem', 'Msp430Adc12ImplP_stopConversion', 'Msp430Adc12ImplP_SingleChannel_multipleDataReady', 'Msp430Adc12ImplP_HplAdc12_getMCtl', 'Msp430Adc12ImplP_HplAdc12_setMCtl', 'Msp430Adc12ImplP_HplAdc12_getMem', 'Msp430Adc12ImplP_SingleChannel_multipleDataReady', 'Msp430Adc12ImplP_stopConversion'], 'LedsP_Led0_clr': ['Msp430GpioC_0_GeneralIO_clr'], 'Msp430RefVoltGeneratorP_RefVolt_2_5V_start': ['Msp430RefVoltGeneratorP_SwitchOffTimer_stop', 'Msp430RefVoltGeneratorP_RefVolt_2_5V_startDone', 'Msp430RefVoltGeneratorP_SwitchOnTimer_startOneShot', 'Msp430RefVoltGeneratorP_switchOn', 'Msp430RefVoltGeneratorP_SwitchOffTimer_stop', 'Msp430RefVoltGeneratorP_RefVolt_2_5V_startDone', 'Msp430RefVoltGeneratorP_switchOn'], 'sig_TIMERA0_VECTOR': ['Msp430TimerCommonP_VectorTimerA0_fired'], 'SchedulerBasicP_TaskBasic_postTask': ['__nesc_atomic_start', 'SchedulerBasicP_pushTask', '__nesc_atomic_end', '__nesc_atomic_end'], 'Msp430TimerCapComP_9_Control_getControl': ['Msp430TimerCapComP_9_int2CC'], 'Msp430RefVoltArbiterImplP_RefVolt_1_5V_startDone': ['Msp430RefVoltArbiterImplP_ClientResource_granted'], 'Msp430Adc12ImplP_Port60_selectIOFunc': ['HplMsp430GeneralIOP_40_IO_selectIOFunc'], 'LedsP_Led2_set': ['Msp430GpioC_2_GeneralIO_set'], 'Msp430Adc12ImplP_prepareTimerA': ['Msp430Adc12ImplP_TimerA_setMode', 'Msp430Adc12ImplP_TimerA_clear', 'Msp430Adc12ImplP_TimerA_disableEvents', 'Msp430Adc12ImplP_TimerA_setClockSource', 'Msp430Adc12ImplP_TimerA_setInputDivider', 'Msp430Adc12ImplP_ControlA0_setControl', 'Msp430Adc12ImplP_CompareA0_setEvent', 'Msp430Adc12ImplP_CompareA1_setEvent'], 'Msp430AlarmC_0_Msp430TimerControl_disableEvents': ['Msp430TimerCapComP_3_Control_disableEvents'], 'sig_TIMERB1_VECTOR': ['Msp430TimerCommonP_VectorTimerB1_fired'], 'Msp430TimerCapComP_8_Event_fired': ['Msp430TimerCapComP_8_Capture_captured', 'Msp430TimerCapComP_8_Capture_getEvent', 'Msp430TimerCapComP_8_Control_getControl', 'Msp430TimerCapComP_8_Compare_fired'], 'SchedulerBasicP_pushTask': ['SchedulerBasicP_isWaiting'], 'Msp430Adc12ImplP_Port62_selectModuleFunc': ['HplMsp430GeneralIOP_42_IO_selectModuleFunc'], '__nesc_atomic_end': ['__nesc_enable_interrupt'], 'MotePlatformC_Init_init': ['MotePlatformC_TOSH_FLASH_M25P_DP'], 'Msp430TimerCapComP_1_Capture_captured': ['Msp430TimerCapComP_1_Capture_default_captured'], 'VirtualizeTimerC_0_updateFromTimer_runTask': ['VirtualizeTimerC_0_TimerFrom_getNow', 'VirtualizeTimerC_0_TimerFrom_stop', 'VirtualizeTimerC_0_fireTimers', 'VirtualizeTimerC_0_TimerFrom_startOneShotAt'], 'Msp430GpioC_2_GeneralIO_set': ['Msp430GpioC_2_HplGeneralIO_set'], 'Msp430AlarmC_1_Msp430TimerControl_enableEvents': ['Msp430TimerCapComP_5_Control_enableEvents'], 'SimpleArbiterP_0_Resource_request': ['SimpleArbiterP_0_ResourceRequested_requested', '__nesc_atomic_start', 'SimpleArbiterP_0_grantedTask_postTask', '__nesc_atomic_end', 'SimpleArbiterP_0_Queue_enqueue', '__nesc_atomic_end', '__nesc_atomic_end'], 'ArbitratedReadStreamC_0_Service_bufferDone': ['ArbitratedReadStreamC_0_ReadStream_bufferDone'], 'RealMainP_Boot_booted': ['SenseC_Boot_booted'], 'VirtualizeTimerC_0_Timer_startPeriodic': ['VirtualizeTimerC_0_startTimer', 'VirtualizeTimerC_0_TimerFrom_getNow'], 'Msp430Adc12ConfAlertC_2_ConfSub_getConfiguration': ['Msp430Adc12ConfAlertC_2_ConfUp_getConfiguration'], 'Msp430RefVoltArbiterImplP_AdcResource_release': ['SimpleArbiterP_0_Resource_release', 'SimpleArbiterP_0_Resource_release', 'SimpleArbiterP_0_Resource_release', 'Msp430RefVoltArbiterImplP_AdcResource_default_release'], 'Msp430GpioC_0_GeneralIO_set': ['Msp430GpioC_0_HplGeneralIO_set'], 'Msp430TimerCapComP_9_Capture_captured': ['Msp430TimerCapComP_9_Capture_default_captured'], 'TransformAlarmC_0_Counter_get': ['TransformCounterC_0_Counter_get'], 'LedsP_Led0_set': ['Msp430GpioC_0_GeneralIO_set'], 'Msp430GpioC_1_GeneralIO_set': ['Msp430GpioC_1_HplGeneralIO_set'], 'McuSleepC_computePowerState': ['mcombine', 'McuSleepC_getPowerState', 'McuSleepC_McuPowerOverride_lowestState'], 'HplMsp430GeneralIOP_37_IO_set': ['__nesc_atomic_start', '__nesc_atomic_end'], 'Msp430RefVoltGeneratorP_SwitchOffTimer_stop': ['VirtualizeTimerC_0_Timer_stop'], 'Msp430TimerCapComP_3_Compare_fired': ['Msp430AlarmC_0_Msp430Compare_fired'], 'Msp430TimerCapComP_2_Capture_captured': ['Msp430TimerCapComP_2_Capture_default_captured'], 'sig_TIMERA1_VECTOR': ['Msp430TimerCommonP_VectorTimerA1_fired'], 'Msp430AlarmC_1_Alarm_fired': ['TransformAlarmC_1_AlarmFrom_fired'], 'ArbitratedReadStreamC_0_ReadStream_bufferDone': ['ArbitratedReadStreamC_0_ReadStream_default_bufferDone'], 'TransformAlarmC_1_Alarm_startAt': ['TransformAlarmC_1_set_alarm'], 'MotePlatformC_TOSH_FLASH_M25P_DP_bit': ['TOSH_SET_SIMO0_PIN', 'TOSH_CLR_SIMO0_PIN', 'TOSH_SET_UCLK0_PIN', 'TOSH_CLR_UCLK0_PIN'], 'main': ['__nesc_atomic_start', 'RealMainP_Scheduler_init', 'RealMainP_PlatformInit_init', 'RealMainP_Scheduler_runNextTask', 'RealMainP_SoftwareInit_init', 'RealMainP_Scheduler_runNextTask', '__nesc_atomic_end', '__nesc_enable_interrupt', 'RealMainP_Boot_booted', 'RealMainP_Scheduler_taskLoop'], 'Msp430GpioC_2_HplGeneralIO_makeOutput': ['HplMsp430GeneralIOP_38_IO_makeOutput'], 'Msp430TimerCapComP_7_Control_getControl': ['Msp430TimerCapComP_7_int2CC'], 'HplAdc12P_HplAdc12_conversionDone': ['Msp430RefVoltGeneratorP_HplAdc12_conversionDone', 'Msp430Adc12ImplP_HplAdc12_conversionDone'], 'AlarmToTimerC_0_Alarm_stop': ['TransformAlarmC_0_Alarm_stop'], 'Msp430GpioC_1_HplGeneralIO_makeOutput': ['HplMsp430GeneralIOP_37_IO_makeOutput'], 'Msp430Adc12ImplP_resetAdcPin': ['Msp430Adc12ImplP_Port60_selectIOFunc', 'Msp430Adc12ImplP_Port61_selectIOFunc', 'Msp430Adc12ImplP_Port62_selectIOFunc', 'Msp430Adc12ImplP_Port63_selectIOFunc', 'Msp430Adc12ImplP_Port64_selectIOFunc', 'Msp430Adc12ImplP_Port65_selectIOFunc', 'Msp430Adc12ImplP_Port66_selectIOFunc', 'Msp430Adc12ImplP_Port67_selectIOFunc'], 'ArbitratedReadStreamC_0_Service_readDone': ['ArbitratedReadStreamC_0_Resource_release', 'ArbitratedReadStreamC_0_ReadStream_readDone'], 'TransformAlarmC_1_AlarmFrom_fired': ['TransformAlarmC_1_Alarm_fired', 'TransformAlarmC_1_set_alarm'], 'Msp430GpioC_0_HplGeneralIO_makeOutput': ['HplMsp430GeneralIOP_36_IO_makeOutput'], 'Msp430Adc12ImplP_TimerA_disableEvents': ['Msp430TimerP_0_Timer_disableEvents'], 'Msp430Adc12ImplP_ADCArbiterInfo_userId': ['SimpleArbiterP_0_ArbiterInfo_userId'], 'SenseC_Timer_startPeriodic': ['VirtualizeTimerC_0_Timer_startPeriodic'], 'AdcP_configure': ['AdcP_Config_getConfiguration', 'AdcP_SingleChannel_configureSingle'], 'Msp430RefVoltGeneratorP_HplAdc12_setCtl0': ['HplAdc12P_HplAdc12_setCtl0'], 'Msp430Adc12ImplP_ControlA1_setControl': ['Msp430TimerCapComP_1_Control_setControl'], 'TransformAlarmC_0_set_alarm': ['TransformAlarmC_0_Counter_get', 'TransformAlarmC_0_AlarmFrom_startAt'], 'AlarmToTimerC_0_Alarm_startAt': ['TransformAlarmC_0_Alarm_startAt'], 'Msp430TimerCapComP_3_Event_fired': ['Msp430TimerCapComP_3_Capture_captured', 'Msp430TimerCapComP_3_Capture_getEvent', 'Msp430TimerCapComP_3_Control_getControl', 'Msp430TimerCapComP_3_Compare_fired'], 'Msp430ClockP_Msp430ClockInit_initTimerA': ['Msp430ClockP_Msp430ClockInit_default_initTimerA'], 'Msp430ClockP_Msp430ClockInit_initTimerB': ['Msp430ClockP_Msp430ClockInit_default_initTimerB'], 'Msp430Adc12ImplP_TimerA_clear': ['Msp430TimerP_0_Timer_clear'], 'HplMsp430GeneralIOP_38_IO_clr': ['__nesc_atomic_start', '__nesc_atomic_end'], 'Msp430Adc12ImplP_Port65_selectModuleFunc': ['HplMsp430GeneralIOP_45_IO_selectModuleFunc'], 'Msp430TimerP_1_Overflow_fired': ['Msp430TimerP_1_Timer_overflow'], 'Msp430ClockP_Msp430ClockInit_setupDcoCalibrate': ['Msp430ClockP_Msp430ClockInit_default_setupDcoCalibrate'], 'SenseC_Boot_booted': ['SenseC_Timer_startPeriodic'], 'Msp430AlarmC_1_Msp430TimerControl_disableEvents': ['Msp430TimerCapComP_5_Control_disableEvents'], 'Msp430TimerCapComP_1_Control_setControl': ['Msp430TimerCapComP_1_CC2int'], 'AdcP_readDone_postTask': ['SchedulerBasicP_TaskBasic_postTask'], 'HplMsp430GeneralIOP_36_IO_set': ['__nesc_atomic_start', '__nesc_atomic_end'], 'SchedulerBasicP_McuSleep_sleep': ['McuSleepC_McuSleep_sleep'], 'Msp430Adc12ImplP_TimerA_setClockSource': ['Msp430TimerP_0_Timer_setClockSource'], 'Msp430TimerCapComP_1_Compare_fired': ['Msp430Adc12ImplP_CompareA1_fired'], 'Msp430RefVoltArbiterImplP_switchOff_postTask': ['SchedulerBasicP_TaskBasic_postTask'], 'Msp430Adc12ImplP_Port63_makeInput': ['HplMsp430GeneralIOP_43_IO_makeInput'], 'Msp430TimerCapComP_8_Compare_fired': ['Msp430TimerCapComP_8_Compare_default_fired'], 'Msp430CounterC_0_Counter_overflow': ['TransformCounterC_0_CounterFrom_overflow'], 'AdcStreamP_nextBuffer': ['__nesc_atomic_start', 'AdcStreamP_readStreamDone_postTask', '__nesc_atomic_end', 'AdcStreamP_nextAlarm', '__nesc_atomic_end', '__nesc_atomic_end'], 'ArbitratedReadStreamC_0_Service_read': ['AdcStreamP_ReadStream_read'], 'SimpleArbiterP_0_grantedTask_runTask': ['__nesc_atomic_start', '__nesc_atomic_end', 'SimpleArbiterP_0_ResourceConfigure_configure', 'SimpleArbiterP_0_Resource_granted'], 'Msp430TimerCapComP_0_Capture_captured': ['Msp430TimerCapComP_0_Capture_default_captured'], 'Msp430TimerCommonP_VectorTimerA0_fired': ['Msp430TimerP_0_VectorTimerX0_fired'], 'ArbitratedReadStreamC_0_ReadStream_readDone': ['ArbitratedReadStreamC_0_ReadStream_default_readDone'], 'Msp430TimerCapComP_5_Timer_get': ['Msp430TimerP_1_Timer_get'], 'Msp430Adc12ImplP_SingleChannel_getData': ['__nesc_atomic_start', '__nesc_atomic_end', '__nesc_atomic_end', 'Msp430Adc12ImplP_configureAdcPin', 'Msp430Adc12ImplP_HplAdc12_getMCtl', 'Msp430Adc12ImplP_HplAdc12_startConversion', 'Msp430Adc12ImplP_startTimerA', '__nesc_atomic_end', 'Msp430Adc12ImplP_ADCArbiterInfo_userId', '__nesc_atomic_end'], 'TransformAlarmC_0_AlarmFrom_startAt': ['Msp430AlarmC_0_Alarm_startAt'], 'Msp430TimerCapComP_3_Compare_setEventFromNow': ['Msp430TimerCapComP_3_Timer_get'], 'AdcP_SingleChannel_getData': ['Msp430Adc12ImplP_SingleChannel_getData', 'Msp430Adc12ImplP_SingleChannel_getData', 'AdcP_SingleChannel_default_getData'], 'Msp430Adc12ImplP_Port64_makeInput': ['HplMsp430GeneralIOP_44_IO_makeInput'], 'Msp430CounterC_0_Msp430Timer_isOverflowPending': ['Msp430TimerP_1_Timer_isOverflowPending'], 'Msp430TimerCapComP_3_Timer_get': ['Msp430TimerP_1_Timer_get'], 'Msp430TimerCommonP_VectorTimerB0_fired': ['Msp430TimerP_1_VectorTimerX0_fired'], 'Msp430CounterC_0_Msp430Timer_overflow': ['Msp430CounterC_0_Counter_overflow'], 'Msp430Adc12ImplP_HplAdc12_setMCtl': ['HplAdc12P_HplAdc12_setMCtl'], 'Msp430RefVoltGeneratorP_SwitchOnTimer_fired': ['Msp430RefVoltGeneratorP_RefVolt_1_5V_startDone', 'Msp430RefVoltGeneratorP_RefVolt_2_5V_startDone'], 'Msp430Adc12ImplP_startTimerA': ['Msp430Adc12ImplP_ControlA1_setControl', 'Msp430Adc12ImplP_ControlA1_setControl', 'Msp430Adc12ImplP_ControlA1_setControl', 'Msp430Adc12ImplP_TimerA_setMode'], 'AdcP_ReadNow_readDone': ['AdcP_ReadNow_default_readDone'], 'AdcStreamP_nextMultiple': ['AdcStreamP_AdcConfigure_getConfiguration', 'AdcStreamP_SingleChannel_getData', 'AdcStreamP_SingleChannel_configureMultiple', 'AdcStreamP_postBuffer', 'AdcStreamP_readStreamFail_postTask', 'AdcStreamP_nextBuffer'], 'AdcP_ResourceRead_release': ['Msp430RefVoltArbiterImplP_ClientResource_release', 'AdcP_ResourceRead_default_release'], 'AdcStreamP_ReadStream_readDone': ['ArbitratedReadStreamC_0_Service_readDone'], 'Msp430TimerCapComP_6_Control_getControl': ['Msp430TimerCapComP_6_int2CC'], 'Msp430AlarmC_0_Msp430TimerControl_enableEvents': ['Msp430TimerCapComP_3_Control_enableEvents'], 'Msp430Adc12ImplP_configureAdcPin': ['Msp430Adc12ImplP_Port60_selectModuleFunc', 'Msp430Adc12ImplP_Port60_makeInput', 'Msp430Adc12ImplP_Port61_selectModuleFunc', 'Msp430Adc12ImplP_Port61_makeInput', 'Msp430Adc12ImplP_Port62_selectModuleFunc', 'Msp430Adc12ImplP_Port62_makeInput', 'Msp430Adc12ImplP_Port63_selectModuleFunc', 'Msp430Adc12ImplP_Port63_makeInput', 'Msp430Adc12ImplP_Port64_selectModuleFunc', 'Msp430Adc12ImplP_Port64_makeInput', 'Msp430Adc12ImplP_Port65_selectModuleFunc', 'Msp430Adc12ImplP_Port65_makeInput', 'Msp430Adc12ImplP_Port66_selectModuleFunc', 'Msp430Adc12ImplP_Port66_makeInput', 'Msp430Adc12ImplP_Port67_selectModuleFunc', 'Msp430Adc12ImplP_Port67_makeInput'], 'Msp430RefVoltGeneratorP_RefVolt_1_5V_startDone': ['Msp430RefVoltArbiterImplP_RefVolt_1_5V_startDone'], 'AlarmToTimerC_0_Timer_startOneShotAt': ['AlarmToTimerC_0_start'], 'SimpleArbiterP_0_Queue_enqueue': ['RoundRobinResourceQueueC_0_RoundRobinQueue_enqueue'], 'LedsP_Init_init': ['LedsP_Led0_makeOutput', 'LedsP_Led1_makeOutput', 'LedsP_Led2_makeOutput', 'LedsP_Led0_set', 'LedsP_Led1_set', 'LedsP_Led2_set'], 'Msp430RefVoltArbiterImplP_RefVolt_2_5V_start': ['Msp430RefVoltGeneratorP_RefVolt_2_5V_start'], 'Msp430Adc12ImplP_Port61_selectModuleFunc': ['HplMsp430GeneralIOP_41_IO_selectModuleFunc'], 'Msp430AlarmC_0_Msp430Timer_get': ['Msp430TimerP_1_Timer_get'], 'AdcStreamP_SingleChannel_multipleDataReady': ['AdcStreamP_readStreamFail_postTask', 'AdcStreamP_bufferDone_postTask', 'AdcStreamP_nextMultiple'], 'HplMsp430GeneralIOP_36_IO_clr': ['__nesc_atomic_start', '__nesc_atomic_end'], 'LedsP_Led1_makeOutput': ['Msp430GpioC_1_GeneralIO_makeOutput'], 'LedsP_Led1_clr': ['Msp430GpioC_1_GeneralIO_clr'], 'Msp430TimerCapComP_4_Capture_captured': ['Msp430TimerCapComP_4_Capture_default_captured'], 'LedsP_Leds_led0Off': ['LedsP_Led0_set'], 'Msp430AlarmC_0_Msp430TimerControl_clearPendingInterrupt': ['Msp430TimerCapComP_3_Control_clearPendingInterrupt'], 'Msp430ClockP_Msp430ClockInit_default_setupDcoCalibrate': ['Msp430ClockP_Msp430ClockInit_defaultSetupDcoCalibrate'], 'Msp430RefVoltGeneratorP_SwitchOffTimer_startOneShot': ['VirtualizeTimerC_0_Timer_startOneShot'], 'PlatformP_LedsInit_init': ['LedsP_Init_init'], 'Msp430RefVoltGeneratorP_SwitchOnTimer_startOneShot': ['VirtualizeTimerC_0_Timer_startOneShot'], 'Msp430AlarmC_0_Msp430Compare_setEvent': ['Msp430TimerCapComP_3_Compare_setEvent'], 'Msp430TimerCapComP_2_Event_fired': ['Msp430TimerCapComP_2_Capture_captured', 'Msp430TimerCapComP_2_Capture_getEvent', 'Msp430TimerCapComP_2_Control_getControl', 'Msp430TimerCapComP_2_Compare_fired'], 'ArbitratedReadStreamC_0_Resource_granted': ['ArbitratedReadStreamC_0_Service_read'], 'Msp430AlarmC_1_Msp430TimerControl_clearPendingInterrupt': ['Msp430TimerCapComP_5_Control_clearPendingInterrupt'], 'Msp430AlarmC_0_Init_init': ['Msp430AlarmC_0_Msp430TimerControl_disableEvents', 'Msp430AlarmC_0_Msp430TimerControl_setControlAsCompare'], 'TransformAlarmC_0_Alarm_getAlarm': ['__nesc_atomic_start', '__nesc_atomic_end', '__nesc_atomic_end'], 'Msp430Adc12ImplP_Port60_selectModuleFunc': ['HplMsp430GeneralIOP_40_IO_selectModuleFunc'], 'Msp430RefVoltArbiterImplP_RefVolt_2_5V_startDone': ['Msp430RefVoltArbiterImplP_ClientResource_granted'], 'Msp430RefVoltArbiterImplP_switchOff_runTask': ['Msp430RefVoltArbiterImplP_RefVolt_1_5V_stop', 'Msp430RefVoltArbiterImplP_switchOff_postTask'], 'Msp430RefVoltGeneratorP_RefVolt_1_5V_stopDone': ['Msp430RefVoltArbiterImplP_RefVolt_1_5V_stopDone'], 'TransformAlarmC_0_Alarm_startAt': ['__nesc_atomic_start', 'TransformAlarmC_0_set_alarm', '__nesc_atomic_end'], 'RealMainP_SoftwareInit_init': ['AdcStreamP_Init_init', 'ecombine', 'RoundRobinResourceQueueC_0_Init_init', 'ecombine', 'Msp430Adc12ImplP_Init_init', 'ecombine', 'Msp430AlarmC_0_Init_init'], 'Msp430Adc12ImplP_HplAdc12_getMCtl': ['HplAdc12P_HplAdc12_getMCtl'], 'Msp430CounterC_0_Counter_get': ['Msp430CounterC_0_Msp430Timer_get'], 'SimpleArbiterP_0_ResourceConfigure_configure': ['SimpleArbiterP_0_ResourceConfigure_default_configure'], 'TransformCounterC_0_CounterFrom_isOverflowPending': ['Msp430CounterC_0_Counter_isOverflowPending'], 'AdcStreamP_nextAlarm': ['AdcStreamP_Alarm_startAt'], 'SenseC_Read_read': ['AdcP_Read_read'], 'AdcStreamP_postBuffer': ['__nesc_atomic_start', '__nesc_atomic_end', '__nesc_atomic_end'], 'Msp430ClockP_Msp430ClockInit_initClocks': ['Msp430ClockP_Msp430ClockInit_default_initClocks'], 'Msp430Adc12ConfAlertC_0_ConfSub_getConfiguration': ['Msp430Adc12ConfAlertC_0_ConfUp_getConfiguration'], 'Msp430TimerCapComP_9_Compare_fired': ['Msp430TimerCapComP_9_Compare_default_fired'], 'Msp430Adc12ImplP_MultiChannel_dataReady': ['Msp430Adc12ImplP_MultiChannel_default_dataReady'], 'SimpleArbiterP_0_Resource_release': ['__nesc_atomic_start', 'SimpleArbiterP_0_Queue_dequeue', 'SimpleArbiterP_0_grantedTask_postTask', 'SimpleArbiterP_0_Queue_isEmpty', '__nesc_atomic_end', 'SimpleArbiterP_0_ResourceConfigure_unconfigure'], 'TransformCounterC_0_Counter_overflow': ['TransformAlarmC_1_Counter_overflow', 'TransformAlarmC_0_Counter_overflow', 'CounterToLocalTimeC_0_Counter_overflow'], 'Msp430Adc12ImplP_Port67_selectModuleFunc': ['HplMsp430GeneralIOP_47_IO_selectModuleFunc'], 'Msp430TimerCapComP_2_Control_getControl': ['Msp430TimerCapComP_2_int2CC'], 'Msp430Adc12ImplP_HplAdc12_getCtl0': ['HplAdc12P_HplAdc12_getCtl0'], 'Msp430RefVoltGeneratorP_RefVolt_2_5V_startDone': ['Msp430RefVoltArbiterImplP_RefVolt_2_5V_startDone'], 'Msp430Adc12ImplP_Port65_makeInput': ['HplMsp430GeneralIOP_45_IO_makeInput'], 'AlarmToTimerC_0_start': ['AlarmToTimerC_0_Alarm_startAt'], 'AlarmToTimerC_0_Timer_getNow': ['AlarmToTimerC_0_Alarm_getNow'], 'VirtualizeTimerC_0_fireTimers': ['VirtualizeTimerC_0_Timer_fired', 'VirtualizeTimerC_0_updateFromTimer_postTask'], 'RealMainP_Scheduler_runNextTask': ['SchedulerBasicP_Scheduler_runNextTask'], 'Msp430Adc12ImplP_ControlA0_setControl': ['Msp430TimerCapComP_0_Control_setControl'], 'LedsP_Led2_makeOutput': ['Msp430GpioC_2_GeneralIO_makeOutput'], 'Msp430TimerP_1_Timer_overflow': ['Msp430CounterC_0_Msp430Timer_overflow', 'Msp430AlarmC_0_Msp430Timer_overflow', 'Msp430AlarmC_1_Msp430Timer_overflow', 'Msp430TimerCapComP_3_Timer_overflow', 'Msp430TimerCapComP_4_Timer_overflow', 'Msp430TimerCapComP_5_Timer_overflow', 'Msp430TimerCapComP_6_Timer_overflow', 'Msp430TimerCapComP_7_Timer_overflow', 'Msp430TimerCapComP_8_Timer_overflow', 'Msp430TimerCapComP_9_Timer_overflow'], 'AlarmToTimerC_0_Alarm_getNow': ['TransformAlarmC_0_Alarm_getNow'], 'VirtualizeTimerC_0_TimerFrom_fired': ['VirtualizeTimerC_0_fireTimers', 'VirtualizeTimerC_0_TimerFrom_getNow'], 'Msp430Adc12ImplP_Port61_selectIOFunc': ['HplMsp430GeneralIOP_41_IO_selectIOFunc'], 'Msp430Adc12ImplP_TimerA_setInputDivider': ['Msp430TimerP_0_Timer_setInputDivider'], 'Msp430Adc12ImplP_Port65_selectIOFunc': ['HplMsp430GeneralIOP_45_IO_selectIOFunc'], 'Msp430TimerCapComP_7_Event_fired': ['Msp430TimerCapComP_7_Capture_captured', 'Msp430TimerCapComP_7_Capture_getEvent', 'Msp430TimerCapComP_7_Control_getControl', 'Msp430TimerCapComP_7_Compare_fired'], 'Msp430Adc12ImplP_HplAdc12_getMem': ['HplAdc12P_HplAdc12_getMem'], 'Msp430TimerCapComP_0_Event_fired': ['Msp430TimerCapComP_0_Capture_captured', 'Msp430TimerCapComP_0_Capture_getEvent', 'Msp430TimerCapComP_0_Control_getControl', 'Msp430TimerCapComP_0_Compare_fired'], 'TransformAlarmC_0_AlarmFrom_fired': ['TransformAlarmC_0_Alarm_fired', 'TransformAlarmC_0_set_alarm'], 'Msp430RefVoltArbiterImplP_ClientResource_release': ['Msp430RefVoltArbiterImplP_switchOff_postTask', 'Msp430RefVoltArbiterImplP_AdcResource_release'], 'Msp430Adc12ImplP_SingleChannel_configureSingle': ['__nesc_atomic_start', '__nesc_atomic_end', 'Msp430Adc12ImplP_HplAdc12_getCtl0', 'Msp430Adc12ImplP_HplAdc12_setCtl0', 'Msp430Adc12ImplP_HplAdc12_setCtl1', 'Msp430Adc12ImplP_HplAdc12_setMCtl', 'Msp430Adc12ImplP_HplAdc12_setIEFlags', 'Msp430Adc12ImplP_ADCArbiterInfo_userId', '__nesc_atomic_end'], 'Msp430Adc12ImplP_HplAdc12_setCtl1': ['HplAdc12P_HplAdc12_setCtl1'], 'Msp430Adc12ImplP_HplAdc12_setCtl0': ['HplAdc12P_HplAdc12_setCtl0'], 'Msp430TimerCapComP_4_Event_fired': ['Msp430TimerCapComP_4_Capture_captured', 'Msp430TimerCapComP_4_Capture_getEvent', 'Msp430TimerCapComP_4_Control_getControl', 'Msp430TimerCapComP_4_Compare_fired'], 'SenseC_Timer_fired': ['SenseC_Read_read'], 'Msp430TimerCapComP_0_Control_getControl': ['Msp430TimerCapComP_0_int2CC'], 'Msp430CounterC_0_Counter_isOverflowPending': ['Msp430CounterC_0_Msp430Timer_isOverflowPending'], 'Msp430TimerP_0_Event_fired': ['Msp430TimerCapComP_0_Event_fired', 'Msp430TimerCapComP_1_Event_fired', 'Msp430TimerCapComP_2_Event_fired', 'Msp430TimerP_0_Overflow_fired', 'Msp430TimerP_0_Event_default_fired'], 'AdcStreamP_readStreamDone_postTask': ['SchedulerBasicP_TaskBasic_postTask'], 'Msp430TimerP_1_Event_fired': ['Msp430TimerCapComP_3_Event_fired', 'Msp430TimerCapComP_4_Event_fired', 'Msp430TimerCapComP_5_Event_fired', 'Msp430TimerCapComP_6_Event_fired', 'Msp430TimerCapComP_7_Event_fired', 'Msp430TimerCapComP_8_Event_fired', 'Msp430TimerCapComP_9_Event_fired', 'Msp430TimerP_1_Overflow_fired', 'Msp430TimerP_1_Event_default_fired'], 'Msp430Adc12ImplP_Port61_makeInput': ['HplMsp430GeneralIOP_41_IO_makeInput'], 'LedsP_Leds_led1Off': ['LedsP_Led1_set'], 'Msp430GpioC_1_HplGeneralIO_set': ['HplMsp430GeneralIOP_37_IO_set'], 'Msp430AlarmC_0_Alarm_stop': ['Msp430AlarmC_0_Msp430TimerControl_disableEvents'], 'sig_ADC_VECTOR': ['HplAdc12P_HplAdc12_conversionDone'], 'AdcStreamP_Alarm_startAt': ['TransformAlarmC_1_Alarm_startAt'], 'Msp430GpioC_2_GeneralIO_clr': ['Msp430GpioC_2_HplGeneralIO_clr'], 'SchedulerBasicP_TaskBasic_runTask': ['AlarmToTimerC_0_fired_runTask', 'VirtualizeTimerC_0_updateFromTimer_runTask', 'AdcP_readDone_runTask', 'SimpleArbiterP_0_grantedTask_runTask', 'Msp430RefVoltArbiterImplP_switchOff_runTask', 'AdcStreamP_readStreamDone_runTask', 'AdcStreamP_readStreamFail_runTask', 'AdcStreamP_bufferDone_runTask', 'SchedulerBasicP_TaskBasic_default_runTask'], 'Msp430RefVoltGeneratorP_SwitchOffTimer_fired': ['Msp430RefVoltGeneratorP_RefVolt_1_5V_stopDone', 'Msp430RefVoltGeneratorP_switchOff', 'Msp430RefVoltGeneratorP_SwitchOffTimer_startOneShot', 'Msp430RefVoltGeneratorP_RefVolt_2_5V_stopDone', 'Msp430RefVoltGeneratorP_switchOff', 'Msp430RefVoltGeneratorP_SwitchOffTimer_startOneShot'], 'Msp430TimerCapComP_4_Compare_fired': ['Msp430TimerCapComP_4_Compare_default_fired'], 'SchedulerBasicP_Scheduler_taskLoop': ['__nesc_atomic_start', 'SchedulerBasicP_popTask', 'SchedulerBasicP_McuSleep_sleep', '__nesc_atomic_end', 'SchedulerBasicP_TaskBasic_runTask'], 'sig_TIMERB0_VECTOR': ['Msp430TimerCommonP_VectorTimerB0_fired'], 'Msp430TimerP_0_VectorTimerX1_fired': ['Msp430TimerP_0_Event_fired'], 'Msp430AlarmC_0_Msp430TimerControl_setControlAsCompare': ['Msp430TimerCapComP_3_Control_setControlAsCompare'], 'Msp430AlarmC_0_Alarm_fired': ['TransformAlarmC_0_AlarmFrom_fired'], 'AdcStreamP_Alarm_fired': ['AdcStreamP_sampleSingle'], 'Msp430GpioC_1_GeneralIO_clr': ['Msp430GpioC_1_HplGeneralIO_clr'], 'Msp430TimerP_1_VectorTimerX1_fired': ['Msp430TimerP_1_Event_fired'], 'Msp430RefVoltGeneratorP_RefVolt_1_5V_start': ['Msp430RefVoltGeneratorP_SwitchOffTimer_stop', 'Msp430RefVoltGeneratorP_RefVolt_1_5V_startDone', 'Msp430RefVoltGeneratorP_SwitchOnTimer_startOneShot', 'Msp430RefVoltGeneratorP_switchOn', 'Msp430RefVoltGeneratorP_SwitchOffTimer_stop', 'Msp430RefVoltGeneratorP_RefVolt_1_5V_startDone', 'Msp430RefVoltGeneratorP_switchOn'], 'Msp430GpioC_2_GeneralIO_makeOutput': ['Msp430GpioC_2_HplGeneralIO_makeOutput'], 'Msp430TimerP_0_Overflow_fired': ['Msp430TimerP_0_Timer_overflow'], 'TransformAlarmC_0_Alarm_getNow': ['TransformAlarmC_0_Counter_get'], 'Msp430Adc12ImplP_SingleChannel_configureMultiple': ['__nesc_atomic_start', '__nesc_atomic_end', 'Msp430Adc12ImplP_HplAdc12_getCtl0', 'Msp430Adc12ImplP_HplAdc12_setCtl0', 'Msp430Adc12ImplP_HplAdc12_setCtl1', 'Msp430Adc12ImplP_HplAdc12_setMCtl', 'Msp430Adc12ImplP_HplAdc12_setMCtl', 'Msp430Adc12ImplP_HplAdc12_setIEFlags', 'Msp430Adc12ImplP_prepareTimerA', 'Msp430Adc12ImplP_ADCArbiterInfo_userId', '__nesc_atomic_end'], 'Msp430TimerCapComP_5_Compare_setEventFromNow': ['Msp430TimerCapComP_5_Timer_get'], 'Msp430AlarmC_0_Msp430Compare_fired': ['Msp430AlarmC_0_Msp430TimerControl_disableEvents', 'Msp430AlarmC_0_Alarm_fired'], 'TransformAlarmC_1_Alarm_fired': ['AdcStreamP_Alarm_fired'], 'Msp430ClockP_test_calib_busywait_delta': ['Msp430ClockP_set_dco_calib'], 'Msp430TimerP_1_VectorTimerX0_fired': ['Msp430TimerP_1_Event_fired'], 'Msp430GpioC_2_HplGeneralIO_clr': ['HplMsp430GeneralIOP_38_IO_clr'], 'Msp430Adc12ImplP_TimerA_setMode': ['Msp430TimerP_0_Timer_setMode'], 'LedsP_Leds_led2On': ['LedsP_Led2_clr'], 'LedsP_Leds_led0On': ['LedsP_Led0_clr'], 'AdcStreamP_AdcConfigure_getConfiguration': ['Msp430InternalVoltageP_AdcConfigure_getConfiguration', 'AdcStreamP_AdcConfigure_default_getConfiguration'], 'Msp430ClockP_Msp430ClockInit_default_initTimerB': ['Msp430ClockP_Msp430ClockInit_defaultInitTimerB'], 'Msp430ClockP_Msp430ClockInit_default_initTimerA': ['Msp430ClockP_Msp430ClockInit_defaultInitTimerA'], 'Msp430GpioC_1_GeneralIO_makeOutput': ['Msp430GpioC_1_HplGeneralIO_makeOutput'], 'PlatformP_MoteInit_init': ['MotePlatformC_Init_init'], 'VirtualizeTimerC_0_Timer_fired': ['SenseC_Timer_fired', 'Msp430RefVoltGeneratorP_SwitchOnTimer_fired', 'Msp430RefVoltGeneratorP_SwitchOffTimer_fired', 'VirtualizeTimerC_0_Timer_default_fired'], 'Msp430RefVoltArbiterImplP_AdcResource_request': ['SimpleArbiterP_0_Resource_request', 'SimpleArbiterP_0_Resource_request', 'SimpleArbiterP_0_Resource_request', 'Msp430RefVoltArbiterImplP_AdcResource_default_request'], 'Msp430Adc12ImplP_stopConversion': ['Msp430Adc12ImplP_TimerA_setMode', 'Msp430Adc12ImplP_resetAdcPin', 'Msp430Adc12ImplP_HplAdc12_getMCtl', 'Msp430Adc12ImplP_resetAdcPin', 'Msp430Adc12ImplP_HplAdc12_getMCtl', 'Msp430Adc12ImplP_HplAdc12_stopConversion', 'Msp430Adc12ImplP_HplAdc12_resetIFGs'], 'Msp430RefVoltGeneratorP_HplAdc12_isBusy': ['HplAdc12P_HplAdc12_isBusy'], 'AdcP_SingleChannel_singleDataReady': ['AdcP_readDone_postTask', 'AdcP_ReadNow_readDone'], 'Msp430RefVoltGeneratorP_RefVolt_1_5V_stop': ['Msp430RefVoltGeneratorP_SwitchOnTimer_stop', 'Msp430RefVoltGeneratorP_RefVolt_1_5V_stopDone', 'Msp430RefVoltGeneratorP_RefVolt_2_5V_stopDone', 'Msp430RefVoltGeneratorP_switchOff', 'Msp430RefVoltGeneratorP_SwitchOffTimer_startOneShot'], 'Msp430TimerP_0_VectorTimerX0_fired': ['Msp430TimerP_0_Event_fired'], 'Msp430RefVoltArbiterImplP_Config_getConfiguration': ['Msp430Adc12ConfAlertC_0_ConfSub_getConfiguration', 'Msp430Adc12ConfAlertC_1_ConfSub_getConfiguration', 'Msp430Adc12ConfAlertC_2_ConfSub_getConfiguration', 'Msp430RefVoltArbiterImplP_Config_default_getConfiguration'], 'SimpleArbiterP_0_ResourceRequested_requested': ['SimpleArbiterP_0_ResourceRequested_default_requested'], 'AdcStreamP_SingleChannel_configureSingle': ['Msp430Adc12ImplP_SingleChannel_configureSingle', 'AdcStreamP_SingleChannel_default_configureSingle'], 'HplMsp430GeneralIOP_38_IO_set': ['__nesc_atomic_start', '__nesc_atomic_end'], 'Msp430TimerCapComP_2_Compare_fired': ['Msp430TimerCapComP_2_Compare_default_fired'], '__nesc_atomic_start': ['__nesc_disable_interrupt'], 'SenseC_Leds_led0On': ['LedsP_Leds_led0On'], 'Msp430AlarmC_1_Msp430Compare_setEvent': ['Msp430TimerCapComP_5_Compare_setEvent'], 'VirtualizeTimerC_0_Timer_startOneShot': ['VirtualizeTimerC_0_startTimer', 'VirtualizeTimerC_0_TimerFrom_getNow'], 'Msp430ClockP_Msp430ClockInit_default_initClocks': ['Msp430ClockP_Msp430ClockInit_defaultInitClocks'], 'AdcP_ResourceReadNow_granted': ['AdcP_ResourceReadNow_default_granted'], 'RoundRobinResourceQueueC_0_RoundRobinQueue_enqueue': ['RoundRobinResourceQueueC_0_RoundRobinQueue_isEnqueued'], 'RealMainP_Scheduler_taskLoop': ['SchedulerBasicP_Scheduler_taskLoop'], 'Msp430TimerCapComP_3_Control_setControlAsCompare': ['Msp430TimerCapComP_3_compareControl'], 'SenseC_Leds_led2On': ['LedsP_Leds_led2On'], 'Msp430RefVoltArbiterImplP_ClientResource_granted': ['AdcP_ResourceRead_granted', 'ArbitratedReadStreamC_0_Resource_granted', 'AdcP_SubResourceReadNow_granted', 'Msp430RefVoltArbiterImplP_ClientResource_default_granted'], 'McuSleepC_McuSleep_sleep': ['McuSleepC_computePowerState', '__nesc_disable_interrupt'], 'Msp430RefVoltGeneratorP_switchOff': ['__nesc_atomic_start', '__nesc_atomic_end', 'Msp430RefVoltGeneratorP_HplAdc12_isBusy', 'Msp430RefVoltGeneratorP_HplAdc12_getCtl0', 'Msp430RefVoltGeneratorP_HplAdc12_setCtl0', 'Msp430RefVoltGeneratorP_HplAdc12_setCtl0', '__nesc_atomic_end', '__nesc_atomic_end'], 'SchedulerBasicP_Scheduler_init': ['memset'], 'Msp430TimerCapComP_5_Event_fired': ['Msp430TimerCapComP_5_Capture_captured', 'Msp430TimerCapComP_5_Capture_getEvent', 'Msp430TimerCapComP_5_Control_getControl', 'Msp430TimerCapComP_5_Compare_fired'], 'Msp430RefVoltGeneratorP_RefVolt_2_5V_stopDone': ['Msp430RefVoltArbiterImplP_RefVolt_2_5V_stopDone'], 'Msp430AlarmC_0_Msp430Compare_setEventFromNow': ['Msp430TimerCapComP_3_Compare_setEventFromNow'], 'Msp430RefVoltGeneratorP_HplAdc12_getCtl0': ['HplAdc12P_HplAdc12_getCtl0'], 'Msp430TimerCapComP_6_Compare_fired': ['Msp430TimerCapComP_6_Compare_default_fired'], 'Msp430GpioC_1_HplGeneralIO_clr': ['HplMsp430GeneralIOP_37_IO_clr'], 'AdcStreamP_ReadStream_read': ['AdcStreamP_Alarm_getNow', 'AdcStreamP_SingleChannel_configureSingle', 'AdcStreamP_AdcConfigure_getConfiguration', 'AdcStreamP_sampleSingle', 'AdcStreamP_nextBuffer', 'AdcStreamP_nextMultiple'], 'RealMainP_Scheduler_init': ['SchedulerBasicP_Scheduler_init'], 'Msp430Adc12ConfAlertC_1_ConfSub_getConfiguration': ['Msp430Adc12ConfAlertC_1_ConfUp_getConfiguration'], 'Msp430Adc12ImplP_Port62_selectIOFunc': ['HplMsp430GeneralIOP_42_IO_selectIOFunc'], 'Msp430Adc12ImplP_Overflow_memOverflow': ['Msp430Adc12ImplP_Overflow_default_memOverflow'], 'LedsP_Led0_makeOutput': ['Msp430GpioC_0_GeneralIO_makeOutput'], 'Msp430RefVoltArbiterImplP_RefVolt_1_5V_stop': ['Msp430RefVoltGeneratorP_RefVolt_1_5V_stop'], 'Msp430RefVoltGeneratorP_switchOn': ['__nesc_atomic_start', '__nesc_atomic_end', 'Msp430RefVoltGeneratorP_HplAdc12_isBusy', 'Msp430RefVoltGeneratorP_HplAdc12_getCtl0', 'Msp430RefVoltGeneratorP_HplAdc12_setCtl0', 'Msp430RefVoltGeneratorP_HplAdc12_setCtl0', '__nesc_atomic_end', '__nesc_atomic_end'], 'LedsP_Led1_set': ['Msp430GpioC_1_GeneralIO_set'], 'TransformAlarmC_1_AlarmFrom_startAt': ['Msp430AlarmC_1_Alarm_startAt'], 'Msp430AlarmC_1_Alarm_startAt': ['Msp430AlarmC_1_Msp430Timer_get', 'Msp430AlarmC_1_Msp430Compare_setEventFromNow', 'Msp430AlarmC_1_Msp430Compare_setEventFromNow', 'Msp430AlarmC_1_Msp430Compare_setEvent', 'Msp430AlarmC_1_Msp430TimerControl_clearPendingInterrupt', 'Msp430AlarmC_1_Msp430TimerControl_enableEvents'], 'Msp430Adc12ImplP_Port60_makeInput': ['HplMsp430GeneralIOP_40_IO_makeInput'], 'SimpleArbiterP_0_Queue_isEmpty': ['RoundRobinResourceQueueC_0_RoundRobinQueue_isEmpty'], 'Msp430Adc12ConfAlertC_1_ConfUp_getConfiguration': ['Msp430InternalVoltageP_AdcConfigure_getConfiguration'], 'AdcP_SingleChannel_configureSingle': ['Msp430Adc12ImplP_SingleChannel_configureSingle', 'Msp430Adc12ImplP_SingleChannel_configureSingle', 'AdcP_SingleChannel_default_configureSingle'], 'AdcStreamP_ReadStream_bufferDone': ['ArbitratedReadStreamC_0_Service_bufferDone'], 'Msp430Adc12ImplP_Init_init': ['Msp430Adc12ImplP_HplAdc12_stopConversion', 'Msp430Adc12ImplP_HplAdc12_getCtl0', 'Msp430Adc12ImplP_HplAdc12_setCtl0'], 'Msp430TimerP_0_Timer_overflow': ['Msp430Adc12ImplP_TimerA_overflow', 'Msp430TimerCapComP_0_Timer_overflow', 'Msp430TimerCapComP_1_Timer_overflow', 'Msp430TimerCapComP_2_Timer_overflow'], 'Msp430CounterC_0_Msp430Timer_get': ['Msp430TimerP_1_Timer_get'], 'AdcStreamP_SingleChannel_getData': ['Msp430Adc12ImplP_SingleChannel_getData', 'AdcStreamP_SingleChannel_default_getData'], 'Msp430ClockP_busyCalibrateDco': ['Msp430ClockP_test_calib_busywait_delta', 'Msp430ClockP_set_dco_calib'], 'Msp430TimerCommonP_VectorTimerB1_fired': ['Msp430TimerP_1_VectorTimerX1_fired'], 'RealMainP_PlatformInit_init': ['PlatformP_Init_init'], 'Msp430Adc12ConfAlertC_2_ConfUp_getConfiguration': ['Msp430InternalVoltageP_AdcConfigure_getConfiguration'], 'TransformAlarmC_0_Alarm_fired': ['AlarmToTimerC_0_Alarm_fired'], 'TransformAlarmC_1_Alarm_getNow': ['TransformAlarmC_1_Counter_get'], 'Msp430TimerCapComP_0_Control_setControl': ['Msp430TimerCapComP_0_CC2int'], 'Msp430Adc12ImplP_CompareA1_setEvent': ['Msp430TimerCapComP_1_Compare_setEvent'], 'VirtualizeTimerC_0_TimerFrom_startOneShotAt': ['AlarmToTimerC_0_Timer_startOneShotAt'], 'AdcStreamP_Alarm_getNow': ['TransformAlarmC_1_Alarm_getNow'], 'AdcP_ResourceRead_request': ['Msp430RefVoltArbiterImplP_ClientResource_request', 'AdcP_ResourceRead_default_request'], 'McuSleepC_McuPowerOverride_lowestState': ['McuSleepC_McuPowerOverride_default_lowestState'], 'Msp430Adc12ImplP_Overflow_conversionTimeOverflow': ['Msp430Adc12ImplP_Overflow_default_conversionTimeOverflow'], 'Msp430RefVoltArbiterImplP_AdcResource_granted': ['Msp430RefVoltArbiterImplP_Config_getConfiguration', 'Msp430RefVoltArbiterImplP_AdcResource_release', 'Msp430RefVoltArbiterImplP_AdcResource_request', 'Msp430RefVoltArbiterImplP_RefVolt_1_5V_start', 'Msp430RefVoltArbiterImplP_RefVolt_2_5V_start', 'Msp430RefVoltArbiterImplP_AdcResource_release', 'Msp430RefVoltArbiterImplP_AdcResource_request', 'Msp430RefVoltArbiterImplP_ClientResource_granted'], 'AdcP_ResourceRead_granted': ['AdcP_configure', 'AdcP_SingleChannel_getData', 'AdcP_ResourceRead_release', 'AdcP_Read_readDone'], 'Msp430Adc12ImplP_HplAdc12_resetIFGs': ['HplAdc12P_HplAdc12_resetIFGs'], 'Msp430Adc12ImplP_Port66_selectIOFunc': ['HplMsp430GeneralIOP_46_IO_selectIOFunc'], 'AdcP_Read_read': ['AdcP_ResourceRead_request'], 'Msp430TimerCapComP_7_Capture_captured': ['Msp430TimerCapComP_7_Capture_default_captured'], 'Msp430TimerCapComP_6_Event_fired': ['Msp430TimerCapComP_6_Capture_captured', 'Msp430TimerCapComP_6_Capture_getEvent', 'Msp430TimerCapComP_6_Control_getControl', 'Msp430TimerCapComP_6_Compare_fired'], 'Msp430TimerCapComP_8_Capture_captured': ['Msp430TimerCapComP_8_Capture_default_captured'], 'LedsP_Leds_led1On': ['LedsP_Led1_clr'], 'Msp430Adc12ImplP_Port66_makeInput': ['HplMsp430GeneralIOP_46_IO_makeInput'], 'Msp430Adc12ImplP_HplAdc12_stopConversion': ['HplAdc12P_HplAdc12_stopConversion'], 'VirtualizeTimerC_0_TimerFrom_stop': ['AlarmToTimerC_0_Timer_stop'], 'VirtualizeTimerC_0_TimerFrom_getNow': ['AlarmToTimerC_0_Timer_getNow'], 'Msp430Adc12ImplP_SingleChannel_multipleDataReady': ['AdcP_SingleChannel_multipleDataReady', 'AdcStreamP_SingleChannel_multipleDataReady', 'AdcP_SingleChannel_multipleDataReady', 'Msp430Adc12ImplP_SingleChannel_default_multipleDataReady'], 'AdcP_Read_readDone': ['SenseC_Read_readDone', 'AdcP_Read_default_readDone'], 'Msp430Adc12ImplP_Port64_selectIOFunc': ['HplMsp430GeneralIOP_44_IO_selectIOFunc'], 'Msp430TimerCapComP_3_Control_getControl': ['Msp430TimerCapComP_3_int2CC'], 'TransformAlarmC_1_set_alarm': ['TransformAlarmC_1_Counter_get', 'TransformAlarmC_1_AlarmFrom_startAt'], 'Msp430ClockP_Init_init': ['Msp430ClockP_Msp430ClockInit_initClocks', 'Msp430ClockP_Msp430ClockInit_initTimerA', 'Msp430ClockP_Msp430ClockInit_initTimerB', 'Msp430ClockP_startTimerA', 'Msp430ClockP_startTimerB'], 'TransformAlarmC_1_Counter_get': ['TransformCounterC_0_Counter_get'], 'Msp430Adc12ImplP_Port63_selectModuleFunc': ['HplMsp430GeneralIOP_43_IO_selectModuleFunc'], 'Msp430Adc12ImplP_SingleChannel_singleDataReady': ['AdcP_SingleChannel_singleDataReady', 'AdcStreamP_SingleChannel_singleDataReady', 'AdcP_SingleChannel_singleDataReady', 'Msp430Adc12ImplP_SingleChannel_default_singleDataReady'], 'AlarmToTimerC_0_fired_postTask': ['SchedulerBasicP_TaskBasic_postTask'], 'Msp430Adc12ImplP_CompareA0_setEvent': ['Msp430TimerCapComP_0_Compare_setEvent'], 'HplMsp430GeneralIOP_37_IO_clr': ['__nesc_atomic_start', '__nesc_atomic_end'], 'Msp430TimerCapComP_4_Control_getControl': ['Msp430TimerCapComP_4_int2CC'], 'AdcStreamP_SingleChannel_configureMultiple': ['Msp430Adc12ImplP_SingleChannel_configureMultiple', 'AdcStreamP_SingleChannel_default_configureMultiple'], 'SenseC_Leds_led1On': ['LedsP_Leds_led1On'], 'AdcStreamP_readStreamFail_postTask': ['SchedulerBasicP_TaskBasic_postTask'], 'Msp430TimerCapComP_1_Event_fired': ['Msp430TimerCapComP_1_Capture_captured', 'Msp430TimerCapComP_1_Capture_getEvent', 'Msp430TimerCapComP_1_Control_getControl', 'Msp430TimerCapComP_1_Compare_fired'], 'AdcStreamP_SingleChannel_singleDataReady': ['AdcStreamP_Alarm_getNow', 'AdcStreamP_nextBuffer', 'AdcStreamP_readStreamFail_postTask', 'AdcStreamP_bufferDone_postTask', 'AdcStreamP_nextBuffer', 'AdcStreamP_nextAlarm'], 'Msp430TimerCapComP_1_Control_getControl': ['Msp430TimerCapComP_1_int2CC'], 'SenseC_Leds_led0Off': ['LedsP_Leds_led0Off'], 'Msp430Adc12ImplP_Port62_makeInput': ['HplMsp430GeneralIOP_42_IO_makeInput'], 'Msp430TimerCapComP_5_Control_getControl': ['Msp430TimerCapComP_5_int2CC'], 'Msp430Adc12ImplP_Port64_selectModuleFunc': ['HplMsp430GeneralIOP_44_IO_selectModuleFunc'], 'PlatformP_Init_init': ['PlatformP_MoteClockInit_init', 'PlatformP_MoteInit_init', 'PlatformP_LedsInit_init'], 'AdcP_readDone_runTask': ['AdcP_ResourceRead_release', 'AdcP_Read_readDone'], 'Msp430TimerCapComP_5_Capture_captured': ['Msp430TimerCapComP_5_Capture_default_captured'], 'RoundRobinResourceQueueC_0_Init_init': ['memset'], 'TransformCounterC_0_CounterFrom_overflow': ['TransformCounterC_0_Counter_overflow'], 'Msp430Adc12ImplP_HplAdc12_startConversion': ['HplAdc12P_HplAdc12_startConversion'], 'AdcStreamP_bufferDone_runTask': ['__nesc_atomic_start', '__nesc_atomic_end', 'AdcStreamP_ReadStream_bufferDone'], 'Msp430AlarmC_0_Alarm_startAt': ['Msp430AlarmC_0_Msp430Timer_get', 'Msp430AlarmC_0_Msp430Compare_setEventFromNow', 'Msp430AlarmC_0_Msp430Compare_setEventFromNow', 'Msp430AlarmC_0_Msp430Compare_setEvent', 'Msp430AlarmC_0_Msp430TimerControl_clearPendingInterrupt', 'Msp430AlarmC_0_Msp430TimerControl_enableEvents'], 'LedsP_Leds_led2Off': ['LedsP_Led2_set'], 'Msp430GpioC_2_HplGeneralIO_set': ['HplMsp430GeneralIOP_38_IO_set'], 'Msp430TimerCapComP_8_Control_getControl': ['Msp430TimerCapComP_8_int2CC'], 'Msp430TimerCapComP_7_Compare_fired': ['Msp430TimerCapComP_7_Compare_default_fired'], 'TransformAlarmC_0_Alarm_stop': ['TransformAlarmC_0_AlarmFrom_stop'], 'Msp430Adc12ImplP_HplAdc12_setIEFlags': ['HplAdc12P_HplAdc12_setIEFlags'], 'AlarmToTimerC_0_Timer_stop': ['AlarmToTimerC_0_Alarm_stop'], 'Msp430TimerCapComP_0_Compare_fired': ['Msp430Adc12ImplP_CompareA0_fired'], 'Msp430AlarmC_1_Msp430Timer_get': ['Msp430TimerP_1_Timer_get'], 'AdcStreamP_bufferDone_postTask': ['SchedulerBasicP_TaskBasic_postTask'], 'AdcStreamP_readStreamDone_runTask': ['__nesc_atomic_start', '__nesc_atomic_end', 'AdcStreamP_ReadStream_readDone'], 'AlarmToTimerC_0_Timer_fired': ['VirtualizeTimerC_0_TimerFrom_fired'], 'Msp430TimerCapComP_5_Compare_fired': ['Msp430AlarmC_1_Msp430Compare_fired'], 'SimpleArbiterP_0_Queue_dequeue': ['RoundRobinResourceQueueC_0_RoundRobinQueue_dequeue'], 'Msp430AlarmC_1_Msp430Compare_setEventFromNow': ['Msp430TimerCapComP_5_Compare_setEventFromNow'], 'VirtualizeTimerC_0_startTimer': ['VirtualizeTimerC_0_updateFromTimer_postTask'], 'RoundRobinResourceQueueC_0_RoundRobinQueue_dequeue': ['RoundRobinResourceQueueC_0_clearEntry', 'RoundRobinResourceQueueC_0_RoundRobinQueue_isEnqueued']}
+
+IRQs (2):
+set(['sig_ADC_VECTOR', 'sig_TIMERB0_VECTOR'])
+
+Thread data accesses (read) (3):
+{'sig_ADC_VECTOR': set(['TransformCounterC_0_m_upper', 'Msp430Adc12ImplP_resultBufferStart', 'Msp430Adc12ImplP_resultBufferIndex', 'AdcStreamP_buffer', 'TransformAlarmC_1_m_dt', 'SimpleArbiterP_0_resId', 'SchedulerBasicP_m_next', 'AdcStreamP_count', 'Msp430Adc12ImplP_resultBufferLength', 'AdcStreamP_client', 'AdcStreamP_pos', 'Msp430Adc12ImplP_state', 'TransformAlarmC_1_m_t0', 'AdcStreamP_period', 'Msp430InternalVoltageP_config', 'Msp430Adc12ImplP_numChannels', 'HplAdc12P_ADC12CTL1', 'AdcP_state', 'SchedulerBasicP_m_tail', 'AdcStreamP_bufferQueue', 'AdcStreamP_defaultConfig']), 'main': set(['TransformCounterC_0_m_upper', 'Msp430RefVoltArbiterImplP_defaultConfig', 'AdcStreamP_lastCount', 'McuSleepC_msp430PowerBits', 'AdcP_defaultConfig', 'BCSCTL1', 'Msp430RefVoltGeneratorP_state', 'SchedulerBasicP_m_head', 'McuSleepC_powerState', 'TransformAlarmC_1_m_dt', 'SimpleArbiterP_0_resId', 'SchedulerBasicP_m_next', 'AdcStreamP_count', 'SimpleArbiterP_0_reqResId', 'RoundRobinResourceQueueC_0_last', 'AdcStreamP_client', 'Msp430ClockP_TA0CTL', 'RoundRobinResourceQueueC_0_resQ', 'Msp430ClockP_TBCTL', 'AdcStreamP_lastBuffer', 'TransformAlarmC_1_m_t0', 'TransformAlarmC_0_m_t0', 'VirtualizeTimerC_0_m_timers', 'AdcStreamP_period', 'Msp430InternalVoltageP_config', 'HplAdc12P_ADC12CTL1', 'SchedulerBasicP_m_tail', 'AdcStreamP_bufferQueue', 'TransformAlarmC_0_m_dt', 'AdcStreamP_defaultConfig']), 'sig_TIMERB0_VECTOR': set(['TransformCounterC_0_m_upper', 'SchedulerBasicP_m_tail', 'TransformAlarmC_1_m_dt', 'SimpleArbiterP_0_resId', 'SchedulerBasicP_m_next', 'TransformAlarmC_1_m_t0', 'TransformAlarmC_0_m_t0', 'TransformAlarmC_0_m_dt'])}
+
+Thread data accesses (write) (3):
+
+{'sig_ADC_VECTOR': set(['AdcStreamP_now', 'AdcP_value',
+'Msp430Adc12ImplP_resultBufferStart', 'Msp430Adc12ImplP_resultBufferIndex',
+'Msp430Adc12ImplP_clientID', 'TransformAlarmC_1_m_t0', 'AdcStreamP_lastCount',
+'SchedulerBasicP_m_tail', 'AdcStreamP_buffer', 'TransformAlarmC_1_m_dt',
+'SchedulerBasicP_m_next', 'AdcStreamP_count',
+'Msp430Adc12ImplP_resultBufferLength', 'AdcStreamP_bufferQueueEnd',
+'AdcStreamP_pos', 'AdcP_owner', 'Msp430Adc12ImplP_state',
+'AdcStreamP_lastBuffer', 'HplAdc12P_ADC12IFG', 'HplAdc12P_ADC12IV',
+'AdcStreamP_client', 'HplAdc12P_ADC12CTL1', 'HplAdc12P_ADC12CTL0',
+'SchedulerBasicP_m_head', 'HplAdc12P_ADC12IE', 'AdcStreamP_bufferQueue']),
+'main': set(['P1OUT', 'P3OUT', 'P4OUT', 'Msp430ClockP_TA0IV', 'AdcStreamP_now',
+'BCSCTL2', 'BCSCTL1', 'Msp430RefVoltArbiterImplP_syncOwner',
+'Msp430RefVoltGeneratorP_state', 'SimpleArbiterP_0_state', 'TA0R', 'P1SEL',
+'P6OUT', 'AdcStreamP_period', 'P3DIR', 'AdcStreamP_bufferQueueEnd', 'P1IE',
+'RoundRobinResourceQueueC_0_resQ', 'Msp430ClockP_TBCTL',
+'TransformAlarmC_1_m_t0', 'P2IE', 'P5OUT', 'AdcStreamP_client',
+'HplAdc12P_ADC12CTL1', 'HplAdc12P_ADC12CTL0', 'P6DIR', 'HplAdc12P_ADC12IE',
+'AdcStreamP_bufferQueue', 'AdcStreamP_pos', 'AdcP_state', 'P4SEL', 'P1DIR',
+'Msp430Adc12ImplP_clientID', 'RoundRobinResourceQueueC_0_last',
+'SchedulerBasicP_m_tail', 'McuSleepC_powerState',
+'Msp430Adc12ImplP_resultBufferIndex', 'SimpleArbiterP_0_resId',
+'SchedulerBasicP_m_next', 'AdcStreamP_count', 'Msp430ClockP_IE1',
+'Msp430ClockP_TBIV', 'SimpleArbiterP_0_reqResId', 'P6SEL',
+'AlarmToTimerC_0_m_dt', 'Msp430ClockP_TA0CTL', 'AdcStreamP_periodModified',
+'P4DIR', 'AdcStreamP_lastBuffer', 'P2SEL', 'P3SEL',
+'Msp430Adc12ImplP_resultBufferLength', 'TBR', 'AdcStreamP_buffer', 'P5DIR',
+'Msp430Adc12ImplP_state', 'TransformAlarmC_0_m_t0',
+'Msp430Adc12ImplP_resultBufferStart', 'TransformAlarmC_1_m_dt',
+'AlarmToTimerC_0_m_oneshot', 'SchedulerBasicP_m_head', 'P5SEL', 'P2DIR',
+'P2OUT', 'TransformAlarmC_0_m_dt']), 
+
+'sig_TIMERB0_VECTOR':
+set(['Msp430Adc12ImplP_state', 'SchedulerBasicP_m_head',
+'TransformAlarmC_1_m_dt', 'SchedulerBasicP_m_tail', 'Msp430Adc12ImplP_clientID',
+'TransformAlarmC_1_m_t0', 'TransformAlarmC_0_m_t0', 'TransformAlarmC_0_m_dt',
+'HplAdc12P_ADC12CTL0', 'SchedulerBasicP_m_next'])}
+
+Common data (2):
+
+{'sig_ADC_VECTOR': set(['AdcStreamP_lastCount', 'AdcStreamP_lastBuffer',
+'TransformAlarmC_1_m_t0', 'SchedulerBasicP_m_head', 'TransformAlarmC_1_m_dt',
+'HplAdc12P_ADC12CTL1', 'SchedulerBasicP_m_next', 'AdcStreamP_count',
+'SchedulerBasicP_m_tail', 'AdcStreamP_bufferQueue', 'AdcStreamP_client']),
+
+'sig_TIMERB0_VECTOR': set(['TransformAlarmC_1_m_t0', 'TransformAlarmC_0_m_t0',
+'SchedulerBasicP_m_tail', 'TransformAlarmC_1_m_dt', 'SchedulerBasicP_m_next',
+'SchedulerBasicP_m_head', 'TransformAlarmC_0_m_dt'])}
+
+--------------------------------------------------------------------------------
+DEREF at 354/0x162	 @ 16-bit Peripheral Module	 in line *_TACCTL0
+DEREF at 354/0x162	 @ 16-bit Peripheral Module	 in line *_TACCTL0
+DEREF at 370/0x172	 @ 16-bit Peripheral Module	 in line *_TACCR0
+DEREF at 356/0x164	 @ 16-bit Peripheral Module	 in line *_TACCTL1
+DEREF at 356/0x164	 @ 16-bit Peripheral Module	 in line *_TACCTL1
+DEREF at 372/0x174	 @ 16-bit Peripheral Module	 in line *_TACCR1
+DEREF at 358/0x166	 @ 16-bit Peripheral Module	 in line *_TACCTL2
+DEREF at 358/0x166	 @ 16-bit Peripheral Module	 in line *_TACCTL2
+DEREF at 374/0x176	 @ 16-bit Peripheral Module	 in line *_TACCR2
+DEREF at 302/0x12e	 @ 16-bit Peripheral Module	 in line *_TAIV
+DEREF at 386/0x182	 @ 16-bit Peripheral Module	 in line *_TBCCTL0
+DEREF at 402/0x192	 @ 16-bit Peripheral Module	 in line *_TBCCR0
+DEREF at 386/0x182	 @ 16-bit Peripheral Module	 in line *_TBCCTL0
+DEREF at 386/0x182	 @ 16-bit Peripheral Module	 in line *_TBCCTL0
+DEREF at 384/0x180	 @ 16-bit Peripheral Module	 in line *_TBCTL
+DEREF at 386/0x182	 @ 16-bit Peripheral Module	 in line *_TBCCTL0
+DEREF at 386/0x182	 @ 16-bit Peripheral Module	 in line *_TBCCTL0
+DEREF at 402/0x192	 @ 16-bit Peripheral Module	 in line *_TBCCR0
+DEREF at 402/0x192	 @ 16-bit Peripheral Module	 in line *_TBCCR0
+DEREF at 404/0x194	 @ 16-bit Peripheral Module	 in line *_TBCCR1
+DEREF at 388/0x184	 @ 16-bit Peripheral Module	 in line *_TBCCTL1
+DEREF at 388/0x184	 @ 16-bit Peripheral Module	 in line *_TBCCTL1
+DEREF at 390/0x186	 @ 16-bit Peripheral Module	 in line *_TBCCTL2
+DEREF at 406/0x196	 @ 16-bit Peripheral Module	 in line *_TBCCR2
+DEREF at 390/0x186	 @ 16-bit Peripheral Module	 in line *_TBCCTL2
+DEREF at 390/0x186	 @ 16-bit Peripheral Module	 in line *_TBCCTL2
+DEREF at 54/0x36	 @ 8-bit Peripheral Module	 in line *_P6DIR
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 54/0x36	 @ 8-bit Peripheral Module	 in line *_P6DIR
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 54/0x36	 @ 8-bit Peripheral Module	 in line *_P6DIR
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 54/0x36	 @ 8-bit Peripheral Module	 in line *_P6DIR
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 54/0x36	 @ 8-bit Peripheral Module	 in line *_P6DIR
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 54/0x36	 @ 8-bit Peripheral Module	 in line *_P6DIR
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 54/0x36	 @ 8-bit Peripheral Module	 in line *_P6DIR
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 54/0x36	 @ 8-bit Peripheral Module	 in line *_P6DIR
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 416/0x01A0	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12CTL0
+DEREF at 416/0x01A0	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12CTL0
+DEREF at 356/0x164	 @ 16-bit Peripheral Module	 in line *_TACCTL1
+DEREF at 390/0x186	 @ 16-bit Peripheral Module	 in line *_TBCCTL2
+DEREF at 390/0x186	 @ 16-bit Peripheral Module	 in line *_TBCCTL2
+DEREF at 406/0x196	 @ 16-bit Peripheral Module	 in line *_TBCCR2
+DEREF at 406/0x196	 @ 16-bit Peripheral Module	 in line *_TBCCR2
+DEREF at 408/0x198	 @ 16-bit Peripheral Module	 in line *_TBCCR3
+DEREF at 392/0x188	 @ 16-bit Peripheral Module	 in line *_TBCCTL3
+DEREF at 392/0x188	 @ 16-bit Peripheral Module	 in line *_TBCCTL3
+DEREF at 410/0x19a	 @ 16-bit Peripheral Module	 in line *_TBCCR4
+DEREF at 394/0x18a	 @ 16-bit Peripheral Module	 in line *_TBCCTL4
+DEREF at 394/0x18a	 @ 16-bit Peripheral Module	 in line *_TBCCTL4
+DEREF at 412/0x19c	 @ 16-bit Peripheral Module	 in line *_TBCCR5
+DEREF at 396/0x18c	 @ 16-bit Peripheral Module	 in line *_TBCCTL5
+DEREF at 396/0x18c	 @ 16-bit Peripheral Module	 in line *_TBCCTL5
+DEREF at 414/0x19e	 @ 16-bit Peripheral Module	 in line *_TBCCR6
+DEREF at 398/0x18e	 @ 16-bit Peripheral Module	 in line *_TBCCTL6
+DEREF at 398/0x18e	 @ 16-bit Peripheral Module	 in line *_TBCCTL6
+DEREF at 286/0x11e	 @ 16-bit Peripheral Module	 in line *_TBIV
+DEREF at 50/0x32	 @ 8-bit Peripheral Module	 in line *_P5DIR
+DEREF at 50/0x32	 @ 8-bit Peripheral Module	 in line *_P5DIR
+DEREF at 50/0x32	 @ 8-bit Peripheral Module	 in line *_P5DIR
+DEREF at 25/0x0019	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 25/0x0019	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 29/0x001D	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 25/0x0019	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 29/0x001D	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 29/0x001D	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 30/0x001E	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 30/0x001E	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 26/0x001A	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 368/0x0170	 @16-bit Peripheral Module	 with fixed-address variable TA0R
+DEREF at 368/0x0170	 @16-bit Peripheral Module	 with fixed-address variable TA0R
+DEREF at 38/0x0026	 @8-bit Peripheral Module	 with fixed-address variable P1SEL
+DEREF at 46/0x002E	 @8-bit Peripheral Module	 with fixed-address variable P2SEL
+DEREF at 27/0x001B	 @8-bit Peripheral Module	 with fixed-address variable P3SEL
+DEREF at 31/0x001F	 @8-bit Peripheral Module	 with fixed-address variable P4SEL
+DEREF at 51/0x0033	 @8-bit Peripheral Module	 with fixed-address variable P5SEL
+DEREF at 55/0x0037	 @8-bit Peripheral Module	 with fixed-address variable P6SEL
+DEREF at 33/0x0021	 @8-bit Peripheral Module	 with fixed-address variable P1OUT
+DEREF at 34/0x0022	 @8-bit Peripheral Module	 with fixed-address variable P1DIR
+DEREF at 41/0x0029	 @8-bit Peripheral Module	 with fixed-address variable P2OUT
+DEREF at 42/0x002A	 @8-bit Peripheral Module	 with fixed-address variable P2DIR
+DEREF at 25/0x0019	 @8-bit Peripheral Module	 with fixed-address variable P3OUT
+DEREF at 26/0x001A	 @8-bit Peripheral Module	 with fixed-address variable P3DIR
+DEREF at 29/0x001D	 @8-bit Peripheral Module	 with fixed-address variable P4OUT
+DEREF at 30/0x001E	 @8-bit Peripheral Module	 with fixed-address variable P4DIR
+DEREF at 49/0x0031	 @8-bit Peripheral Module	 with fixed-address variable P5OUT
+DEREF at 50/0x0032	 @8-bit Peripheral Module	 with fixed-address variable P5DIR
+DEREF at 53/0x0035	 @8-bit Peripheral Module	 with fixed-address variable P6OUT
+DEREF at 54/0x0036	 @8-bit Peripheral Module	 with fixed-address variable P6DIR
+DEREF at 37/0x0025	 @8-bit Peripheral Module	 with fixed-address variable P1IE
+DEREF at 45/0x002D	 @8-bit Peripheral Module	 with fixed-address variable P2IE
+DEREF at 384/0x0180	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TBCTL
+DEREF at 384/0x0180	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TBCTL
+DEREF at 352/0x0160	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TA0CTL
+DEREF at 352/0x0160	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TA0CTL
+DEREF at 400/0x0190	 @16-bit Peripheral Module	 with fixed-address variable TBR
+DEREF at 384/0x0180	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TBCTL
+DEREF at 368/0x0170	 @16-bit Peripheral Module	 with fixed-address variable TA0R
+DEREF at 352/0x0160	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TA0CTL
+DEREF at 87/0x0057	 @8-bit Peripheral Module	 with fixed-address variable BCSCTL1
+DEREF at 87/0x0057	 @8-bit Peripheral Module	 with fixed-address variable BCSCTL1
+DEREF at 88/0x0058	 @8-bit Peripheral Module	 with fixed-address variable BCSCTL2
+DEREF at 0/0x0000	 @Special Function Register	 with fixed-address variable Msp430ClockP_IE1
+DEREF at 402/0x0192	 @16-bit Peripheral Module	 with fixed-address variable TBCCR0
+DEREF at 400/0x0190	 @16-bit Peripheral Module	 with fixed-address variable TBR
+DEREF at 386/0x0182	 @16-bit Peripheral Module	 with fixed-address variable TBCCTL0
+DEREF at 386/0x0182	 @16-bit Peripheral Module	 with fixed-address variable TBCCTL0
+DEREF at 368/0x0170	 @16-bit Peripheral Module	 with fixed-address variable TA0R
+DEREF at 352/0x0160	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TA0CTL
+DEREF at 384/0x0180	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TBCTL
+DEREF at 87/0x0057	 @8-bit Peripheral Module	 with fixed-address variable BCSCTL1
+DEREF at 88/0x0058	 @8-bit Peripheral Module	 with fixed-address variable BCSCTL2
+DEREF at 386/0x0182	 @16-bit Peripheral Module	 with fixed-address variable TBCCTL0
+DEREF at 352/0x0160	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TA0CTL
+DEREF at 302/0x012E	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TA0IV
+DEREF at 384/0x0180	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TBCTL
+DEREF at 286/0x011E	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TBIV
+DEREF at 26/0x001A	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 418/0x01A2	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12CTL1
+DEREF at 416/0x01A0	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12CTL0
+DEREF at 416/0x01A0	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12CTL0
+DEREF at 372/0x174	 @ 16-bit Peripheral Module	 in line *_TACCR1
+DEREF at 370/0x172	 @ 16-bit Peripheral Module	 in line *_TACCR0
+DEREF at 354/0x162	 @ 16-bit Peripheral Module	 in line *_TACCTL0
+DEREF at 352/0x160	 @ 16-bit Peripheral Module	 in line *_TACTL
+DEREF at 352/0x160	 @ 16-bit Peripheral Module	 in line *_TACTL
+DEREF at 352/0x160	 @ 16-bit Peripheral Module	 in line *_TACTL
+DEREF at 352/0x160	 @ 16-bit Peripheral Module	 in line *_TACTL
+DEREF at 352/0x160	 @ 16-bit Peripheral Module	 in line *_TACTL
+DEREF at 352/0x160	 @ 16-bit Peripheral Module	 in line *_TACTL
+DEREF at 422/0x01A6	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12IE
+DEREF at 418/0x01A2	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12CTL1
+DEREF at 49/0x31	 @ 8-bit Peripheral Module	 in line *_P5OUT
+DEREF at 49/0x31	 @ 8-bit Peripheral Module	 in line *_P5OUT
+DEREF at 49/0x31	 @ 8-bit Peripheral Module	 in line *_P5OUT
+DEREF at 386/0x182	 @ 16-bit Peripheral Module	 in line *_TBCCTL0
+DEREF at 354/0x0162	 @16-bit Peripheral Module	 with fixed-address variable TA0CCTL0
+DEREF at 356/0x0164	 @16-bit Peripheral Module	 with fixed-address variable TA0CCTL1
+DEREF at 358/0x0166	 @16-bit Peripheral Module	 with fixed-address variable TA0CCTL2
+DEREF at 352/0x0160	 @16-bit Peripheral Module	 with fixed-address variable TA0CTL
+DEREF at 4/0x0004	 @Special Function Register	 with fixed-address variable ME1
+DEREF at 113/0x0071	 @8-bit Peripheral Module	 with fixed-address variable U0TCTL
+DEREF at 5/0x0005	 @Special Function Register	 with fixed-address variable ME2
+DEREF at 121/0x0079	 @8-bit Peripheral Module	 with fixed-address variable U1TCTL
+DEREF at 112/0x0070	 @8-bit Peripheral Module	 with fixed-address variable U0CTLnr
+DEREF at 113/0x0071	 @8-bit Peripheral Module	 with fixed-address variable I2CTCTLnr
+DEREF at 114/0x0072	 @8-bit Peripheral Module	 with fixed-address variable I2CDCTLnr
+DEREF at 112/0x0070	 @8-bit Peripheral Module	 with fixed-address variable U0CTLnr
+DEREF at 112/0x0070	 @8-bit Peripheral Module	 with fixed-address variable U0CTLnr
+DEREF at 416/0x01A0	 @16-bit Peripheral Module	 with fixed-address variable ADC12CTL0
+DEREF at 418/0x01A2	 @16-bit Peripheral Module	 with fixed-address variable ADC12CTL1
+DEREF at 418/0x01A2	 @16-bit Peripheral Module	 with fixed-address variable ADC12CTL1
+DEREF at 418/0x01A2	 @16-bit Peripheral Module	 with fixed-address variable ADC12CTL1
+DEREF at 352/0x0160	 @16-bit Peripheral Module	 with fixed-address variable TA0CTL
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 424/0x01A8	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12IV
+DEREF at 420/0x01A4	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12IFG
+DEREF at 400/0x190	 @ 16-bit Peripheral Module	 in line *_TBR
+DEREF at 400/0x190	 @ 16-bit Peripheral Module	 in line *_TBR
+DEREF at 400/0x190	 @ 16-bit Peripheral Module	 in line *_TBR
+DEREF at 352/0x160	 @ 16-bit Peripheral Module	 in line *_TACTL
+DEREF at 352/0x160	 @ 16-bit Peripheral Module	 in line *_TACTL
+DEREF at 87/0x0057	 @8-bit Peripheral Module	 with fixed-address variable BCSCTL1
+DEREF at 87/0x0057	 @8-bit Peripheral Module	 with fixed-address variable BCSCTL1
+DEREF at 86/0x0056	 @8-bit Peripheral Module	 with fixed-address variable DCOCTL
+DEREF at 49/0x31	 @ 8-bit Peripheral Module	 in line *_P5OUT
+DEREF at 49/0x31	 @ 8-bit Peripheral Module	 in line *_P5OUT
+DEREF at 49/0x31	 @ 8-bit Peripheral Module	 in line *_P5OUT
+DEREF at 418/0x01A2	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12CTL1
+DEREF at 416/0x01A0	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12CTL0
+DEREF at 416/0x01A0	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12CTL0
+DEREF at 418/0x01A2	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12CTL1
+DEREF at 418/0x01A2	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12CTL1
+DEREF at 424/0x01A8	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12IV
+DEREF at 424/0x01A8	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12IV
+DEREF at 386/0x182	 @ 16-bit Peripheral Module	 in line *_TBCCTL0
+DEREF at 402/0x192	 @ 16-bit Peripheral Module	 in line *_TBCCR0
+DEREF at 386/0x182	 @ 16-bit Peripheral Module	 in line *_TBCCTL0
+DEREF at 386/0x182	 @ 16-bit Peripheral Module	 in line *_TBCCTL0
+DEREF at 384/0x180	 @ 16-bit Peripheral Module	 in line *_TBCTL
+DEREF at 386/0x182	 @ 16-bit Peripheral Module	 in line *_TBCCTL0
+DEREF at 386/0x182	 @ 16-bit Peripheral Module	 in line *_TBCCTL0
+DEREF at 402/0x192	 @ 16-bit Peripheral Module	 in line *_TBCCR0
+DEREF at 402/0x192	 @ 16-bit Peripheral Module	 in line *_TBCCR0
+DEREF at 404/0x194	 @ 16-bit Peripheral Module	 in line *_TBCCR1
+DEREF at 388/0x184	 @ 16-bit Peripheral Module	 in line *_TBCCTL1
+DEREF at 388/0x184	 @ 16-bit Peripheral Module	 in line *_TBCCTL1
+DEREF at 390/0x186	 @ 16-bit Peripheral Module	 in line *_TBCCTL2
+DEREF at 406/0x196	 @ 16-bit Peripheral Module	 in line *_TBCCR2
+DEREF at 390/0x186	 @ 16-bit Peripheral Module	 in line *_TBCCTL2
+DEREF at 390/0x186	 @ 16-bit Peripheral Module	 in line *_TBCCTL2
+DEREF at 54/0x36	 @ 8-bit Peripheral Module	 in line *_P6DIR
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 54/0x36	 @ 8-bit Peripheral Module	 in line *_P6DIR
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 54/0x36	 @ 8-bit Peripheral Module	 in line *_P6DIR
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 54/0x36	 @ 8-bit Peripheral Module	 in line *_P6DIR
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 54/0x36	 @ 8-bit Peripheral Module	 in line *_P6DIR
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 54/0x36	 @ 8-bit Peripheral Module	 in line *_P6DIR
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 54/0x36	 @ 8-bit Peripheral Module	 in line *_P6DIR
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 54/0x36	 @ 8-bit Peripheral Module	 in line *_P6DIR
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 416/0x01A0	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12CTL0
+DEREF at 416/0x01A0	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12CTL0
+DEREF at 356/0x164	 @ 16-bit Peripheral Module	 in line *_TACCTL1
+DEREF at 390/0x186	 @ 16-bit Peripheral Module	 in line *_TBCCTL2
+DEREF at 390/0x186	 @ 16-bit Peripheral Module	 in line *_TBCCTL2
+DEREF at 406/0x196	 @ 16-bit Peripheral Module	 in line *_TBCCR2
+DEREF at 406/0x196	 @ 16-bit Peripheral Module	 in line *_TBCCR2
+DEREF at 408/0x198	 @ 16-bit Peripheral Module	 in line *_TBCCR3
+DEREF at 392/0x188	 @ 16-bit Peripheral Module	 in line *_TBCCTL3
+DEREF at 392/0x188	 @ 16-bit Peripheral Module	 in line *_TBCCTL3
+DEREF at 410/0x19a	 @ 16-bit Peripheral Module	 in line *_TBCCR4
+DEREF at 394/0x18a	 @ 16-bit Peripheral Module	 in line *_TBCCTL4
+DEREF at 394/0x18a	 @ 16-bit Peripheral Module	 in line *_TBCCTL4
+DEREF at 412/0x19c	 @ 16-bit Peripheral Module	 in line *_TBCCR5
+DEREF at 396/0x18c	 @ 16-bit Peripheral Module	 in line *_TBCCTL5
+DEREF at 396/0x18c	 @ 16-bit Peripheral Module	 in line *_TBCCTL5
+DEREF at 414/0x19e	 @ 16-bit Peripheral Module	 in line *_TBCCR6
+DEREF at 398/0x18e	 @ 16-bit Peripheral Module	 in line *_TBCCTL6
+DEREF at 398/0x18e	 @ 16-bit Peripheral Module	 in line *_TBCCTL6
+DEREF at 50/0x32	 @ 8-bit Peripheral Module	 in line *_P5DIR
+DEREF at 50/0x32	 @ 8-bit Peripheral Module	 in line *_P5DIR
+DEREF at 50/0x32	 @ 8-bit Peripheral Module	 in line *_P5DIR
+DEREF at 25/0x0019	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 25/0x0019	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 25/0x0019	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 29/0x001D	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 25/0x0019	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 29/0x001D	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 29/0x001D	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 30/0x001E	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 30/0x001E	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 26/0x001A	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 38/0x0026	 @8-bit Peripheral Module	 with fixed-address variable P1SEL
+DEREF at 46/0x002E	 @8-bit Peripheral Module	 with fixed-address variable P2SEL
+DEREF at 27/0x001B	 @8-bit Peripheral Module	 with fixed-address variable P3SEL
+DEREF at 31/0x001F	 @8-bit Peripheral Module	 with fixed-address variable P4SEL
+DEREF at 51/0x0033	 @8-bit Peripheral Module	 with fixed-address variable P5SEL
+DEREF at 55/0x0037	 @8-bit Peripheral Module	 with fixed-address variable P6SEL
+DEREF at 33/0x0021	 @8-bit Peripheral Module	 with fixed-address variable P1OUT
+DEREF at 34/0x0022	 @8-bit Peripheral Module	 with fixed-address variable P1DIR
+DEREF at 41/0x0029	 @8-bit Peripheral Module	 with fixed-address variable P2OUT
+DEREF at 42/0x002A	 @8-bit Peripheral Module	 with fixed-address variable P2DIR
+DEREF at 25/0x0019	 @8-bit Peripheral Module	 with fixed-address variable P3OUT
+DEREF at 26/0x001A	 @8-bit Peripheral Module	 with fixed-address variable P3DIR
+DEREF at 29/0x001D	 @8-bit Peripheral Module	 with fixed-address variable P4OUT
+DEREF at 30/0x001E	 @8-bit Peripheral Module	 with fixed-address variable P4DIR
+DEREF at 49/0x0031	 @8-bit Peripheral Module	 with fixed-address variable P5OUT
+DEREF at 50/0x0032	 @8-bit Peripheral Module	 with fixed-address variable P5DIR
+DEREF at 53/0x0035	 @8-bit Peripheral Module	 with fixed-address variable P6OUT
+DEREF at 54/0x0036	 @8-bit Peripheral Module	 with fixed-address variable P6DIR
+DEREF at 37/0x0025	 @8-bit Peripheral Module	 with fixed-address variable P1IE
+DEREF at 45/0x002D	 @8-bit Peripheral Module	 with fixed-address variable P2IE
+DEREF at 384/0x0180	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TBCTL
+DEREF at 384/0x0180	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TBCTL
+DEREF at 352/0x0160	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TA0CTL
+DEREF at 352/0x0160	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TA0CTL
+DEREF at 400/0x0190	 @16-bit Peripheral Module	 with fixed-address variable TBR
+DEREF at 384/0x0180	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TBCTL
+DEREF at 368/0x0170	 @16-bit Peripheral Module	 with fixed-address variable TA0R
+DEREF at 352/0x0160	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TA0CTL
+DEREF at 87/0x0057	 @8-bit Peripheral Module	 with fixed-address variable BCSCTL1
+DEREF at 87/0x0057	 @8-bit Peripheral Module	 with fixed-address variable BCSCTL1
+DEREF at 88/0x0058	 @8-bit Peripheral Module	 with fixed-address variable BCSCTL2
+DEREF at 0/0x0000	 @Special Function Register	 with fixed-address variable Msp430ClockP_IE1
+DEREF at 352/0x0160	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TA0CTL
+DEREF at 302/0x012E	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TA0IV
+DEREF at 384/0x0180	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TBCTL
+DEREF at 286/0x011E	 @16-bit Peripheral Module	 with fixed-address variable Msp430ClockP_TBIV
+DEREF at 26/0x001A	 @8-bit Peripheral Module	 with fixed-address variable r
+DEREF at 418/0x01A2	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12CTL1
+DEREF at 416/0x01A0	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12CTL0
+DEREF at 416/0x01A0	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12CTL0
+DEREF at 372/0x174	 @ 16-bit Peripheral Module	 in line *_TACCR1
+DEREF at 370/0x172	 @ 16-bit Peripheral Module	 in line *_TACCR0
+DEREF at 354/0x162	 @ 16-bit Peripheral Module	 in line *_TACCTL0
+DEREF at 352/0x160	 @ 16-bit Peripheral Module	 in line *_TACTL
+DEREF at 352/0x160	 @ 16-bit Peripheral Module	 in line *_TACTL
+DEREF at 352/0x160	 @ 16-bit Peripheral Module	 in line *_TACTL
+DEREF at 352/0x160	 @ 16-bit Peripheral Module	 in line *_TACTL
+DEREF at 352/0x160	 @ 16-bit Peripheral Module	 in line *_TACTL
+DEREF at 352/0x160	 @ 16-bit Peripheral Module	 in line *_TACTL
+DEREF at 422/0x01A6	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12IE
+DEREF at 418/0x01A2	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12CTL1
+DEREF at 49/0x31	 @ 8-bit Peripheral Module	 in line *_P5OUT
+DEREF at 49/0x31	 @ 8-bit Peripheral Module	 in line *_P5OUT
+DEREF at 49/0x31	 @ 8-bit Peripheral Module	 in line *_P5OUT
+DEREF at 386/0x182	 @ 16-bit Peripheral Module	 in line *_TBCCTL0
+DEREF at 354/0x0162	 @16-bit Peripheral Module	 with fixed-address variable TA0CCTL0
+DEREF at 356/0x0164	 @16-bit Peripheral Module	 with fixed-address variable TA0CCTL1
+DEREF at 358/0x0166	 @16-bit Peripheral Module	 with fixed-address variable TA0CCTL2
+DEREF at 352/0x0160	 @16-bit Peripheral Module	 with fixed-address variable TA0CTL
+DEREF at 4/0x0004	 @Special Function Register	 with fixed-address variable ME1
+DEREF at 113/0x0071	 @8-bit Peripheral Module	 with fixed-address variable U0TCTL
+DEREF at 5/0x0005	 @Special Function Register	 with fixed-address variable ME2
+DEREF at 121/0x0079	 @8-bit Peripheral Module	 with fixed-address variable U1TCTL
+DEREF at 112/0x0070	 @8-bit Peripheral Module	 with fixed-address variable U0CTLnr
+DEREF at 113/0x0071	 @8-bit Peripheral Module	 with fixed-address variable I2CTCTLnr
+DEREF at 114/0x0072	 @8-bit Peripheral Module	 with fixed-address variable I2CDCTLnr
+DEREF at 112/0x0070	 @8-bit Peripheral Module	 with fixed-address variable U0CTLnr
+DEREF at 112/0x0070	 @8-bit Peripheral Module	 with fixed-address variable U0CTLnr
+DEREF at 416/0x01A0	 @16-bit Peripheral Module	 with fixed-address variable ADC12CTL0
+DEREF at 418/0x01A2	 @16-bit Peripheral Module	 with fixed-address variable ADC12CTL1
+DEREF at 418/0x01A2	 @16-bit Peripheral Module	 with fixed-address variable ADC12CTL1
+DEREF at 418/0x01A2	 @16-bit Peripheral Module	 with fixed-address variable ADC12CTL1
+DEREF at 352/0x0160	 @16-bit Peripheral Module	 with fixed-address variable TA0CTL
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 55/0x37	 @ 8-bit Peripheral Module	 in line *_P6SEL
+DEREF at 424/0x01A8	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12IV
+DEREF at 420/0x01A4	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12IFG
+DEREF at 400/0x190	 @ 16-bit Peripheral Module	 in line *_TBR
+DEREF at 400/0x190	 @ 16-bit Peripheral Module	 in line *_TBR
+DEREF at 400/0x190	 @ 16-bit Peripheral Module	 in line *_TBR
+DEREF at 352/0x160	 @ 16-bit Peripheral Module	 in line *_TACTL
+DEREF at 352/0x160	 @ 16-bit Peripheral Module	 in line *_TACTL
+DEREF at 49/0x31	 @ 8-bit Peripheral Module	 in line *_P5OUT
+DEREF at 49/0x31	 @ 8-bit Peripheral Module	 in line *_P5OUT
+DEREF at 49/0x31	 @ 8-bit Peripheral Module	 in line *_P5OUT
+DEREF at 418/0x01A2	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12CTL1
+DEREF at 416/0x01A0	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12CTL0
+DEREF at 416/0x01A0	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12CTL0
+DEREF at 418/0x01A2	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12CTL1
+DEREF at 418/0x01A2	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12CTL1
+DEREF at 424/0x01A8	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12IV
+DEREF at 424/0x01A8	 @16-bit Peripheral Module	 with fixed-address variable HplAdc12P_ADC12IV
+--------------------------------------------------------------------------------

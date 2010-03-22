@@ -1,0 +1,3748 @@
+file outrf.c: Parsing
+Converting
+Type-checking outrf
+file outrf.c line 6236 function __nesc_ntoh_uint8: warning: conversion from `const void *' to `unsigned char *': disregarding const
+file outrf.c line 6236 function __nesc_ntoh_uint8: warning: conversion from `const void *' to `unsigned char *': disregarding const
+file outrf.c line 7314 function TestDisseminationC_Value16_get: warning: conversion from `const unsigned int *' to `unsigned int *': disregarding const
+file outrf.c line 8494 function TestDisseminationC_Value32_get: warning: conversion from `const unsigned long int *' to `unsigned long int *': disregarding const
+file outrf.c line 8840 function __nesc_ntoh_uint16: warning: conversion from `const void *' to `unsigned char *': disregarding const
+file outrf.c line 8840 function __nesc_ntoh_uint16: warning: conversion from `const void *' to `unsigned char *': disregarding const
+Generating GOTO Program
+Function Pointer Removal
+Pointer Analysis
+Adding Pointer Checks
+Claim memset.1:
+  file lib/libc_string.h line 14 function memset
+  dereference failure: array `SchedulerBasicP_m_next' lower bound
+  !(POINTER_OFFSET(dst) + (int)i < 0) || !(SAME-OBJECT(dst, &SchedulerBasicP_m_next[0]))
+
+Claim memset.2:
+  file lib/libc_string.h line 14 function memset
+  dereference failure: array `SchedulerBasicP_m_next' upper bound
+  !(POINTER_OFFSET(dst) + (int)i >= 16) || !(SAME-OBJECT(dst, &SchedulerBasicP_m_next[0]))
+
+Claim memset.3:
+  file lib/libc_string.h line 14 function memset
+  dereference failure: array `BitVectorC_0_m_bits' lower bound
+  !(POINTER_OFFSET(dst) + (int)i < 0) || !(SAME-OBJECT(dst, &BitVectorC_0_m_bits[0]))
+
+Claim memset.4:
+  file lib/libc_string.h line 14 function memset
+  dereference failure: array `BitVectorC_0_m_bits' upper bound
+  !(POINTER_OFFSET(dst) + (int)i >= 1) || !(SAME-OBJECT(dst, &BitVectorC_0_m_bits[0]))
+
+Claim memset.5:
+  file lib/libc_string.h line 14 function memset
+  dereference failure: array `BitVectorC_1_m_bits' lower bound
+  !(POINTER_OFFSET(dst) + (int)i < 0) || !(SAME-OBJECT(dst, &BitVectorC_1_m_bits[0]))
+
+Claim memset.6:
+  file lib/libc_string.h line 14 function memset
+  dereference failure: array `BitVectorC_1_m_bits' upper bound
+  !(POINTER_OFFSET(dst) + (int)i >= 1) || !(SAME-OBJECT(dst, &BitVectorC_1_m_bits[0]))
+
+Claim memset.7:
+  file lib/libc_string.h line 14 function memset
+  dereference failure: array `FcfsResourceQueueC_0_resQ' lower bound
+  !(POINTER_OFFSET(dst) + (int)i < 0) || !(SAME-OBJECT(dst, &FcfsResourceQueueC_0_resQ[0]))
+
+Claim memset.8:
+  file lib/libc_string.h line 14 function memset
+  dereference failure: array `FcfsResourceQueueC_0_resQ' upper bound
+  !((unsigned int)(POINTER_OFFSET(dst)) + (unsigned int)((int)i) >= 1) || !(SAME-OBJECT(dst, &FcfsResourceQueueC_0_resQ[0]))
+
+Claim TrickleTimerImplP_0_Init_init.1:
+  file outrf.c line 11455 function TrickleTimerImplP_0_Init_init
+  array `TrickleTimerImplP_0_trickles' lower bound
+  i >= 0
+
+Claim TrickleTimerImplP_0_Init_init.2:
+  file outrf.c line 11455 function TrickleTimerImplP_0_Init_init
+  array `TrickleTimerImplP_0_trickles' upper bound
+  i < 2
+
+Claim TrickleTimerImplP_0_Init_init.3:
+  file outrf.c line 11456 function TrickleTimerImplP_0_Init_init
+  array `TrickleTimerImplP_0_trickles' lower bound
+  i >= 0
+
+Claim TrickleTimerImplP_0_Init_init.4:
+  file outrf.c line 11456 function TrickleTimerImplP_0_Init_init
+  array `TrickleTimerImplP_0_trickles' upper bound
+  i < 2
+
+Claim TrickleTimerImplP_0_Init_init.5:
+  file outrf.c line 11457 function TrickleTimerImplP_0_Init_init
+  array `TrickleTimerImplP_0_trickles' lower bound
+  i >= 0
+
+Claim TrickleTimerImplP_0_Init_init.6:
+  file outrf.c line 11457 function TrickleTimerImplP_0_Init_init
+  array `TrickleTimerImplP_0_trickles' upper bound
+  i < 2
+
+Claim TrickleTimerImplP_0_Init_init.7:
+  file outrf.c line 11458 function TrickleTimerImplP_0_Init_init
+  array `TrickleTimerImplP_0_trickles' lower bound
+  i >= 0
+
+Claim TrickleTimerImplP_0_Init_init.8:
+  file outrf.c line 11458 function TrickleTimerImplP_0_Init_init
+  array `TrickleTimerImplP_0_trickles' upper bound
+  i < 2
+
+Claim UniqueReceiveP_Init_init.1:
+  file outrf.c line 11423 function UniqueReceiveP_Init_init
+  array `UniqueReceiveP_receivedMessages' lower bound
+  i >= 0
+
+Claim UniqueReceiveP_Init_init.2:
+  file outrf.c line 11423 function UniqueReceiveP_Init_init
+  array `UniqueReceiveP_receivedMessages' upper bound
+  i < 4
+
+Claim UniqueReceiveP_Init_init.3:
+  file outrf.c line 11424 function UniqueReceiveP_Init_init
+  array `UniqueReceiveP_receivedMessages' lower bound
+  i >= 0
+
+Claim UniqueReceiveP_Init_init.4:
+  file outrf.c line 11424 function UniqueReceiveP_Init_init
+  array `UniqueReceiveP_receivedMessages' upper bound
+  i < 4
+
+Claim StateImplP_Init_init.1:
+  file outrf.c line 11256 function StateImplP_Init_init
+  array `StateImplP_state' lower bound
+  i >= 0
+
+Claim StateImplP_Init_init.2:
+  file outrf.c line 11256 function StateImplP_Init_init
+  array `StateImplP_state' upper bound
+  i < 4
+
+Claim SchedulerBasicP_popTask.1:
+  file outrf.c line 11623 function SchedulerBasicP_popTask
+  array `SchedulerBasicP_m_next' upper bound
+  (unsigned int)SchedulerBasicP_m_head < 16
+
+Claim SchedulerBasicP_popTask.2:
+  file outrf.c line 11634 function SchedulerBasicP_popTask
+  array `SchedulerBasicP_m_next' upper bound
+  (unsigned int)id < 16
+
+Claim McuSleepC_McuSleep_sleep.1:
+  file outrf.c line 11590 function McuSleepC_McuSleep_sleep
+  array `McuSleepC_msp430PowerBits' upper bound
+  (unsigned int)McuSleepC_powerState < 6
+
+Claim Msp430SpiNoDmaP_0_UsartInterrupts_rxDone.1:
+  file outrf.c line 11992 function Msp430SpiNoDmaP_0_UsartInterrupts_rxDone
+  dereference failure: invalid pointer
+  FALSE
+
+Claim SchedulerBasicP_isWaiting.1:
+  file outrf.c line 5373 function SchedulerBasicP_isWaiting
+  array `SchedulerBasicP_m_next' upper bound
+  (unsigned int)id < 16
+
+Claim SchedulerBasicP_pushTask.1:
+  file outrf.c line 5393 function SchedulerBasicP_pushTask
+  array `SchedulerBasicP_m_next' upper bound
+  (unsigned int)SchedulerBasicP_m_tail < 16
+
+Claim SchedulerBasicP_popTask.3:
+  file outrf.c line 11623 function SchedulerBasicP_popTask
+  array `SchedulerBasicP_m_next' upper bound
+  (unsigned int)SchedulerBasicP_m_head < 16
+
+Claim SchedulerBasicP_popTask.4:
+  file outrf.c line 11634 function SchedulerBasicP_popTask
+  array `SchedulerBasicP_m_next' upper bound
+  (unsigned int)id < 16
+
+Claim CC2420PacketP_CC2420PacketBody_getHeader.1:
+  file outrf.c line 6155 function CC2420PacketP_CC2420PacketBody_getHeader
+  dereference failure: NULL pointer
+  FALSE
+
+Claim CC2420ActiveMessageP_AMSend_send.1:
+  file outrf.c line 13250 function CC2420ActiveMessageP_AMSend_send
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(header, NULL))
+
+Claim CC2420ActiveMessageP_AMSend_send.2:
+  file outrf.c line 13250 function CC2420ActiveMessageP_AMSend_send
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(header))
+
+Claim CC2420ActiveMessageP_AMSend_send.3:
+  file outrf.c line 13250 function CC2420ActiveMessageP_AMSend_send
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(header, &DisseminationEngineImplP_m_buf))
+
+Claim __nesc_hton_leuint8.1:
+  file outrf.c line 7602 function __nesc_hton_leuint8
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim __nesc_hton_leuint8.2:
+  file outrf.c line 7602 function __nesc_hton_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).type.data[0]))
+
+Claim __nesc_hton_leuint8.3:
+  file outrf.c line 7602 function __nesc_hton_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).type.data[0]))
+
+Claim __nesc_hton_leuint8.4:
+  file outrf.c line 7602 function __nesc_hton_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.type.data[0]))
+
+Claim __nesc_hton_leuint8.5:
+  file outrf.c line 7602 function __nesc_hton_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.type.data[0]))
+
+Claim CC2420ActiveMessageP_AMSend_send.4:
+  file outrf.c line 13251 function CC2420ActiveMessageP_AMSend_send
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(header, NULL))
+
+Claim CC2420ActiveMessageP_AMSend_send.5:
+  file outrf.c line 13251 function CC2420ActiveMessageP_AMSend_send
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(header))
+
+Claim CC2420ActiveMessageP_AMSend_send.6:
+  file outrf.c line 13251 function CC2420ActiveMessageP_AMSend_send
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(header, &DisseminationEngineImplP_m_buf))
+
+Claim __nesc_hton_leuint16.1:
+  file outrf.c line 7676 function __nesc_hton_leuint16
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim __nesc_hton_leuint16.2:
+  file outrf.c line 7676 function __nesc_hton_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dest.data[0]))
+
+Claim __nesc_hton_leuint16.3:
+  file outrf.c line 7676 function __nesc_hton_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dest.data[0]))
+
+Claim __nesc_hton_leuint16.4:
+  file outrf.c line 7676 function __nesc_hton_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.dest.data[0]))
+
+Claim __nesc_hton_leuint16.5:
+  file outrf.c line 7676 function __nesc_hton_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.dest.data[0]))
+
+Claim __nesc_hton_leuint16.6:
+  file outrf.c line 7677 function __nesc_hton_leuint16
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(1 + base))
+
+Claim __nesc_hton_leuint16.7:
+  file outrf.c line 7677 function __nesc_hton_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dest.data[0]))
+
+Claim __nesc_hton_leuint16.8:
+  file outrf.c line 7677 function __nesc_hton_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dest.data[0]))
+
+Claim __nesc_hton_leuint16.9:
+  file outrf.c line 7677 function __nesc_hton_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.dest.data[0]))
+
+Claim __nesc_hton_leuint16.10:
+  file outrf.c line 7677 function __nesc_hton_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.dest.data[0]))
+
+Claim CC2420ActiveMessageP_AMSend_send.7:
+  file outrf.c line 13252 function CC2420ActiveMessageP_AMSend_send
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(header, NULL))
+
+Claim CC2420ActiveMessageP_AMSend_send.8:
+  file outrf.c line 13252 function CC2420ActiveMessageP_AMSend_send
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(header))
+
+Claim CC2420ActiveMessageP_AMSend_send.9:
+  file outrf.c line 13252 function CC2420ActiveMessageP_AMSend_send
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(header, &DisseminationEngineImplP_m_buf))
+
+Claim __nesc_hton_leuint16.11:
+  file outrf.c line 7676 function __nesc_hton_leuint16
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim __nesc_hton_leuint16.12:
+  file outrf.c line 7676 function __nesc_hton_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).destpan.data[0]))
+
+Claim __nesc_hton_leuint16.13:
+  file outrf.c line 7676 function __nesc_hton_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).destpan.data[0]))
+
+Claim __nesc_hton_leuint16.14:
+  file outrf.c line 7676 function __nesc_hton_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.destpan.data[0]))
+
+Claim __nesc_hton_leuint16.15:
+  file outrf.c line 7676 function __nesc_hton_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.destpan.data[0]))
+
+Claim __nesc_hton_leuint16.16:
+  file outrf.c line 7677 function __nesc_hton_leuint16
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(1 + base))
+
+Claim __nesc_hton_leuint16.17:
+  file outrf.c line 7677 function __nesc_hton_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).destpan.data[0]))
+
+Claim __nesc_hton_leuint16.18:
+  file outrf.c line 7677 function __nesc_hton_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).destpan.data[0]))
+
+Claim __nesc_hton_leuint16.19:
+  file outrf.c line 7677 function __nesc_hton_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.destpan.data[0]))
+
+Claim __nesc_hton_leuint16.20:
+  file outrf.c line 7677 function __nesc_hton_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.destpan.data[0]))
+
+Claim CC2420ActiveMessageP_AMSend_send.10:
+  file outrf.c line 13253 function CC2420ActiveMessageP_AMSend_send
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(header, NULL))
+
+Claim CC2420ActiveMessageP_AMSend_send.11:
+  file outrf.c line 13253 function CC2420ActiveMessageP_AMSend_send
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(header))
+
+Claim CC2420ActiveMessageP_AMSend_send.12:
+  file outrf.c line 13253 function CC2420ActiveMessageP_AMSend_send
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(header, &DisseminationEngineImplP_m_buf))
+
+Claim __nesc_hton_leuint16.21:
+  file outrf.c line 7676 function __nesc_hton_leuint16
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim __nesc_hton_leuint16.22:
+  file outrf.c line 7676 function __nesc_hton_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).src.data[0]))
+
+Claim __nesc_hton_leuint16.23:
+  file outrf.c line 7676 function __nesc_hton_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).src.data[0]))
+
+Claim __nesc_hton_leuint16.24:
+  file outrf.c line 7676 function __nesc_hton_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.src.data[0]))
+
+Claim __nesc_hton_leuint16.25:
+  file outrf.c line 7676 function __nesc_hton_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.src.data[0]))
+
+Claim __nesc_hton_leuint16.26:
+  file outrf.c line 7677 function __nesc_hton_leuint16
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(1 + base))
+
+Claim __nesc_hton_leuint16.27:
+  file outrf.c line 7677 function __nesc_hton_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).src.data[0]))
+
+Claim __nesc_hton_leuint16.28:
+  file outrf.c line 7677 function __nesc_hton_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).src.data[0]))
+
+Claim __nesc_hton_leuint16.29:
+  file outrf.c line 7677 function __nesc_hton_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.src.data[0]))
+
+Claim __nesc_hton_leuint16.30:
+  file outrf.c line 7677 function __nesc_hton_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.src.data[0]))
+
+Claim CC2420PacketP_CC2420PacketBody_getHeader.2:
+  file outrf.c line 6155 function CC2420PacketP_CC2420PacketBody_getHeader
+  dereference failure: NULL pointer
+  FALSE
+
+Claim UniqueSendP_Send_send.1:
+  file outrf.c line 7977 function UniqueSendP_Send_send
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(return_value_UniqueSendP_CC2420PacketBody_getHeader$1, NULL))
+
+Claim UniqueSendP_Send_send.2:
+  file outrf.c line 7977 function UniqueSendP_Send_send
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(return_value_UniqueSendP_CC2420PacketBody_getHeader$1))
+
+Claim UniqueSendP_Send_send.3:
+  file outrf.c line 7977 function UniqueSendP_Send_send
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(return_value_UniqueSendP_CC2420PacketBody_getHeader$1, &DisseminationEngineImplP_m_buf))
+
+Claim __nesc_hton_leuint8.6:
+  file outrf.c line 7602 function __nesc_hton_leuint8
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim __nesc_hton_leuint8.7:
+  file outrf.c line 7602 function __nesc_hton_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dsn.data[0]))
+
+Claim __nesc_hton_leuint8.8:
+  file outrf.c line 7602 function __nesc_hton_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dsn.data[0]))
+
+Claim __nesc_hton_leuint8.9:
+  file outrf.c line 7602 function __nesc_hton_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.dsn.data[0]))
+
+Claim __nesc_hton_leuint8.10:
+  file outrf.c line 7602 function __nesc_hton_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.dsn.data[0]))
+
+Claim CC2420PacketP_CC2420PacketBody_getHeader.3:
+  file outrf.c line 6155 function CC2420PacketP_CC2420PacketBody_getHeader
+  dereference failure: NULL pointer
+  FALSE
+
+Claim CC2420TinyosNetworkP_Send_send.1:
+  file outrf.c line 7947 function CC2420TinyosNetworkP_Send_send
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(return_value_CC2420TinyosNetworkP_CC2420PacketBody_getHeader$1, NULL))
+
+Claim CC2420TinyosNetworkP_Send_send.2:
+  file outrf.c line 7947 function CC2420TinyosNetworkP_Send_send
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(return_value_CC2420TinyosNetworkP_CC2420PacketBody_getHeader$1))
+
+Claim CC2420TinyosNetworkP_Send_send.3:
+  file outrf.c line 7947 function CC2420TinyosNetworkP_Send_send
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(return_value_CC2420TinyosNetworkP_CC2420PacketBody_getHeader$1, &DisseminationEngineImplP_m_buf))
+
+Claim __nesc_hton_leuint8.11:
+  file outrf.c line 7602 function __nesc_hton_leuint8
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim __nesc_hton_leuint8.12:
+  file outrf.c line 7602 function __nesc_hton_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).network.data[0]))
+
+Claim __nesc_hton_leuint8.13:
+  file outrf.c line 7602 function __nesc_hton_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).network.data[0]))
+
+Claim __nesc_hton_leuint8.14:
+  file outrf.c line 7602 function __nesc_hton_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.network.data[0]))
+
+Claim __nesc_hton_leuint8.15:
+  file outrf.c line 7602 function __nesc_hton_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.network.data[0]))
+
+Claim CC2420PacketP_CC2420PacketBody_getHeader.4:
+  file outrf.c line 6155 function CC2420PacketP_CC2420PacketBody_getHeader
+  dereference failure: NULL pointer
+  FALSE
+
+Claim CC2420PacketP_CC2420PacketBody_getMetadata.1:
+  file outrf.c line 6247 function CC2420PacketP_CC2420PacketBody_getMetadata
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(msg, NULL))
+
+Claim CC2420PacketP_CC2420PacketBody_getMetadata.2:
+  file outrf.c line 6247 function CC2420PacketP_CC2420PacketBody_getMetadata
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(msg))
+
+Claim StateImplP_State_forceState.1:
+  file outrf.c line 7852 function StateImplP_State_forceState
+  array `StateImplP_state' upper bound
+  (unsigned int)id < 4
+
+Claim CC2420CsmaP_Send_send.1:
+  file outrf.c line 7917 function CC2420CsmaP_Send_send
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(header, NULL))
+
+Claim CC2420CsmaP_Send_send.2:
+  file outrf.c line 7917 function CC2420CsmaP_Send_send
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(header))
+
+Claim CC2420CsmaP_Send_send.3:
+  file outrf.c line 7917 function CC2420CsmaP_Send_send
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(header, &DisseminationEngineImplP_m_buf))
+
+Claim __nesc_hton_leuint8.16:
+  file outrf.c line 7602 function __nesc_hton_leuint8
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim __nesc_hton_leuint8.17:
+  file outrf.c line 7602 function __nesc_hton_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).length.data[0]))
+
+Claim __nesc_hton_leuint8.18:
+  file outrf.c line 7602 function __nesc_hton_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).length.data[0]))
+
+Claim __nesc_hton_leuint8.19:
+  file outrf.c line 7602 function __nesc_hton_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.length.data[0]))
+
+Claim __nesc_hton_leuint8.20:
+  file outrf.c line 7602 function __nesc_hton_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.length.data[0]))
+
+Claim CC2420CsmaP_Send_send.4:
+  file outrf.c line 7918 function CC2420CsmaP_Send_send
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(header, NULL))
+
+Claim CC2420CsmaP_Send_send.5:
+  file outrf.c line 7918 function CC2420CsmaP_Send_send
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(header))
+
+Claim CC2420CsmaP_Send_send.6:
+  file outrf.c line 7918 function CC2420CsmaP_Send_send
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(header, &DisseminationEngineImplP_m_buf))
+
+Claim __nesc_ntoh_leuint16.1:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(1 + base))
+
+Claim __nesc_ntoh_leuint16.2:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.3:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.4:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.5:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.6:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim __nesc_ntoh_leuint16.7:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.8:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.9:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.10:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.fcf.data[0]))
+
+Claim __nesc_hton_leuint16.31:
+  file outrf.c line 7676 function __nesc_hton_leuint16
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim __nesc_hton_leuint16.32:
+  file outrf.c line 7676 function __nesc_hton_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_hton_leuint16.33:
+  file outrf.c line 7676 function __nesc_hton_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_hton_leuint16.34:
+  file outrf.c line 7676 function __nesc_hton_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.fcf.data[0]))
+
+Claim __nesc_hton_leuint16.35:
+  file outrf.c line 7676 function __nesc_hton_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.fcf.data[0]))
+
+Claim __nesc_hton_leuint16.36:
+  file outrf.c line 7677 function __nesc_hton_leuint16
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(1 + base))
+
+Claim __nesc_hton_leuint16.37:
+  file outrf.c line 7677 function __nesc_hton_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_hton_leuint16.38:
+  file outrf.c line 7677 function __nesc_hton_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_hton_leuint16.39:
+  file outrf.c line 7677 function __nesc_hton_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.fcf.data[0]))
+
+Claim __nesc_hton_leuint16.40:
+  file outrf.c line 7677 function __nesc_hton_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.fcf.data[0]))
+
+Claim CC2420CsmaP_Send_send.7:
+  file outrf.c line 7919 function CC2420CsmaP_Send_send
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(header, NULL))
+
+Claim CC2420CsmaP_Send_send.8:
+  file outrf.c line 7919 function CC2420CsmaP_Send_send
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(header))
+
+Claim CC2420CsmaP_Send_send.9:
+  file outrf.c line 7919 function CC2420CsmaP_Send_send
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(header, &DisseminationEngineImplP_m_buf))
+
+Claim __nesc_ntoh_leuint16.11:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(1 + base))
+
+Claim __nesc_ntoh_leuint16.12:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.13:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.14:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.15:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.16:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim __nesc_ntoh_leuint16.17:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.18:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.19:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.20:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.fcf.data[0]))
+
+Claim __nesc_hton_leuint16.41:
+  file outrf.c line 7676 function __nesc_hton_leuint16
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim __nesc_hton_leuint16.42:
+  file outrf.c line 7676 function __nesc_hton_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_hton_leuint16.43:
+  file outrf.c line 7676 function __nesc_hton_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_hton_leuint16.44:
+  file outrf.c line 7676 function __nesc_hton_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.fcf.data[0]))
+
+Claim __nesc_hton_leuint16.45:
+  file outrf.c line 7676 function __nesc_hton_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.fcf.data[0]))
+
+Claim __nesc_hton_leuint16.46:
+  file outrf.c line 7677 function __nesc_hton_leuint16
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(1 + base))
+
+Claim __nesc_hton_leuint16.47:
+  file outrf.c line 7677 function __nesc_hton_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_hton_leuint16.48:
+  file outrf.c line 7677 function __nesc_hton_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_hton_leuint16.49:
+  file outrf.c line 7677 function __nesc_hton_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.fcf.data[0]))
+
+Claim __nesc_hton_leuint16.50:
+  file outrf.c line 7677 function __nesc_hton_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.fcf.data[0]))
+
+Claim CC2420CsmaP_Send_send.10:
+  file outrf.c line 7920 function CC2420CsmaP_Send_send
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(metadata))
+
+Claim CC2420CsmaP_Send_send.11:
+  file outrf.c line 7920 function CC2420CsmaP_Send_send
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(metadata, NULL))
+
+Claim CC2420CsmaP_Send_send.12:
+  file outrf.c line 7920 function CC2420CsmaP_Send_send
+  dereference failure: memory model not applicable (got `struct #anon#ST[ARR0000000000000001{U8}'data']', expected `struct cc2420_metadata_t')
+  !(SAME-OBJECT(metadata, &DisseminationEngineImplP_m_buf.metadata[0]))
+
+Claim __nesc_hton_uint8.1:
+  file outrf.c line 7750 function __nesc_hton_uint8
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim CC2420CsmaP_Send_send.13:
+  file outrf.c line 7921 function CC2420CsmaP_Send_send
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(metadata))
+
+Claim CC2420CsmaP_Send_send.14:
+  file outrf.c line 7921 function CC2420CsmaP_Send_send
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(metadata, NULL))
+
+Claim CC2420CsmaP_Send_send.15:
+  file outrf.c line 7921 function CC2420CsmaP_Send_send
+  dereference failure: memory model not applicable (got `struct #anon#ST[ARR0000000000000001{U8}'data']', expected `struct cc2420_metadata_t')
+  !(SAME-OBJECT(metadata, &DisseminationEngineImplP_m_buf.metadata[0]))
+
+Claim __nesc_hton_uint8.2:
+  file outrf.c line 7750 function __nesc_hton_uint8
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim CC2420CsmaP_Send_send.16:
+  file outrf.c line 7922 function CC2420CsmaP_Send_send
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(metadata))
+
+Claim CC2420CsmaP_Send_send.17:
+  file outrf.c line 7922 function CC2420CsmaP_Send_send
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(metadata, NULL))
+
+Claim CC2420CsmaP_Send_send.18:
+  file outrf.c line 7922 function CC2420CsmaP_Send_send
+  dereference failure: memory model not applicable (got `struct #anon#ST[ARR0000000000000001{U8}'data']', expected `struct cc2420_metadata_t')
+  !(SAME-OBJECT(metadata, &DisseminationEngineImplP_m_buf.metadata[0]))
+
+Claim __nesc_hton_uint8.3:
+  file outrf.c line 7750 function __nesc_hton_uint8
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim CC2420CsmaP_Send_send.19:
+  file outrf.c line 7923 function CC2420CsmaP_Send_send
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(metadata))
+
+Claim CC2420CsmaP_Send_send.20:
+  file outrf.c line 7923 function CC2420CsmaP_Send_send
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(metadata, NULL))
+
+Claim CC2420CsmaP_Send_send.21:
+  file outrf.c line 7923 function CC2420CsmaP_Send_send
+  dereference failure: memory model not applicable (got `struct #anon#ST[ARR0000000000000001{U8}'data']', expected `struct cc2420_metadata_t')
+  !(SAME-OBJECT(metadata, &DisseminationEngineImplP_m_buf.metadata[0]))
+
+Claim __nesc_hton_uint8.4:
+  file outrf.c line 7750 function __nesc_hton_uint8
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim CC2420CsmaP_Send_send.22:
+  file outrf.c line 7924 function CC2420CsmaP_Send_send
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(metadata))
+
+Claim CC2420CsmaP_Send_send.23:
+  file outrf.c line 7924 function CC2420CsmaP_Send_send
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(metadata, NULL))
+
+Claim CC2420CsmaP_Send_send.24:
+  file outrf.c line 7924 function CC2420CsmaP_Send_send
+  dereference failure: memory model not applicable (got `struct #anon#ST[ARR0000000000000001{U8}'data']', expected `struct cc2420_metadata_t')
+  !(SAME-OBJECT(metadata, &DisseminationEngineImplP_m_buf.metadata[0]))
+
+Claim __nesc_hton_uint32.1:
+  file outrf.c line 6064 function __nesc_hton_uint32
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(3 + base))
+
+Claim __nesc_hton_uint32.2:
+  file outrf.c line 6065 function __nesc_hton_uint32
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(2 + base))
+
+Claim __nesc_hton_uint32.3:
+  file outrf.c line 6066 function __nesc_hton_uint32
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(1 + base))
+
+Claim __nesc_hton_uint32.4:
+  file outrf.c line 6067 function __nesc_hton_uint32
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim CC2420ActiveMessageP_SubBackoff_requestCca.1:
+  file outrf.c line 7840 function CC2420ActiveMessageP_SubBackoff_requestCca
+  dereference failure: NULL pointer
+  FALSE
+
+Claim CC2420ActiveMessageP_SubBackoff_requestCca.2:
+  file outrf.c line 7840 function CC2420ActiveMessageP_SubBackoff_requestCca
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(((unsigned char *)msg + (unsigned int)(&invalid_object76.data[0])) - 12, NULL))
+
+Claim CC2420ActiveMessageP_SubBackoff_requestCca.3:
+  file outrf.c line 7840 function CC2420ActiveMessageP_SubBackoff_requestCca
+  dereference failure: invalid pointer
+  !(INVALID-POINTER((struct cc2420_header_t *)(((unsigned char *)msg + (unsigned int)(&invalid_object76.data[0])) - 12)))
+
+Claim CC2420ActiveMessageP_SubBackoff_requestCca.4:
+  file outrf.c line 7840 function CC2420ActiveMessageP_SubBackoff_requestCca
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(((unsigned char *)msg + (unsigned int)(&invalid_object76.data[0])) - 12, &DisseminationEngineImplP_m_buf))
+
+Claim __nesc_ntoh_leuint8.1:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim __nesc_ntoh_leuint8.2:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).type.data[0]))
+
+Claim __nesc_ntoh_leuint8.3:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).type.data[0]))
+
+Claim __nesc_ntoh_leuint8.4:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.type.data[0]))
+
+Claim __nesc_ntoh_leuint8.5:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.type.data[0]))
+
+Claim CC2420PacketP_CC2420PacketBody_getHeader.5:
+  file outrf.c line 6155 function CC2420PacketP_CC2420PacketBody_getHeader
+  dereference failure: NULL pointer
+  FALSE
+
+Claim CC2420ActiveMessageP_AMPacket_destination.1:
+  file outrf.c line 13240 function CC2420ActiveMessageP_AMPacket_destination
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(header, NULL))
+
+Claim CC2420ActiveMessageP_AMPacket_destination.2:
+  file outrf.c line 13240 function CC2420ActiveMessageP_AMPacket_destination
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(header))
+
+Claim CC2420ActiveMessageP_AMPacket_destination.3:
+  file outrf.c line 13240 function CC2420ActiveMessageP_AMPacket_destination
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(header, &DisseminationEngineImplP_m_buf))
+
+Claim CC2420ActiveMessageP_AMPacket_destination.4:
+  file outrf.c line 13240 function CC2420ActiveMessageP_AMPacket_destination
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(header, &CC2420ReceiveP_m_rx_buf))
+
+Claim __nesc_ntoh_leuint16.21:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(1 + base))
+
+Claim __nesc_ntoh_leuint16.22:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.23:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.24:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.25:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.26:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.27:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.28:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim __nesc_ntoh_leuint16.29:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.30:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.31:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.32:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.33:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.34:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.dest.data[0]))
+
+Claim CC2420PacketP_CC2420PacketBody_getHeader.6:
+  file outrf.c line 6155 function CC2420PacketP_CC2420PacketBody_getHeader
+  dereference failure: NULL pointer
+  FALSE
+
+Claim CC2420ActiveMessageP_AMPacket_type.1:
+  file outrf.c line 13234 function CC2420ActiveMessageP_AMPacket_type
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(header, NULL))
+
+Claim CC2420ActiveMessageP_AMPacket_type.2:
+  file outrf.c line 13234 function CC2420ActiveMessageP_AMPacket_type
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(header))
+
+Claim CC2420ActiveMessageP_AMPacket_type.3:
+  file outrf.c line 13234 function CC2420ActiveMessageP_AMPacket_type
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(header, &DisseminationEngineImplP_m_buf))
+
+Claim CC2420ActiveMessageP_AMPacket_type.4:
+  file outrf.c line 13234 function CC2420ActiveMessageP_AMPacket_type
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(header, &CC2420ReceiveP_m_rx_buf))
+
+Claim __nesc_ntoh_leuint8.6:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim __nesc_ntoh_leuint8.7:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).type.data[0]))
+
+Claim __nesc_ntoh_leuint8.8:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).type.data[0]))
+
+Claim __nesc_ntoh_leuint8.9:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.type.data[0]))
+
+Claim __nesc_ntoh_leuint8.10:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.type.data[0]))
+
+Claim __nesc_ntoh_leuint8.11:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.type.data[0]))
+
+Claim __nesc_ntoh_leuint8.12:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.type.data[0]))
+
+Claim CC2420PacketP_CC2420PacketBody_getHeader.7:
+  file outrf.c line 6155 function CC2420PacketP_CC2420PacketBody_getHeader
+  dereference failure: NULL pointer
+  FALSE
+
+Claim CC2420ReceiveP_RXFIFO_readDone.1:
+  file outrf.c line 9646 function CC2420ReceiveP_RXFIFO_readDone
+  dereference failure: NULL pointer
+  FALSE
+
+Claim CC2420ReceiveP_RXFIFO_readDone.2:
+  file outrf.c line 9648 function CC2420ReceiveP_RXFIFO_readDone
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(buf, NULL))
+
+Claim CC2420ReceiveP_RXFIFO_readDone.3:
+  file outrf.c line 9648 function CC2420ReceiveP_RXFIFO_readDone
+  dereference failure: word offset upper bound
+  !(POINTER_OFFSET(buf) >= WIDTH(CC2420ReceiveP_m_rx_buf)) || !(SAME-OBJECT(buf, &CC2420ReceiveP_m_rx_buf))
+
+Claim CC2420ReceiveP_RXFIFO_readDone.4:
+  file outrf.c line 9648 function CC2420ReceiveP_RXFIFO_readDone
+  dereference failure: word offset lower bound
+  !(POINTER_OFFSET(buf) < 0) || !(SAME-OBJECT(buf, &CC2420ReceiveP_m_rx_buf))
+
+Claim CC2420ReceiveP_RXFIFO_readDone.5:
+  file outrf.c line 9711 function CC2420ReceiveP_RXFIFO_readDone
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(header, NULL))
+
+Claim CC2420ReceiveP_RXFIFO_readDone.6:
+  file outrf.c line 9711 function CC2420ReceiveP_RXFIFO_readDone
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(header, &CC2420ReceiveP_m_rx_buf))
+
+Claim __nesc_ntoh_leuint16.35:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.36:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.37:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.38:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.39:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.40:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.41:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.42:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.fcf.data[0]))
+
+Claim CC2420ReceiveP_RXFIFO_readDone.7:
+  file outrf.c line 9711 function CC2420ReceiveP_RXFIFO_readDone
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(header, NULL))
+
+Claim CC2420ReceiveP_RXFIFO_readDone.8:
+  file outrf.c line 9711 function CC2420ReceiveP_RXFIFO_readDone
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(header, &CC2420ReceiveP_m_rx_buf))
+
+Claim __nesc_ntoh_leuint16.43:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.44:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.45:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.46:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.47:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.48:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.49:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.50:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.dest.data[0]))
+
+Claim CC2420ReceiveP_RXFIFO_readDone.9:
+  file outrf.c line 9711 function CC2420ReceiveP_RXFIFO_readDone
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(header, NULL))
+
+Claim CC2420ReceiveP_RXFIFO_readDone.10:
+  file outrf.c line 9711 function CC2420ReceiveP_RXFIFO_readDone
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(header, &CC2420ReceiveP_m_rx_buf))
+
+Claim __nesc_ntoh_leuint16.51:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.52:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.53:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.54:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.55:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.56:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.57:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.58:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.dest.data[0]))
+
+Claim CC2420ReceiveP_RXFIFO_readDone.11:
+  file outrf.c line 9711 function CC2420ReceiveP_RXFIFO_readDone
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(header, NULL))
+
+Claim CC2420ReceiveP_RXFIFO_readDone.12:
+  file outrf.c line 9711 function CC2420ReceiveP_RXFIFO_readDone
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(header, &CC2420ReceiveP_m_rx_buf))
+
+Claim __nesc_ntoh_leuint16.59:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.60:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.61:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.62:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.63:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.64:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.65:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.66:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.fcf.data[0]))
+
+Claim CC2420ReceiveP_RXFIFO_readDone.13:
+  file outrf.c line 9746 function CC2420ReceiveP_RXFIFO_readDone
+  array `CC2420ReceiveP_m_timestamp_queue' upper bound
+  (unsigned int)CC2420ReceiveP_m_timestamp_head < 8
+
+Claim CC2420PacketP_CC2420PacketBody_getMetadata.3:
+  file outrf.c line 6247 function CC2420PacketP_CC2420PacketBody_getMetadata
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(msg, NULL))
+
+Claim CC2420PacketP_PacketTimeStamp32khz_set.1:
+  file outrf.c line 6264 function CC2420PacketP_PacketTimeStamp32khz_set
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(return_value_CC2420PacketP_CC2420PacketBody_getMetadata$1, NULL))
+
+Claim CC2420PacketP_PacketTimeStamp32khz_set.2:
+  file outrf.c line 6264 function CC2420PacketP_PacketTimeStamp32khz_set
+  dereference failure: memory model not applicable (got `struct #anon#ST[ARR0000000000000001{U8}'data']', expected `struct cc2420_metadata_t')
+  !(SAME-OBJECT(return_value_CC2420PacketP_CC2420PacketBody_getMetadata$1, &CC2420ReceiveP_m_rx_buf.metadata[0]))
+
+Claim CC2420ReceiveP_RXFIFO_readDone.14:
+  file outrf.c line 9761 function CC2420ReceiveP_RXFIFO_readDone
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(buf, NULL))
+
+Claim CC2420ReceiveP_RXFIFO_readDone.15:
+  file outrf.c line 9761 function CC2420ReceiveP_RXFIFO_readDone
+  dereference failure: word offset upper bound
+  !(POINTER_OFFSET(buf) + (int)((unsigned int)CC2420ReceiveP_rxFrameLength) >= WIDTH(CC2420ReceiveP_m_rx_buf)) || !(SAME-OBJECT(buf, &CC2420ReceiveP_m_rx_buf))
+
+Claim CC2420ReceiveP_RXFIFO_readDone.16:
+  file outrf.c line 9761 function CC2420ReceiveP_RXFIFO_readDone
+  dereference failure: word offset lower bound
+  !(POINTER_OFFSET(buf) + (int)((unsigned int)CC2420ReceiveP_rxFrameLength) < 0) || !(SAME-OBJECT(buf, &CC2420ReceiveP_m_rx_buf))
+
+Claim CC2420ReceiveP_RXFIFO_readDone.17:
+  file outrf.c line 9763 function CC2420ReceiveP_RXFIFO_readDone
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(header, NULL))
+
+Claim CC2420ReceiveP_RXFIFO_readDone.18:
+  file outrf.c line 9763 function CC2420ReceiveP_RXFIFO_readDone
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(header, &CC2420ReceiveP_m_rx_buf))
+
+Claim __nesc_ntoh_leuint16.67:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.68:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.69:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.70:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.71:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.72:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.73:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.74:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.fcf.data[0]))
+
+Claim CC2420PacketP_CC2420PacketBody_getHeader.8:
+  file outrf.c line 6155 function CC2420PacketP_CC2420PacketBody_getHeader
+  dereference failure: NULL pointer
+  FALSE
+
+Claim CC2420PacketP_CC2420PacketBody_getHeader.9:
+  file outrf.c line 6155 function CC2420PacketP_CC2420PacketBody_getHeader
+  dereference failure: NULL pointer
+  FALSE
+
+Claim CC2420TransmitP_CC2420Receive_receive.1:
+  file outrf.c line 9495 function CC2420TransmitP_CC2420Receive_receive
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(msg_header, NULL))
+
+Claim CC2420TransmitP_CC2420Receive_receive.2:
+  file outrf.c line 9495 function CC2420TransmitP_CC2420Receive_receive
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(msg_header))
+
+Claim CC2420TransmitP_CC2420Receive_receive.3:
+  file outrf.c line 9495 function CC2420TransmitP_CC2420Receive_receive
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(msg_header, &DisseminationEngineImplP_m_buf))
+
+Claim __nesc_ntoh_leuint8.13:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim __nesc_ntoh_leuint8.14:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dsn.data[0]))
+
+Claim __nesc_ntoh_leuint8.15:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dsn.data[0]))
+
+Claim __nesc_ntoh_leuint8.16:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.dsn.data[0]))
+
+Claim __nesc_ntoh_leuint8.17:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.dsn.data[0]))
+
+Claim CC2420TransmitP_CC2420Receive_receive.4:
+  file outrf.c line 9495 function CC2420TransmitP_CC2420Receive_receive
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(ack_header, NULL))
+
+Claim CC2420TransmitP_CC2420Receive_receive.5:
+  file outrf.c line 9495 function CC2420TransmitP_CC2420Receive_receive
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(ack_header, &CC2420ReceiveP_m_rx_buf))
+
+Claim __nesc_ntoh_leuint8.18:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dsn.data[0]))
+
+Claim __nesc_ntoh_leuint8.19:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dsn.data[0]))
+
+Claim __nesc_ntoh_leuint8.20:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.dsn.data[0]))
+
+Claim __nesc_ntoh_leuint8.21:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.dsn.data[0]))
+
+Claim CC2420PacketP_CC2420PacketBody_getMetadata.4:
+  file outrf.c line 6247 function CC2420PacketP_CC2420PacketBody_getMetadata
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(msg, NULL))
+
+Claim CC2420PacketP_CC2420PacketBody_getMetadata.5:
+  file outrf.c line 6247 function CC2420PacketP_CC2420PacketBody_getMetadata
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(msg))
+
+Claim CC2420TransmitP_CC2420Receive_receive.6:
+  file outrf.c line 9500 function CC2420TransmitP_CC2420Receive_receive
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(ack_header, NULL))
+
+Claim CC2420TransmitP_CC2420Receive_receive.7:
+  file outrf.c line 9500 function CC2420TransmitP_CC2420Receive_receive
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(ack_header, &CC2420ReceiveP_m_rx_buf))
+
+Claim __nesc_ntoh_leuint8.22:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).length.data[0]))
+
+Claim __nesc_ntoh_leuint8.23:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).length.data[0]))
+
+Claim __nesc_ntoh_leuint8.24:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.length.data[0]))
+
+Claim __nesc_ntoh_leuint8.25:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.length.data[0]))
+
+Claim CC2420TransmitP_CC2420Receive_receive.8:
+  file outrf.c line 9501 function CC2420TransmitP_CC2420Receive_receive
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(msg_metadata))
+
+Claim CC2420TransmitP_CC2420Receive_receive.9:
+  file outrf.c line 9501 function CC2420TransmitP_CC2420Receive_receive
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(msg_metadata, NULL))
+
+Claim CC2420TransmitP_CC2420Receive_receive.10:
+  file outrf.c line 9501 function CC2420TransmitP_CC2420Receive_receive
+  dereference failure: memory model not applicable (got `struct #anon#ST[ARR0000000000000001{U8}'data']', expected `struct cc2420_metadata_t')
+  !(SAME-OBJECT(msg_metadata, &DisseminationEngineImplP_m_buf.metadata[0]))
+
+Claim __nesc_hton_uint8.5:
+  file outrf.c line 7750 function __nesc_hton_uint8
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim CC2420TransmitP_CC2420Receive_receive.11:
+  file outrf.c line 9502 function CC2420TransmitP_CC2420Receive_receive
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(msg_metadata))
+
+Claim CC2420TransmitP_CC2420Receive_receive.12:
+  file outrf.c line 9502 function CC2420TransmitP_CC2420Receive_receive
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(msg_metadata, NULL))
+
+Claim CC2420TransmitP_CC2420Receive_receive.13:
+  file outrf.c line 9502 function CC2420TransmitP_CC2420Receive_receive
+  dereference failure: memory model not applicable (got `struct #anon#ST[ARR0000000000000001{U8}'data']', expected `struct cc2420_metadata_t')
+  !(SAME-OBJECT(msg_metadata, &DisseminationEngineImplP_m_buf.metadata[0]))
+
+Claim CC2420TransmitP_CC2420Receive_receive.14:
+  file outrf.c line 9502 function CC2420TransmitP_CC2420Receive_receive
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(ack_buf, NULL))
+
+Claim CC2420TransmitP_CC2420Receive_receive.15:
+  file outrf.c line 9502 function CC2420TransmitP_CC2420Receive_receive
+  dereference failure: word offset upper bound
+  !(-1 + POINTER_OFFSET(ack_buf) + (int)length >= WIDTH(CC2420ReceiveP_m_rx_buf)) || !(SAME-OBJECT(ack_buf, &CC2420ReceiveP_m_rx_buf))
+
+Claim CC2420TransmitP_CC2420Receive_receive.16:
+  file outrf.c line 9502 function CC2420TransmitP_CC2420Receive_receive
+  dereference failure: word offset lower bound
+  !(-1 + POINTER_OFFSET(ack_buf) + (int)length < 0) || !(SAME-OBJECT(ack_buf, &CC2420ReceiveP_m_rx_buf))
+
+Claim __nesc_hton_uint8.6:
+  file outrf.c line 7750 function __nesc_hton_uint8
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim CC2420TransmitP_CC2420Receive_receive.17:
+  file outrf.c line 9503 function CC2420TransmitP_CC2420Receive_receive
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(msg_metadata))
+
+Claim CC2420TransmitP_CC2420Receive_receive.18:
+  file outrf.c line 9503 function CC2420TransmitP_CC2420Receive_receive
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(msg_metadata, NULL))
+
+Claim CC2420TransmitP_CC2420Receive_receive.19:
+  file outrf.c line 9503 function CC2420TransmitP_CC2420Receive_receive
+  dereference failure: memory model not applicable (got `struct #anon#ST[ARR0000000000000001{U8}'data']', expected `struct cc2420_metadata_t')
+  !(SAME-OBJECT(msg_metadata, &DisseminationEngineImplP_m_buf.metadata[0]))
+
+Claim CC2420TransmitP_CC2420Receive_receive.20:
+  file outrf.c line 9503 function CC2420TransmitP_CC2420Receive_receive
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(ack_buf, NULL))
+
+Claim CC2420TransmitP_CC2420Receive_receive.21:
+  file outrf.c line 9503 function CC2420TransmitP_CC2420Receive_receive
+  dereference failure: word offset upper bound
+  !(POINTER_OFFSET(ack_buf) + (int)((unsigned int)length) >= WIDTH(CC2420ReceiveP_m_rx_buf)) || !(SAME-OBJECT(ack_buf, &CC2420ReceiveP_m_rx_buf))
+
+Claim CC2420TransmitP_CC2420Receive_receive.22:
+  file outrf.c line 9503 function CC2420TransmitP_CC2420Receive_receive
+  dereference failure: word offset lower bound
+  !(POINTER_OFFSET(ack_buf) + (int)((unsigned int)length) < 0) || !(SAME-OBJECT(ack_buf, &CC2420ReceiveP_m_rx_buf))
+
+Claim __nesc_hton_uint8.7:
+  file outrf.c line 7750 function __nesc_hton_uint8
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim CC2420ActiveMessageP_SubBackoff_requestInitialBackoff.1:
+  file outrf.c line 9821 function CC2420ActiveMessageP_SubBackoff_requestInitialBackoff
+  dereference failure: NULL pointer
+  FALSE
+
+Claim CC2420ActiveMessageP_SubBackoff_requestInitialBackoff.2:
+  file outrf.c line 9821 function CC2420ActiveMessageP_SubBackoff_requestInitialBackoff
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(((unsigned char *)msg + (unsigned int)(&invalid_object149.data[0])) - 12, NULL))
+
+Claim CC2420ActiveMessageP_SubBackoff_requestInitialBackoff.3:
+  file outrf.c line 9821 function CC2420ActiveMessageP_SubBackoff_requestInitialBackoff
+  dereference failure: invalid pointer
+  !(INVALID-POINTER((struct cc2420_header_t *)(((unsigned char *)msg + (unsigned int)(&invalid_object149.data[0])) - 12)))
+
+Claim CC2420ActiveMessageP_SubBackoff_requestInitialBackoff.4:
+  file outrf.c line 9821 function CC2420ActiveMessageP_SubBackoff_requestInitialBackoff
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(((unsigned char *)msg + (unsigned int)(&invalid_object149.data[0])) - 12, &DisseminationEngineImplP_m_buf))
+
+Claim __nesc_ntoh_leuint8.26:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim __nesc_ntoh_leuint8.27:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).type.data[0]))
+
+Claim __nesc_ntoh_leuint8.28:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).type.data[0]))
+
+Claim __nesc_ntoh_leuint8.29:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.type.data[0]))
+
+Claim __nesc_ntoh_leuint8.30:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.type.data[0]))
+
+Claim CC2420SpiP_Ram_write.1:
+  file outrf.c line 12951 function CC2420SpiP_Ram_write
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(tmpData, NULL))
+
+Claim CC2420SpiP_Ram_write.2:
+  file outrf.c line 12951 function CC2420SpiP_Ram_write
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(tmpData + (int)tmpLen + -(int)len))
+
+Claim CC2420SpiP_Ram_write.3:
+  file outrf.c line 12951 function CC2420SpiP_Ram_write
+  dereference failure: word offset upper bound
+  !(POINTER_OFFSET(tmpData) + (int)tmpLen + -(int)len >= WIDTH(id[0])) || !(SAME-OBJECT(tmpData, &id[0]))
+
+Claim CC2420SpiP_Ram_write.4:
+  file outrf.c line 12951 function CC2420SpiP_Ram_write
+  dereference failure: word offset lower bound
+  !(POINTER_OFFSET(tmpData) + (int)tmpLen + -(int)len < 0) || !(SAME-OBJECT(tmpData, &id[0]))
+
+Claim CC2420SpiP_Ram_write.5:
+  file outrf.c line 12951 function CC2420SpiP_Ram_write
+  dereference failure: word offset upper bound
+  !(POINTER_OFFSET(tmpData) + (int)tmpLen + -(int)len >= WIDTH(DisseminationEngineImplP_m_buf)) || !(SAME-OBJECT(tmpData, &DisseminationEngineImplP_m_buf))
+
+Claim CC2420SpiP_Ram_write.6:
+  file outrf.c line 12951 function CC2420SpiP_Ram_write
+  dereference failure: word offset lower bound
+  !(POINTER_OFFSET(tmpData) + (int)tmpLen + -(int)len < 0) || !(SAME-OBJECT(tmpData, &DisseminationEngineImplP_m_buf))
+
+Claim StateImplP_State_toIdle.1:
+  file outrf.c line 5538 function StateImplP_State_toIdle
+  array `StateImplP_state' upper bound
+  (unsigned int)id < 4
+
+Claim StateImplP_State_toIdle.2:
+  file outrf.c line 5538 function StateImplP_State_toIdle
+  array `StateImplP_state' upper bound
+  (unsigned int)id < 4
+
+Claim FcfsResourceQueueC_0_FcfsQueue_isEnqueued.1:
+  file outrf.c line 5573 function FcfsResourceQueueC_0_FcfsQueue_isEnqueued
+  array `FcfsResourceQueueC_0_resQ' upper bound
+  (unsigned int)id < 1
+
+Claim FcfsResourceQueueC_0_FcfsQueue_enqueue.1:
+  file outrf.c line 5593 function FcfsResourceQueueC_0_FcfsQueue_enqueue
+  array `FcfsResourceQueueC_0_resQ' upper bound
+  (unsigned int)FcfsResourceQueueC_0_qTail < 1
+
+Claim StateImplP_State_isState.1:
+  file outrf.c line 12722 function StateImplP_State_isState
+  array `StateImplP_state' upper bound
+  (unsigned int)id < 4
+
+Claim StateImplP_State_requestState.1:
+  file outrf.c line 12454 function StateImplP_State_requestState
+  array `StateImplP_state' upper bound
+  (unsigned int)id < 4
+
+Claim StateImplP_State_requestState.2:
+  file outrf.c line 12456 function StateImplP_State_requestState
+  array `StateImplP_state' upper bound
+  (unsigned int)id < 4
+
+Claim CC2420PacketP_CC2420PacketBody_getMetadata.6:
+  file outrf.c line 6247 function CC2420PacketP_CC2420PacketBody_getMetadata
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(msg, NULL))
+
+Claim CC2420PacketP_CC2420PacketBody_getMetadata.7:
+  file outrf.c line 6247 function CC2420PacketP_CC2420PacketBody_getMetadata
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(msg))
+
+Claim CC2420PacketP_PacketTimeStamp32khz_clear.1:
+  file outrf.c line 12959 function CC2420PacketP_PacketTimeStamp32khz_clear
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(return_value_CC2420PacketP_CC2420PacketBody_getMetadata$1))
+
+Claim CC2420PacketP_PacketTimeStamp32khz_clear.2:
+  file outrf.c line 12959 function CC2420PacketP_PacketTimeStamp32khz_clear
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(return_value_CC2420PacketP_CC2420PacketBody_getMetadata$1, NULL))
+
+Claim CC2420PacketP_PacketTimeStamp32khz_clear.3:
+  file outrf.c line 12959 function CC2420PacketP_PacketTimeStamp32khz_clear
+  dereference failure: memory model not applicable (got `struct #anon#ST[ARR0000000000000001{U8}'data']', expected `struct cc2420_metadata_t')
+  !(SAME-OBJECT(return_value_CC2420PacketP_CC2420PacketBody_getMetadata$1, &DisseminationEngineImplP_m_buf.metadata[0]))
+
+Claim CC2420PacketP_PacketTimeStamp32khz_clear.4:
+  file outrf.c line 12959 function CC2420PacketP_PacketTimeStamp32khz_clear
+  dereference failure: memory model not applicable (got `struct #anon#ST[ARR0000000000000001{U8}'data']', expected `struct cc2420_metadata_t')
+  !(SAME-OBJECT(return_value_CC2420PacketP_CC2420PacketBody_getMetadata$1, &CC2420ReceiveP_m_rx_buf.metadata[0]))
+
+Claim __nesc_hton_uint8.8:
+  file outrf.c line 7750 function __nesc_hton_uint8
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim CC2420PacketP_CC2420PacketBody_getMetadata.8:
+  file outrf.c line 6247 function CC2420PacketP_CC2420PacketBody_getMetadata
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(msg, NULL))
+
+Claim CC2420PacketP_CC2420PacketBody_getMetadata.9:
+  file outrf.c line 6247 function CC2420PacketP_CC2420PacketBody_getMetadata
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(msg))
+
+Claim CC2420PacketP_PacketTimeStamp32khz_clear.5:
+  file outrf.c line 12960 function CC2420PacketP_PacketTimeStamp32khz_clear
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(return_value_CC2420PacketP_CC2420PacketBody_getMetadata$2))
+
+Claim CC2420PacketP_PacketTimeStamp32khz_clear.6:
+  file outrf.c line 12960 function CC2420PacketP_PacketTimeStamp32khz_clear
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(return_value_CC2420PacketP_CC2420PacketBody_getMetadata$2, NULL))
+
+Claim CC2420PacketP_PacketTimeStamp32khz_clear.7:
+  file outrf.c line 12960 function CC2420PacketP_PacketTimeStamp32khz_clear
+  dereference failure: memory model not applicable (got `struct #anon#ST[ARR0000000000000001{U8}'data']', expected `struct cc2420_metadata_t')
+  !(SAME-OBJECT(return_value_CC2420PacketP_CC2420PacketBody_getMetadata$2, &DisseminationEngineImplP_m_buf.metadata[0]))
+
+Claim CC2420PacketP_PacketTimeStamp32khz_clear.8:
+  file outrf.c line 12960 function CC2420PacketP_PacketTimeStamp32khz_clear
+  dereference failure: memory model not applicable (got `struct #anon#ST[ARR0000000000000001{U8}'data']', expected `struct cc2420_metadata_t')
+  !(SAME-OBJECT(return_value_CC2420PacketP_CC2420PacketBody_getMetadata$2, &CC2420ReceiveP_m_rx_buf.metadata[0]))
+
+Claim __nesc_hton_uint32.5:
+  file outrf.c line 6064 function __nesc_hton_uint32
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(3 + base))
+
+Claim __nesc_hton_uint32.6:
+  file outrf.c line 6065 function __nesc_hton_uint32
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(2 + base))
+
+Claim __nesc_hton_uint32.7:
+  file outrf.c line 6066 function __nesc_hton_uint32
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(1 + base))
+
+Claim __nesc_hton_uint32.8:
+  file outrf.c line 6067 function __nesc_hton_uint32
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim memcpy.1:
+  file <builtin-library> line 29 function memcpy
+  dereference failure: offset not zero (non-array-object)
+  POINTER_OFFSET(i + dst) == 0
+
+Claim memcpy.2:
+  file <builtin-library> line 29 function memcpy
+  dereference failure: array lower bound
+  !(-6 + POINTER_OFFSET(i + src) < 0) || !(SAME-OBJECT(src, &(struct dissemination_message)(NULL-object.data[0]).data[0]))
+
+Claim memcpy.3:
+  file <builtin-library> line 29 function memcpy
+  dereference failure: array upper bound
+  !(-6 + POINTER_OFFSET(i + src) >= 0) || !(SAME-OBJECT(src, &(struct dissemination_message)(NULL-object.data[0]).data[0]))
+
+Claim memcpy.4:
+  file <builtin-library> line 29 function memcpy
+  dereference failure: array lower bound
+  !(-6 + POINTER_OFFSET(i + src) < 0) || !(SAME-OBJECT(src, &(struct dissemination_message)(CC2420ReceiveP_m_rx_buf.data[0]).data[0]))
+
+Claim memcpy.5:
+  file <builtin-library> line 29 function memcpy
+  dereference failure: array upper bound
+  !(-6 + POINTER_OFFSET(i + src) >= 0) || !(SAME-OBJECT(src, &(struct dissemination_message)(CC2420ReceiveP_m_rx_buf.data[0]).data[0]))
+
+Claim TrickleTimerImplP_0_TrickleTimer_reset.1:
+  file outrf.c line 13473 function TrickleTimerImplP_0_TrickleTimer_reset
+  array `TrickleTimerImplP_0_trickles' upper bound
+  (unsigned int)id < 2
+
+Claim TrickleTimerImplP_0_TrickleTimer_reset.2:
+  file outrf.c line 13474 function TrickleTimerImplP_0_TrickleTimer_reset
+  array `TrickleTimerImplP_0_trickles' upper bound
+  (unsigned int)id < 2
+
+Claim TrickleTimerImplP_0_TrickleTimer_reset.3:
+  file outrf.c line 13475 function TrickleTimerImplP_0_TrickleTimer_reset
+  array `TrickleTimerImplP_0_trickles' upper bound
+  (unsigned int)id < 2
+
+Claim BitVectorC_1_BitVector_set.1:
+  file outrf.c line 8673 function BitVectorC_1_BitVector_set
+  array `BitVectorC_1_m_bits' upper bound
+  return_value_BitVectorC_1_getIndex$1 < 1
+
+Claim TrickleTimerImplP_0_TrickleTimer_reset.4:
+  file outrf.c line 13494 function TrickleTimerImplP_0_TrickleTimer_reset
+  array `TrickleTimerImplP_0_trickles' upper bound
+  (unsigned int)id < 2
+
+Claim TrickleTimerImplP_0_TrickleTimer_reset.5:
+  file outrf.c line 13495 function TrickleTimerImplP_0_TrickleTimer_reset
+  array `TrickleTimerImplP_0_trickles' upper bound
+  (unsigned int)id < 2
+
+Claim TrickleTimerImplP_0_TrickleTimer_start.1:
+  file outrf.c line 13899 function TrickleTimerImplP_0_TrickleTimer_start
+  array `TrickleTimerImplP_0_trickles' upper bound
+  (unsigned int)id < 2
+
+Claim TrickleTimerImplP_0_TrickleTimer_start.2:
+  file outrf.c line 13903 function TrickleTimerImplP_0_TrickleTimer_start
+  array `TrickleTimerImplP_0_trickles' upper bound
+  (unsigned int)id < 2
+
+Claim TrickleTimerImplP_0_TrickleTimer_start.3:
+  file outrf.c line 13904 function TrickleTimerImplP_0_TrickleTimer_start
+  array `TrickleTimerImplP_0_trickles' upper bound
+  (unsigned int)id < 2
+
+Claim TrickleTimerImplP_0_TrickleTimer_start.4:
+  file outrf.c line 13905 function TrickleTimerImplP_0_TrickleTimer_start
+  array `TrickleTimerImplP_0_trickles' upper bound
+  (unsigned int)id < 2
+
+Claim BitVectorC_1_BitVector_set.2:
+  file outrf.c line 8673 function BitVectorC_1_BitVector_set
+  array `BitVectorC_1_m_bits' upper bound
+  return_value_BitVectorC_1_getIndex$1 < 1
+
+Claim memcpy.6:
+  file <builtin-library> line 29 function memcpy
+  dereference failure: offset not zero (non-array-object)
+  POINTER_OFFSET(i + dst) == 0
+
+Claim memcpy.7:
+  file <builtin-library> line 29 function memcpy
+  dereference failure: array lower bound
+  !(-6 + POINTER_OFFSET(i + src) < 0) || !(SAME-OBJECT(src, &(struct dissemination_message)(NULL-object.data[0]).data[0]))
+
+Claim memcpy.8:
+  file <builtin-library> line 29 function memcpy
+  dereference failure: array upper bound
+  !(-6 + POINTER_OFFSET(i + src) >= 0) || !(SAME-OBJECT(src, &(struct dissemination_message)(NULL-object.data[0]).data[0]))
+
+Claim memcpy.9:
+  file <builtin-library> line 29 function memcpy
+  dereference failure: array lower bound
+  !(-6 + POINTER_OFFSET(i + src) < 0) || !(SAME-OBJECT(src, &(struct dissemination_message)(CC2420ReceiveP_m_rx_buf.data[0]).data[0]))
+
+Claim memcpy.10:
+  file <builtin-library> line 29 function memcpy
+  dereference failure: array upper bound
+  !(-6 + POINTER_OFFSET(i + src) >= 0) || !(SAME-OBJECT(src, &(struct dissemination_message)(CC2420ReceiveP_m_rx_buf.data[0]).data[0]))
+
+Claim CC2420PacketP_CC2420PacketBody_getMetadata.10:
+  file outrf.c line 6247 function CC2420PacketP_CC2420PacketBody_getMetadata
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(msg, NULL))
+
+Claim CC2420PacketP_CC2420PacketBody_getMetadata.11:
+  file outrf.c line 6247 function CC2420PacketP_CC2420PacketBody_getMetadata
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(msg))
+
+Claim CC2420PacketP_PacketTimeStamp32khz_set.3:
+  file outrf.c line 6264 function CC2420PacketP_PacketTimeStamp32khz_set
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(return_value_CC2420PacketP_CC2420PacketBody_getMetadata$1))
+
+Claim CC2420PacketP_PacketTimeStamp32khz_set.4:
+  file outrf.c line 6264 function CC2420PacketP_PacketTimeStamp32khz_set
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(return_value_CC2420PacketP_CC2420PacketBody_getMetadata$1, NULL))
+
+Claim CC2420PacketP_PacketTimeStamp32khz_set.5:
+  file outrf.c line 6264 function CC2420PacketP_PacketTimeStamp32khz_set
+  dereference failure: memory model not applicable (got `struct #anon#ST[ARR0000000000000001{U8}'data']', expected `struct cc2420_metadata_t')
+  !(SAME-OBJECT(return_value_CC2420PacketP_CC2420PacketBody_getMetadata$1, &DisseminationEngineImplP_m_buf.metadata[0]))
+
+Claim __nesc_hton_uint32.9:
+  file outrf.c line 6064 function __nesc_hton_uint32
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(3 + base))
+
+Claim __nesc_hton_uint32.10:
+  file outrf.c line 6065 function __nesc_hton_uint32
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(2 + base))
+
+Claim __nesc_hton_uint32.11:
+  file outrf.c line 6066 function __nesc_hton_uint32
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(1 + base))
+
+Claim __nesc_hton_uint32.12:
+  file outrf.c line 6067 function __nesc_hton_uint32
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim CC2420PacketP_CC2420PacketBody_getMetadata.12:
+  file outrf.c line 6247 function CC2420PacketP_CC2420PacketBody_getMetadata
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(msg, NULL))
+
+Claim CC2420PacketP_CC2420PacketBody_getMetadata.13:
+  file outrf.c line 6247 function CC2420PacketP_CC2420PacketBody_getMetadata
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(msg))
+
+Claim CC2420PacketP_PacketTimeSyncOffset_isSet.1:
+  file outrf.c line 6252 function CC2420PacketP_PacketTimeSyncOffset_isSet
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(return_value_CC2420PacketP_CC2420PacketBody_getMetadata$1))
+
+Claim CC2420PacketP_PacketTimeSyncOffset_isSet.2:
+  file outrf.c line 6252 function CC2420PacketP_PacketTimeSyncOffset_isSet
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(return_value_CC2420PacketP_CC2420PacketBody_getMetadata$1, NULL))
+
+Claim CC2420PacketP_PacketTimeSyncOffset_isSet.3:
+  file outrf.c line 6252 function CC2420PacketP_PacketTimeSyncOffset_isSet
+  dereference failure: memory model not applicable (got `struct #anon#ST[ARR0000000000000001{U8}'data']', expected `struct cc2420_metadata_t')
+  !(SAME-OBJECT(return_value_CC2420PacketP_CC2420PacketBody_getMetadata$1, &DisseminationEngineImplP_m_buf.metadata[0]))
+
+Claim __nesc_ntoh_uint8.1:
+  file outrf.c line 6237 function __nesc_ntoh_uint8
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim CC2420PacketP_CC2420PacketBody_getHeader.10:
+  file outrf.c line 6155 function CC2420PacketP_CC2420PacketBody_getHeader
+  dereference failure: NULL pointer
+  FALSE
+
+Claim CC2420PacketP_PacketTimeSyncOffset_get.1:
+  file outrf.c line 6224 function CC2420PacketP_PacketTimeSyncOffset_get
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(return_value_CC2420PacketP_CC2420PacketBody_getHeader$1, NULL))
+
+Claim CC2420PacketP_PacketTimeSyncOffset_get.2:
+  file outrf.c line 6224 function CC2420PacketP_PacketTimeSyncOffset_get
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(return_value_CC2420PacketP_CC2420PacketBody_getHeader$1))
+
+Claim CC2420PacketP_PacketTimeSyncOffset_get.3:
+  file outrf.c line 6224 function CC2420PacketP_PacketTimeSyncOffset_get
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(return_value_CC2420PacketP_CC2420PacketBody_getHeader$1, &DisseminationEngineImplP_m_buf))
+
+Claim __nesc_ntoh_leuint8.31:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim __nesc_ntoh_leuint8.32:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).length.data[0]))
+
+Claim __nesc_ntoh_leuint8.33:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).length.data[0]))
+
+Claim __nesc_ntoh_leuint8.34:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.length.data[0]))
+
+Claim __nesc_ntoh_leuint8.35:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.length.data[0]))
+
+Claim CC2420TransmitP_CaptureSFD_captured.1:
+  file outrf.c line 6308 function CC2420TransmitP_CaptureSFD_captured
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(timesync, NULL))
+
+Claim CC2420TransmitP_CaptureSFD_captured.2:
+  file outrf.c line 6308 function CC2420TransmitP_CaptureSFD_captured
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(timesync))
+
+Claim CC2420TransmitP_CaptureSFD_captured.3:
+  file outrf.c line 6308 function CC2420TransmitP_CaptureSFD_captured
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct #anon#ST[ARR0000000000000100{U8}'data']')
+  !(SAME-OBJECT(timesync, &DisseminationEngineImplP_m_buf))
+
+Claim __nesc_ntoh_uint32.1:
+  file outrf.c line 6074 function __nesc_ntoh_uint32
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim __nesc_ntoh_uint32.2:
+  file outrf.c line 6074 function __nesc_ntoh_uint32
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])(NULL-object).data[0]))
+
+Claim __nesc_ntoh_uint32.3:
+  file outrf.c line 6074 function __nesc_ntoh_uint32
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 4) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])(NULL-object).data[0]))
+
+Claim __nesc_ntoh_uint32.4:
+  file outrf.c line 6074 function __nesc_ntoh_uint32
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])DisseminationEngineImplP_m_buf.data[0]))
+
+Claim __nesc_ntoh_uint32.5:
+  file outrf.c line 6074 function __nesc_ntoh_uint32
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 4) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])DisseminationEngineImplP_m_buf.data[0]))
+
+Claim __nesc_ntoh_uint32.6:
+  file outrf.c line 6074 function __nesc_ntoh_uint32
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(1 + base))
+
+Claim __nesc_ntoh_uint32.7:
+  file outrf.c line 6074 function __nesc_ntoh_uint32
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])(NULL-object).data[0]))
+
+Claim __nesc_ntoh_uint32.8:
+  file outrf.c line 6074 function __nesc_ntoh_uint32
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 4) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])(NULL-object).data[0]))
+
+Claim __nesc_ntoh_uint32.9:
+  file outrf.c line 6074 function __nesc_ntoh_uint32
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])DisseminationEngineImplP_m_buf.data[0]))
+
+Claim __nesc_ntoh_uint32.10:
+  file outrf.c line 6074 function __nesc_ntoh_uint32
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 4) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])DisseminationEngineImplP_m_buf.data[0]))
+
+Claim __nesc_ntoh_uint32.11:
+  file outrf.c line 6074 function __nesc_ntoh_uint32
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(2 + base))
+
+Claim __nesc_ntoh_uint32.12:
+  file outrf.c line 6074 function __nesc_ntoh_uint32
+  dereference failure: array lower bound
+  !(2 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])(NULL-object).data[0]))
+
+Claim __nesc_ntoh_uint32.13:
+  file outrf.c line 6074 function __nesc_ntoh_uint32
+  dereference failure: array upper bound
+  !(2 + POINTER_OFFSET(base) >= 4) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])(NULL-object).data[0]))
+
+Claim __nesc_ntoh_uint32.14:
+  file outrf.c line 6074 function __nesc_ntoh_uint32
+  dereference failure: array lower bound
+  !(2 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])DisseminationEngineImplP_m_buf.data[0]))
+
+Claim __nesc_ntoh_uint32.15:
+  file outrf.c line 6074 function __nesc_ntoh_uint32
+  dereference failure: array upper bound
+  !(2 + POINTER_OFFSET(base) >= 4) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])DisseminationEngineImplP_m_buf.data[0]))
+
+Claim __nesc_ntoh_uint32.16:
+  file outrf.c line 6074 function __nesc_ntoh_uint32
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(3 + base))
+
+Claim __nesc_ntoh_uint32.17:
+  file outrf.c line 6074 function __nesc_ntoh_uint32
+  dereference failure: array lower bound
+  !(3 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])(NULL-object).data[0]))
+
+Claim __nesc_ntoh_uint32.18:
+  file outrf.c line 6074 function __nesc_ntoh_uint32
+  dereference failure: array upper bound
+  !(3 + POINTER_OFFSET(base) >= 4) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])(NULL-object).data[0]))
+
+Claim __nesc_ntoh_uint32.19:
+  file outrf.c line 6074 function __nesc_ntoh_uint32
+  dereference failure: array lower bound
+  !(3 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])DisseminationEngineImplP_m_buf.data[0]))
+
+Claim __nesc_ntoh_uint32.20:
+  file outrf.c line 6074 function __nesc_ntoh_uint32
+  dereference failure: array upper bound
+  !(3 + POINTER_OFFSET(base) >= 4) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])DisseminationEngineImplP_m_buf.data[0]))
+
+Claim __nesc_hton_uint32.13:
+  file outrf.c line 6064 function __nesc_hton_uint32
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(3 + base))
+
+Claim __nesc_hton_uint32.14:
+  file outrf.c line 6064 function __nesc_hton_uint32
+  dereference failure: array lower bound
+  !(3 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])(NULL-object).data[0]))
+
+Claim __nesc_hton_uint32.15:
+  file outrf.c line 6064 function __nesc_hton_uint32
+  dereference failure: array upper bound
+  !(3 + POINTER_OFFSET(base) >= 4) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])(NULL-object).data[0]))
+
+Claim __nesc_hton_uint32.16:
+  file outrf.c line 6064 function __nesc_hton_uint32
+  dereference failure: array lower bound
+  !(3 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])DisseminationEngineImplP_m_buf.data[0]))
+
+Claim __nesc_hton_uint32.17:
+  file outrf.c line 6064 function __nesc_hton_uint32
+  dereference failure: array upper bound
+  !(3 + POINTER_OFFSET(base) >= 4) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])DisseminationEngineImplP_m_buf.data[0]))
+
+Claim __nesc_hton_uint32.18:
+  file outrf.c line 6065 function __nesc_hton_uint32
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(2 + base))
+
+Claim __nesc_hton_uint32.19:
+  file outrf.c line 6065 function __nesc_hton_uint32
+  dereference failure: array lower bound
+  !(2 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])(NULL-object).data[0]))
+
+Claim __nesc_hton_uint32.20:
+  file outrf.c line 6065 function __nesc_hton_uint32
+  dereference failure: array upper bound
+  !(2 + POINTER_OFFSET(base) >= 4) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])(NULL-object).data[0]))
+
+Claim __nesc_hton_uint32.21:
+  file outrf.c line 6065 function __nesc_hton_uint32
+  dereference failure: array lower bound
+  !(2 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])DisseminationEngineImplP_m_buf.data[0]))
+
+Claim __nesc_hton_uint32.22:
+  file outrf.c line 6065 function __nesc_hton_uint32
+  dereference failure: array upper bound
+  !(2 + POINTER_OFFSET(base) >= 4) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])DisseminationEngineImplP_m_buf.data[0]))
+
+Claim __nesc_hton_uint32.23:
+  file outrf.c line 6066 function __nesc_hton_uint32
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(1 + base))
+
+Claim __nesc_hton_uint32.24:
+  file outrf.c line 6066 function __nesc_hton_uint32
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])(NULL-object).data[0]))
+
+Claim __nesc_hton_uint32.25:
+  file outrf.c line 6066 function __nesc_hton_uint32
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 4) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])(NULL-object).data[0]))
+
+Claim __nesc_hton_uint32.26:
+  file outrf.c line 6066 function __nesc_hton_uint32
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])DisseminationEngineImplP_m_buf.data[0]))
+
+Claim __nesc_hton_uint32.27:
+  file outrf.c line 6066 function __nesc_hton_uint32
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 4) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])DisseminationEngineImplP_m_buf.data[0]))
+
+Claim __nesc_hton_uint32.28:
+  file outrf.c line 6067 function __nesc_hton_uint32
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim __nesc_hton_uint32.29:
+  file outrf.c line 6067 function __nesc_hton_uint32
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])(NULL-object).data[0]))
+
+Claim __nesc_hton_uint32.30:
+  file outrf.c line 6067 function __nesc_hton_uint32
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 4) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])(NULL-object).data[0]))
+
+Claim __nesc_hton_uint32.31:
+  file outrf.c line 6067 function __nesc_hton_uint32
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])DisseminationEngineImplP_m_buf.data[0]))
+
+Claim __nesc_hton_uint32.32:
+  file outrf.c line 6067 function __nesc_hton_uint32
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 4) || !(SAME-OBJECT(base, &(struct #anon#ST[ARR0000000000000100{U8}'data'])DisseminationEngineImplP_m_buf.data[0]))
+
+Claim CC2420PacketP_CC2420PacketBody_getHeader.11:
+  file outrf.c line 6155 function CC2420PacketP_CC2420PacketBody_getHeader
+  dereference failure: NULL pointer
+  FALSE
+
+Claim CC2420TransmitP_CaptureSFD_captured.4:
+  file outrf.c line 6313 function CC2420TransmitP_CaptureSFD_captured
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(return_value_CC2420TransmitP_CC2420PacketBody_getHeader$4, NULL))
+
+Claim CC2420TransmitP_CaptureSFD_captured.5:
+  file outrf.c line 6313 function CC2420TransmitP_CaptureSFD_captured
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(return_value_CC2420TransmitP_CC2420PacketBody_getHeader$4))
+
+Claim CC2420TransmitP_CaptureSFD_captured.6:
+  file outrf.c line 6313 function CC2420TransmitP_CaptureSFD_captured
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(return_value_CC2420TransmitP_CC2420PacketBody_getHeader$4, &DisseminationEngineImplP_m_buf))
+
+Claim __nesc_ntoh_leuint16.75:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(1 + base))
+
+Claim __nesc_ntoh_leuint16.76:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.77:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.78:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.79:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.80:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim __nesc_ntoh_leuint16.81:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.82:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.83:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.84:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.fcf.data[0]))
+
+Claim CC2420PacketP_CC2420PacketBody_getHeader.12:
+  file outrf.c line 6155 function CC2420PacketP_CC2420PacketBody_getHeader
+  dereference failure: NULL pointer
+  FALSE
+
+Claim CC2420TransmitP_CaptureSFD_captured.7:
+  file outrf.c line 6326 function CC2420TransmitP_CaptureSFD_captured
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(return_value_CC2420TransmitP_CC2420PacketBody_getHeader$7, NULL))
+
+Claim CC2420TransmitP_CaptureSFD_captured.8:
+  file outrf.c line 6326 function CC2420TransmitP_CaptureSFD_captured
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(return_value_CC2420TransmitP_CC2420PacketBody_getHeader$7))
+
+Claim CC2420TransmitP_CaptureSFD_captured.9:
+  file outrf.c line 6326 function CC2420TransmitP_CaptureSFD_captured
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(return_value_CC2420TransmitP_CC2420PacketBody_getHeader$7, &DisseminationEngineImplP_m_buf))
+
+Claim __nesc_ntoh_leuint16.85:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(1 + base))
+
+Claim __nesc_ntoh_leuint16.86:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.87:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.88:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.89:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.90:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim __nesc_ntoh_leuint16.91:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.92:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.93:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.fcf.data[0]))
+
+Claim __nesc_ntoh_leuint16.94:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.fcf.data[0]))
+
+Claim CC2420ReceiveP_CC2420Receive_sfd.1:
+  file outrf.c line 6131 function CC2420ReceiveP_CC2420Receive_sfd
+  array `CC2420ReceiveP_m_timestamp_queue' upper bound
+  (unsigned int)tail < 8
+
+Claim StateImplP_State_forceState.2:
+  file outrf.c line 7852 function StateImplP_State_forceState
+  array `StateImplP_state' upper bound
+  (unsigned int)id < 4
+
+Claim StateImplP_State_forceState.3:
+  file outrf.c line 7852 function StateImplP_State_forceState
+  array `StateImplP_state' upper bound
+  (unsigned int)id < 4
+
+Claim StateImplP_State_forceState.4:
+  file outrf.c line 7852 function StateImplP_State_forceState
+  array `StateImplP_state' upper bound
+  (unsigned int)id < 4
+
+Claim AMQueueImplP_0_AMSend_sendDone.1:
+  file outrf.c line 10459 function AMQueueImplP_0_AMSend_sendDone
+  array `AMQueueImplP_0_queue' upper bound
+  (unsigned int)AMQueueImplP_0_current < 2
+
+Claim CC2420PacketP_CC2420PacketBody_getMetadata.14:
+  file outrf.c line 6247 function CC2420PacketP_CC2420PacketBody_getMetadata
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(msg, NULL))
+
+Claim CC2420PacketP_CC2420PacketBody_getHeader.13:
+  file outrf.c line 6155 function CC2420PacketP_CC2420PacketBody_getHeader
+  dereference failure: NULL pointer
+  FALSE
+
+Claim CC2420ReceiveP_receiveDone_task_runTask.1:
+  file outrf.c line 9278 function CC2420ReceiveP_receiveDone_task_runTask
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(header, NULL))
+
+Claim CC2420ReceiveP_receiveDone_task_runTask.2:
+  file outrf.c line 9278 function CC2420ReceiveP_receiveDone_task_runTask
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(header, &CC2420ReceiveP_m_rx_buf))
+
+Claim __nesc_ntoh_leuint8.36:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).length.data[0]))
+
+Claim __nesc_ntoh_leuint8.37:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).length.data[0]))
+
+Claim __nesc_ntoh_leuint8.38:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.length.data[0]))
+
+Claim __nesc_ntoh_leuint8.39:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.length.data[0]))
+
+Claim CC2420ReceiveP_receiveDone_task_runTask.3:
+  file outrf.c line 9279 function CC2420ReceiveP_receiveDone_task_runTask
+  dereference failure: NULL pointer
+  FALSE
+
+Claim CC2420ReceiveP_receiveDone_task_runTask.4:
+  file outrf.c line 9281 function CC2420ReceiveP_receiveDone_task_runTask
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(metadata, NULL))
+
+Claim CC2420ReceiveP_receiveDone_task_runTask.5:
+  file outrf.c line 9281 function CC2420ReceiveP_receiveDone_task_runTask
+  dereference failure: memory model not applicable (got `struct #anon#ST[ARR0000000000000001{U8}'data']', expected `struct cc2420_metadata_t')
+  !(SAME-OBJECT(metadata, &CC2420ReceiveP_m_rx_buf.metadata[0]))
+
+Claim CC2420ReceiveP_receiveDone_task_runTask.6:
+  file outrf.c line 9281 function CC2420ReceiveP_receiveDone_task_runTask
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(buf, NULL))
+
+Claim CC2420ReceiveP_receiveDone_task_runTask.7:
+  file outrf.c line 9281 function CC2420ReceiveP_receiveDone_task_runTask
+  dereference failure: word offset upper bound
+  !(POINTER_OFFSET(buf) + (int)((unsigned int)length) >= WIDTH(CC2420ReceiveP_m_rx_buf)) || !(SAME-OBJECT(buf, &CC2420ReceiveP_m_rx_buf))
+
+Claim CC2420ReceiveP_receiveDone_task_runTask.8:
+  file outrf.c line 9281 function CC2420ReceiveP_receiveDone_task_runTask
+  dereference failure: word offset lower bound
+  !(POINTER_OFFSET(buf) + (int)((unsigned int)length) < 0) || !(SAME-OBJECT(buf, &CC2420ReceiveP_m_rx_buf))
+
+Claim CC2420ReceiveP_receiveDone_task_runTask.9:
+  file outrf.c line 9282 function CC2420ReceiveP_receiveDone_task_runTask
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(metadata, NULL))
+
+Claim CC2420ReceiveP_receiveDone_task_runTask.10:
+  file outrf.c line 9282 function CC2420ReceiveP_receiveDone_task_runTask
+  dereference failure: memory model not applicable (got `struct #anon#ST[ARR0000000000000001{U8}'data']', expected `struct cc2420_metadata_t')
+  !(SAME-OBJECT(metadata, &CC2420ReceiveP_m_rx_buf.metadata[0]))
+
+Claim CC2420ReceiveP_receiveDone_task_runTask.11:
+  file outrf.c line 9282 function CC2420ReceiveP_receiveDone_task_runTask
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(buf, NULL))
+
+Claim CC2420ReceiveP_receiveDone_task_runTask.12:
+  file outrf.c line 9282 function CC2420ReceiveP_receiveDone_task_runTask
+  dereference failure: word offset upper bound
+  !(POINTER_OFFSET(buf) + (int)((unsigned int)length) >= WIDTH(CC2420ReceiveP_m_rx_buf)) || !(SAME-OBJECT(buf, &CC2420ReceiveP_m_rx_buf))
+
+Claim CC2420ReceiveP_receiveDone_task_runTask.13:
+  file outrf.c line 9282 function CC2420ReceiveP_receiveDone_task_runTask
+  dereference failure: word offset lower bound
+  !(POINTER_OFFSET(buf) + (int)((unsigned int)length) < 0) || !(SAME-OBJECT(buf, &CC2420ReceiveP_m_rx_buf))
+
+Claim CC2420ReceiveP_receiveDone_task_runTask.14:
+  file outrf.c line 9283 function CC2420ReceiveP_receiveDone_task_runTask
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(metadata, NULL))
+
+Claim CC2420ReceiveP_receiveDone_task_runTask.15:
+  file outrf.c line 9283 function CC2420ReceiveP_receiveDone_task_runTask
+  dereference failure: memory model not applicable (got `struct #anon#ST[ARR0000000000000001{U8}'data']', expected `struct cc2420_metadata_t')
+  !(SAME-OBJECT(metadata, &CC2420ReceiveP_m_rx_buf.metadata[0]))
+
+Claim CC2420ReceiveP_receiveDone_task_runTask.16:
+  file outrf.c line 9283 function CC2420ReceiveP_receiveDone_task_runTask
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(buf, NULL))
+
+Claim CC2420ReceiveP_receiveDone_task_runTask.17:
+  file outrf.c line 9283 function CC2420ReceiveP_receiveDone_task_runTask
+  dereference failure: word offset upper bound
+  !(-1 + POINTER_OFFSET(buf) + (int)length >= WIDTH(CC2420ReceiveP_m_rx_buf)) || !(SAME-OBJECT(buf, &CC2420ReceiveP_m_rx_buf))
+
+Claim CC2420ReceiveP_receiveDone_task_runTask.18:
+  file outrf.c line 9283 function CC2420ReceiveP_receiveDone_task_runTask
+  dereference failure: word offset lower bound
+  !(-1 + POINTER_OFFSET(buf) + (int)length < 0) || !(SAME-OBJECT(buf, &CC2420ReceiveP_m_rx_buf))
+
+Claim CC2420PacketP_CC2420PacketBody_getHeader.14:
+  file outrf.c line 6155 function CC2420PacketP_CC2420PacketBody_getHeader
+  dereference failure: NULL pointer
+  FALSE
+
+Claim CC2420ReceiveP_passesAddressCheck.1:
+  file outrf.c line 9264 function CC2420ReceiveP_passesAddressCheck
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(header, NULL))
+
+Claim CC2420ReceiveP_passesAddressCheck.2:
+  file outrf.c line 9264 function CC2420ReceiveP_passesAddressCheck
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(header, &CC2420ReceiveP_m_rx_buf))
+
+Claim __nesc_ntoh_leuint16.95:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.96:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.97:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.98:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.99:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.100:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.101:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.102:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.dest.data[0]))
+
+Claim CC2420ReceiveP_passesAddressCheck.3:
+  file outrf.c line 9264 function CC2420ReceiveP_passesAddressCheck
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(header, NULL))
+
+Claim CC2420ReceiveP_passesAddressCheck.4:
+  file outrf.c line 9264 function CC2420ReceiveP_passesAddressCheck
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(header, &CC2420ReceiveP_m_rx_buf))
+
+Claim __nesc_ntoh_leuint16.103:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.104:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.105:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.106:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.107:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.108:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.109:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.dest.data[0]))
+
+Claim __nesc_ntoh_leuint16.110:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.dest.data[0]))
+
+Claim CC2420ReceiveP_receiveDone_task_runTask.19:
+  file outrf.c line 9286 function CC2420ReceiveP_receiveDone_task_runTask
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(CC2420ReceiveP_m_p_rx_buf, NULL))
+
+Claim CC2420PacketP_CC2420PacketBody_getHeader.15:
+  file outrf.c line 6155 function CC2420PacketP_CC2420PacketBody_getHeader
+  dereference failure: NULL pointer
+  FALSE
+
+Claim CC2420TinyosNetworkP_SubReceive_receive.1:
+  file outrf.c line 9194 function CC2420TinyosNetworkP_SubReceive_receive
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(return_value_CC2420TinyosNetworkP_CC2420PacketBody_getHeader$5, NULL))
+
+Claim CC2420TinyosNetworkP_SubReceive_receive.2:
+  file outrf.c line 9194 function CC2420TinyosNetworkP_SubReceive_receive
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(return_value_CC2420TinyosNetworkP_CC2420PacketBody_getHeader$5, &CC2420ReceiveP_m_rx_buf))
+
+Claim __nesc_ntoh_leuint8.40:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).network.data[0]))
+
+Claim __nesc_ntoh_leuint8.41:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).network.data[0]))
+
+Claim __nesc_ntoh_leuint8.42:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.network.data[0]))
+
+Claim __nesc_ntoh_leuint8.43:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.network.data[0]))
+
+Claim CC2420PacketP_CC2420PacketBody_getHeader.16:
+  file outrf.c line 6155 function CC2420PacketP_CC2420PacketBody_getHeader
+  dereference failure: NULL pointer
+  FALSE
+
+Claim UniqueReceiveP_SubReceive_receive.1:
+  file outrf.c line 9172 function UniqueReceiveP_SubReceive_receive
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(return_value_UniqueReceiveP_CC2420PacketBody_getHeader$1, NULL))
+
+Claim UniqueReceiveP_SubReceive_receive.2:
+  file outrf.c line 9172 function UniqueReceiveP_SubReceive_receive
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(return_value_UniqueReceiveP_CC2420PacketBody_getHeader$1, &CC2420ReceiveP_m_rx_buf))
+
+Claim __nesc_ntoh_leuint16.111:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).src.data[0]))
+
+Claim __nesc_ntoh_leuint16.112:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).src.data[0]))
+
+Claim __nesc_ntoh_leuint16.113:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.src.data[0]))
+
+Claim __nesc_ntoh_leuint16.114:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.src.data[0]))
+
+Claim __nesc_ntoh_leuint16.115:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).src.data[0]))
+
+Claim __nesc_ntoh_leuint16.116:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).src.data[0]))
+
+Claim __nesc_ntoh_leuint16.117:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.src.data[0]))
+
+Claim __nesc_ntoh_leuint16.118:
+  file outrf.c line 6058 function __nesc_ntoh_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.src.data[0]))
+
+Claim CC2420PacketP_CC2420PacketBody_getHeader.17:
+  file outrf.c line 6155 function CC2420PacketP_CC2420PacketBody_getHeader
+  dereference failure: NULL pointer
+  FALSE
+
+Claim UniqueReceiveP_SubReceive_receive.3:
+  file outrf.c line 9173 function UniqueReceiveP_SubReceive_receive
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(return_value_UniqueReceiveP_CC2420PacketBody_getHeader$3, NULL))
+
+Claim UniqueReceiveP_SubReceive_receive.4:
+  file outrf.c line 9173 function UniqueReceiveP_SubReceive_receive
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(return_value_UniqueReceiveP_CC2420PacketBody_getHeader$3, &CC2420ReceiveP_m_rx_buf))
+
+Claim __nesc_ntoh_leuint8.44:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dsn.data[0]))
+
+Claim __nesc_ntoh_leuint8.45:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).dsn.data[0]))
+
+Claim __nesc_ntoh_leuint8.46:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.dsn.data[0]))
+
+Claim __nesc_ntoh_leuint8.47:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.dsn.data[0]))
+
+Claim UniqueReceiveP_hasSeen.1:
+  file outrf.c line 9141 function UniqueReceiveP_hasSeen
+  array `UniqueReceiveP_receivedMessages' lower bound
+  i >= 0
+
+Claim UniqueReceiveP_hasSeen.2:
+  file outrf.c line 9141 function UniqueReceiveP_hasSeen
+  array `UniqueReceiveP_receivedMessages' upper bound
+  i < 4
+
+Claim UniqueReceiveP_hasSeen.3:
+  file outrf.c line 9143 function UniqueReceiveP_hasSeen
+  array `UniqueReceiveP_receivedMessages' lower bound
+  i >= 0
+
+Claim UniqueReceiveP_hasSeen.4:
+  file outrf.c line 9143 function UniqueReceiveP_hasSeen
+  array `UniqueReceiveP_receivedMessages' upper bound
+  i < 4
+
+Claim UniqueReceiveP_insert.1:
+  file outrf.c line 9098 function UniqueReceiveP_insert
+  array `UniqueReceiveP_receivedMessages' upper bound
+  (unsigned int)element < 4
+
+Claim UniqueReceiveP_insert.2:
+  file outrf.c line 9099 function UniqueReceiveP_insert
+  array `UniqueReceiveP_receivedMessages' upper bound
+  (unsigned int)element < 4
+
+Claim CC2420PacketP_CC2420PacketBody_getMetadata.15:
+  file outrf.c line 6247 function CC2420PacketP_CC2420PacketBody_getMetadata
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(msg, NULL))
+
+Claim CC2420ActiveMessageP_SubReceive_receive.1:
+  file outrf.c line 9055 function CC2420ActiveMessageP_SubReceive_receive
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(return_value_CC2420ActiveMessageP_CC2420PacketBody_getMetadata$1, NULL))
+
+Claim CC2420ActiveMessageP_SubReceive_receive.2:
+  file outrf.c line 9055 function CC2420ActiveMessageP_SubReceive_receive
+  dereference failure: memory model not applicable (got `struct #anon#ST[ARR0000000000000001{U8}'data']', expected `struct cc2420_metadata_t')
+  !(SAME-OBJECT(return_value_CC2420ActiveMessageP_CC2420PacketBody_getMetadata$1, &CC2420ReceiveP_m_rx_buf.metadata[0]))
+
+Claim DisseminationEngineImplP_Receive_receive.1:
+  file outrf.c line 8949 function DisseminationEngineImplP_Receive_receive
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(dMsg, NULL))
+
+Claim DisseminationEngineImplP_Receive_receive.2:
+  file outrf.c line 8949 function DisseminationEngineImplP_Receive_receive
+  dereference failure: memory model not applicable (got `struct #anon#ST[ARR0000000000000001{U8}'data']', expected `struct dissemination_message')
+  !(SAME-OBJECT(dMsg, &CC2420ReceiveP_m_rx_buf.data[0]))
+
+Claim DisseminationEngineImplP_Receive_receive.3:
+  file outrf.c line 8950 function DisseminationEngineImplP_Receive_receive
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(dMsg, NULL))
+
+Claim DisseminationEngineImplP_Receive_receive.4:
+  file outrf.c line 8950 function DisseminationEngineImplP_Receive_receive
+  dereference failure: memory model not applicable (got `struct #anon#ST[ARR0000000000000001{U8}'data']', expected `struct dissemination_message')
+  !(SAME-OBJECT(dMsg, &CC2420ReceiveP_m_rx_buf.data[0]))
+
+Claim DisseminationEngineImplP_Receive_receive.5:
+  file outrf.c line 8958 function DisseminationEngineImplP_Receive_receive
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(dMsg, NULL))
+
+Claim DisseminationEngineImplP_Receive_receive.6:
+  file outrf.c line 8958 function DisseminationEngineImplP_Receive_receive
+  dereference failure: memory model not applicable (got `struct #anon#ST[ARR0000000000000001{U8}'data']', expected `struct dissemination_message')
+  !(SAME-OBJECT(dMsg, &CC2420ReceiveP_m_rx_buf.data[0]))
+
+Claim DisseminationEngineImplP_Receive_receive.7:
+  file outrf.c line 8969 function DisseminationEngineImplP_Receive_receive
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(dMsg, NULL))
+
+Claim DisseminationEngineImplP_Receive_receive.8:
+  file outrf.c line 8969 function DisseminationEngineImplP_Receive_receive
+  dereference failure: memory model not applicable (got `struct #anon#ST[ARR0000000000000001{U8}'data']', expected `struct dissemination_message')
+  !(SAME-OBJECT(dMsg, &CC2420ReceiveP_m_rx_buf.data[0]))
+
+Claim TrickleTimerImplP_0_TrickleTimer_incrementCounter.1:
+  file outrf.c line 8846 function TrickleTimerImplP_0_TrickleTimer_incrementCounter
+  array `TrickleTimerImplP_0_trickles' upper bound
+  (unsigned int)id < 2
+
+Claim TrickleTimerImplP_0_TrickleTimer_incrementCounter.2:
+  file outrf.c line 8846 function TrickleTimerImplP_0_TrickleTimer_incrementCounter
+  array `TrickleTimerImplP_0_trickles' upper bound
+  (unsigned int)id < 2
+
+Claim DisseminationEngineImplP_ProbeReceive_receive.1:
+  file outrf.c line 8993 function DisseminationEngineImplP_ProbeReceive_receive
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(dpMsg, NULL))
+
+Claim DisseminationEngineImplP_ProbeReceive_receive.2:
+  file outrf.c line 8993 function DisseminationEngineImplP_ProbeReceive_receive
+  dereference failure: memory model not applicable (got `struct #anon#ST[ARR0000000000000001{U8}'data']', expected `struct dissemination_probe_message')
+  !(SAME-OBJECT(dpMsg, &CC2420ReceiveP_m_rx_buf.data[0]))
+
+Claim DisseminationEngineImplP_ProbeReceive_receive.3:
+  file outrf.c line 8995 function DisseminationEngineImplP_ProbeReceive_receive
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(dpMsg, NULL))
+
+Claim DisseminationEngineImplP_ProbeReceive_receive.4:
+  file outrf.c line 8995 function DisseminationEngineImplP_ProbeReceive_receive
+  dereference failure: memory model not applicable (got `struct #anon#ST[ARR0000000000000001{U8}'data']', expected `struct dissemination_probe_message')
+  !(SAME-OBJECT(dpMsg, &CC2420ReceiveP_m_rx_buf.data[0]))
+
+Claim CC2420PacketP_CC2420PacketBody_getHeader.18:
+  file outrf.c line 6155 function CC2420PacketP_CC2420PacketBody_getHeader
+  dereference failure: NULL pointer
+  FALSE
+
+Claim CC2420TinyosNetworkP_SubReceive_receive.3:
+  file outrf.c line 9200 function CC2420TinyosNetworkP_SubReceive_receive
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(return_value_CC2420TinyosNetworkP_CC2420PacketBody_getHeader$2, NULL))
+
+Claim CC2420TinyosNetworkP_SubReceive_receive.4:
+  file outrf.c line 9200 function CC2420TinyosNetworkP_SubReceive_receive
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(return_value_CC2420TinyosNetworkP_CC2420PacketBody_getHeader$2, &CC2420ReceiveP_m_rx_buf))
+
+Claim __nesc_ntoh_leuint8.48:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).network.data[0]))
+
+Claim __nesc_ntoh_leuint8.49:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).network.data[0]))
+
+Claim __nesc_ntoh_leuint8.50:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.network.data[0]))
+
+Claim __nesc_ntoh_leuint8.51:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)CC2420ReceiveP_m_rx_buf.network.data[0]))
+
+Claim VirtualizeTimerC_0_updateFromTimer_runTask.1:
+  file outrf.c line 8358 function VirtualizeTimerC_0_updateFromTimer_runTask
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_updateFromTimer_runTask.2:
+  file outrf.c line 8358 function VirtualizeTimerC_0_updateFromTimer_runTask
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_updateFromTimer_runTask.3:
+  file outrf.c line 8360 function VirtualizeTimerC_0_updateFromTimer_runTask
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_updateFromTimer_runTask.4:
+  file outrf.c line 8360 function VirtualizeTimerC_0_updateFromTimer_runTask
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_updateFromTimer_runTask.5:
+  file outrf.c line 8361 function VirtualizeTimerC_0_updateFromTimer_runTask
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_updateFromTimer_runTask.6:
+  file outrf.c line 8361 function VirtualizeTimerC_0_updateFromTimer_runTask
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim AMQueueImplP_0_CancelTask_runTask.1:
+  file outrf.c line 8181 function AMQueueImplP_0_CancelTask_runTask
+  array `AMQueueImplP_0_cancelMask' upper bound
+  (unsigned int)i < 1
+
+Claim AMQueueImplP_0_CancelTask_runTask.2:
+  file outrf.c line 8185 function AMQueueImplP_0_CancelTask_runTask
+  array `AMQueueImplP_0_cancelMask' upper bound
+  (unsigned int)i < 1
+
+Claim AMQueueImplP_0_CancelTask_runTask.3:
+  file outrf.c line 8188 function AMQueueImplP_0_CancelTask_runTask
+  array `AMQueueImplP_0_queue' upper bound
+  (unsigned int)last < 2
+
+Claim AMQueueImplP_0_CancelTask_runTask.4:
+  file outrf.c line 8189 function AMQueueImplP_0_CancelTask_runTask
+  array `AMQueueImplP_0_queue' upper bound
+  (unsigned int)last < 2
+
+Claim AMQueueImplP_0_CancelTask_runTask.5:
+  file outrf.c line 8190 function AMQueueImplP_0_CancelTask_runTask
+  array `AMQueueImplP_0_cancelMask' upper bound
+  (unsigned int)i < 1
+
+Claim AMQueueImplP_0_errorTask_runTask.1:
+  file outrf.c line 8203 function AMQueueImplP_0_errorTask_runTask
+  array `AMQueueImplP_0_queue' upper bound
+  (unsigned int)AMQueueImplP_0_current < 2
+
+Claim BitVectorC_0_BitVector_get.1:
+  file outrf.c line 7377 function BitVectorC_0_BitVector_get
+  array `BitVectorC_0_m_bits' upper bound
+  return_value_BitVectorC_0_getIndex$1 < 1
+
+Claim BitVectorC_0_BitVector_clear.1:
+  file outrf.c line 7367 function BitVectorC_0_BitVector_clear
+  array `BitVectorC_0_m_bits' upper bound
+  return_value_BitVectorC_0_getIndex$1 < 1
+
+Claim __nesc_hton_leuint16.51:
+  file outrf.c line 7676 function __nesc_hton_leuint16
+  dereference failure: array upper bound
+  !(SAME-OBJECT(base, &id[0].data[0]))
+
+Claim __nesc_hton_leuint16.52:
+  file outrf.c line 7677 function __nesc_hton_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &id[0].data[0]))
+
+Claim __nesc_hton_leuint16.53:
+  file outrf.c line 7677 function __nesc_hton_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &id[0].data[0]))
+
+Claim FcfsResourceQueueC_0_FcfsQueue_dequeue.1:
+  file outrf.c line 5821 function FcfsResourceQueueC_0_FcfsQueue_dequeue
+  array `FcfsResourceQueueC_0_resQ' upper bound
+  (unsigned int)FcfsResourceQueueC_0_qHead < 1
+
+Claim FcfsResourceQueueC_0_FcfsQueue_dequeue.2:
+  file outrf.c line 5832 function FcfsResourceQueueC_0_FcfsQueue_dequeue
+  array `FcfsResourceQueueC_0_resQ' upper bound
+  (unsigned int)id < 1
+
+Claim Msp430SpiNoDmaP_0_continueOp.1:
+  file outrf.c line 13362 function Msp430SpiNoDmaP_0_continueOp
+  dereference failure: NULL pointer
+  Msp430SpiNoDmaP_0_m_tx_buf == NULL || !(SAME-OBJECT(Msp430SpiNoDmaP_0_m_tx_buf, NULL))
+
+Claim Msp430SpiNoDmaP_0_continueOp.2:
+  file outrf.c line 13362 function Msp430SpiNoDmaP_0_continueOp
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(Msp430SpiNoDmaP_0_m_pos + Msp430SpiNoDmaP_0_m_tx_buf)) || Msp430SpiNoDmaP_0_m_tx_buf == NULL
+
+Claim Msp430SpiNoDmaP_0_continueOp.3:
+  file outrf.c line 13362 function Msp430SpiNoDmaP_0_continueOp
+  dereference failure: word offset upper bound
+  !(POINTER_OFFSET(Msp430SpiNoDmaP_0_m_tx_buf) + (int)Msp430SpiNoDmaP_0_m_pos >= WIDTH(DisseminationEngineImplP_m_buf)) || Msp430SpiNoDmaP_0_m_tx_buf == NULL || !(SAME-OBJECT(Msp430SpiNoDmaP_0_m_tx_buf, &DisseminationEngineImplP_m_buf))
+
+Claim Msp430SpiNoDmaP_0_continueOp.4:
+  file outrf.c line 13362 function Msp430SpiNoDmaP_0_continueOp
+  dereference failure: word offset lower bound
+  !(POINTER_OFFSET(Msp430SpiNoDmaP_0_m_tx_buf) + (int)Msp430SpiNoDmaP_0_m_pos < 0) || Msp430SpiNoDmaP_0_m_tx_buf == NULL || !(SAME-OBJECT(Msp430SpiNoDmaP_0_m_tx_buf, &DisseminationEngineImplP_m_buf))
+
+Claim Msp430SpiNoDmaP_0_continueOp.5:
+  file outrf.c line 13387 function Msp430SpiNoDmaP_0_continueOp
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(Msp430SpiNoDmaP_0_m_rx_buf, NULL))
+
+Claim Msp430SpiNoDmaP_0_continueOp.6:
+  file outrf.c line 13387 function Msp430SpiNoDmaP_0_continueOp
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(65535 + Msp430SpiNoDmaP_0_m_pos + Msp430SpiNoDmaP_0_m_rx_buf))
+
+Claim Msp430SpiNoDmaP_0_continueOp.7:
+  file outrf.c line 13387 function Msp430SpiNoDmaP_0_continueOp
+  dereference failure: word offset upper bound
+  !(-1 + POINTER_OFFSET(Msp430SpiNoDmaP_0_m_rx_buf) + (int)Msp430SpiNoDmaP_0_m_pos >= WIDTH(CC2420ReceiveP_m_rx_buf)) || !(SAME-OBJECT(Msp430SpiNoDmaP_0_m_rx_buf, &CC2420ReceiveP_m_rx_buf))
+
+Claim Msp430SpiNoDmaP_0_continueOp.8:
+  file outrf.c line 13387 function Msp430SpiNoDmaP_0_continueOp
+  dereference failure: word offset lower bound
+  !(-1 + POINTER_OFFSET(Msp430SpiNoDmaP_0_m_rx_buf) + (int)Msp430SpiNoDmaP_0_m_pos < 0) || !(SAME-OBJECT(Msp430SpiNoDmaP_0_m_rx_buf, &CC2420ReceiveP_m_rx_buf))
+
+Claim Msp430SpiNoDmaP_0_continueOp.9:
+  file outrf.c line 13393 function Msp430SpiNoDmaP_0_continueOp
+  dereference failure: NULL pointer
+  Msp430SpiNoDmaP_0_m_tx_buf == NULL || !(SAME-OBJECT(Msp430SpiNoDmaP_0_m_tx_buf, NULL))
+
+Claim Msp430SpiNoDmaP_0_continueOp.10:
+  file outrf.c line 13393 function Msp430SpiNoDmaP_0_continueOp
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(Msp430SpiNoDmaP_0_m_pos + Msp430SpiNoDmaP_0_m_tx_buf)) || Msp430SpiNoDmaP_0_m_tx_buf == NULL
+
+Claim Msp430SpiNoDmaP_0_continueOp.11:
+  file outrf.c line 13393 function Msp430SpiNoDmaP_0_continueOp
+  dereference failure: word offset upper bound
+  !(POINTER_OFFSET(Msp430SpiNoDmaP_0_m_tx_buf) + (int)Msp430SpiNoDmaP_0_m_pos >= WIDTH(DisseminationEngineImplP_m_buf)) || Msp430SpiNoDmaP_0_m_tx_buf == NULL || !(SAME-OBJECT(Msp430SpiNoDmaP_0_m_tx_buf, &DisseminationEngineImplP_m_buf))
+
+Claim Msp430SpiNoDmaP_0_continueOp.12:
+  file outrf.c line 13393 function Msp430SpiNoDmaP_0_continueOp
+  dereference failure: word offset lower bound
+  !(POINTER_OFFSET(Msp430SpiNoDmaP_0_m_tx_buf) + (int)Msp430SpiNoDmaP_0_m_pos < 0) || Msp430SpiNoDmaP_0_m_tx_buf == NULL || !(SAME-OBJECT(Msp430SpiNoDmaP_0_m_tx_buf, &DisseminationEngineImplP_m_buf))
+
+Claim CC2420PacketP_CC2420PacketBody_getHeader.19:
+  file outrf.c line 6155 function CC2420PacketP_CC2420PacketBody_getHeader
+  dereference failure: NULL pointer
+  FALSE
+
+Claim CC2420PacketP_CC2420PacketBody_getMetadata.16:
+  file outrf.c line 6247 function CC2420PacketP_CC2420PacketBody_getMetadata
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(msg, NULL))
+
+Claim CC2420PacketP_CC2420PacketBody_getMetadata.17:
+  file outrf.c line 6247 function CC2420PacketP_CC2420PacketBody_getMetadata
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(msg))
+
+Claim CC2420TransmitP_loadTXFIFO.1:
+  file outrf.c line 13272 function CC2420TransmitP_loadTXFIFO
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(return_value_CC2420TransmitP_CC2420PacketBody_getMetadata$2))
+
+Claim CC2420TransmitP_loadTXFIFO.2:
+  file outrf.c line 13272 function CC2420TransmitP_loadTXFIFO
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(return_value_CC2420TransmitP_CC2420PacketBody_getMetadata$2, NULL))
+
+Claim CC2420TransmitP_loadTXFIFO.3:
+  file outrf.c line 13272 function CC2420TransmitP_loadTXFIFO
+  dereference failure: memory model not applicable (got `struct #anon#ST[ARR0000000000000001{U8}'data']', expected `struct cc2420_metadata_t')
+  !(SAME-OBJECT(return_value_CC2420TransmitP_CC2420PacketBody_getMetadata$2, &DisseminationEngineImplP_m_buf.metadata[0]))
+
+Claim __nesc_ntoh_uint8.2:
+  file outrf.c line 6237 function __nesc_ntoh_uint8
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim CC2420TransmitP_loadTXFIFO.4:
+  file outrf.c line 13284 function CC2420TransmitP_loadTXFIFO
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(header, NULL))
+
+Claim CC2420TransmitP_loadTXFIFO.5:
+  file outrf.c line 13284 function CC2420TransmitP_loadTXFIFO
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(header))
+
+Claim CC2420TransmitP_loadTXFIFO.6:
+  file outrf.c line 13284 function CC2420TransmitP_loadTXFIFO
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(header, &DisseminationEngineImplP_m_buf))
+
+Claim __nesc_ntoh_leuint8.52:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim __nesc_ntoh_leuint8.53:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).length.data[0]))
+
+Claim __nesc_ntoh_leuint8.54:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).length.data[0]))
+
+Claim __nesc_ntoh_leuint8.55:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.length.data[0]))
+
+Claim __nesc_ntoh_leuint8.56:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.length.data[0]))
+
+Claim CC2420TransmitP_loadTXFIFO.7:
+  file outrf.c line 13285 function CC2420TransmitP_loadTXFIFO
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(header, NULL))
+
+Claim CC2420TransmitP_loadTXFIFO.8:
+  file outrf.c line 13285 function CC2420TransmitP_loadTXFIFO
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(header))
+
+Claim CC2420TransmitP_loadTXFIFO.9:
+  file outrf.c line 13285 function CC2420TransmitP_loadTXFIFO
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(header, &DisseminationEngineImplP_m_buf))
+
+Claim __nesc_ntoh_leuint8.57:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim __nesc_ntoh_leuint8.58:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).length.data[0]))
+
+Claim __nesc_ntoh_leuint8.59:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).length.data[0]))
+
+Claim __nesc_ntoh_leuint8.60:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.length.data[0]))
+
+Claim __nesc_ntoh_leuint8.61:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.length.data[0]))
+
+Claim CC2420ActiveMessageP_SubBackoff_requestCongestionBackoff.1:
+  file outrf.c line 5159 function CC2420ActiveMessageP_SubBackoff_requestCongestionBackoff
+  dereference failure: NULL pointer
+  FALSE
+
+Claim CC2420ActiveMessageP_SubBackoff_requestCongestionBackoff.2:
+  file outrf.c line 5160 function CC2420ActiveMessageP_SubBackoff_requestCongestionBackoff
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(((unsigned char *)msg + (unsigned int)(&invalid_object603.data[0])) - 12, NULL))
+
+Claim CC2420ActiveMessageP_SubBackoff_requestCongestionBackoff.3:
+  file outrf.c line 5160 function CC2420ActiveMessageP_SubBackoff_requestCongestionBackoff
+  dereference failure: invalid pointer
+  !(INVALID-POINTER((struct cc2420_header_t *)(((unsigned char *)msg + (unsigned int)(&invalid_object603.data[0])) - 12)))
+
+Claim CC2420ActiveMessageP_SubBackoff_requestCongestionBackoff.4:
+  file outrf.c line 5160 function CC2420ActiveMessageP_SubBackoff_requestCongestionBackoff
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(((unsigned char *)msg + (unsigned int)(&invalid_object603.data[0])) - 12, &DisseminationEngineImplP_m_buf))
+
+Claim __nesc_ntoh_leuint8.62:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim __nesc_ntoh_leuint8.63:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).type.data[0]))
+
+Claim __nesc_ntoh_leuint8.64:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).type.data[0]))
+
+Claim __nesc_ntoh_leuint8.65:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.type.data[0]))
+
+Claim __nesc_ntoh_leuint8.66:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.type.data[0]))
+
+Claim CC2420PacketP_CC2420PacketBody_getHeader.20:
+  file outrf.c line 6155 function CC2420PacketP_CC2420PacketBody_getHeader
+  dereference failure: NULL pointer
+  FALSE
+
+Claim VirtualizeTimerC_0_fireTimers.1:
+  file outrf.c line 13439 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.2:
+  file outrf.c line 13439 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.3:
+  file outrf.c line 13441 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.4:
+  file outrf.c line 13441 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.5:
+  file outrf.c line 13442 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.6:
+  file outrf.c line 13442 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.7:
+  file outrf.c line 13444 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.8:
+  file outrf.c line 13444 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.9:
+  file outrf.c line 13446 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.10:
+  file outrf.c line 13446 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.11:
+  file outrf.c line 13450 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_fireTimers.12:
+  file outrf.c line 13450 function VirtualizeTimerC_0_fireTimers
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_Timer_getdt.1:
+  file outrf.c line 8395 function VirtualizeTimerC_0_Timer_getdt
+  array `VirtualizeTimerC_0_m_timers' upper bound
+  (unsigned int)num < 3
+
+Claim TrickleTimerImplP_0_Timer_fired.1:
+  file outrf.c line 8411 function TrickleTimerImplP_0_Timer_fired
+  array `TrickleTimerImplP_0_trickles' upper bound
+  (unsigned int)i < 2
+
+Claim TrickleTimerImplP_0_Timer_fired.2:
+  file outrf.c line 8417 function TrickleTimerImplP_0_Timer_fired
+  array `TrickleTimerImplP_0_trickles' upper bound
+  (unsigned int)i < 2
+
+Claim BitVectorC_0_BitVector_set.1:
+  file outrf.c line 8385 function BitVectorC_0_BitVector_set
+  array `BitVectorC_0_m_bits' upper bound
+  return_value_BitVectorC_0_getIndex$1 < 1
+
+Claim TrickleTimerImplP_0_Timer_fired.3:
+  file outrf.c line 8439 function TrickleTimerImplP_0_Timer_fired
+  array `TrickleTimerImplP_0_trickles' upper bound
+  (unsigned int)i < 2
+
+Claim TrickleTimerImplP_0_Timer_fired.4:
+  file outrf.c line 8443 function TrickleTimerImplP_0_Timer_fired
+  array `TrickleTimerImplP_0_trickles' upper bound
+  (unsigned int)i < 2
+
+Claim memcpy.11:
+  file <builtin-library> line 29 function memcpy
+  dereference failure: offset not zero (non-array-object)
+  POINTER_OFFSET(i + dst) == 0
+
+Claim memcpy.12:
+  file <builtin-library> line 29 function memcpy
+  dereference failure: offset not zero (non-array-object)
+  POINTER_OFFSET(i + src) == 0
+
+Claim memcpy.13:
+  file <builtin-library> line 29 function memcpy
+  dereference failure: offset not zero (non-array-object)
+  POINTER_OFFSET(i + dst) == 0
+
+Claim memcpy.14:
+  file <builtin-library> line 29 function memcpy
+  dereference failure: offset not zero (non-array-object)
+  POINTER_OFFSET(i + src) == 0
+
+Claim VirtualizeTimerC_0_startTimer.1:
+  file outrf.c line 13587 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_startTimer.2:
+  file outrf.c line 13587 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_startTimer.3:
+  file outrf.c line 13588 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_startTimer.4:
+  file outrf.c line 13588 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_startTimer.5:
+  file outrf.c line 13589 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_startTimer.6:
+  file outrf.c line 13589 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_startTimer.7:
+  file outrf.c line 13590 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' lower bound
+  !(POINTER_OFFSET(timer) / 11 < 0) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim VirtualizeTimerC_0_startTimer.8:
+  file outrf.c line 13590 function VirtualizeTimerC_0_startTimer
+  dereference failure: array `VirtualizeTimerC_0_m_timers' upper bound
+  !(POINTER_OFFSET(timer) / 11 >= 3) || !(SAME-OBJECT(timer, &VirtualizeTimerC_0_m_timers[0]))
+
+Claim StateImplP_State_toIdle.3:
+  file outrf.c line 5538 function StateImplP_State_toIdle
+  array `StateImplP_state' upper bound
+  (unsigned int)id < 4
+
+Claim DisseminationEngineImplP_sendObject.1:
+  file outrf.c line 13204 function DisseminationEngineImplP_sendObject
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(dMsg))
+
+Claim DisseminationEngineImplP_sendObject.2:
+  file outrf.c line 13204 function DisseminationEngineImplP_sendObject
+  dereference failure: memory model not applicable (got `struct #anon#ST[ARR0000000000000001{U8}'data']', expected `struct dissemination_message')
+  !(SAME-OBJECT(dMsg, &DisseminationEngineImplP_m_buf.data[0]))
+
+Claim __nesc_hton_uint16.1:
+  file outrf.c line 8106 function __nesc_hton_uint16
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(1 + base))
+
+Claim __nesc_hton_uint16.2:
+  file outrf.c line 8107 function __nesc_hton_uint16
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim DisseminationEngineImplP_sendObject.3:
+  file outrf.c line 13205 function DisseminationEngineImplP_sendObject
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(dMsg))
+
+Claim DisseminationEngineImplP_sendObject.4:
+  file outrf.c line 13205 function DisseminationEngineImplP_sendObject
+  dereference failure: memory model not applicable (got `struct #anon#ST[ARR0000000000000001{U8}'data']', expected `struct dissemination_message')
+  !(SAME-OBJECT(dMsg, &DisseminationEngineImplP_m_buf.data[0]))
+
+Claim __nesc_hton_uint32.33:
+  file outrf.c line 6064 function __nesc_hton_uint32
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(3 + base))
+
+Claim __nesc_hton_uint32.34:
+  file outrf.c line 6065 function __nesc_hton_uint32
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(2 + base))
+
+Claim __nesc_hton_uint32.35:
+  file outrf.c line 6066 function __nesc_hton_uint32
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(1 + base))
+
+Claim __nesc_hton_uint32.36:
+  file outrf.c line 6067 function __nesc_hton_uint32
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim DisseminationEngineImplP_sendObject.5:
+  file outrf.c line 13206 function DisseminationEngineImplP_sendObject
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(dMsg))
+
+Claim DisseminationEngineImplP_sendObject.6:
+  file outrf.c line 13206 function DisseminationEngineImplP_sendObject
+  dereference failure: memory model not applicable (got `struct #anon#ST[ARR0000000000000001{U8}'data']', expected `struct dissemination_message')
+  !(SAME-OBJECT(dMsg, &DisseminationEngineImplP_m_buf.data[0]))
+
+Claim __nesc_ntoh_uint32.21:
+  file outrf.c line 6074 function __nesc_ntoh_uint32
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim __nesc_ntoh_uint32.22:
+  file outrf.c line 6074 function __nesc_ntoh_uint32
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(1 + base))
+
+Claim __nesc_ntoh_uint32.23:
+  file outrf.c line 6074 function __nesc_ntoh_uint32
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(2 + base))
+
+Claim __nesc_ntoh_uint32.24:
+  file outrf.c line 6074 function __nesc_ntoh_uint32
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(3 + base))
+
+Claim DisseminationEngineImplP_sendObject.7:
+  file outrf.c line 13213 function DisseminationEngineImplP_sendObject
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(dMsg))
+
+Claim DisseminationEngineImplP_sendObject.8:
+  file outrf.c line 13213 function DisseminationEngineImplP_sendObject
+  dereference failure: memory model not applicable (got `struct #anon#ST[ARR0000000000000001{U8}'data']', expected `struct dissemination_message')
+  !(SAME-OBJECT(dMsg, &DisseminationEngineImplP_m_buf.data[0]))
+
+Claim memcpy.15:
+  file <builtin-library> line 29 function memcpy
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(i + dst))
+
+Claim memcpy.16:
+  file <builtin-library> line 29 function memcpy
+  dereference failure: array lower bound
+  !(-6 + POINTER_OFFSET(i + dst) < 0) || !(SAME-OBJECT(dst, &(struct dissemination_message)(DisseminationEngineImplP_m_buf.data[0]).data[0]))
+
+Claim memcpy.17:
+  file <builtin-library> line 29 function memcpy
+  dereference failure: array upper bound
+  !(-6 + POINTER_OFFSET(i + dst) >= 0) || !(SAME-OBJECT(dst, &(struct dissemination_message)(DisseminationEngineImplP_m_buf.data[0]).data[0]))
+
+Claim memcpy.18:
+  file <builtin-library> line 29 function memcpy
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(i + src))
+
+Claim memcpy.19:
+  file <builtin-library> line 29 function memcpy
+  dereference failure: offset not zero (non-array-object)
+  POINTER_OFFSET(i + src) == 0
+
+Claim memcpy.20:
+  file <builtin-library> line 29 function memcpy
+  dereference failure: offset not zero (non-array-object)
+  POINTER_OFFSET(i + src) == 0
+
+Claim CC2420PacketP_CC2420PacketBody_getHeader.21:
+  file outrf.c line 6155 function CC2420PacketP_CC2420PacketBody_getHeader
+  dereference failure: NULL pointer
+  FALSE
+
+Claim CC2420ActiveMessageP_AMPacket_setDestination.1:
+  file outrf.c line 7684 function CC2420ActiveMessageP_AMPacket_setDestination
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(header, &DisseminationEngineImplP_m_buf))
+
+Claim __nesc_hton_leuint16.54:
+  file outrf.c line 7676 function __nesc_hton_leuint16
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.dest.data[0]))
+
+Claim __nesc_hton_leuint16.55:
+  file outrf.c line 7676 function __nesc_hton_leuint16
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.dest.data[0]))
+
+Claim __nesc_hton_leuint16.56:
+  file outrf.c line 7677 function __nesc_hton_leuint16
+  dereference failure: array lower bound
+  !(1 + POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.dest.data[0]))
+
+Claim __nesc_hton_leuint16.57:
+  file outrf.c line 7677 function __nesc_hton_leuint16
+  dereference failure: array upper bound
+  !(1 + POINTER_OFFSET(base) >= 2) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.dest.data[0]))
+
+Claim CC2420PacketP_CC2420PacketBody_getHeader.22:
+  file outrf.c line 6155 function CC2420PacketP_CC2420PacketBody_getHeader
+  dereference failure: NULL pointer
+  FALSE
+
+Claim CC2420ActiveMessageP_AMPacket_setType.1:
+  file outrf.c line 7665 function CC2420ActiveMessageP_AMPacket_setType
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(header, &DisseminationEngineImplP_m_buf))
+
+Claim __nesc_hton_leuint8.21:
+  file outrf.c line 7602 function __nesc_hton_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.type.data[0]))
+
+Claim __nesc_hton_leuint8.22:
+  file outrf.c line 7602 function __nesc_hton_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.type.data[0]))
+
+Claim AMQueueImplP_0_Send_send.1:
+  file outrf.c line 7629 function AMQueueImplP_0_Send_send
+  array `AMQueueImplP_0_queue' upper bound
+  (unsigned int)clientId < 2
+
+Claim AMQueueImplP_0_Send_send.2:
+  file outrf.c line 7633 function AMQueueImplP_0_Send_send
+  array `AMQueueImplP_0_queue' upper bound
+  (unsigned int)clientId < 2
+
+Claim CC2420PacketP_CC2420PacketBody_getHeader.23:
+  file outrf.c line 6155 function CC2420PacketP_CC2420PacketBody_getHeader
+  dereference failure: NULL pointer
+  FALSE
+
+Claim CC2420ActiveMessageP_Packet_setPayloadLength.1:
+  file outrf.c line 7615 function CC2420ActiveMessageP_Packet_setPayloadLength
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(return_value_CC2420ActiveMessageP_CC2420PacketBody_getHeader$1, &DisseminationEngineImplP_m_buf))
+
+Claim __nesc_hton_leuint8.23:
+  file outrf.c line 7602 function __nesc_hton_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.length.data[0]))
+
+Claim __nesc_hton_leuint8.24:
+  file outrf.c line 7602 function __nesc_hton_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.length.data[0]))
+
+Claim AMQueueImplP_0_Send_send.3:
+  file outrf.c line 7645 function AMQueueImplP_0_Send_send
+  array `AMQueueImplP_0_queue' upper bound
+  (unsigned int)clientId < 2
+
+Claim AMQueueImplP_0_sendDone.1:
+  file outrf.c line 13428 function AMQueueImplP_0_sendDone
+  array `AMQueueImplP_0_queue' upper bound
+  (unsigned int)last < 2
+
+Claim AMQueueImplP_0_nextPacket.1:
+  file outrf.c line 8231 function AMQueueImplP_0_nextPacket
+  array `AMQueueImplP_0_queue' upper bound
+  (unsigned int)AMQueueImplP_0_current < 2
+
+Claim AMQueueImplP_0_nextPacket.2:
+  file outrf.c line 8231 function AMQueueImplP_0_nextPacket
+  array `AMQueueImplP_0_cancelMask' lower bound
+  (int)AMQueueImplP_0_current / 8 >= 0
+
+Claim AMQueueImplP_0_nextPacket.3:
+  file outrf.c line 8231 function AMQueueImplP_0_nextPacket
+  array `AMQueueImplP_0_cancelMask' upper bound
+  (int)AMQueueImplP_0_current / 8 < 1
+
+Claim AMQueueImplP_0_tryToSend.1:
+  file outrf.c line 8253 function AMQueueImplP_0_tryToSend
+  array `AMQueueImplP_0_queue' upper bound
+  (unsigned int)AMQueueImplP_0_current < 2
+
+Claim CC2420PacketP_CC2420PacketBody_getHeader.24:
+  file outrf.c line 6155 function CC2420PacketP_CC2420PacketBody_getHeader
+  dereference failure: NULL pointer
+  FALSE
+
+Claim CC2420ActiveMessageP_Packet_payloadLength.1:
+  file outrf.c line 8215 function CC2420ActiveMessageP_Packet_payloadLength
+  dereference failure: NULL pointer
+  !(SAME-OBJECT(return_value_CC2420ActiveMessageP_CC2420PacketBody_getHeader$1, NULL))
+
+Claim CC2420ActiveMessageP_Packet_payloadLength.2:
+  file outrf.c line 8215 function CC2420ActiveMessageP_Packet_payloadLength
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(return_value_CC2420ActiveMessageP_CC2420PacketBody_getHeader$1))
+
+Claim CC2420ActiveMessageP_Packet_payloadLength.3:
+  file outrf.c line 8215 function CC2420ActiveMessageP_Packet_payloadLength
+  dereference failure: memory model not applicable (got `struct message_t', expected `struct cc2420_header_t')
+  !(SAME-OBJECT(return_value_CC2420ActiveMessageP_CC2420PacketBody_getHeader$1, &DisseminationEngineImplP_m_buf))
+
+Claim __nesc_ntoh_leuint8.67:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: invalid pointer
+  !(INVALID-POINTER(base))
+
+Claim __nesc_ntoh_leuint8.68:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).length.data[0]))
+
+Claim __nesc_ntoh_leuint8.69:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)(NULL-object).length.data[0]))
+
+Claim __nesc_ntoh_leuint8.70:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array lower bound
+  !(POINTER_OFFSET(base) < 0) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.length.data[0]))
+
+Claim __nesc_ntoh_leuint8.71:
+  file outrf.c line 5142 function __nesc_ntoh_leuint8
+  dereference failure: array upper bound
+  !(POINTER_OFFSET(base) >= 1) || !(SAME-OBJECT(base, &(struct cc2420_header_t)DisseminationEngineImplP_m_buf.length.data[0]))
+
+Claim VirtualizeTimerC_0_Timer_gett0.1:
+  file outrf.c line 8702 function VirtualizeTimerC_0_Timer_gett0
+  array `VirtualizeTimerC_0_m_timers' upper bound
+  (unsigned int)num < 3
+
+Claim TrickleTimerImplP_0_adjustTimer.1:
+  file outrf.c line 13533 function TrickleTimerImplP_0_adjustTimer
+  array `TrickleTimerImplP_0_trickles' upper bound
+  (unsigned int)i < 2
+
+Claim BitVectorC_1_BitVector_get.1:
+  file outrf.c line 8714 function BitVectorC_1_BitVector_get
+  array `BitVectorC_1_m_bits' upper bound
+  return_value_BitVectorC_1_getIndex$1 < 1
+
+Claim BitVectorC_1_BitVector_clear.1:
+  file outrf.c line 8726 function BitVectorC_1_BitVector_clear
+  array `BitVectorC_1_m_bits' upper bound
+  return_value_BitVectorC_1_getIndex$1 < 1
+
+Claim VirtualizeTimerC_0_Timer_stop.1:
+  file outrf.c line 8753 function VirtualizeTimerC_0_Timer_stop
+  array `VirtualizeTimerC_0_m_timers' upper bound
+  (unsigned int)num < 3
+
+Claim TrickleTimerImplP_0_generateTime.1:
+  file outrf.c line 13508 function TrickleTimerImplP_0_generateTime
+  array `TrickleTimerImplP_0_trickles' upper bound
+  (unsigned int)id < 2
+
+Claim TrickleTimerImplP_0_generateTime.2:
+  file outrf.c line 13510 function TrickleTimerImplP_0_generateTime
+  array `TrickleTimerImplP_0_trickles' upper bound
+  (unsigned int)id < 2
+
+Claim TrickleTimerImplP_0_generateTime.3:
+  file outrf.c line 13511 function TrickleTimerImplP_0_generateTime
+  array `TrickleTimerImplP_0_trickles' upper bound
+  (unsigned int)id < 2
+
+Claim TrickleTimerImplP_0_generateTime.4:
+  file outrf.c line 13513 function TrickleTimerImplP_0_generateTime
+  array `TrickleTimerImplP_0_trickles' upper bound
+  (unsigned int)id < 2
+
+Claim TrickleTimerImplP_0_generateTime.5:
+  file outrf.c line 13516 function TrickleTimerImplP_0_generateTime
+  array `TrickleTimerImplP_0_trickles' upper bound
+  (unsigned int)id < 2
+
+Claim TrickleTimerImplP_0_generateTime.6:
+  file outrf.c line 13517 function TrickleTimerImplP_0_generateTime
+  array `TrickleTimerImplP_0_trickles' upper bound
+  (unsigned int)id < 2
+
+Claim TrickleTimerImplP_0_generateTime.7:
+  file outrf.c line 13519 function TrickleTimerImplP_0_generateTime
+  array `TrickleTimerImplP_0_trickles' upper bound
+  (unsigned int)id < 2
+
+Claim TrickleTimerImplP_0_generateTime.8:
+  file outrf.c line 13519 function TrickleTimerImplP_0_generateTime
+  division by zero
+  TrickleTimerImplP_0_trickles[(unsigned int)id].period << 9 != 0
+
+Claim TrickleTimerImplP_0_generateTime.9:
+  file outrf.c line 13521 function TrickleTimerImplP_0_generateTime
+  array `TrickleTimerImplP_0_trickles' upper bound
+  (unsigned int)id < 2
+
+Claim TrickleTimerImplP_0_generateTime.10:
+  file outrf.c line 13522 function TrickleTimerImplP_0_generateTime
+  array `TrickleTimerImplP_0_trickles' upper bound
+  (unsigned int)id < 2
+
