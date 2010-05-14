@@ -1,8 +1,0 @@
-# Sense_tb_nc outrf_42.c
-# claim_no  time  time_dec_proc claim_name  
-
-0   107   0       memset
-5   104   0.116   HplAdc12P_HplAdc12_getCtl0.1
-6   111   5.135   SchedulerBasicP_popTask.1
-75  172   63.636  AdcStreamP_readStreamFail_runTask.5
-129 163   54.953  AdcStreamP_postBuffer.13

@@ -1,5 +1,0 @@
-COMPONENT=RFTestSend
-DEFAULT_LOCAL_GROUP := 0x44
-PFLAGS += -DCC2420_DEF_CHANNEL=12
-include ../../Makerules
-
