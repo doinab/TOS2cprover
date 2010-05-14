@@ -8,7 +8,7 @@ from tos2cprover_reach import *
 
 if len(sys.argv) < 2:
   print "Usage: ./tos2cprover [file].c"
-  sys.exit("Missing input, exiting.")       
+  sys.exit("Missing input, exiting.")
 
 filein_name       = sys.argv[1]
 filepp_name       = "outpp.c"

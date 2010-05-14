@@ -183,23 +183,23 @@ def code(node, \
   # FuncDecl: [args*, type*, quals] 
   # type (args) quals
   elif tp == c_ast.FuncDecl:
-    as = ''
+    as_ = ''
     if node.args:
-      as = code(node.args)[0]
+      as_ = code(node.args)[0]
 
     ty = code(node.type, add_arr=add_arr, add_ptr=add_ptr, arr_str=arr_str, rename_func=rename_func)[0]
     qc = node.quals or ''
 
-    return (ty + '(' + as + ') ' + qc, set())
+    return (ty + '(' + as_ + ') ' + qc, set())
 
   # ParamList: [params**]
   # a list of comma-separated function parameter declarations
   elif tp == c_ast.ParamList:
-    as = []    
+    as_ = []    
     if node.params:
-      as = [code(param)[0] for param in node.params]
+      as_ = [code(param)[0] for param in node.params]
   
-    return (', '.join(as), set())
+    return (', '.join(as_), set())
 
   # TypeDecl: [declname, quals, type*]
   # A base type declaration

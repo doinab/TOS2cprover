@@ -1,6 +1,0 @@
-#!/bin/bash
-
-satabs --16 --show-claims \
-  "$1"
-#  -I ~/CProver/cprover/libs/ansi-c/
-
